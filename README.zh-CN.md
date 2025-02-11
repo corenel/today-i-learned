@@ -12,6 +12,10 @@
 
 - [使用 Gemini 2.0 Flash 进行高质量音频转录与分析](./generative-ai/20250127-gemini-2.0-flash-thinking-for-audio-transcription/README.zh-CN.md)：在 Google AI Studio 平台上使用 Gemini 2.0 Flash Thinking Experimental 01-21 模型对 B 站视频的音轨进行高质量音频转录与分析。
 
+### 机器人
+
+- [Rerun 与 Foxglove: 新型机器人数据可视化平台](./robotics/20250211-rerun-and-foxglove/README.zh-CN.md)：介绍 Rerun 和 Foxglove 两款新型机器人数据可视化平台，并与 RViz 和 Unity 进行综合对比分析。
+
 ## 贡献
 
 虽然这主要是一个个人学习日志，但欢迎建设性的反馈和建议！如果您发现任何错误或有改进的想法，请随时提出 issue。
