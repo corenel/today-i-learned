@@ -16,6 +16,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 ### Robotics
 
 - [Rerun and Foxglove: Emerging Data Visualization Platforms for Robotics](./robotics/20250211-rerun-and-foxglove/README.md): Introducing Rerun and Foxglove, two emerging data visualization platforms for robotics, and comparing them with RViz and Unity.
+- [Fusion and Evolution: How VLMs and World Models are Reshaping Autonomous Driving Technology](./robotics/20250227-vlm-and-world-model-in-autonomous-driving/README.md): Deep analysis of VLM-E2E, Doe-1, and DriveVLM in the context of autonomous driving, and the comparison of VLM, VLA, and world model architectures.
 
 ## Contribution
 

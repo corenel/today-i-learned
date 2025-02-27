@@ -16,6 +16,7 @@
 ### 机器人
 
 - [Rerun 与 Foxglove: 新型机器人数据可视化平台](./robotics/20250211-rerun-and-foxglove/README.zh-CN.md)：介绍 Rerun 和 Foxglove 两款新型机器人数据可视化平台，并与 RViz 和 Unity 进行综合对比分析。
+- [智驾新引擎：VLM 和世界模型如何重塑自动驾驶技术](./robotics/20250227-vlm-and-world-model-in-autonomous-driving/README.zh-CN.md)：深入分析 VLM-E2E、Doe-1 和 DriveVLM 三篇论文在自动驾驶领域的应用，并比较 VLM、VLA 与世界模型架构上的异同，评估其优势与局限。
 
 ## 贡献
 
