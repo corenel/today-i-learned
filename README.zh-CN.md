@@ -8,6 +8,18 @@
 
 本仓库按主题类别组织。每个 "TIL" 条目都应该是我学到的单个概念、事实或技能的简短、集中的解释。我的目标是清晰简洁，使每个条目都成为快速且有价值的阅读材料。
 
+- [Today I Learned](#today-i-learned)
+  - [目录结构](#目录结构)
+    - [技术阅读汇总](#技术阅读汇总)
+    - [生成式人工智能](#生成式人工智能)
+    - [机器人](#机器人)
+  - [贡献](#贡献)
+  - [许可证](#许可证)
+
+### 技术阅读汇总
+
+- [2025 年第 10 周](./weekly/2025/2025W10/README.zh-CN.md)：Mac Studio (M3 Ultra)、QwQ-32B 模型、Manus AI Agent 产品等。
+
 ### 生成式人工智能
 
 - [使用 Gemini 2.0 Flash 进行高质量音频转录与分析](./generative-ai/20250127-gemini-2.0-flash-thinking-for-audio-transcription/README.zh-CN.md)：在 Google AI Studio 平台上使用 Gemini 2.0 Flash Thinking Experimental 01-21 模型对 B 站视频的音轨进行高质量音频转录与分析。
