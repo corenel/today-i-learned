@@ -36,7 +36,7 @@ Mac Studio M3 Ultra 凭借其 512GB 统一内存和优化的性能，正成为�
 
 M3 Ultra 的出现引发了对本地部署大模型可能性的重新思考。虽然苹果官方确认 M4 Max 芯片不具备 UltraFusion 技术，暗示 M4 Ultra 可能缺席，但 M3 Ultra 凭借巨大的统一内存和相对实惠的每 GB 成本，仍然展现出独特价值。
 
-据 EXO Labs 测试，两台 M2 Ultra 512GB 设备通过 Thunderbolt 5 连接，可以运行完整版 DeepSeek R1（8-bit）模型，实现 20 token/s 的速度。而在成本效益方面，M3 Ultra 的 512GB 内存相比 NVIDIA Project DIGITS（128GB）和 OrangePi AI Studio Pro（192GB）等方案更具吸引力。
+据 EXO Labs 测试，两台 M3 Ultra 512GB 设备通过 Thunderbolt 5 连接，可以运行完整版 DeepSeek R1（8-bit）模型，实现 20 token/s 的速度。而在成本效益方面，M3 Ultra 的 512GB 内存相比 NVIDIA Project DIGITS（128GB）和 OrangePi AI Studio Pro（192GB）等方案更具吸引力。
 
 值得一提的是，RTX4090 的改装版本也在悄然崛起，96GB 显存版本预计 5 月份出货，标价约 ¥29800，而 48GB 版本则已有现货，售价约 ¥23000。
 
@@ -45,7 +45,7 @@ M3 Ultra 的出现引发了对本地部署大模型可能性的重新思考。�
   - 苹果官方表态“并非每代都有 Ultra 芯片”，暗示了苹果芯片发布策略的转变，M4 Ultra 的缺席可能是策略调整的一部分。
   - 新款 Mac Studio 发布，提供 M4 Max 和 M3 Ultra 芯片选项，但没有 M4 Ultra，从产品层面印证了 M4 Ultra 的缺失。
 
-  > Apple told *Ars Technica* that not every generation of M-series chips for Macs will include an "Ultra" chip. That seems like Apple indirectly confirming that it has no plans to release an M4 Ultra chip, and the M4 Max's lack of UltraFusion technology makes it even more likely there won't be an M4 Ultra chip.
+  > Apple told Ars Technica that not every generation of M-series chips for Macs will include an "Ultra" chip. That seems like Apple indirectly confirming that it has no plans to release an M4 Ultra chip, and the M4 Max's lack of UltraFusion technology makes it even more likely there won't be an M4 Ultra chip.
 
 - [10 万块的 Mac Studio M3 Ultra 实用性解析](https://phpstone.com/mac-studio-m3-ultra-preview/)：Mac Studio M3 Ultra 定位为高性能桌面工作站，虽然价格昂贵，但对于特定专业用户（尤其是 AI 开发者和内容创作者）而言，其极致性能、超大内存、高速接口和优异的软硬件生态整合，使其在特定应用场景下展现出独特的实用价值。
   - 本地 AI 开发工作站标杆: M3 Ultra 凭借 512GB 统一内存和优化的 MLX 框架，成为强大的本地 AI 开发平台，尤其适合大模型微调和本地部署，降低了 AI 开发的门槛和成本。
@@ -53,12 +53,12 @@ M3 Ultra 的出现引发了对本地部署大模型可能性的重新思考。�
   - 苹果生态系统的价值溢价: Mac Studio M3 Ultra 的高价部分源于苹果生态系统的溢价，包括 macOS 的易用性、MLX 框架的便捷性、与专业软件的无缝集成等，这些软硬件协同优势是其“实用性”的重要组成部分。
 - [EXO Labs](https://x.com/exolabs/status/1897360590987051041)
 
-  > 2 x M2 Ultra 512GB ($18,000) connected with Thunderbolt 5 can run the full DeepSeek R1 (8-bit) with exo at 20 tok/sec.
+  > 2 x M3 Ultra 512GB ($18,000) connected with Thunderbolt 5 can run the full DeepSeek R1 (8-bit) with exo at 20 tok/sec.
 
-- [[Thread by @alexocheema - Opinions of The M3 Ultra 512GB Mac Studio]]：Apple M3 Ultra Mac Studio 凭借其巨大的统一内存（512GB）和相对较低的每 GB 成本，非常适合运行大规模稀疏模型，如 DeepSeek V3/R1 等 MoE 模型。 尽管其内存带宽相对较低，但对于特定类型的 AI 模型架构（MoE 和 Modular Routing）来说，这可能是一个优势，尤其是在成本效益方面。作者认为 Apple 的时机把握得很好，并且对 Apple 能够如此迅速地推出这款产品表示赞赏。
-    - Apple M3 Ultra Mac Studio 凭借其 512GB 大内存和低每 GB 成本，成为运行大规模稀疏激活模型（如 MoE 模型）的经济高效的本地解决方案。
-    - Apple 在硬件设计上进行了权衡，牺牲了内存带宽（导致较低的内存刷新率）以换取更大的内存容量和更低的成本，这种策略特别适合内存容量敏感型但带宽需求相对较低的稀疏激活模型。 
-    - 未来的 AI 硬件发展趋势可能更加定制化，需要根据不同模型架构的特点进行软硬件协同优化，而 M3 Ultra 的设计思路为这种趋势提供了一个案例。
+- [Thread by @alexocheema - Opinions of The M3 Ultra 512GB Mac Studio](https://x.com/alexocheema/status/1897349404522078261)：Apple M3 Ultra Mac Studio 凭借其巨大的统一内存（512GB）和相对较低的每 GB 成本，非常适合运行大规模稀疏模型，如 DeepSeek V3/R1 等 MoE 模型。 尽管其内存带宽相对较低，但对于特定类型的 AI 模型架构（MoE 和 Modular Routing）来说，这可能是一个优势，尤其是在成本效益方面。作者认为 Apple 的时机把握得很好，并且对 Apple 能够如此迅速地推出这款产品表示赞赏。
+  - Apple M3 Ultra Mac Studio 凭借其 512GB 大内存和低每 GB 成本，成为运行大规模稀疏激活模型（如 MoE 模型）的经济高效的本地解决方案。
+  - Apple 在硬件设计上进行了权衡，牺牲了内存带宽（导致较低的内存刷新率）以换取更大的内存容量和更低的成本，这种策略特别适合内存容量敏感型但带宽需求相对较低的稀疏激活模型。
+  - 未来的 AI 硬件发展趋势可能更加定制化，需要根据不同模型架构的特点进行软硬件协同优化，而 M3 Ultra 的设计思路为这种趋势提供了一个案例。
 
   > The M3 Ultra 512GB Mac Studio fits perfectly with massive sparse MoEs like DeepSeek V3/R1. 2 M3 Ultra 512GB Mac Studios with
   >
@@ -115,7 +115,7 @@ QwQ-32B 是千问团队基于强化学习技术打造的 32B 参数推理模型�
 
   > Qwen-QwQ-32B-BF16 目前测试得分为 278.9 分（图 1），在榜单中超过了 DeepSeek-V3, 距离 DeepSeek-R1 还比较远。
   >
-  > 但是！距离线上的 Qwen-2.5-Max-Thinking-QwQ-Preview 仅差 0.2 分！这意味着千问这次开源的的确就是线上水平的版本！（性能类似 http://chat.qwen.ai 进去后点击左下角的 Thinking (QwQ)）
+  > 但是！距离线上的 Qwen-2.5-Max-Thinking-QwQ-Preview 仅差 0.2 分！这意味着千问这次开源的的确就是线上水平的版本！（性能类似 [http://chat.qwen.ai](http://chat.qwen.ai) 进去后点击左下角的 Thinking (QwQ)）
   >
   > 也就是说 QwQ-32B 目前是我们单机能部署的最具性价比的模型了！不愧是你千问！续写了 Qwen-coder 的传奇！
 
@@ -141,17 +141,17 @@ Manus 的爆火表明市场对通用 Agent 产品有着强烈需求，但其技�
 
 社区反应迅速，已有 autoMate、OpenManus 和 OpenHands 等开源替代项目正在涌现，这进一步佐证了技术壁垒的有限性。对于创业团队而言，抢占生态位和快速迭代可能是更重要的策略。
 
-- [[Manus爆火的背后，Agentic AI产品如何构筑持久的竞争优势？]]：Agentic AI 产品的持久竞争优势并非仅仅来自于工具数量或 AI 智能的堆砌，而是构建在工具、数据和智能三个维度上的“复利效应”之上。其中，尤其以数据层面的复利效应，以及基于数据沉淀之上的知识管理和组织能力，是构建长期且难以复制的护城河的关键。最终胜出的企业将是那些能够理解并适应 AI 与人类共进化模式，建立可持续协作机制的公司，而不仅仅是拥有最强技术的公司。
-    - Agentic AI 的竞争优势源于复利效应：  工具、数据和智能三个维度的复利效应共同构筑了 Agentic AI 产品的核心竞争力，而非单一的技术突破。
-    - 数据和知识管理是持久护城河：  在工具和智能层面易被复制的情况下，数据积累、知识外化以及基于此形成的组织能力，才是构建长期竞争壁垒的关键。
-    - AI 与人类共进化是未来趋势：  Agentic AI 的竞争最终将演变为组织适应 AI 时代的能力竞争，理解并建立 AI 与人类共进化协作机制的企业将占据优势。
-- [[Manus 的护城河在哪里？]]：Manus 这款 AI 产品在用户交互方面具有显著创新，但由于当前模型和数据的限制，它目前缺乏真正的护城河。  作者认为，虽然 Manus 在交互设计上令人惊艳，但其技术实现原理相对容易被分析和模仿，长期的竞争优势将取决于其能否在模型能力、数据积累以及用户体验上建立起壁垒。
-    - 交互创新是亮点，但技术实现易被模仿。 Manus 的交互方式令人惊艳，降低了用户使用门槛，但其技术架构相对容易被分析和复制，短期内难以形成技术壁垒。
-    - 护城河需从模型、数据和用户体验多维度构建。  AI 产品的长期竞争优势需要依靠模型能力、数据积累和独特的用户体验来构建护城河，单一的交互创新不足以支撑长期发展。
-    - 抢占生态位和快速迭代是重要策略。  在 AI 早期发展阶段，快速推出产品，抢占市场生态位，并通过持续迭代优化用户体验和积累数据，是构建长期竞争优势的关键策略 (“卡生态位” 观点)。
+- [Manus爆火的背后，Agentic AI产品如何构筑持久的竞争优势？](https://grapeot.me/manus.html)：Agentic AI 产品的持久竞争优势并非仅仅来自于工具数量或 AI 智能的堆砌，而是构建在工具、数据和智能三个维度上的“复利效应”之上。其中，尤其以数据层面的复利效应，以及基于数据沉淀之上的知识管理和组织能力，是构建长期且难以复制的护城河的关键。最终胜出的企业将是那些能够理解并适应 AI 与人类共进化模式，建立可持续协作机制的公司，而不仅仅是拥有最强技术的公司。
+  - Agentic AI 的竞争优势源于复利效应：  工具、数据和智能三个维度的复利效应共同构筑了 Agentic AI 产品的核心竞争力，而非单一的技术突破。
+  - 数据和知识管理是持久护城河：  在工具和智能层面易被复制的情况下，数据积累、知识外化以及基于此形成的组织能力，才是构建长期竞争壁垒的关键。
+  - AI 与人类共进化是未来趋势：  Agentic AI 的竞争最终将演变为组织适应 AI 时代的能力竞争，理解并建立 AI 与人类共进化协作机制的企业将占据优势。
+- [Manus 的护城河在哪里？](https://baoyu.io/blog/where-is-manus-moat)：Manus 这款 AI 产品在用户交互方面具有显著创新，但由于当前模型和数据的限制，它目前缺乏真正的护城河。  作者认为，虽然 Manus 在交互设计上令人惊艳，但其技术实现原理相对容易被分析和模仿，长期的竞争优势将取决于其能否在模型能力、数据积累以及用户体验上建立起壁垒。
+  - 交互创新是亮点，但技术实现易被模仿。 Manus 的交互方式令人惊艳，降低了用户使用门槛，但其技术架构相对容易被分析和复制，短期内难以形成技术壁垒。
+  - 护城河需从模型、数据和用户体验多维度构建。  AI 产品的长期竞争优势需要依靠模型能力、数据积累和独特的用户体验来构建护城河，单一的交互创新不足以支撑长期发展。
+  - 抢占生态位和快速迭代是重要策略。  在 AI 早期发展阶段，快速推出产品，抢占市场生态位，并通过持续迭代优化用户体验和积累数据，是构建长期竞争优势的关键策略 (“卡生态位” 观点)。
 - [Thread by @xiaokedada](https://x.com/xiaokedada/status/1897552294616674767)
 
-    > 虽然没有 manus 邀请码，但是从 https://manus.im/usecases 也能一览大概。我的一些碎碎的想法：
+    > 虽然没有 manus 邀请码，但是从 [manus.im](https://manus.im/usecases) 也能一览大概。我的一些碎碎的想法：
     >
     > 1. 一个很棒的产品，在通用 Agent 上市面上其实没有太多可用的产品，比较多的还是 Coding Agent 这类垂直产品，但 Coding Agent 毕竟面向普通用户。交互形式上面向普通用户做了形式上的创新。
     >
@@ -183,7 +183,7 @@ olmOCR 的出现解决了 PDF 文档内容提取和线性化的难题，为大�
 
 其他值得注意的进展包括 FlowDown（AI 对话客户端应用）、LettuceDetect（RAG 幻觉检测工具）、Aya Vision 8B/32B（23 种语言的多模态视觉模型）以及 Wan2.1 与 HunyuanVideo-I2V 等视频生成模型。
 
-- [[olmOCR - Unlocking Trillions of Tokens in PDFs with Vision Language Models]]：olmOCR 有效地解决了 PDF 文档内容提取和线性化的难题，为大规模利用 PDF 文档数据训练语言模型开辟了新的途径，并且其开源特性和低成本使其具有广泛的应用价值。
+- [olmOCR - Unlocking Trillions of Tokens in PDFs with Vision Language Models](https://arxiv.org/html/2502.18443v1)：olmOCR 有效地解决了 PDF 文档内容提取和线性化的难题，为大规模利用 PDF 文档数据训练语言模型开辟了新的途径，并且其开源特性和低成本使其具有广泛的应用价值。
 
   - PDF 文档是未被充分利用的巨大文本数据宝藏： PDF 文档蕴含着数万亿 tokens 的高质量文本数据，但由于格式复杂性，现有工具难以有效提取和利用。
   - olmOCR 结合 VLM 和 “文档锚定” 技术，实现了低成本、高效、高质量的 PDF 文本线性化：  olmOCR 通过创新的 “文档锚定” 技术，有效提升了 VLM 在 PDF 文本提取方面的性能，并实现了远超其他工具的成本效益。
@@ -192,13 +192,13 @@ olmOCR 的出现解决了 PDF 文档内容提取和线性化的难题，为大�
     - 基于 Qwen2-VL-7B-Instruct 微调而来，可以与 Qwen2.5-VL 以及 Mistral OCR 对比
     - 注意其 [Usage](https://huggingface.co/allenai/olmOCR-7B-0225-preview#usage) 指出模型需要指定格式的输入与经过处理后的提示词
 
-- [[AI 不会吃掉你]]：AI 不会取代或“吃掉”你，对 AI 产生的焦虑感很大程度上是人为营销制造的，而真正的价值和安全感来源于自身内在的认知和对问题的解决能力。AI 应该被视为一种工具，一种 “劳保用品”，帮助人类从重复性的 “麻烦” 中解放出来，从而更好地专注于创造性的 “问题” 和 “课题”。 核心在于保持前额叶 “开机”，进行理性思考，而非被情绪化的营销手段所裹挟。
+- [AI 不会吃掉你](https://roriri.one/2025/03/04/ai-is-not-eating-you/)：AI 不会取代或“吃掉”你，对 AI 产生的焦虑感很大程度上是人为营销制造的，而真正的价值和安全感来源于自身内在的认知和对问题的解决能力。AI 应该被视为一种工具，一种 “劳保用品”，帮助人类从重复性的 “麻烦” 中解放出来，从而更好地专注于创造性的 “问题” 和 “课题”。 核心在于保持前额叶 “开机”，进行理性思考，而非被情绪化的营销手段所裹挟。
 
   - AI 不是威胁，而是工具：  AI 不会 “吃掉” 你，不必过度恐慌。它本质上是一种工具，可以被人类利用来解决问题，提升效率，解放创造力。应该理性看待 AI，而非将其妖魔化。
   - 警惕 “AI 焦虑” 营销，保持理性思考：  市场上存在大量贩卖 “AI 焦虑” 的营销手段，旨在利用人们的恐惧进行牟利。 应该保持警惕，运用理性思考，不被情绪化营销所裹挟，做出明智的判断和决策。
   - 内在价值和意义的追寻才是核心：  真正的价值和安全感来源于自身内在的认知、能力和对问题的解决能力，以及对自身价值和意义的追寻。 AI 无法取代这种内在的价值感。 应该关注自身价值的提升和内在需求的满足，而非过度关注外部的 “AI 威胁”。
 
-- [[The Differences between Deep Research, Deep Research, and Deep Research]]：“Deep Research” 作为一个新兴的热门概念，目前被广泛宣传和应用，但其定义和技术实现方式并不清晰。文章旨在通过技术实现的视角，区分不同类型的“Deep Research”，并澄清围绕这一概念的炒作，回归其本质——报告生成系统。  作者认为，与其说是全新的突破，不如说是对过去几年 AI 工程领域中“报告生成”概念的重新包装和营销。
+- [The Differences between Deep Research, Deep Research, and Deep Research](https://leehanchung.github.io/blogs/2025/02/26/deep-research/)：“Deep Research” 作为一个新兴的热门概念，目前被广泛宣传和应用，但其定义和技术实现方式并不清晰。文章旨在通过技术实现的视角，区分不同类型的“Deep Research”，并澄清围绕这一概念的炒作，回归其本质——报告生成系统。  作者认为，与其说是全新的突破，不如说是对过去几年 AI 工程领域中“报告生成”概念的重新包装和营销。
 
   - “Deep Research” 概念的兴起：  2024 年底至 2025 年初，Google (Gemini 1.5 Deep Research)、OpenAI (Deep Research)、Perplexity (Deep Research)、DeepSeek、阿里巴巴 (Qwen)、xAI 等多家公司相继推出或宣传了“Deep Research” 或 “Deep Search” 功能。
   - “Deep Research” 定义的模糊性： 尽管各家公司都在推广 “Deep Research”，但对于其具体含义和技术实现，业界并没有统一的清晰定义。许多开源实现也涌现出来，进一步加剧了概念的混淆。
@@ -212,7 +212,7 @@ olmOCR 的出现解决了 PDF 文档内容提取和线性化的难题，为大�
     - 本地运行则可考虑 [LM Studio](https://lmstudio.ai/) 或 [Ollama](https://ollama.com/)，或者直接使用 llama.cpp 或 MLX。实际部署则使用 [vLLM](https://github.com/vllm-project/vllm) 与 [SGLang](https://github.com/sgl-project/sglang)。
     - 量化模型，GGUF 可考虑使用 [unsloth](https://huggingface.co/unsloth)、[bartowski](https://huggingface.co/bartowski)，MLX 则是 [mlx-community](https://huggingface.co/mlx-community) 的版本。
 
-- [[New Yorker Opinion - The Government Knows A.G.I. Is Coming]]：通用人工智能 (AGI) 很可能在未来两到三年内到来，并且美国政府（包括拜登政府和特朗普政府）对此有所认识，正在尝试为迎接 AGI 的到来做准备。  文章强调了 AGI 带来的巨大机遇与挑战，尤其是在国家安全、经济竞争和劳动力市场方面，并呼吁社会各界，特别是政府部门，认真思考并制定应对策略。
+- [New Yorker Opinion - The Government Knows A.G.I. Is Coming](https://www.nytimes.com/2025/03/04/opinion/ezra-klein-podcast-ben-buchanan.html)：通用人工智能 (AGI) 很可能在未来两到三年内到来，并且美国政府（包括拜登政府和特朗普政府）对此有所认识，正在尝试为迎接 AGI 的到来做准备。  文章强调了 AGI 带来的巨大机遇与挑战，尤其是在国家安全、经济竞争和劳动力市场方面，并呼吁社会各界，特别是政府部门，认真思考并制定应对策略。
 
   - 备注：中文翻译见 [此网页](https://baoyu.io/translations/ezra-klein-podcast-ben-buchanan.html)，文章仅能代表前拜登政府 AI 顾问 Ben Buchanan 的观点。
 
@@ -227,31 +227,30 @@ olmOCR 的出现解决了 PDF 文档内容提取和线性化的难题，为大�
 
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1) 与 [HunyuanVideo-I2V](https://github.com/Tencent/HunyuanVideo-I2V)：就简单测试而言 Wan2.1 的图像生成视频的指令遵循强于 Hunyuan Video I2V，且据称在特定提示词下不用微调也能生成 NSFW 的内容。
 
-- [[LLM Quantization Comparison]]：量化是高效部署大型语言模型的关键技术，它能在降低内存占用和提高推理速度的同时，不可避免地会牺牲一定的模型质量。 文章进一步指出，不同的量化程度对模型性能的影响各异，并且这种影响在不同的任务类型和硬件平台上也会有所不同。  文章最终结论强调，选择合适的量化策略需要在速度、内存和精度之间进行权衡，并且需要根据具体的应用场景和硬件条件进行优化选择。
+- [LLM Quantization Comparison](https://dat1.co/blog/llm-quantization-comparison)：量化是高效部署大型语言模型的关键技术，它能在降低内存占用和提高推理速度的同时，不可避免地会牺牲一定的模型质量。 文章进一步指出，不同的量化程度对模型性能的影响各异，并且这种影响在不同的任务类型和硬件平台上也会有所不同。  文章最终结论强调，选择合适的量化策略需要在速度、内存和精度之间进行权衡，并且需要根据具体的应用场景和硬件条件进行优化选择。
 
-  - * 量化是 LLM 部署的关键，但精度与效率存在权衡： 文章明确指出量化是高效部署大型语言模型的必要手段，它能够显著降低内存占用和提高推理速度。然而，更低的量化精度通常会导致模型性能的下降，需要在精度和效率之间进行权衡。
+  - 量化是 LLM 部署的关键，但精度与效率存在权衡： 文章明确指出量化是高效部署大型语言模型的必要手段，它能够显著降低内存占用和提高推理速度。然而，更低的量化精度通常会导致模型性能的下降，需要在精度和效率之间进行权衡。
   - 量化效果受任务类型和模型规模影响：  实验结果表明，不同量化级别对不同任务类型的影响程度不同。例如，在 Coding 和 Data Analysis 任务中，低比特量化导致性能显著下降，而在 Reasoning 任务中，大模型在重度量化下仍能表现出色。这说明量化策略的选择需要考虑具体的任务类型和模型规模。
   - 4-bit 量化是当前较优的平衡点，硬件平台影响量化效果：  文章结论指出，4-bit 量化格式在精度和效率之间提供了良好的平衡，是目前较为流行的选择。同时，硬件平台对量化模型的推理速度有显著影响，服务器级 GPU 在处理大型量化模型时更具优势。这提示我们在实际部署量化模型时需要考虑硬件平台的限制和优化。
   - 备注：如果使用 unsloth 转换的模型，体感 Q5 在不显著增加显存占用的情况下生成结果优于 Q4
 
-- [[A Practical Guide to Implementing DeepSearchDeepResearch]]：DeepSearch 和 DeepResearch 代表了 2025 年搜索技术的新标准，它们通过迭代的“搜索 - 阅读 - 推理”循环，以及“测试时计算”的理念，显著提升了搜索的准确性和深度，标志着搜索范式从传统快速但浅层的检索，转向重视精度和召回率，用户也逐渐接受更长的等待时间以换取更高质量的结果。DeepSearch 是一个原子构建块，通过持续迭代搜索、阅读网页和推理，直至找到最佳答案或超出预算。 DeepResearch 则建立在 DeepSearch 之上，专注于生成高质量、可读性强的长篇研究报告，它将报告分解为多个章节，并对每个章节应用 DeepSearch，最后整合所有章节以提高整体连贯性。
+- [A Practical Guide to Implementing DeepSearchDeepResearch](https://jina.ai/news/a-practical-guide-to-implementing-deepsearch-deepresearch/)：DeepSearch 和 DeepResearch 代表了 2025 年搜索技术的新标准，它们通过迭代的“搜索 - 阅读 - 推理”循环，以及“测试时计算”的理念，显著提升了搜索的准确性和深度，标志着搜索范式从传统快速但浅层的检索，转向重视精度和召回率，用户也逐渐接受更长的等待时间以换取更高质量的结果。DeepSearch 是一个原子构建块，通过持续迭代搜索、阅读网页和推理，直至找到最佳答案或超出预算。 DeepResearch 则建立在 DeepSearch 之上，专注于生成高质量、可读性强的长篇研究报告，它将报告分解为多个章节，并对每个章节应用 DeepSearch，最后整合所有章节以提高整体连贯性。
 
   - DeepSearch/DeepResearch 代表了搜索范式的转变： 从快速浅层检索转向重视精度和召回率的深度探索，用户接受更长的等待时间以换取更高质量的结果。
   - “测试时计算” 是关键驱动力：  通过在推理阶段投入更多计算资源，例如 CoT 和 Wait-injection，提升 LLM 的推理能力，是 DeepSearch/DeepResearch 的核心技术理念。
   - 迭代式 “搜索 - 阅读 - 推理” 循环是 DeepSearch 的核心机制： 通过不断迭代搜索、阅读网页和推理，直至找到最佳答案或超出预算，克服了传统 RAG 和多跳 QA 的局限性。
 
-- [[交替直接差分学習法ADDifT(Alternating Direct Difference Training)の解説｜hakomikan]]：提出了名为交替直接差分学习法 (ADDifT) 的新型 LoRA 学习方法，该方法能够显著缩短差分学习的训练时间，并支持多图集同步学习，且具有应用于多种扩散模型的潜力。  文章旨在介绍 ADDifT 方法的原理、优势以及初步实验结果，并展望其未来的发展方向。
+- [交替直接差分学習法ADDifT(Alternating Direct Difference Training)の解説｜hakomikan](https://note.com/hakomikan/n/n716397e39d56#7f0f4d60-3596-4137-a7e2-1b8ac7ec9411)：提出了名为交替直接差分学习法 (ADDifT) 的新型 LoRA 学习方法，该方法能够显著缩短差分学习的训练时间，并支持多图集同步学习，且具有应用于多种扩散模型的潜力。  文章旨在介绍 ADDifT 方法的原理、优势以及初步实验结果，并展望其未来的发展方向。
 
   - 直接差分学习 (Direct Difference Training)：  ADDifT 直接学习两张图像噪声预测的差异，避免了传统方法学习图像绝对内容带来的冗余和低效。
+  - 交替学习 (Alternating Training)：  通过正反两个方向的差分学习交替进行，抵消了非目标差异的学习，提高了学习的精确性。
+  - Scheduled Random Timesteps：  针对小步数训练中 Timesteps 分布不均的问题，提出有计划的随机 Timesteps 选择策略，提升了训练的稳定性和效率。
 
-  * 交替学习 (Alternating Training)：  通过正反两个方向的差分学习交替进行，抵消了非目标差异的学习，提高了学习的精确性。
-  * Scheduled Random Timesteps：  针对小步数训练中 Timesteps 分布不均的问题，提出有计划的随机 Timesteps 选择策略，提升了训练的稳定性和效率。
-
-* [[とうとう現れたSDXLの後継？CogView4-6Bを解説する]]：文章最主要的论点是 CogView4-6B 的出现是 SDXL 之后图像生成 AI 领域的一个重大转折点，因为它是一个采用了最新技术、具有高性能，并且采用 Apache-2.0 许可的开源模型，这打破了自 Flux.1 以来图像生成 AI 领域进展缓慢且实用性受限的局面。 文章认为 CogView4-6B 不仅在技术上先进，而且在商业应用和进一步发展方面具有巨大的潜力，预示着图像生成 AI 新的开源潮流。
-* [[The Model is the Product  Vintage Data]]：人工智能（AI）发展的下一个阶段已经到来，“模型即产品”（The model is the product）。作者认为，当前的科研和市场发展趋势都指向这个方向，即模型本身将成为核心价值和商业模式的中心，而不是仅仅作为应用程序的基础。文章指出，通用模型的无限扩展已遇到瓶颈，而面向特定任务的“观点训练”（Opinionated training）模型表现出惊人的效果，同时推理成本也在大幅下降。这些因素共同推动模型提供商向上游价值链迁移，直接构建最终产品，而非仅仅提供 API 接口。
-* [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer)：一款提示词优化器，助力于编写高质量的提示词。
-* [[Thread by @rao2z - RL is great but RL envy in LLMs may not be]]：对大型语言模型（LLMs）中强化学习（RL）作用的重新评估，并质疑其在 DeepSeek R1 等模型成功中被过分强调的可能性。 作者认为，R1 的成功可能更多地归功于其基础模型的能力和有效的奖励信号，而非 RL 本身。他进一步提出，在 R1 的情境下，RL 和监督微调（SFT）之间的区别可能不像论文中描述的那么显著，甚至可能类似于随机梯度下降（SGD）与批量梯度下降（Batch）的区别。作者还对“推理轨迹”的概念提出质疑，并探讨了 LLM 中马尔可夫决策过程（MDP）的不同形式。
-* [[Hallucinations (Confabulations) Document-Based Benchmark for RAG. Includes human-verified questions and answers.]]：现有的针对检索增强生成 (RAG) 的大型语言模型 (LLM) 幻觉 (Confabulation) 基准测试存在缺陷，需要更有效的方法来评估和减少 LLM 在 RAG 系统中产生幻觉的频率。  文章提出并介绍了一个新的基准测试 `confabulations`，专注于评估 LLM 在面对基于提供文档的误导性问题时，产生不存在答案（幻觉）的频率。这个基准旨在更准确地衡量 LLM 在 RAG 应用中的可靠性，并帮助优化 RAG 系统以减少幻觉。
+- [とうとう現れたSDXLの後継？CogView4-6Bを解説する](https://zenn.dev/discus0434/articles/cogview4-6b-commentary)：文章最主要的论点是 CogView4-6B 的出现是 SDXL 之后图像生成 AI 领域的一个重大转折点，因为它是一个采用了最新技术、具有高性能，并且采用 Apache-2.0 许可的开源模型，这打破了自 Flux.1 以来图像生成 AI 领域进展缓慢且实用性受限的局面。 文章认为 CogView4-6B 不仅在技术上先进，而且在商业应用和进一步发展方面具有巨大的潜力，预示着图像生成 AI 新的开源潮流。
+- [The Model is the Product  Vintage Data](https://vintagedata.org/blog/posts/model-is-the-product)：人工智能（AI）发展的下一个阶段已经到来，“模型即产品”（The model is the product）。作者认为，当前的科研和市场发展趋势都指向这个方向，即模型本身将成为核心价值和商业模式的中心，而不是仅仅作为应用程序的基础。文章指出，通用模型的无限扩展已遇到瓶颈，而面向特定任务的“观点训练”（Opinionated training）模型表现出惊人的效果，同时推理成本也在大幅下降。这些因素共同推动模型提供商向上游价值链迁移，直接构建最终产品，而非仅仅提供 API 接口。
+- [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer)：一款提示词优化器，助力于编写高质量的提示词。
+- [Thread by @rao2z - RL is great but RL envy in LLMs may not be](https://x.com/rao2z/status/1897469961138004250?s=12&t=_TGttdSvvxvf3v4RXMA2vg)：对大型语言模型（LLMs）中强化学习（RL）作用的重新评估，并质疑其在 DeepSeek R1 等模型成功中被过分强调的可能性。 作者认为，R1 的成功可能更多地归功于其基础模型的能力和有效的奖励信号，而非 RL 本身。他进一步提出，在 R1 的情境下，RL 和监督微调（SFT）之间的区别可能不像论文中描述的那么显著，甚至可能类似于随机梯度下降（SGD）与批量梯度下降（Batch）的区别。作者还对“推理轨迹”的概念提出质疑，并探讨了 LLM 中马尔可夫决策过程（MDP）的不同形式。
+- [Hallucinations (Confabulations) Document-Based Benchmark for RAG. Includes human-verified questions and answers.](https://github.com/lechmazur/confabulations)：现有的针对检索增强生成 (RAG) 的大型语言模型 (LLM) 幻觉 (Confabulation) 基准测试存在缺陷，需要更有效的方法来评估和减少 LLM 在 RAG 系统中产生幻觉的频率。  文章提出并介绍了一个新的基准测试 `confabulations`，专注于评估 LLM 在面对基于提供文档的误导性问题时，产生不存在答案（幻觉）的频率。这个基准旨在更准确地衡量 LLM 在 RAG 应用中的可靠性，并帮助优化 RAG 系统以减少幻觉。
 
 ### 学术研究
 
@@ -382,12 +381,12 @@ Tailscale 作为远程设备访问工具获得广泛认可，它解决了 CGNAT 
 
 其他值得关注的进展包括：测试电梯的思路启示（通过有限状态机模型进行测试设计）、流式 HTML 技术用于创建实时 Web 应用、设备端 ML 框架调试策略、Quartz 静态站点生成器、Unix 文件系统的历史沿革、Python 单例模式的反思、MinerU 高质量数据提取工具、WebRTC 音频 AI SDK 集成方法以及用户空间 TCP/IP 协议栈的实现教程。
 
-- [[Every Line Is a Potential Bug]]：每一行代码都可能是潜在的 Bug。因此，除非绝对必要且立即需要，否则不要编写任何代码。作者强调要避免为了推测性的需求或过早的优化而增加代码的复杂性，因为这会引入不必要的 Bug 风险，并可能在未来导致更严重的问题。
+- [Every Line Is a Potential Bug](https://www.teamten.com/lawrence/writings/every_line_is_a_potential_bug.html)：每一行代码都可能是潜在的 Bug。因此，除非绝对必要且立即需要，否则不要编写任何代码。作者强调要避免为了推测性的需求或过早的优化而增加代码的复杂性，因为这会引入不必要的 Bug 风险，并可能在未来导致更严重的问题。
   - 每一行代码都可能是潜在的 Bug： 这是文章最核心的主张，强调代码的风险性。
   - 避免不必要的代码： 为了降低 Bug 风险，应该只编写绝对必要且立即需要的代码，避免推测性编程和过早优化。
   - 简洁性优于微小的性能提升：  在权衡代码的简洁性和性能时，应该优先考虑简洁性，除非性能瓶颈非常明显且优化收益远大于引入复杂性的风险。
   - 备注：与奥卡姆剃刀、YAGNI 以及 KISS 原则相似，但是该文章的核心假设与应对方式值得商榷。
-- [[Tailscale is pretty useful]]：Tailscale 非常实用，它是一个有用的工具，可以简化远程设备访问，并提供了超出传统远程访问方法的多种便利功能。作者通过分享自己的使用经验，强调了 Tailscale 在解决 CGNAT 环境下远程访问难题，以及在日常使用中提供的额外价值。
+- [Tailscale is pretty useful](https://blog.6nok.org/tailscale-is-pretty-useful/)：Tailscale 非常实用，它是一个有用的工具，可以简化远程设备访问，并提供了超出传统远程访问方法的多种便利功能。作者通过分享自己的使用经验，强调了 Tailscale 在解决 CGNAT 环境下远程访问难题，以及在日常使用中提供的额外价值。
   - Tailscale 简化了 CGNAT 环境下的远程访问：  Tailscale 解决了传统 DDNS 和端口转发在 CGNAT 环境下失效的问题，让用户可以轻松访问位于家庭或办公室网络中的设备。
   - Tailscale 提供多功能集成和用户友好体验：  除了基本的远程访问，Tailscale 还集成了端口转发、文件共享 (Taildrop)、VPN 出口节点等功能，并以用户友好的方式呈现，降低了使用门槛。
   - Tailscale 代表个人网络工具的新趋势：  Tailscale 不仅仅是一个 VPN，而是一个个人网络管理平台，预示着未来个人网络工具将更加注重设备互联、安全通信和便捷操作。
@@ -395,59 +394,59 @@ Tailscale 作为远程设备访问工具获得广泛认可，它解决了 CGNAT 
     - Tailscale 本身仅提供国外的 DERP 中继服务器，在国内使用的话，可以考虑在云服务器（固定公网 IP）或者宽带（动态公网 IP）上自行部署 [derper-docker](https://github.com/fredliang44/derper-docker) 与 [ip_derper](https://github.com/yangchuansheng/ip_derper)，后者需要牺牲一部分安全性。控制端也可自建 [headscale](https://github.com/juanfont/headscale)。
     - 除了极端复杂的 NAT 与 MTU 环境（比如学校 VPN），连接都比较稳定。能打洞成功则不需要中继服务器，不能则通过中继服务器转发。与之类似的 Zerotier 不支持自建 TCP 中继，moon 节点实际上只是一个 UDP 中继节点。
     - 延伸阅读：
-      - [[The New Internet - Tailscale's Vision for the Future of Connectivity]]
-      - [[How NAT traversal works]]
-      - [[浅探 Tailscale DERP 中转服务]]
-- [[Why "alias" is my last resort for aliases]]：尽管 `alias` 命令是定义 shell 别名的传统方法，但使用放置在 `$PATH` 环境变量中的脚本 (`~/bin` 目录下的脚本) 作为别名通常是更优的选择，因为它提供了更高的灵活性、可维护性和可扩展性。  作者认为脚本应该成为别名设置的默认方法，而 `alias` 仅在特定情况下作为最后手段使用。
+      - [The New Internet - Tailscale's Vision for the Future of Connectivity](https://tailscale.com/blog/new-internet)
+      - [How NAT traversal works](https://tailscale.com/blog/how-nat-traversal-works)
+      - [浅探 Tailscale DERP 中转服务](https://kiprey.github.io/2023/11/tailscale-derp/)
+- [Why "alias" is my last resort for aliases](https://evanhahn.com/why-alias-is-my-last-resort-for-aliases/)：尽管 `alias` 命令是定义 shell 别名的传统方法，但使用放置在 `$PATH` 环境变量中的脚本 (`~/bin` 目录下的脚本) 作为别名通常是更优的选择，因为它提供了更高的灵活性、可维护性和可扩展性。  作者认为脚本应该成为别名设置的默认方法，而 `alias` 仅在特定情况下作为最后手段使用。
   - 脚本别名优于 `alias` 作为默认选择： 作者主张，由于脚本别名在灵活性、可编程性、可维护性和跨平台性方面的优势，它应该成为别名设置的默认方法，而 `alias` 退居为特定情况下的最后选择。
   - `alias` 在特定场景下仍然重要：  作者承认 `alias` 在特殊 shell 功能（如改变工作目录）、命令补全、条件定义、易于绕过、简洁性和性能方面具有优势，因而在这些特定场景下仍然不可替代。
   - 工具选择的权衡性：  文章的核心思想是强调工具选择的权衡性，即没有绝对最优的工具，选择应该基于具体需求和场景，需要在不同工具的优缺点之间进行权衡。
   - 备注：
     - 除了在命令行中使用 alias 与自制脚本，针对软件项目写 Makefile 也是很好的统一入口与封装（无论是 Python 还是 C++ 还是其他语言），并且方便传入覆写参数，以及自动化工具调用。比如 zetton-core 中将仓库的编译、测试、代码覆盖率检查等一大长串 `colcon` 命令封装为 `make build` 等命令。
     - 延伸阅读：
-      - [[I Like Makefiles]]
-      - [[How I stopped worrying and loved Makefiles]]
-      - [[Makefile tricks for Python projects]]
-- [[如何测试电梯 – 韩师傅就是我]]：即使不了解系统内部实现原理，也可以通过构建系统的计算模型（例如有限状态机），并基于此模型设计测试用例，来进行有效的系统测试。文章以经典的“如何测试电梯”面试题为例，阐述了运用有限状态机模型进行测试设计的思路，强调了从系统外部逻辑行为出发进行测试的重要性。
+      - [I Like Makefiles](https://switowski.com/blog/i-like-makefiles/)
+      - [How I stopped worrying and loved Makefiles](https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-makefiles/)
+      - [Makefile tricks for Python projects](https://ricardoanderegg.com/posts/makefile-python-project-tricks/)
+- [如何测试电梯](http://hanzilu.com/wordpress/?p=239)：即使不了解系统内部实现原理，也可以通过构建系统的计算模型（例如有限状态机），并基于此模型设计测试用例，来进行有效的系统测试。文章以经典的“如何测试电梯”面试题为例，阐述了运用有限状态机模型进行测试设计的思路，强调了从系统外部逻辑行为出发进行测试的重要性。
   - 模型抽象简化复杂性：  面对复杂系统测试，即使不了解内部实现，也可通过构建如有限状态机这样的抽象模型来抓住系统核心逻辑，降低测试设计的复杂性。
   - 逻辑行为测试优先：  测试应侧重于验证系统的外部逻辑行为是否符合预期，而非过度依赖内部实现细节。从用户视角出发，关注系统的状态变化和事件响应是关键。
   - 模型驱动提升测试效率：  运用模型（如有限状态机）可以系统化地指导测试用例设计，确保测试覆盖率，并提升测试效率和质量。
-- [[The Cursed Art of Streaming HTML – rinici.de]]：流式 HTML 是一种可行的技术，可以用于创建实时 Web 应用程序，而无需过度依赖 JavaScript。作者认为，通过利用浏览器对 `Connection: keep-alive` 的支持以及服务器端的流式处理能力，可以实现类似于 WebSocket 或 SSE 的实时更新效果，但实现方式更为简单，并且在一定程度上减少了对 JavaScript 的依赖。
-- [[Debugging Disposable ML Frameworks]]：在开发和调试用于设备端部署的一次性机器学习框架时，采用分模块测试、中间张量对比、关注量化和保持清晰的认知模型是至关重要的调试策略。 作者强调，虽然有很多关于训练 Transformer 模型的资源，但关于设备端部署的调试指导相对缺乏，因此分享了他在构建此类框架过程中积累的实用经验和技巧，旨在帮助开发者避免常见的陷阱，更有效地进行调试。
+- [The Cursed Art of Streaming HTML](https://rinici.de/posts/streaming-html)：流式 HTML 是一种可行的技术，可以用于创建实时 Web 应用程序，而无需过度依赖 JavaScript。作者认为，通过利用浏览器对 `Connection: keep-alive` 的支持以及服务器端的流式处理能力，可以实现类似于 WebSocket 或 SSE 的实时更新效果，但实现方式更为简单，并且在一定程度上减少了对 JavaScript 的依赖。
+- [Debugging Disposable ML Frameworks](https://petewarden.com/2025/03/06/debugging-disposable-ml-frameworks/)：在开发和调试用于设备端部署的一次性机器学习框架时，采用分模块测试、中间张量对比、关注量化和保持清晰的认知模型是至关重要的调试策略。 作者强调，虽然有很多关于训练 Transformer 模型的资源，但关于设备端部署的调试指导相对缺乏，因此分享了他在构建此类框架过程中积累的实用经验和技巧，旨在帮助开发者避免常见的陷阱，更有效地进行调试。
   - 设备端 ML 框架调试的特殊性与挑战： 与模型训练不同，设备端部署的调试缺乏足够的资源和指导，需要开发者掌握特定的调试技巧。
   - 分模块、中间张量对比是有效的调试策略： 通过将模型分解为模块，并对比已知良好模型和自定义框架的中间张量，可以快速定位错误模块，提高调试效率。
   - 清晰的认知模型是高效调试的基础： 开发者需要深入理解模型架构、算法原理和实现细节，才能有效地进行调试和问题解决。
 - [quartz](https://github.com/jackyzha0/quartz)：Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites.
-- [[50 years in filesystems 1974  Die wunderbare Welt von Isotopp]]：Unix V7 文件系统虽然诞生于 1974 年，受限于当时的硬件条件，存在诸多局限性，但其设计中的核心概念和结构却非常清晰和简洁，并对后来的文件系统，乃至现代操作系统的 POSIX 标准产生了深远的影响。  文章通过回顾 Unix V7 文件系统的关键组件和设计决策，展示了早期文件系统的基本原理，并以此反思技术进步的本质以及早期设计对现代系统的持续影响。
-- [[50 years in filesystems 1984  Die wunderbare Welt von Isotopp]]：1984 年发布的 BSD 快速文件系统 (FFS) 是对传统 Unix 文件系统的重要改进，它通过引入多项创新设计，显著提升了文件系统的性能和效率，以适应当时快速发展的硬件和用户需求。  文章通过回顾 BSD FFS 的设计背景、核心创新以及性能提升，论证了其在文件系统发展史上的里程碑意义。
-- [[再也别问 Singleton 了好吗？]]：在 Python 语言中，Singleton（单例模式）通常是不必要的，并且经常被滥用。更简洁、更符合 Python 哲学的方式是使用模块级别的变量来实现单例的需求。  作者认为，Singleton 作为一个经典设计模式，在 Python 中并没有其在其他语言中那样的必要性，反而因为其复杂性导致误用和成为面试八股文。
+- [50 years in filesystems 1974](https://blog.koehntopp.info/2023/05/05/50-years-in-filesystems-1974.html)：Unix V7 文件系统虽然诞生于 1974 年，受限于当时的硬件条件，存在诸多局限性，但其设计中的核心概念和结构却非常清晰和简洁，并对后来的文件系统，乃至现代操作系统的 POSIX 标准产生了深远的影响。  文章通过回顾 Unix V7 文件系统的关键组件和设计决策，展示了早期文件系统的基本原理，并以此反思技术进步的本质以及早期设计对现代系统的持续影响。
+- [50 years in filesystems 1984](https://blog.koehntopp.info/2023/05/06/50-years-in-filesystems-1984.html)：1984 年发布的 BSD 快速文件系统 (FFS) 是对传统 Unix 文件系统的重要改进，它通过引入多项创新设计，显著提升了文件系统的性能和效率，以适应当时快速发展的硬件和用户需求。  文章通过回顾 BSD FFS 的设计背景、核心创新以及性能提升，论证了其在文件系统发展史上的里程碑意义。
+- [再也别问 Singleton 了好吗？](https://frostming.com/2025/singleton/)：在 Python 语言中，Singleton（单例模式）通常是不必要的，并且经常被滥用。更简洁、更符合 Python 哲学的方式是使用模块级别的变量来实现单例的需求。  作者认为，Singleton 作为一个经典设计模式，在 Python 中并没有其在其他语言中那样的必要性，反而因为其复杂性导致误用和成为面试八股文。
 - [MinerU](https://github.com/opendatalab/MinerU)：一站式开源高质量数据提取工具，将 PDF 转换成 Markdown 和 JSON 格式。
-- [[Integrating Audio AI SDK with WebRTC (1) A Look Inside WebRTC's Audio Pipeline]] 与 [[Integrating the Audio AI SDK into WebRTC (2) Methodology for Building a Testing Environment for Effective Integration Development]]：在 WebRTC 中集成音频 AI SDK（例如 Gaudio Lab 的 GSEP-LD）时，构建一个强大且高效的测试环境至关重要，这直接关系到集成开发的有效性与最终效果。  文章强调，由于 WebRTC 音频处理模块 (APM) 的复杂性和集成点选择的多样性，以及潜在的各种环境因素和子模块交互影响，细致周全的测试是确保成功集成的关键步骤。文章进一步指出，利用命令行界面 (CLI) 工具和开源项目可以有效地简化测试环境的搭建和管理，从而应对复杂场景下的集成测试需求。
-- [[Let's code a TCPIP stack, 1 Ethernet & ARP]]：实现一个最小化的用户空间 TCP/IP 协议栈，从 Ethernet 和 ARP 开始，是学习网络和系统编程的有效教育方法。  文章通过实际代码示例和步骤，展示了如何使用 Linux TAP 设备来捕获网络数据包，并解析 Ethernet 帧和 ARP 协议，最终成功实现 ARP 响应，验证了该论点。文章旨在说明即使 TCP/IP 协议栈看起来复杂，但从基础协议如 Ethernet 和 ARP 入手，并进行逐步实现，是可行的，并且对于深入理解网络协议栈的工作原理非常有帮助。
-- [[Let's code a TCPIP stack, 2 IPv4 & ICMPv4]]：在用户空间中实现一个最小可用的 TCP/IP 协议栈，包括 IPv4 和 ICMPv4 层是可行的，并且可以通过 ICMP 回显请求（ping）进行验证。  文章旨在展示构建网络协议栈的实践方法，并鼓励读者理解 IPv4 和 ICMPv4 的基本原理和实现细节。
-- [[Let's code a TCPIP stack, 3 TCP Basics & Handshake]]：理解 TCP 协议的基本原理，特别是其可靠性机制和三次握手过程，是构建 TCP/IP 协议栈的关键步骤。 文章通过理论介绍、协议头分析和握手过程详解，并结合代码测试，逐步展示了 TCP 协议栈中 TCP 握手功能的实现方法和验证过程。最终目的是为读者理解 TCP 协议栈的构建打下基础，并为后续实现可靠数据传输功能做铺垫。
+- [Integrating Audio AI SDK with WebRTC (1) A Look Inside WebRTC's Audio Pipeline](https://www.gaudiolab.com/blog/137) 与 [Integrating the Audio AI SDK into WebRTC (2) Methodology for Building a Testing Environment for Effective Integration Development](https://www.gaudiolab.com/blog/138)：在 WebRTC 中集成音频 AI SDK（例如 Gaudio Lab 的 GSEP-LD）时，构建一个强大且高效的测试环境至关重要，这直接关系到集成开发的有效性与最终效果。  文章强调，由于 WebRTC 音频处理模块 (APM) 的复杂性和集成点选择的多样性，以及潜在的各种环境因素和子模块交互影响，细致周全的测试是确保成功集成的关键步骤。文章进一步指出，利用命令行界面 (CLI) 工具和开源项目可以有效地简化测试环境的搭建和管理，从而应对复杂场景下的集成测试需求。
+- [Let's code a TCPIP stack, 1 Ethernet & ARP](https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/)：实现一个最小化的用户空间 TCP/IP 协议栈，从 Ethernet 和 ARP 开始，是学习网络和系统编程的有效教育方法。  文章通过实际代码示例和步骤，展示了如何使用 Linux TAP 设备来捕获网络数据包，并解析 Ethernet 帧和 ARP 协议，最终成功实现 ARP 响应，验证了该论点。文章旨在说明即使 TCP/IP 协议栈看起来复杂，但从基础协议如 Ethernet 和 ARP 入手，并进行逐步实现，是可行的，并且对于深入理解网络协议栈的工作原理非常有帮助。
+- [Let's code a TCPIP stack, 2 IPv4 & ICMPv4](https://www.saminiir.com/lets-code-tcp-ip-stack-2-ipv4-icmpv4/)：在用户空间中实现一个最小可用的 TCP/IP 协议栈，包括 IPv4 和 ICMPv4 层是可行的，并且可以通过 ICMP 回显请求（ping）进行验证。  文章旨在展示构建网络协议栈的实践方法，并鼓励读者理解 IPv4 和 ICMPv4 的基本原理和实现细节。
+- [Let's code a TCPIP stack, 3 TCP Basics & Handshake](https://www.saminiir.com/lets-code-tcp-ip-stack-3-tcp-handshake/)：理解 TCP 协议的基本原理，特别是其可靠性机制和三次握手过程，是构建 TCP/IP 协议栈的关键步骤。 文章通过理论介绍、协议头分析和握手过程详解，并结合代码测试，逐步展示了 TCP 协议栈中 TCP 握手功能的实现方法和验证过程。最终目的是为读者理解 TCP 协议栈的构建打下基础，并为后续实现可靠数据传输功能做铺垫。
 
 ### 项目与团队管理
 
-- [[A few words about indie app business – Charlie Monroe]]：独立应用业务是一场马拉松，而非短跑冲刺，成功需要长期坚持、不断迭代和适应变化。
+- [A few words about indie app business](https://blog.charliemonroe.net/a-few-words-about-indie-app-business/)：独立应用业务是一场马拉松，而非短跑冲刺，成功需要长期坚持、不断迭代和适应变化。
   - 耐心与迭代： 不要期望一夜成名，要从小处着手，快速迭代，根据用户反馈不断改进产品。
   - 长期投入的必要性： 独立应用业务需要长期的时间和精力投入，难以兼顾全职工作，要做好长期艰苦奋斗的准备。
   - 风险意识与多元化： 行业变化迅速，应用可能面临被淘汰的风险，要保持风险意识，并进行多元化发展，降低风险。
-- [[Your Next Two Zeroes]]：规模扩大一个数量级（10 倍）通常可以通过现有方法和工具进行调整，但规模扩大两个数量级（100 倍）则会彻底颠覆问题域，迫使我们重新思考所有方面，包括方法、工具、技能和思维模式。 这种规模的跃迁不仅仅是量的积累，更是质的突变，需要放弃原有的“成功秘诀”，以全新的视角和方法来应对。
+- [Your Next Two Zeroes](https://taylor.town/next-two-zeroes)：规模扩大一个数量级（10 倍）通常可以通过现有方法和工具进行调整，但规模扩大两个数量级（100 倍）则会彻底颠覆问题域，迫使我们重新思考所有方面，包括方法、工具、技能和思维模式。 这种规模的跃迁不仅仅是量的积累，更是质的突变，需要放弃原有的“成功秘诀”，以全新的视角和方法来应对。
   - 规模跃迁的临界点： 文章的核心主张是规模扩大两个数量级（100 倍）是一个关键的临界点，会引发系统性的质变，而非仅仅是量的积累。
   - 原有方法的失效： 随着规模的跃迁，原本有效的 “成功秘诀” 和方法论会失效，甚至成为阻碍前进的 “臭本能”。
   - 认知模式的转变： 应对规模跃迁的关键在于认知模式的转变，需要放弃固有的思维定势，以 “重新成为新手” 的心态去学习和适应新的挑战。
-- [[A Founder's Guide Essential Management Advice for Startups by @ttunguz]]：有效的管理对于初创公司从混乱增长走向可持续成功至关重要，并且管理不是天生的才能，而是一种可以学习、实践和完善的学科。文章强调，随着初创公司规模扩大，管理能力的重要性与技术或客户群的扩展同等重要。
+- [A Founder's Guide Essential Management Advice for Startups by @ttunguz](https://tomtunguz.com/management-advice-for-startups/)：有效的管理对于初创公司从混乱增长走向可持续成功至关重要，并且管理不是天生的才能，而是一种可以学习、实践和完善的学科。文章强调，随着初创公司规模扩大，管理能力的重要性与技术或客户群的扩展同等重要。
 
 ### 知识管理
 
-- [[为什么笔记用户要保卫自己的「数字主权」？ - 少数派]]：在数字时代，个人知识库已成为重要的数字资产，用户需要掌握对自己笔记数据的完全控制权，以避免数据丢失、平台垄断和未来技术发展带来的限制。
+- [为什么笔记用户要保卫自己的「数字主权」？](https://sspai.com/post/96863)：在数字时代，个人知识库已成为重要的数字资产，用户需要掌握对自己笔记数据的完全控制权，以避免数据丢失、平台垄断和未来技术发展带来的限制。
   - 笔记用户应捍卫数字主权: 核心主张是用户应掌握对其笔记数据的完全控制权，避免平台垄断、数据丢失和未来技术限制，这是知识管理和知识复利的基础。
   - 开源格式 + 多端备份是保障数字主权的关键策略: 推荐使用开源纯文本格式（如 Markdown）作为笔记载体，并采用多端同步备份方案（如 Git），以确保数据安全、可移植性和长期可用性。
   - 数字主权是迎接 AI 时代知识复利的前提: 强调在 AI 技术快速发展的时代，掌握数字主权，特别是使用纯文本格式，能够更好地利用个人知识库，享受新技术红利，实现知识复利的最大化。
-- [[从 Pandoc 到 Quarto：纯文本学术写作的实践与优化 - 少数派]]：Quarto 作为基于 Pandoc 的下一代科学出版系统，通过提供更强大的功能和更友好的用户体验，例如代码执行、交叉引用、参考文献预览等，以及针对中文学术写作的优化方案，是比 Pandoc 更为理想的纯文本学术写作工具，能够显著提升学术写作的效率和体验，最终让作者更专注于内容本身，产出更高质量的学术成果。
+- [从 Pandoc 到 Quarto：纯文本学术写作的实践与优化](https://sspai.com/post/97056)：Quarto 作为基于 Pandoc 的下一代科学出版系统，通过提供更强大的功能和更友好的用户体验，例如代码执行、交叉引用、参考文献预览等，以及针对中文学术写作的优化方案，是比 Pandoc 更为理想的纯文本学术写作工具，能够显著提升学术写作的效率和体验，最终让作者更专注于内容本身，产出更高质量的学术成果。
   - 备注：平常的技术写作用 Markdown 就行，学术论文还是得用 LaTeX。
-- [[人工智能真能替你写作吗？我自己的「AI 蓝军」测试]]：人工智能（特别是生成式 AI）在写作领域已经展现出强大的能力，能够辅助甚至在一定程度上替代人类完成写作任务，但这并不意味着人类写作者会被完全取代。  文章强调，在 AI 时代，知识工作者需要积极适应变化，掌握 AI 工具，将其作为助手来提升生产力，专注于人类独特的思考、价值观和审美判断，才能在未来的内容生产领域保持竞争力。文章通过作者自身的“AI 蓝军”测试经历，验证了 AI 在写作流程中的应用潜力，并探讨了人类写作者在 AI 时代的定位和发展方向。
+- [人工智能真能替你写作吗？我自己的「AI 蓝军」测试](https://xiaobot.net/post/fe497700-0d5b-40ad-a15a-543463986876)：人工智能（特别是生成式 AI）在写作领域已经展现出强大的能力，能够辅助甚至在一定程度上替代人类完成写作任务，但这并不意味着人类写作者会被完全取代。  文章强调，在 AI 时代，知识工作者需要积极适应变化，掌握 AI 工具，将其作为助手来提升生产力，专注于人类独特的思考、价值观和审美判断，才能在未来的内容生产领域保持竞争力。文章通过作者自身的“AI 蓝军”测试经历，验证了 AI 在写作流程中的应用潜力，并探讨了人类写作者在 AI 时代的定位和发展方向。
   - 深度调研阶段：
     - 选择话题: 作者首先选定了自己感兴趣的 MCP 协议作为话题
     - 使用 OpenAI Deep Research: 提交明确问题，让 AI 进行深入调研
@@ -464,7 +463,7 @@ Tailscale 作为远程设备访问工具获得广泛认可，它解决了 CGNAT 
   - 配图生成阶段：
     - 使用 ChatGPT 4.0: 根据文章内容生成匹配的封面图
     - 最终审核: 作者进行简单修改，删除冗余总结语
-- [[从素材到成文，揭秘 Dailyio 的大模型写作全流程｜Digital Explorer055]]：大模型能够有效地赋能内容创作者的工作流程，但并非取代人类，而是一种人机协作模式。  文章强调，在严肃写作和产业分析等场景下，大模型仍然需要人类深度介入，尤其是在素材发现、数据准备和风格引导等环节。作者通过分享自己为“AI Insider”邮件通讯生产内容的工作流程，具体展示了如何利用大模型提升效率、处理信息和模仿写作风格，但同时也警示了完全依赖大模型的风险，强调了高质量输入（素材和指令）对于输出质量的关键作用。
+- [从素材到成文，揭秘 Dailyio 的大模型写作全流程｜Digital Explorer055](https://next.iois.me/digital-explorer-055/)：大模型能够有效地赋能内容创作者的工作流程，但并非取代人类，而是一种人机协作模式。  文章强调，在严肃写作和产业分析等场景下，大模型仍然需要人类深度介入，尤其是在素材发现、数据准备和风格引导等环节。作者通过分享自己为“AI Insider”邮件通讯生产内容的工作流程，具体展示了如何利用大模型提升效率、处理信息和模仿写作风格，但同时也警示了完全依赖大模型的风险，强调了高质量输入（素材和指令）对于输出质量的关键作用。
   - 获取素材：使用现代浏览器工具高效获取文本素材
     - 使用 Brave 等基于 Chromium 的浏览器
     - 借助 bypass paywalls clean 扩展越过付费墙
@@ -485,7 +484,7 @@ Tailscale 作为远程设备访问工具获得广泛认可，它解决了 CGNAT 
 
 ### ACGN
 
-- [[桌游设计杂记（5）  用三个月，测试并编辑一个重度的战棋游戏 - 少数派]]：成功开发一款重度战棋桌游，并使其达到可以向海外出版商投稿的程度，需要精细的分工合作、高强度的内部测试迭代、以及对产品化和编辑环节的重视。  文章通过记录《其惟春秋》这款游戏在三个月内的开发过程，具体阐述了如何通过高效的内部测试、及时的版本迭代、多语言准备、规则书撰写、以及产品化准备等环节，克服时间紧迫的困难，最终产出可用于投稿的游戏样品。同时，文章也强调了桌游开发不仅仅是玩法和美术，更包含了原型制作、测试、规则书、编辑、生产等多个环节，需要团队协作和专业分工才能保证质量和效率。
+- [桌游设计杂记（5）  用三个月，测试并编辑一个重度的战棋游戏 - 少数派](https://sspai.com/post/97061)：成功开发一款重度战棋桌游，并使其达到可以向海外出版商投稿的程度，需要精细的分工合作、高强度的内部测试迭代、以及对产品化和编辑环节的重视。  文章通过记录《其惟春秋》这款游戏在三个月内的开发过程，具体阐述了如何通过高效的内部测试、及时的版本迭代、多语言准备、规则书撰写、以及产品化准备等环节，克服时间紧迫的困难，最终产出可用于投稿的游戏样品。同时，文章也强调了桌游开发不仅仅是玩法和美术，更包含了原型制作、测试、规则书、编辑、生产等多个环节，需要团队协作和专业分工才能保证质量和效率。
 
 ### 播客
 
