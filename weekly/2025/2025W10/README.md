@@ -142,11 +142,16 @@ Community reaction has been rapid, with open-source alternatives such as autoMat
     >
     > 5. Agent is in a state of unfamiliarity and unheard of for most people. I believe that every small step of Agent products today is a big step in the future.
 
-Open Source Alternatives:
+Open Source Alternatives and:
 
+- [OWL (Optimized Workforce Learning)](https://github.com/camel-ai/owl)
 - [autoMate](https://github.com/yuruotong1/autoMate)
 - [OpenManus](https://github.com/mannaandpoem/OpenManus)
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands)
+
+Other products:
+
+- [Flowith Oracle Mode](https://doc.flowith.io/oracle-mode-agent-mode/about-oracle-mode)
 
 ## Interesting Things
 

@@ -165,9 +165,14 @@ Manus 的爆火表明市场对通用 Agent 产品有着强烈需求，但其技�
 
 开源替代：
 
+- [OWL (Optimized Workforce Learning)](https://github.com/camel-ai/owl)
 - [autoMate](https://github.com/yuruotong1/autoMate)
 - [OpenManus](https://github.com/mannaandpoem/OpenManus)
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands)
+
+商业竞品：
+
+- [Flowith Oracle Mode](https://doc.flowith.io/oracle-mode-agent-mode/about-oracle-mode)
 
 ## 有趣的事与物
 
