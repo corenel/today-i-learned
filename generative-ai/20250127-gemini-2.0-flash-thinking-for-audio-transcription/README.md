@@ -12,10 +12,10 @@ Previously, I primarily relied on OpenAI’s Whisper model for audio-to-text con
 
 The main pain points in traditional audio transcription workflows are typically:
 
-1. **Audio Quality Enhancement**:  
+1. **Audio Quality Enhancement**:
    Pre-processing is essential, particularly for audio recorded on non-professional equipment.
 
-2. **Multi-Stage Processing**:  
+2. **Multi-Stage Processing**:
    An ideal workflow should include a dedicated Automatic Speech Recognition (ASR) model and a separate post-processing language model for more accurate transcription and content understanding.
 
 For podcasts and YouTube videos, I’ve found [Podwise](https://podwise.ai/) quite satisfactory for transcription and analysis. However, it does not currently support automatically subscribing to or transcribing Bilibili content, nor does it allow accessing certain paid programs. Manually setting up a private RSS feed is possible, but a more universally applicable solution is still needed.
@@ -111,16 +111,16 @@ Use plain text in the following style:
 The model might return something like this (excerpt):
 
 ```markdown
-**Narrator**  
-00:00  
+**Narrator**
+00:00
 Chip giant Intel is facing challenges on all sides.
 
-**Speaker 1**  
-00:03  
+**Speaker 1**
+00:03
 The stock was down more than 60% and the CEO is out.
 
-**Narrator**  
-00:07  
+**Narrator**
+00:07
 By the end of 2024, Intel's year-to-date stock price had plunged nearly 60%, replaced by Nvidia in the Dow Jones index, and its market cap dropped below $100 billion...
 ```
 
@@ -132,11 +132,11 @@ For production environments, it’s advisable to use the model via API calls for
 
 #### Additional Prompt Tips
 
-- You can add a touch of role-play (e.g., “act as a professional audio-video analyst”) to help the model better understand its task.  
-- Providing metadata like video title, author, publication date, and description can further assist the model’s comprehension of the audio content.  
+- You can add a touch of role-play (e.g., “act as a professional audio-video analyst”) to help the model better understand its task.
+- Providing metadata like video title, author, publication date, and description can further assist the model’s comprehension of the audio content.
 - After the model’s output, you can request additional checks:
-  - Accuracy of technical terminology  
-  - Consistency in speaker labeling and identification of roles (host/guest/voice-over)  
+  - Accuracy of technical terminology
+  - Consistency in speaker labeling and identification of roles (host/guest/voice-over)
   - Continuity of timestamps (and ensuring timestamps are accurate to the second)
 
 ---
@@ -166,7 +166,7 @@ This episode of “硅谷 101” (Silicon Valley 101) provides a thorough analys
 
 ### Further Processing
 
-Once you have the transcripts and an initial analysis, consider integrating them into Obsidian or another knowledge base for subsequent Retrieval-Augmented Generation (RAG) searches.  
+Once you have the transcripts and an initial analysis, consider integrating them into Obsidian or another knowledge base for subsequent Retrieval-Augmented Generation (RAG) searches.
 
 You can also optimize your workflow by using automation tools like **n8n** or **Dify**, orchestrating the entire process—triggering model requests, audio transcription, analysis, and saving it all into your knowledge base—seamlessly.
 
@@ -174,13 +174,13 @@ You can also optimize your workflow by using automation tools like **n8n** or **
 
 By using the **Gemini 2.0 Flash Thinking Experimental 01-21** model for audio transcription and analysis, you’ll experience several key benefits compared to traditional methods:
 
-1. **Higher Transcription Accuracy**:  
+1. **Higher Transcription Accuracy**:
    Gemini 2.0 Flash’s robust multimodal capabilities and long-context processing significantly reduce errors, minimizing manual post-editing.
 
-2. **Unified Workflow**:  
+2. **Unified Workflow**:
    A single model can handle the entire process—from audio transcription to content analysis—removing the need for a complex multi-model pipeline and simplifying development.
 
-3. **Lower Costs**:  
+3. **Lower Costs**:
    Gemini 2.0 Flash is currently free to use, making it especially appealing for lower-frequency applications such as audio transcription.
 
 ## Limitations and Future Outlook

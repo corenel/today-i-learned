@@ -12,6 +12,7 @@
   - [目录结构](#目录结构)
     - [技术阅读汇总](#技术阅读汇总)
     - [生成式人工智能](#生成式人工智能)
+    - [机器学习](#机器学习)
     - [机器人](#机器人)
   - [贡献](#贡献)
   - [许可证](#许可证)
@@ -24,6 +25,10 @@
 
 - [使用 Gemini 2.0 Flash 进行高质量音频转录与分析](./generative-ai/20250127-gemini-2.0-flash-thinking-for-audio-transcription/README.zh-CN.md)：在 Google AI Studio 平台上使用 Gemini 2.0 Flash Thinking Experimental 01-21 模型对 B 站视频的音轨进行高质量音频转录与分析。
 - [潜空间变革：FLUX.1 与 Stable Diffusion 的 VAE 架构深度解析及性能对比](./generative-ai/20250213-latent-vae-flux-sd-comparison/README.zh-CN.md)：深入分析 Flux.1 和 Stable Diffusion 及相关 LDM 架构，特别聚焦其中的 VAE 相关部分，并将其与传统和最新的自编码器方法（如经典卷积自编码器、VQ-VAE、DC-AE 等）进行全面对比。
+
+### 机器学习
+
+- [YOLOE 论文速读](./machine-learning/20250311-yoloe/README.zh-CN.md)：一种用于开放词汇场景下实时目标检测和分割的高效统一模型。
 
 ### 机器人
 

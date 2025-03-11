@@ -12,6 +12,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
   - [Table of Contents](#table-of-contents)
     - [Technical Reading Summary](#technical-reading-summary)
     - [Generative AI](#generative-ai)
+    - [Machine Learning](#machine-learning)
     - [Robotics](#robotics)
   - [Contribution](#contribution)
   - [License](#license)
@@ -24,6 +25,10 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 
 - [Using Gemini 2.0 Flash for High-Quality Audio Transcription and Analysis](./generative-ai/20250127-gemini-2.0-flash-thinking-for-audio-transcription/README.md): Using Gemini 2.0 Flash Thinking Experimental 01-21 model for high-quality audio transcription and analysis on Bilibili videos.
 - [Latent Space Revolution: A Deep Dive into VAE Architectures and Performance Comparison of Flux.1 and Stable Diffusion](./generative-ai/20250213-latent-vae-flux-sd-comparison/README.md): Deep analysis and performance comparison of VAE in Flux.1 and Stable Diffusion, and other related autoencoders.
+
+### Machine Learning
+
+- [YOLOE Paper Quick Read](./machine-learning/20250311-yoloe/README.md): A new efficient unified model for real-time object detection and segmentation in open-vocabulary scenarios.
 
 ### Robotics
 
