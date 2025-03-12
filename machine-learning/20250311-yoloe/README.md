@@ -338,7 +338,7 @@ To achieve the above goals, the YOLOE paper proposes three key strategies, each 
     1. **Text Encoding:** When you input a text prompt (e.g., "cat"), YOLOE first uses a pre-trained text encoder (e.g., CLIP's text encoder) to convert the text into a **text vector (Text Embedding)**. You can understand this text vector as a mathematical representation of the concept of "cat."
     2. **Lightweight Auxiliary Network:** To make this text vector more suitable for aligning with YOLOE's image features, the paper introduces a **lightweight auxiliary network**. This network is like a "tuner," which slightly adjusts the text vector to better express the features of "cat" in a **visual scene**.
     3. **Region-Text Alignment:** In the YOLO model, an image is divided into many regions (imagine a grid). YOLOE extracts **image features (Region Embedding)** for each region. Then, it compares the image features of each region with the **text vector** adjusted by the auxiliary network (calculates similarity). Regions with high similarity are more likely to be objects described by the text.
-    4. **Re-parameterization:** Here's the crucial step! To ensure speed, **the auxiliary network is only used during training**. After training, YOLOE uses the "re-parameterization" technique to **fuse the function of the auxiliary network into the classification head of the YOLO model itself**.  Thus, during actual use (inference), the model structure is identical to traditional YOLO, with no additional computational overhead, and the speed remains unchanged.
+    4. **Re-parameterization:** Here's the crucial step! To ensure speed, **the auxiliary network is only used during training**. After training, YOLOE uses the "re-parameterization" technique to **fuse the function of the auxiliary network into the classification head of the YOLO model itself**. Thus, during actual use (inference), the model structure is identical to traditional YOLO, with no additional computational overhead, and the speed remains unchanged.
 
 - **Advantages**: **Improves the accuracy of text prompts**, enabling YOLOE to better understand text descriptions and find corresponding objects. Simultaneously, **inference speed is guaranteed through re-parameterization**, without sacrificing YOLO's efficiency advantage.
 
@@ -360,7 +360,7 @@ Let's break down the steps of RepRTA in more detail:
 2. **Lightweight Auxiliary Network - Tuner:** This is one of RepRTA's core innovations. We designed a **very lightweight** neural network (only one Feed Forward Block, FFN). This auxiliary network acts as a **"tuner"**. It takes the pre-trained text vector as input and then makes **subtle adjustments** to it, making it more suitable for object detection tasks and better aligned with YOLO's image features.
 
     - **Why lightweight?** To ensure efficiency! The auxiliary network is designed to be very simple, with few parameters and low computational load, so it does not significantly increase training complexity.
-    - **Why fine-tuning?**  While pre-trained text vectors contain rich semantic information, they may not be the optimal representation for object detection tasks. The role of the auxiliary network is to **optimize for object detection tasks**, for example, it may emphasize text information related to object visual features more.
+    - **Why fine-tuning?** While pre-trained text vectors contain rich semantic information, they may not be the optimal representation for object detection tasks. The role of the auxiliary network is to **optimize for object detection tasks**, for example, it may emphasize text information related to object visual features more.
 
 3. **Region-Text Contrast during Training:** When training YOLOE, we use a large amount of image and text data. For each training sample, we will:
     - **Extract Image Region Features (Region Embeddings) - From YOLO Backbone:** YOLO's backbone network extracts multi-scale features of the image, which can be used to represent different regions of the image.
@@ -469,11 +469,10 @@ However, achieving prompt-free object detection is very challenging. **The bigge
     - **Meaning of "Lazy":** "Lazy" is reflected in **only performing subsequent category retrieval for the selected regions**. For regions with similarity below the threshold, they are directly ignored, and no further processing is performed. This greatly reduces the computational load of subsequent category retrieval, improving efficiency.
 
 3. **Built-in Large Vocabulary - Category Candidate Pool:** YOLOE prepared a **very large vocabulary**, which contains **various object category names** (the paper uses a vocabulary containing 4585 category names). This vocabulary is like a **"category candidate pool."**
-
 4. **Lazy Category Retrieval - Fine Matching:** For the selected "regions that may contain objects," YOLOE will **"lazily"** (again, only for these regions) retrieve the most appropriate category name from the **built-in large vocabulary**. **The retrieval process is:** compare the image features of the region with the **text vectors of each category name** in the vocabulary and **select the category name with the highest similarity as the predicted category for that region**.
 
-    - **Why Retrieval?**  Transforming the category prediction problem into a retrieval problem **avoids using complex classifiers or language models**, greatly simplifying the process and improving efficiency.
-    - **Why use a Large Vocabulary?**  Ensures that YOLOE can detect and recognize a **very large number of object categories**, making it closer to the goal of "Seeing Anything."
+    - **Why Retrieval?** Transforming the category prediction problem into a retrieval problem **avoids using complex classifiers or language models**, greatly simplifying the process and improving efficiency.
+    - **Why use a Large Vocabulary?** Ensures that YOLOE can detect and recognize a **very large number of object categories**, making it closer to the goal of "Seeing Anything."
 
 ##### Innovations of LRPC
 
@@ -493,9 +492,9 @@ However, achieving prompt-free object detection is very challenging. **The bigge
 
 To summarize, YOLOE achieves its "Seeing Anything" capability and efficiency through these three clever strategies:
 
-- **RepRTA (Text Prompts):**  Uses a lightweight, re-parameterizable auxiliary network to fine-tune text embeddings for better text-image alignment, ensuring both accuracy and speed for text-prompted detection.
-- **SAVPE (Visual Prompts):**  Employs a decoupled semantic and activation branch structure to efficiently encode visual prompts, enabling effective and fast visual-prompted detection and segmentation with minimal computational overhead.
-- **LRPC (Prompt-Free):**  Transforms prompt-free object detection into a lazy retrieval process using a specialized prompt embedding and a large vocabulary, achieving efficient and wide-ranging object detection without relying on heavy language models.
+- **RepRTA (Text Prompts):** Uses a lightweight, re-parameterizable auxiliary network to fine-tune text embeddings for better text-image alignment, ensuring both accuracy and speed for text-prompted detection.
+- **SAVPE (Visual Prompts):** Employs a decoupled semantic and activation branch structure to efficiently encode visual prompts, enabling effective and fast visual-prompted detection and segmentation with minimal computational overhead.
+- **LRPC (Prompt-Free):** Transforms prompt-free object detection into a lazy retrieval process using a specialized prompt embedding and a large vocabulary, achieving efficient and wide-ranging object detection without relying on heavy language models.
 
 By ingeniously combining these three strategies within a unified YOLO framework, YOLOE offers a powerful and versatile solution for real-time object detection and segmentation in open-world scenarios, capable of "Seeing Anything" efficiently and effectively.
 
