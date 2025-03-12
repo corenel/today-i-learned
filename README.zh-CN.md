@@ -28,7 +28,8 @@
 
 ### 机器学习
 
-- [YOLOE 论文速读](./machine-learning/20250311-yoloe/README.zh-CN.md)：一种用于开放词汇场景下实时目标检测和分割的高效统一模型。
+- [YOLOE 论文速读](./machine-learning/20250311-yoloe-paper-reading/README.zh-CN.md)：一种用于开放词汇场景下实时目标检测和分割的高效统一模型。
+- [YOLOE 深入解析](./machine-learning/20250312-yoloe-in-depth/README.zh-CN.md)：对 YOLOE 进行深入解析，包括其创新框架、性能表现、技术演进、应用领域和未来趋势等。
 
 ### 机器人
 

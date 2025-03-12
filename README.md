@@ -28,7 +28,8 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 
 ### Machine Learning
 
-- [YOLOE Paper Quick Read](./machine-learning/20250311-yoloe/README.md): A new efficient unified model for real-time object detection and segmentation in open-vocabulary scenarios.
+- [YOLOE Paper Quick Read](./machine-learning/20250311-yoloe-paper-reading/README.md): A new efficient unified model for real-time object detection and segmentation in open-vocabulary scenarios.
+- [YOLOE In-depth Analysis](./machine-learning/20250312-yoloe-in-depth/README.md): A deep analysis of YOLOE, including its innovative framework, performance evaluation, technological evolution, application fields, and future trends.
 
 ### Robotics
 
