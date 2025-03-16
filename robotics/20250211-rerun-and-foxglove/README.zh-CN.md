@@ -1,5 +1,7 @@
 # Rerun 与 Foxglove: 新型机器人数据可视化平台
 
+[English](README.md) | 简体中文
+
 by @corenel (Yusu Pan) and OpenAI Deep Research
 
 ## 目录

@@ -1,5 +1,7 @@
 # 智驾新引擎：VLM和世界模型如何重塑自动驾驶技术
 
+[English](README.md) | 简体中文
+
 by @corenel (Yusu Pan) and OpenAI Deep Research
 
 ## 目录

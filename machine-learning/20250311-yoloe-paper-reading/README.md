@@ -1,5 +1,7 @@
 # YOLOE Paper Quick Read
 
+English | [简体中文](README.zh-CN.md)
+
 by @corenel (Yusu Pan) and LLMs
 
 - [YOLOE Paper Quick Read](#yoloe-paper-quick-read)

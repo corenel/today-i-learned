@@ -1,5 +1,7 @@
 # YOLOE 论文速读
 
+[English](README.md) | 简体中文
+
 by @corenel (Yusu Pan) and LLMs
 
 - [YOLOE 论文速读](#yoloe-论文速读)

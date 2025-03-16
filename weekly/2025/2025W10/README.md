@@ -1,5 +1,7 @@
 # Technical Reading Summary - Week 10, 2025
 
+English | [简体中文](README.zh-CN.md)
+
 The following is a summary of technical readings and inputs from Week 10 of 2025 (March 3rd to March 9th). For brevity, only titles, URLs, and LLM-generated summaries are listed for those interested in further reading. Further analysis and reflections are not included here.
 
 - [Technical Reading Summary - Week 10, 2025](#technical-reading-summary---week-10-2025)

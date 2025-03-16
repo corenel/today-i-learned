@@ -1,5 +1,7 @@
 # Using Gemini 2.0 Flash for High-Quality Audio Transcription and Analysis
 
+English | [简体中文](README.zh-CN.md)
+
 by [@corenel (Yusu Pan)](https://github.com/corenel)
 
 When dealing with audio transcription tasks, we often face limitations with traditional Whisper models and local software - especially when working with non-professional recordings or complex audio scenarios. This post introduces how to leverage Google’s **Gemini 2.0 Flash Thinking Experimental 01-21** model (hereafter referred to as the Gemini 2.0 Flash model; unless otherwise specified, references to Gemini 2.0 Flash indicate the Thinking Experimental 01-21 version) on the Google AI Studio platform to achieve high-quality audio transcription and preliminary analysis. This offers developers a more efficient and accurate solution.

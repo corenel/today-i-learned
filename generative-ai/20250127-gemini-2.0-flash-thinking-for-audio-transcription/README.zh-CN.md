@@ -1,5 +1,7 @@
 # 使用 Gemini 2.0 Flash 进行高质量音频转录与分析
 
+[English](README.md) | 简体中文
+
 by @corenel (Yusu Pan)
 
 在处理音频转录任务时，我们经常面临传统 Whisper 模型及本地软件的局限性，尤其是在处理非专业录音或复杂音频场景时。本文将介绍如何利用 Google 的 Gemini 2.0 Flash Thinking Experimental 01-21 模型（下文简称 Gemini 2.0 Flash 模型，如不特殊注明均指代其 Thinking Experimental 01-21 版本），在 Google AI Studio 平台上实现高质量的音频转录与初步分析，为开发者提供一种更高效、更精准的解决方案。

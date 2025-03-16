@@ -1,5 +1,7 @@
 # Fusion and Evolution: How VLMs and World Models are Reshaping Autonomous Driving Technology
 
+English | [简体中文](README.zh-CN.md)
+
 by @corenel (Yusu Pan) and OpenAI Deep Research
 
 ## Table of Contents

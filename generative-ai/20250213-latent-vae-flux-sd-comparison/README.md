@@ -1,5 +1,7 @@
 # Latent Space Revolution: A Deep Dive into VAE Architectures and Performance Comparison of Flux.1 and Stable Diffusion
 
+English | [简体中文](README.zh-CN.md)
+
 by @corenel (Yusu Pan) and OpenAI Deep Research
 
 ## Introduction

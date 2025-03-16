@@ -1,5 +1,7 @@
 # 潜空间变革：FLUX.1 与 Stable Diffusion 的 VAE 架构深度解析及性能对比
 
+[English](README.md) | 简体中文
+
 by @corenel (Yusu Pan) and OpenAI Deep Research
 
 - [潜空间变革：FLUX.1 与 Stable Diffusion 的 VAE 架构深度解析及性能对比](#潜空间变革flux1-与-stable-diffusion-的-vae-架构深度解析及性能对比)

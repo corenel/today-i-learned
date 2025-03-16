@@ -1,5 +1,7 @@
 # Today I Learned
 
+English | [简体中文](README.zh-CN.md)
+
 Welcome to my "Today I Learned" (TIL) repository! This is a personal space to document and share concise notes on various topics I encounter and learn daily. The goal is to create easily digestible snippets of information that can be quickly reviewed and understood. Think of it as a public learning journal to track my learning journey in my free time.
 
 ## Table of Contents

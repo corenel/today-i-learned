@@ -1,5 +1,6 @@
-
 # YOLOE 深入解析
+
+[English](README.md) | 简体中文
 
 by @corenel (Yusu Pan) and LLMs
 

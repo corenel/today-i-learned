@@ -1,5 +1,7 @@
 ## YOLOE In-depth Analysis
 
+English | [简体中文](README.zh-CN.md)
+
 by @corenel (Yusu Pan) and LLMs
 
 - [YOLOE In-depth Analysis](#yoloe-in-depth-analysis)
