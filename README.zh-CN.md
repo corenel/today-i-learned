@@ -20,6 +20,7 @@
 ### 技术阅读汇总
 
 - [2025 年第 10 周](./weekly/2025/2025W10/README.zh-CN.md)：Mac Studio (M3 Ultra)、QwQ-32B 模型、Manus AI Agent 产品等。
+- [2025 年第 11 周](./weekly/2025/2025W11/README.zh-CN.md)：Gemma3、OpenAI Agent SDK、Vibe Coding、YOLOE 等。
 
 ### 生成式人工智能
 
