@@ -23,6 +23,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 
 - [2025W10](./weekly/2025/2025W10/README.md): Mac Studio (M3 Ultra), QwQ-32B model, Manus AI Agent, and more.
 - [2025W11](./weekly/2025/2025W11/README.md): Gemma3, OpenAI Agent SDK, Vibe Coding, YOLOE, and more.
+- [2025W12](./weekly/2025/2025W12/README.md): NVIDIA GTC 2025, IPKVM, SpatialLM, Refly, and more.
 
 ### Generative AI
 
