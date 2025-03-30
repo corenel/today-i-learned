@@ -24,6 +24,7 @@
 - [2025 年第 10 周](./weekly/2025/2025W10/README.zh-CN.md)：Mac Studio (M3 Ultra)、QwQ-32B 模型、Manus AI Agent 产品等。
 - [2025 年第 11 周](./weekly/2025/2025W11/README.zh-CN.md)：Gemma3、OpenAI Agent SDK、Vibe Coding、YOLOE 等。
 - [2025 年第 12 周](./weekly/2025/2025W12/README.zh-CN.md)：NVIDIA GTC 2025 大会、IPKVM 设备、SpatialLM 模型、Refly 应用案例等。
+- [2025 年第 13 周](./weekly/2025/2025W13/README.zh-CN.md)：DeepSeek V3 (0324)、Gemini 2.5 Pro、GPT-4o 图像生成等。
 
 ### 生成式人工智能
 
