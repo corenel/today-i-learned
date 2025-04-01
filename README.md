@@ -30,6 +30,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 
 - [Using Gemini 2.0 Flash for High-Quality Audio Transcription and Analysis](./generative-ai/20250127-gemini-2.0-flash-thinking-for-audio-transcription/README.md): Using Gemini 2.0 Flash Thinking Experimental 01-21 model for high-quality audio transcription and analysis on Bilibili videos.
 - [Latent Space Revolution: A Deep Dive into VAE Architectures and Performance Comparison of Flux.1 and Stable Diffusion](./generative-ai/20250213-latent-vae-flux-sd-comparison/README.md): Deep analysis and performance comparison of VAE in Flux.1 and Stable Diffusion, and other related autoencoders.
+- [The Rise and Fall of Crypko: Analyzing the Origin, Technology, and Shutdown of an AI Anime Character Generation Platform](./generative-ai/20250401-the-rise-and-fall-of-crypko/README.md): A comprehensive analysis of the origin, technology, and shutdown of Crypko, an AI anime character generation platform.
 
 ### Machine Learning
 

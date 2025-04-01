@@ -30,6 +30,7 @@
 
 - [使用 Gemini 2.0 Flash 进行高质量音频转录与分析](./generative-ai/20250127-gemini-2.0-flash-thinking-for-audio-transcription/README.zh-CN.md)：在 Google AI Studio 平台上使用 Gemini 2.0 Flash Thinking Experimental 01-21 模型对 B 站视频的音轨进行高质量音频转录与分析。
 - [潜空间变革：FLUX.1 与 Stable Diffusion 的 VAE 架构深度解析及性能对比](./generative-ai/20250213-latent-vae-flux-sd-comparison/README.zh-CN.md)：深入分析 Flux.1 和 Stable Diffusion 及相关 LDM 架构，特别聚焦其中的 VAE 相关部分，并将其与传统和最新的自编码器方法（如经典卷积自编码器、VQ-VAE、DC-AE 等）进行全面对比。
+- [Crypko (加密娘) 的兴衰：AI 动漫角色生成平台的缘起、技术与终结](./generative-ai/20250401-the-rise-and-fall-of-crypko/README.zh-CN.md)：回顾了 Crypko 项目的缘起与终止，深入分析其技术架构、行业地位、用户影响和衰落原因，以及对 生成式 AI 创业的启示。
 
 ### 机器学习
 
