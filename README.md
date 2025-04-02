@@ -36,6 +36,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 
 - [YOLOE Paper Quick Read](./machine-learning/20250311-yoloe-paper-reading/README.md): A new efficient unified model for real-time object detection and segmentation in open-vocabulary scenarios.
 - [YOLOE In-depth Analysis](./machine-learning/20250312-yoloe-in-depth/README.md): A deep analysis of YOLOE, including its innovative framework, performance evaluation, technological evolution, application fields, and future trends.
+- [Unik3D Paper Quick Read](./machine-learning/20250402-unik3d-paper-reading/README.md): A new general monocular depth estimation framework that can handle any camera model.
 
 ### Robotics
 
