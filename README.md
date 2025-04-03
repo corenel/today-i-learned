@@ -13,6 +13,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [Today I Learned](#today-i-learned)
   - [Table of Contents](#table-of-contents)
     - [Technical Reading Summary](#technical-reading-summary)
+    - [Computer System](#computer-system)
     - [Generative AI](#generative-ai)
     - [Machine Learning](#machine-learning)
     - [Robotics](#robotics)
@@ -25,6 +26,10 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W11](./weekly/2025/2025W11/README.md): Gemma3, OpenAI Agent SDK, Vibe Coding, YOLOE, and more.
 - [2025W12](./weekly/2025/2025W12/README.md): NVIDIA GTC 2025, IPKVM, SpatialLM, Refly, and more.
 - [2025W13](./weekly/2025/2025W13/README.md): DeepSeek V3 (0324), Gemini 2.5 Pro, GPT-4o Image Generation, and more.
+
+### Computer System
+
+- [Insights from John Hennessy: From the RISC Efficiency Revolution to the AI Paradigm Shift, the Next Decade of Computing](./computer-system/20250403-notes-on-john-hennessy-insights/README.md): Turing Award winner John Hennessy has observed that the field of computing is undergoing a profound transformation driven by efficiency. This transformation began with the disruption of processor design concepts by RISC architecture and is now shifting more of the burden of performance enhancement and efficiency optimization to the software layer through heterogeneous computing, domain-specific architectures (DSAs), and artificial intelligence (especially large language models, LLM), against the backdrop of the slowing of Moore's Law.
 
 ### Generative AI
 
