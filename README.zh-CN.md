@@ -26,6 +26,7 @@
 - [2025 年第 11 周](./weekly/2025/2025W11/README.zh-CN.md)：Gemma3、OpenAI Agent SDK、Vibe Coding、YOLOE 等。
 - [2025 年第 12 周](./weekly/2025/2025W12/README.zh-CN.md)：NVIDIA GTC 2025 大会、IPKVM 设备、SpatialLM 模型、Refly 应用案例等。
 - [2025 年第 13 周](./weekly/2025/2025W13/README.zh-CN.md)：DeepSeek V3 (0324)、Gemini 2.5 Pro、GPT-4o 图像生成等。
+- [2025 年第 14 周](./weekly/2025/2025W14/README.zh-CN.md)：Meta、OpenAI、DeepSeek 下一代模型的传闻等。
 
 ### 计算机系统
 
