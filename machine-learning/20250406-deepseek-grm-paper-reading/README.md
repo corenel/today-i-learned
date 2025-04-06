@@ -1,4 +1,4 @@
-# UniK3D Paper Quick Read
+# DeepSeek-GRM Paper Quick Read
 
 English | [简体中文](README.zh-CN.md)
 

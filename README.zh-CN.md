@@ -43,6 +43,7 @@
 - [YOLOE 论文速读](./machine-learning/20250311-yoloe-paper-reading/README.zh-CN.md)：一种用于开放词汇场景下实时目标检测和分割的高效统一模型。
 - [YOLOE 深入解析](./machine-learning/20250312-yoloe-in-depth/README.zh-CN.md)：对 YOLOE 进行深入解析，包括其创新框架、性能表现、技术演进、应用领域和未来趋势等。
 - [Unik3D 论文速读](./machine-learning/20250402-unik3d-paper-reading/README.zh-CN.md)：一个通用的单目深度估计框架，能够处理任意相机模型。
+- [DeepSeek-GRM 论文速读](./machine-learning/20250406-deepseek-grm-paper-reading/README.zh-CN.md)：将推理时计算扩展作为提升通用奖励模型性能的有效路径。
 
 ### 机器人
 
