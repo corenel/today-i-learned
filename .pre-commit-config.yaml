@@ -12,7 +12,7 @@ repos:
         args:
           [
             "--check-filenames",
-            "--ignore-words-list=ned,ser,astroid,ths,aAfter,childRes,thirdparty,ND,parm,empy,ROUGE,MOT,DOTA,Nervana,LOD,Gool,COO",
+            "--ignore-words-list=ned,ser,astroid,ths,aAfter,childRes,thirdparty,ND,parm,empy,ROUGE,MOT,DOTA,Nervana,LOD,Gool,COO,FNR,FPR",
           ]
   - repo: https://github.com/gitleaks/gitleaks
     rev: v8.23.1

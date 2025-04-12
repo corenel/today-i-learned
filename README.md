@@ -27,6 +27,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W12](./weekly/2025/2025W12/README.md): NVIDIA GTC 2025, IPKVM, SpatialLM, Refly, and more.
 - [2025W13](./weekly/2025/2025W13/README.md): DeepSeek V3 (0324), Gemini 2.5 Pro, GPT-4o Image Generation, and more.
 - [2025W14](./weekly/2025/2025W14/README.md): Meta, OpenAI, DeepSeek next-generation model rumors, and more.
+- [2025W15](./weekly/2025/2025W15/README.md): Llama 4 controversy, Google DeepResearch using Gemini 2.5 Pro as a base model, SpatialLM model analysis, and more.
 
 ### Computer System
 
