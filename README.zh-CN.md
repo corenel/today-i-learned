@@ -29,6 +29,7 @@
 - [2025 年第 14 周](./weekly/2025/2025W14/README.zh-CN.md)：Meta、OpenAI、DeepSeek 下一代模型的传闻等。
 - [2025 年第 15 周](./weekly/2025/2025W15/README.zh-CN.md)：Llama 4 争议、Google DeepResearch 使用 Gemini 2.5 Pro 作为基座、SpatialLM 模型解析等。
 - [2025 年第 16 周](./weekly/2025/2025W16/README.zh-CN.md)：OpenAI o3 等新模型、AI 下半场的讨论等。
+- [2025 年第 17 周](./weekly/2025/2025W17/README.zh-CN.md)：DeepWiki、VTracer 等。
 
 ### 计算机系统
 
