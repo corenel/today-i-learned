@@ -30,6 +30,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W15](./weekly/2025/2025W15/README.md): Llama 4 controversy, Google DeepResearch using Gemini 2.5 Pro as a base model, SpatialLM model analysis, and more.
 - [2025W16](./weekly/2025/2025W16/README.md): OpenAI o3, AI second half and more.
 - [2025W17](./weekly/2025/2025W17/README.md): DeepWiki, VTracer and more.
+- [2025W18](./weekly/2025/2025W18/README.md): Qwen 3, NotebookLM multilingual audio overview, and more.
 
 ### Computer System
 
