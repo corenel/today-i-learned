@@ -31,6 +31,7 @@
 - [2025 年第 16 周](./weekly/2025/2025W16/README.zh-CN.md)：OpenAI o3 等新模型、AI 下半场的讨论等。
 - [2025 年第 17 周](./weekly/2025/2025W17/README.zh-CN.md)：DeepWiki、VTracer 等。
 - [2025 年第 18 周](./weekly/2025/2025W18/README.zh-CN.md)：Qwen 3、NotebookLM 多语言音频总结等。
+- [2025 年第 19 周](./weekly/2025/2025W18/README.zh-CN.md)
 
 ### 计算机系统
 
