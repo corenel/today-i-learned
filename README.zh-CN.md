@@ -33,6 +33,7 @@
 - [2025 年第 18 周](./weekly/2025/2025W18/README.zh-CN.md)：Qwen 3、NotebookLM 多语言音频总结等。
 - [2025 年第 19 周](./weekly/2025/2025W18/README.zh-CN.md)
 - [2025 年第 20 周](./weekly/2025/2025W20/README.zh-CN.md)：OpenAI Codex Agent、DeepSeek-V3 的模型 - 硬件协同设计等。
+- [2025 年第 21 周](./weekly/2025/2025W21/README.zh-CN.md)：Google I/O 2025 与 Claude 4 Opus & Sonnet 等。
 
 ### 计算机系统
 
