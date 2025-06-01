@@ -34,6 +34,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W19](./weekly/2025/2025W19/README.md)
 - [2025W20](./weekly/2025/2025W20/README.md): OpenAI Codex Agent, DeepSeek-V3's LLM-Hardware Co-Design, and more.
 - [2025W21](./weekly/2025/2025W21/README.md): Google I/O 2025, Claude 4 Opus & Sonnet, and more.
+- [2025W22](./weekly/2025/2025W22/README.md): DeepSeek-R1-0528 and more.
 
 ### Computer System
 
