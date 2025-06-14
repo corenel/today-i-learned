@@ -36,6 +36,7 @@
 - [2025 年第 21 周](./weekly/2025/2025W21/README.zh-CN.md)：Google I/O 2025 与 Claude 4 Opus & Sonnet 等。
 - [2025 年第 22 周](./weekly/2025/2025W22/README.zh-CN.md)：DeepSeek-R1-0528 等。
 - [2025 年第 23 周](./weekly/2025/2025W23/README.zh-CN.md)：Gemini 2.5 Pro 06-05、2025 北京智源大会等。
+- [2025 年第 24 周](./weekly/2025/2025W24/README.zh-CN.md)：OpenAI o3 pro 等。
 
 ### 计算机系统
 
