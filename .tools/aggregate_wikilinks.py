@@ -96,13 +96,14 @@ def extract_wiki_links(file_path: Path) -> List[str]:
 
     Links that only point to headers within the same file (e.g., [[#A Header]])
     are ignored, as they do not reference external files. The extracted link
-    targets are returned as a unique, sorted list of strings.
+    targets are returned as a unique list of strings, preserving the order of
+    their first appearance.
 
     Args:
         file_path: The `Path` object of the markdown file to parse.
 
     Returns:
-        A sorted list of unique file basenames (without the .md extension)
+        A list of unique file basenames (without the .md extension)
         extracted from the wiki-links. Returns an empty list if the file
         cannot be read or contains no valid links.
     """
@@ -115,16 +116,17 @@ def extract_wiki_links(file_path: Path) -> List[str]:
         content = file_path.read_text(encoding="utf-8")
         raw_targets: List[str] = WIKI_LINK_REGEX.findall(content)
 
-        processed_links: Set[str] = set()
+        unique_links: List[str] = []
+        seen_links: Set[str] = set()
         for target in raw_targets:
             # Get the part before any alias (|) or header/block ref (#)
-            file_basename = target.split("|")[0].split("#")[0]
+            file_basename = target.split("|")[0].split("#")[0].strip()
 
             # Ignore empty links or links that only point to a header in the current file
-            if file_basename:
-                processed_links.add(file_basename.strip())
+            if file_basename and file_basename not in seen_links:
+                unique_links.append(file_basename)
+                seen_links.add(file_basename)
 
-        unique_links = sorted(list(processed_links))
         logger.success(f"Found {len(unique_links)} unique file links.")
         logger.debug(f"File links found: {unique_links}")
         return unique_links
