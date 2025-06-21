@@ -37,6 +37,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W22](./weekly/2025/2025W22/README.md): DeepSeek-R1-0528 and more.
 - [2025W23](./weekly/2025/2025W23/README.md): Gemini 2.5 Pro 06-05, BAAI 2025, and more.
 - [2025W24](./weekly/2025/2025W24/README.md): OpenAI o3 pro and more.
+- [2025W25](./weekly/2025/2025W25/README.md): Claude Code, Gemini 2.5 Family, and more.
 
 ### Computer System
 
