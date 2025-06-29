@@ -38,6 +38,7 @@
 - [2025 年第 23 周](./weekly/2025/2025W23/README.zh-CN.md)：Gemini 2.5 Pro 06-05、2025 北京智源大会等。
 - [2025 年第 24 周](./weekly/2025/2025W24/README.zh-CN.md)：OpenAI o3 pro 等。
 - [2025 年第 25 周](./weekly/2025/2025W25/README.zh-CN.md)：Claude Code、Gemini 2.5 系列等。
+- [2025 年第 26 周](./weekly/2025/2025W26/README.zh-CN.md)：Gemmma 3n、Gemini CLI 等。
 
 ### 计算机系统
 
