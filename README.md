@@ -39,6 +39,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W24](./weekly/2025/2025W24/README.md): OpenAI o3 pro and more.
 - [2025W25](./weekly/2025/2025W25/README.md): Claude Code, Gemini 2.5 Family, and more.
 - [2025W26](./weekly/2025/2025W26/README.md): Gemmma 3n, Gemini CLI, and more.
+- [2025W27](./weekly/2025/2025W26/README.md)
 
 ### Computer System
 
