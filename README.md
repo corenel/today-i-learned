@@ -42,6 +42,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W27](./weekly/2025/2025W26/README.md)
 - [2025W28](./weekly/2025/2025W28/README.md): Grok 4, Kimi-K2, and more.
 - [2025W29](./weekly/2025/2025W29/README.md): ChatGPT Agent, and more.
+- [2025W30](./weekly/2025/2025W30/README.md): Qwen3-235B-A22B-2507, Qwen3-Coder, and more.
 
 ### Computer System
 

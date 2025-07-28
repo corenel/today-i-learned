@@ -42,6 +42,7 @@
 - [2025 年第 27 周](./weekly/2025/2025W26/README.zh-CN.md)
 - [2025 年第 28 周](./weekly/2025/2025W28/README.zh-CN.md): Grok 4、Kimi-K2 等。
 - [2025 年第 29 周](./weekly/2025/2025W29/README.zh-CN.md)：ChatGPT Agent 等。
+- [2025 年第 30 周](./weekly/2025/2025W30/README.zh-CN.md)：Qwen3-235B-A22B-2507、Qwen3-Coder 等。
 
 ### 计算机系统
 
