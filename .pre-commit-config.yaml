@@ -12,7 +12,7 @@ repos:
         args:
           [
             "--check-filenames",
-            "--ignore-words-list=ned,ser,astroid,ths,aAfter,childRes,thirdparty,ND,parm,empy,ROUGE,MOT,DOTA,Nervana,LOD,Gool,COO,FNR,FPR,ACI,AER,BootsTAP,LaMa,UE,GES,LSAT,HDA,AGS,MOSE,TE,Linz,OT,MAPE,dum,MoT,Synopsys,BriGeS,Brin,LoD,SoM,FO,CANN,MoR,FOT,NEET",
+            "--ignore-words-list=ned,ser,astroid,ths,aAfter,childRes,thirdparty,ND,parm,empy,ROUGE,MOT,DOTA,Nervana,LOD,Gool,COO,FNR,FPR,ACI,AER,BootsTAP,LaMa,UE,GES,LSAT,HDA,AGS,MOSE,TE,Linz,OT,MAPE,dum,MoT,Synopsys,BriGeS,Brin,LoD,SoM,FO,CANN,MoR,FOT,NEET,VIE,HSI",
           ]
   - repo: https://github.com/gitleaks/gitleaks
     rev: v8.23.1
