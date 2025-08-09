@@ -44,6 +44,7 @@
 - [2025 年第 29 周](./weekly/2025/2025W29/README.zh-CN.md)：ChatGPT Agent 等。
 - [2025 年第 30 周](./weekly/2025/2025W30/README.zh-CN.md)：Qwen3-235B-A22B-2507、Qwen3-Coder 等。
 - [2025 年第 31 周](./weekly/2025/2025W31/README.zh-CN.md)：OpenAI 开源与 GPT-5 模型消息、GLM-4.5、Qwen3-30B-2507 等。
+- [2025 年第 32 周](./weekly/2025/2025W32/README.zh-CN.md)：GPT-5、Claude Opus 4.1、Qwen-Image 等。
 
 ### 计算机系统
 
