@@ -45,6 +45,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W30](./weekly/2025/2025W30/README.md): Qwen3-235B-A22B-2507, Qwen3-Coder, and more.
 - [2025W31](./weekly/2025/2025W31/README.md): OpenAI Open Source and GPT-5 Model News, GLM-4.5, Qwen3-30B-2507, and more.
 - [2025W32](./weekly/2025/2025W32/README.md): GPT-5, Claude Opus 4.1, Qwen-Image, and more.
+- [2025W33](./weekly/2025/2025W33/README.md): DINOv3 and more.
 
 ### Computer System
 
