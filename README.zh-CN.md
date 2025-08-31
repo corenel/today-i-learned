@@ -47,6 +47,7 @@
 - [2025 年第 32 周](./weekly/2025/2025W32/README.zh-CN.md)：GPT-5、Claude Opus 4.1、Qwen-Image 等。
 - [2025 年第 33 周](./weekly/2025/2025W33/README.zh-CN.md)：DINOv3 等。
 - [2025 年第 34 周](./weekly/2025/2025W34/README.zh-CN.md)：DeepSeek V3.1、Qwen-Image-Edit 等。
+- [2025 年第 35 周](./weekly/2025/2025W35/README.zh-CN.md)：nano-banana 等。
 
 ### 计算机系统
 
