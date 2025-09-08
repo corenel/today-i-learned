@@ -48,6 +48,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W33](./weekly/2025/2025W33/README.md): DINOv3 and more.
 - [2025W34](./weekly/2025/2025W34/README.md): DeepSeek V3.1, Qwen-Image-Edit, and more.
 - [2025W35](./weekly/2025/2025W35/README.md): nano-banana, and more.
+- [2025W36](./weekly/2025/2025W36/README.md): Kimi-K2-0905, and more.
 
 ### Computer System
 
