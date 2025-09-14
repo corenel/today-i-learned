@@ -49,6 +49,7 @@
 - [2025 年第 34 周](./weekly/2025/2025W34/README.zh-CN.md)：DeepSeek V3.1、Qwen-Image-Edit 等。
 - [2025 年第 35 周](./weekly/2025/2025W35/README.zh-CN.md)：nano-banana 等。
 - [2025 年第 36 周](./weekly/2025/2025W36/README.zh-CN.md)：Kimi-K2-0905 等。
+- [2025 年第 37 周](./weekly/2025/2025W37/README.zh-CN.md)：Seedream 4、Qwen3-Next-80B-A3B 等。
 
 ### 计算机系统
 
