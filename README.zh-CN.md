@@ -50,6 +50,8 @@
 - [2025 年第 35 周](./weekly/2025/2025W35/README.zh-CN.md)：nano-banana 等。
 - [2025 年第 36 周](./weekly/2025/2025W36/README.zh-CN.md)：Kimi-K2-0905 等。
 - [2025 年第 37 周](./weekly/2025/2025W37/README.zh-CN.md)：Seedream 4、Qwen3-Next-80B-A3B 等。
+- [2025 年第 38 周](./weekly/2025/2025W38/README.zh-CN.md)：GPT-5-Codex 等。
+- [2025 年第 39 周](./weekly/2025/2025W39/README.zh-CN.md)：Qwen3-Omni 等。
 
 ### 计算机系统
 

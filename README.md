@@ -50,6 +50,8 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W35](./weekly/2025/2025W35/README.md): nano-banana, and more.
 - [2025W36](./weekly/2025/2025W36/README.md): Kimi-K2-0905, and more.
 - [2025W37](./weekly/2025/2025W37/README.md): Seedream 4, Qwen3-Next-80B-A3B, and more.
+- [2025W38](./weekly/2025/2025W38/README.md): GPT-5-Codex, and more.
+- [2025W39](./weekly/2025/2025W39/README.md): Qwen3-Omni, and more.
 
 ### Computer System
 
