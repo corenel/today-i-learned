@@ -53,6 +53,7 @@
 - [2025 年第 38 周](./weekly/2025/2025W38/README.zh-CN.md)：GPT-5-Codex 等。
 - [2025 年第 39 周](./weekly/2025/2025W39/README.zh-CN.md)：Qwen3-Omni 等。
 - [2025 年第 40 周](./weekly/2025/2025W40/README.zh-CN.md)：DeepSeek-V3.2-Exp、Claude Sonnet 4.5、GLM-4.6、Sora 2 等。
+- [2025 年第 41 周](./weekly/2025/2025W41/README.zh-CN.md)
 
 ### 计算机系统
 

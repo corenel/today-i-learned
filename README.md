@@ -53,6 +53,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W38](./weekly/2025/2025W38/README.md): GPT-5-Codex, and more.
 - [2025W39](./weekly/2025/2025W39/README.md): Qwen3-Omni, and more.
 - [2025W40](./weekly/2025/2025W40/README.md): DeepSeek-V3.2-Exp, Claude Sonnet 4.5, GLM-4.6, Sora 2, and more.
+- [2025W41](./weekly/2025/2025W41/README.md)
 
 ### Computer System
 
