@@ -55,6 +55,7 @@
 - [2025 年第 40 周](./weekly/2025/2025W40/README.zh-CN.md)：DeepSeek-V3.2-Exp、Claude Sonnet 4.5、GLM-4.6、Sora 2 等。
 - [2025 年第 41 周](./weekly/2025/2025W41/README.zh-CN.md)
 - [2025 年第 42 周](./weekly/2025/2025W42/README.zh-CN.md)：NVIDIA DGX Spark 等。
+- [2025 年第 43 周](./weekly/2025/2025W43/README.zh-CN.md)：DeepSeek-OCR、ChatGPT Atlas、AWS US-EAST-1 宕机事件等。
 
 ### 计算机系统
 

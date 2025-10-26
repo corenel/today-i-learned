@@ -55,6 +55,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W40](./weekly/2025/2025W40/README.md): DeepSeek-V3.2-Exp, Claude Sonnet 4.5, GLM-4.6, Sora 2, and more.
 - [2025W41](./weekly/2025/2025W41/README.md)
 - [2025W42](./weekly/2025/2025W42/README.md): NVIDIA DGX Spark, and more.
+- [2025W43](./weekly/2025/2025W43/README.md): DeepSeek-OCR, ChatGPT Atlas, AWS Outage, and more.
 
 ### Computer System
 
