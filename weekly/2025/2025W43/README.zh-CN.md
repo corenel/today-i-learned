@@ -112,7 +112,7 @@ by @corenel (Yusu Pan) and LLMs
 
 #### DeepSeek-OCR：以图像化压缩绕过长上下文瓶颈
 
-[[2510.18234v1 DeepSeek-OCR Contexts Optical Compression]]
+[2510.18234v1 DeepSeek-OCR Contexts Optical Compression](https://arxiv.org/html/2510.18234v1)
 
 在大语言模型（LLM）竞相追逐更长上下文窗口的时代，主流研究几乎都聚焦于对 Transformer 核心注意力机制的算法级优化。然而，一篇名为《DeepSeek-OCR: Contexts Optical Compression》的技术报告另辟蹊径，提出一个极富挑战性与启发性的问题：我们是否能够通过转换信息模态本身，从根本上绕过长序列处理的计算瓶颈？该文以光学字符识别（OCR）为试验场，系统地验证了“上下文光学压缩”这一全新概念的可行性，其结果不仅在文档智能领域取得了 SOTA 级别的令牌效率，更对未来多模态大模型乃至 AI 记忆系统的架构设计，投下了一颗蕴含无限可能的石子。
 
@@ -262,7 +262,7 @@ ChatGPT Atlas 的发布，无疑是 AI 发展史上的一个重要事件。但�
 
 #### AWS US-EAST-1 宕机事件复盘：从“区域隔离”的脆弱性到系统性风险的再思考
 
-[[AWS Outage A Single Cloud Region Shouldn’t Take Down the World. But It Did.]]
+[AWS Outage A Single Cloud Region Shouldn’t Take Down the World. But It Did.](https://faun.dev/c/news/devopslinks/aws-outage-a-single-cloud-region-shouldnt-take-down-the-world-but-it-did/)
 
 2025 年 10 月 20 日的 AWS 大规模宕机事件，远不止是一次常规的技术故障通告。它如同一场精准的压力测试，无情地揭开了现代云基础设施光鲜外衣之下，长期被行业所忽视或选择性遗忘的结构性裂痕。当单一区域的“运营问题”足以引发全球互联网的连锁休克时，我们必须重新审视那些被奉为圭臬的架构原则与现实之间的鸿沟。本文将深入剖析此次事件的核心，并结合 Hacker News 社区的集体智慧，旨在超越官方的事后分析报告，提炼出对所有技术从业者——尤其是刚入门的读者——至关重要的深层洞见与启示。
 
@@ -304,7 +304,7 @@ AWS 的这次大规模宕机，为所有技术从业者提供了一个宝贵的�
 
 #### Eight Sleep 事件剖析：物联网“昂贵脆弱性”背后的设计哲学困境
 
-[[The Strangest Fallout from the AWS Outage Smart Mattresses Go Rogue and Ruin Sleep Worldwide]]
+[The Strangest Fallout from the AWS Outage Smart Mattresses Go Rogue and Ruin Sleep Worldwide](https://quasa.io/media/the-strangest-fallout-from-the-aws-outage-smart-mattresses-go-rogue-and-ruin-sleep-worldwide)
 
 2025 年 10 月 20 日，一场源于 AWS US-EAST-1 区域的常规服务中断，意外地将一款高端智能床垫推上了舆论的风口浪尖。当无数 Eight Sleep 用户发现他们价值数千美元的“睡眠教练”变成了一个无法控制的加热器时，一个长期潜伏在物联网（IoT）行业深水区的系统性风险被以一种极具戏剧性的方式暴露出来。本文旨在深入解读这一事件，不仅复盘其技术成因，更意图剖析其背后所揭示的，关乎产品设计哲学、用户所有权以及行业发展路径的深层困境。该事件并非孤例，而是一个极具代表性的缩影，为所有从事软硬件开发、产品设计的专业人士提供了一份代价高昂却又极其宝贵的反面教材。
 
@@ -358,7 +358,7 @@ Eight Sleep 事件不应被视为一家公司的个别失误，而应被全行�
 
 #### TUI IDE 的黄金时代挽歌：一篇关于开发者“心流”体验的深刻反思
 
-[[The IDEs we had 30 years ago... and we lost]]
+[The IDEs we had 30 years ago... and we lost](https://blogsystem5.substack.com/p/the-ides-we-had-30-years-ago-and)
 
 当下的软件开发领域，我们习惯于讨论语言的优劣、框架的迭代和架构的演进。然而，一篇题为《我们 30 年前拥有又已失去的 IDE》的博文，却以一种近乎怀旧的笔触，将我们的视线拉回到一个似乎已被遗忘的角落——MS-DOS 时代的文本用户界面（TUI）集成开发环境。文章通过作者的个人经历，深情回顾了 Borland Turbo C++ 等工具所提供的“心流”体验，并尖锐地指出，尽管历经三十年的技术飞跃，我们在某些核心的开发者体验上，或许不进反退。这篇文章不仅是一篇技术回忆录，更是一份对当代软件设计哲学与开发者生产力困境的深刻反思，在 Hacker News 上引发了数千条评论的激烈辩论，值得每一位从业者深思。
 
@@ -410,7 +410,7 @@ Eight Sleep 事件不应被视为一家公司的个别失误，而应被全行�
 
 #### Shopify 与 RubyGems 争议：开源贡献模式的冲突与反思
 
-[[Dear Rubyists Shopify Isn’t Your Enemy]]
+[Dear Rubyists Shopify Isn’t Your Enemy](https://byroot.github.io/opensource/ruby/2025/10/09/dear-rubyists.html)
 
 近期，围绕 Ruby 社区核心基础设施 RubyGems 的所有权和治理问题，Shopify 与 Ruby Central 之间爆发了一场广受关注的公开争议。这场风波不仅在 Ruby 社区内部引发了剧烈震动，也为整个开源世界提出了一个深刻的议题：当企业巨头深度参与由社区驱动的核心项目时，我们应如何构建一个健康、可持续且互信的合作关系？
 
@@ -458,7 +458,7 @@ Shopify 的“善意”——基于主人翁精神的贡献哲学
 
 #### Operation Triangulation：一次针对苹果芯片隐藏特性的攻击与溯源
 
-[[Operation Triangulation The last (hardware) mystery]]
+[Operation Triangulation The last (hardware) mystery](https://securelist.com/operation-triangulation-the-last-hardware-mystery/111669/)
 
 在网络安全领域，我们时常谈论“纵深防御”，即通过构建软件、内核、硬件等多层安全机制来抵御攻击。苹果的 iOS 生态系统，凭借其严格的应用沙箱、强大的内核防护以及 Secure Enclave 等硬件安全特性，长期被视为这一理念的典范。然而，2023 年底至 2024 年间，由卡巴斯基（Kaspersky）与中国国家互联网应急中心（CNCERT）先后发布的两份报告，共同揭示了一次名为“三角测量行动”（Operation Triangulation）的攻击活动。这次攻击不仅是技术上“最复杂”的，更从根本上动摇了我们对“硬件是最终信任根”这一核心安全假设的信心。它如同一部情节紧凑的技术惊悚片，上篇由安全研究者解剖了一件前所未见的“凶器”，下篇则由国家级取证团队还原了这件凶器在一次真实、长期的网络间谍行动中的应用。本文旨在为刚进入该领域的技术读者提供一份深度解读，系统性地梳理这次攻击的技术机理、现实影响，并探讨其背后隐含的深刻启示。
 
@@ -525,7 +525,7 @@ Shopify 的“善意”——基于主人翁精神的贡献哲学
 
 #### 特斯拉 FSD 的底层逻辑：为何必须放弃规则，全面拥抱端到端 AI？
 
-[[Tesla ICCV 2025 Foundational Model for FSD]]
+[Tesla ICCV 2025 Foundational Model for FSD](https://www.youtube.com/watch?v=wHK8GMc9O5A&t=8s)
 
 在自动驾驶领域，技术路线的争论从未停歇。一方是以 Waymo 为代表的、依赖高精地图和激光雷达的“学院派”；另一方则是以特斯拉为首的、坚持纯视觉和数据驱动的“实战派”。近期，特斯拉 AI 副总裁 Ashok Elluswamy 在 ICCV 大会上的一场演讲，以前所未有的坦诚和深度，系统阐述了其最新的、完全基于端到端神经网络的 FSD 的技术范式。这次分享不仅是一次技术进展的展示，更像是一份宣言，宣告了特斯拉在自动驾驶，乃至通用人工智能领域的根本性思考。对于任何关注自动驾驶和具身智能的专业读者而言，这都是一份不容错过的、极具启发性的参考资料。
 
@@ -564,7 +564,7 @@ Ashok Elluswamy 的这次演讲，为我们理解当前最前沿的自动驾驶�
 
 #### WPS 的三十年沉浮：从用户需求与标书需求的战略分野，看中国软件的生存与崛起之道
 
-[[为什么WPS“又行了”，而有些“信创”不太行？]]
+[为什么 WPS“又行了”，而有些“信创”不太行？](https://podwise.ai/dashboard/episodes/5513099)
 
 在当前“信创”与“国产化”浪潮下，对本土科技产品的讨论往往两极分化。其中，金山办公软件 WPS 是一个无法绕开的复杂样本。它既是信创名单上的标杆，却又是在公开市场中被数亿用户自发选择的日常工具。近期一期《科技乱炖》播客，以三位资深从业者的对谈形式，对“为什么 WPS‘又行了’”这一问题进行了精彩的复盘。这篇非正式的谈话记录，以其丰富的历史细节和鲜明的核心观点，为我们提供了一个极具价值的分析框架，去审视 WPS 三十年来的跌宕起伏，并借此透视中国应用软件产业发展的核心逻辑：即产品的最终成败，分野于其战略重心是锚定在真实的“用户需求”，还是仅仅漂浮在政策性的“标书需求”之上。
 
@@ -611,7 +611,7 @@ WPS 故事的第一个戏剧性转折，出现在 90 年代中期。随着 Windo
 
 #### 仙工智能：在非标的工业世界，打造一个标准化的“机器人大脑”和开放平台
 
-[[对话仙工智能赵越：从造机器人大脑到一站式平台]]
+[对话仙工智能赵越：从造机器人大脑到一站式平台](https://podwise.ai/dashboard/episodes/5518130)
 
 在工业自动化领域，一个长久存在的悖论是：市场需求极度碎片化、非标化，而企业追求的却是可复制、可规模化的商业模式。多数机器人公司在此间摇摆，或深陷项目制的泥潭，或因产品无法适配多样化场景而增长乏力。仙工智能（SEER）则提供了一个极具启发性的解法。他们没有选择直接制造机器人本体去满足无穷尽的非标需求，而是后退一步，聚焦于打造一个标准化的核心控制器——机器人的“大脑”，并以此为基石，逐步演化为一个连接产业链上下游的开放平台。这篇深度访谈记录了其创始人赵越的思考，揭示了一家技术驱动型公司如何通过战略性的价值链取舍和前瞻性的组织建设，在一个混沌的市场中建立秩序，并成长为一个独特的新物种。
 
@@ -651,7 +651,7 @@ WPS 故事的第一个戏剧性转折，出现在 90 年代中期。随着 Windo
 
 #### 阿里创业史：湖畔点兵图霸业，廿载砺剑定风波
 
-[[No.172 阿里创业史：湖畔点兵图霸业，廿载砺剑定风波  中国互联网故事10]]
+[No.172 阿里创业史：湖畔点兵图霸业，廿载砺剑定风波  中国互联网故事 10](https://podwise.ai/dashboard/episodes/5493781)
 
 在探讨中国互联网的演进时，阿里巴巴是一个无法绕开的坐标。然而，公众对其认知往往固化在马云的个人魅力与淘宝的商业成功上。《半拿铁 | 商业沉浮录》的这期播客旨在穿透这些表层叙事，深入剖 - 析阿里巴巴发展史上两次至关重要的战略跃迁：一次是从 C2C 到 B2C 的商业模式重塑，以“天猫”的诞生为标志；另一次则是从业务应用到技术基建的底层变革，以“阿里云”的突围为核心。这两次转型，不仅奠定了阿里后来的商业霸权，更深刻地揭示了一家顶级平台型公司在面对内部增长瓶颈与外部技术浪潮时，如何进行痛苦而决绝的自我革命。对于任何试图理解平台经济与技术战略的读者而言，这段历史都提供了极为深刻的洞察。
 
@@ -697,7 +697,7 @@ WPS 故事的第一个戏剧性转折，出现在 90 年代中期。随着 Windo
 
 #### 侯晓迪：穿越技术热潮周期——硬科技公司的“后炒作时代”生存法则
 
-[[穿越热潮周期，硬技术公司的生存之道｜侯晓迪硅谷101年度线下大会演讲（全英）｜Alignment 2025]]
+[穿越热潮周期，硬技术公司的生存之道｜侯晓迪硅谷 101 年度线下大会演讲（全英）｜Alignment 2025](https://podwise.ai/dashboard/episodes/5495993)
 
 在当前人工智能技术浪潮席卷全球，大语言模型与生成式 AI 正处于“期望膨胀之巅”的时刻，我们似乎很容易忘记，就在几年前，自动驾驶也曾是聚光灯下最耀眼的明星。当一个技术领域从狂热走向冷静，身处其中的创业者将面临怎样的现实？图森未来联合创始人、现 Bot Auto 创始人侯晓迪，在硅谷 101 的年度大会上，以一场极为坦诚和深刻的演讲，为我们揭示了硬科技公司在“后炒作时代”的生存困境与突围之道。这不仅是对自动驾驶行业的一次复盘，更是对所有硬科技领域创业者的一份极具价值的警示录。他提出的“餐厅公式”，是对当前盛行的“增长叙事”和“估值崇拜”的一剂强力解药，引导我们回归商业最朴素的本质。
 
@@ -743,7 +743,7 @@ WPS 故事的第一个戏剧性转折，出现在 90 年代中期。随着 Windo
 
 #### HarmonyOS NEXT 解读：从危机应对到生态重构的战略抉择与路径探索
 
-[[No.173 中国操作系统简史：从混沌初开到鸿蒙降世]]
+[No.173 中国操作系统简史：从混沌初开到鸿蒙降世](https://podwise.ai/dashboard/episodes/5507863)
 
 在当代科技产业的版图中，操作系统的竞争无疑是最高维度的对决。它不仅关乎技术架构的优劣，更是一场关于生态、标准与话语权的持久战。当华为在外部极限压力下，毅然决然地推动其鸿蒙操作系统（HarmonyOS）从兼容安卓的过渡形态，走向彻底独立的“纯血”版本——HarmonyOS NEXT，这已不再是一次简单的产品迭代，而是一场地缘政治棋局下的战略性摊牌，一次对全球操作系统双寡头垄断格局的正面挑战。本文旨在深入剖析所附的播客文稿，系统性地梳理鸿蒙从孕育到诞生的完整脉络，解读其在技术路线、生态构建与战略抉择上的深层逻辑，并对其面临的挑战与未来前景进行审慎评估。
 
@@ -790,7 +790,7 @@ WPS 故事的第一个戏剧性转折，出现在 90 年代中期。随着 Windo
 
 #### 警惕“代码洁癖”：函数分解的隐性成本与决策模型
 
-[[LoC Is a Dumb Metric for Functions]]
+[LoC Is a Dumb Metric for Functions](https://theaxolot.wordpress.com/2025/10/18/loc-is-a-dumb-metric-for-functions/)
 
 在软件开发的日常实践中，“函数应该短小”几乎是一条不言自明的金科玉律。无数的“Clean Code”指南和代码风格规范，都在强化这一认知。然而，任何未经审视的“最佳实践”，都有可能成为阻碍我们做出更优决策的思维枷钢。本文所解读的文章《LoC Is a Dumb Metric for Functions》，正是对这一行业“常识”发起的一次犀利而深刻的挑战。文章作者 The Axolot 并非简单地提倡编写长函数，而是提供了一套用于评估函数分解成本与收益的强大分析框架。本文旨在深入剖析其核心论点，并结合 Hacker News 社区的多元化讨论，为技术读者提供一个超越表面规则、回归软件设计本质的思辨视角。这不仅是对一个具体编程实践的探讨，更是对如何在规则的刚性与工程的柔性之间取得精妙平衡的深度思考。
 
@@ -833,7 +833,7 @@ Hacker News 社区对此文的讨论，为这一话题增添了至关重要的�
 
 #### 回顾 Uber 的技术分野：从 PostgreSQL 到 MySQL 的架构权衡与反思
 
-[[Why Uber Engineering Switched from Postgres to MySQL]]
+[Why Uber Engineering Switched from Postgres to MySQL](https://www.uber.com/en-SG/blog/postgres-to-mysql-migration/)
 
 2016 年，Uber Engineering 发布了一篇题为《Why Uber Engineering Switched from Postgres to MySQL》的文章，迅速成为数据库领域最具争议和影响力的案例研究之一。它不仅详细阐述了一家超大规模（Hyperscale）公司在技术选型上的艰难抉择，更以一种近乎解剖的方式，深入到了两种主流关系型数据库——PostgreSQL 与 MySQL（InnoDB）——最底层的架构哲学差异。尽管时过境迁，文章所基于的 PostgreSQL 9.2 版本已显陈旧，但其揭示的核心问题、论证逻辑以及引发的社区反思，至今仍对我们理解数据库选型、系统架构乃至技术文化具有非凡的参考价值。本文旨在对这次经典的技术迁移进行一次全面的回顾与深度解读，辨析其在当下的现实意义。
 
@@ -872,7 +872,7 @@ PostgreSQL 的 MVCC 依赖于不可变的行“元组”（tuple）。当执行 
 
 #### 从两个 UNIX 信号到一个消息队列：一次进程间通信原理的复现
 
-[[You don't need Kafka Building a message queue with only two UNIX signals]]
+[You don't need Kafka Building a message queue with only two UNIX signals](https://leandronsp.com/articles/you-dont-need-kafka-building-a-message-queue-with-only-two-unix-signals)
 
 在现代软件开发中，我们习惯于站在高层抽象之上，使用如 Kafka、RabbitMQ 或 gRPC 这样功能强大且封装完善的工具来解决复杂的通信问题。然而，这些工具的底层基石究竟为何？当我们剥离所有华丽的封装，回到最原始的起点，我们能用操作系统提供的最基础单元做什么？Leandro 的文章《你不需要 Kafka：仅用两个 UNIX 信号构建消息队列》正是这样一次引人入胜的“返璞归真”之旅。它以一个看似荒谬的命题为引，带领我们完成了一项极限的技术挑战，其最终目的并非提供一个可用的替代品，而是对进程间通信（IPC）、二进制协议和系统设计本质的一次深刻的教学实践。
 
@@ -920,7 +920,7 @@ Leandro 的文章是一次智力上的特技飞行，它用一种极端的方式
 
 #### GPU 经济寿命的再审视：从超大规模数据中心的折旧策略看 AI 资产的真实价值
 
-[[How Long Do GPUs Last Anyway? A Look Into Hyperscalers' Depreciation Policies, GPUaaS Unit Economics]]
+[How Long Do GPUs Last Anyway? A Look Into Hyperscalers' Depreciation Policies, GPUaaS Unit Economics](https://appliedconjectures.substack.com/p/how-long-do-gpus-last-anyway-a-look)
 
 在当前由生成式 AI 驱动的资本支出浪潮中，全球超大规模数据中心（Hyperscalers）正以前所未有的规模投资于以 GPU 为核心的计算基础设施。与此并行，一个关键的会计问题浮出水面，并引发了投资者与分析师的广泛争议：这些科技巨头普遍将其服务器资产的折旧年限延长至五至六年。此举虽能显著优化当期利润表，却也招致了对其盈利质量与估值合理性的质疑。批评者认为，鉴于 NVIDIA 等供应商约两年的产品迭代周期，这种会计处理方式可能过于激进。本文正是对这一核心争议的深入剖析，它没有停留在会计准则的理论辩论，而是通过对市场数据和单元经济的严谨分析，试图回答一个根本性问题：AI 时代下的核心计算资产，其真实的经济寿命究竟有多长？
 
@@ -968,7 +968,7 @@ Leandro 的文章是一次智力上的特技飞行，它用一种极端的方式
 
 #### Aria Gen 2：Meta 为实时情境 AI 打造的下一代研究基石
 
-[[Aria Gen 2 Applications Are Now Open]]
+[Aria Gen 2 Applications Are Now Open](https://www.meta.com/blog/aria-gen-2-updates/)
 
 当一个技术平台被冠以“阶跃式变化”（step change）的描述时，它所承载的往往不仅是性能参数的线性提升，更是一种研究范式或应用哲学的根本性转变。Meta 最新发布的 Project Aria Gen 2，正是这样一个旨在重塑以第一人称视角（egocentric）为核心的 AI 研究的战略性平台。它并非一款面向消费者的产品，而是 Meta 为全球顶尖研究者精心打造的一套“未来开发工具包”。通过对官方发布的白皮书与相关资料的深度剖析，我们可以看到，Aria Gen 2 的核心目标，是推动 AI 研究的重心从离线数据集的构建与分析，迁移至实时、闭环、多模态的情境感知与交互。本文将对其技术革新、设计哲学及其对相关领域的深远影响进行专业解读。
 
@@ -1023,7 +1023,7 @@ Aria Gen 2 已经搭好了一个通往未来的舞台，而舞台上将上演怎
 
 #### PoE 以太网供电实践：从标准演进到电路设计入门
 
-[[PoE basics and beyond What every engineer should know]]
+[PoE basics and beyond What every engineer should know](https://www.edn.com/poe-basics-and-beyond-what-every-engineer-should-know/)
 
 以太网供电（PoE）技术，早已从一个新奇概念演变为现代网络基础设施的基石。然而，对于许多刚入门的工程师或系统集成商而言，PoE 的认知常常停留在“一根网线解决供电与数据”的表层价值上。T. K. Hareendran 在 EDN 上发布的这篇文章，辅以 Hacker News 社区的激烈讨论，共同构成了一份极其宝贵的参考资料。它们不仅系统地拆解了 PoE 的技术内涵，更揭示了其在真实部署中所面临的实践挑战与安全考量。本文旨在对这些内容进行一次深度解读，为技术读者提供一个从理论基础到实践避坑的完整导航。
 
@@ -1087,7 +1087,7 @@ Hareendran 的文章聚焦于电气工程视角，确保设备不被烧毁。然
 
 #### 为“扫读者”设计：OpenAI 技术文档写作的核心原则
 
-[[What makes documentation good - OpenAI Cookbook]]
+[What makes documentation good - OpenAI Cookbook](https://github.com/openai/openai-cookbook/blob/main/articles/what_makes_documentation_good.md)
 
 在技术领域，我们常常陷入一个怪圈：投入巨大精力创造出功能强大的产品，却为其配备了晦涩难懂、令人望而生畏的文档。糟糕的文档不仅是沟通的失败，更是对产品价值的直接削弱，它在开发者与产品之间筑起了一道无形的高墙。我们不禁要问：究竟是什么造就了优秀的文档？OpenAI 在其著名的“Cookbook”仓库中，给出了一份堪称典范的回答。这篇文章并非一本详尽的风格手册，而是一份直指问题本质的思维框架，它将文档写作从单纯的“文字工作”提升到了“用户体验设计”的高度。本文旨在深度解读这份指南，向所有技术从业者——无论是开发者、产品经理还是专业写作者——推荐这篇值得反复阅读的经典之作。
 
@@ -1140,7 +1140,7 @@ OpenAI 的这份技术写作指南，远不止是一系列技巧的罗列。它�
 
 #### 渡海劫波：吴石、蔡孝乾与白色恐怖下的台海谍战
 
-[[442 渡海劫波：吴石、蔡孝乾与白色恐怖下的台海谍战]]
+[442 渡海劫波：吴石、蔡孝乾与白色恐怖下的台海谍战](https://podwise.ai/dashboard/episodes/5498125)
 
 当谍战剧的热潮将吴石将军的传奇事迹再次推向公众视野，我们有必要超越戏剧化的英雄叙事，深入历史的肌理，去探寻那场 70 多年前的悲剧背后更为复杂的动因与后果。近期一期播客节目《忽左忽右：渡海劫波》，以抽丝剥茧的分析，为我们提供了一个绝佳的范本。它不仅仅是复述一个已知的间谍故事，更是通过对关键事件的链式反应、高层政治的权力博弈以及历史叙述本身的批判性质询，深刻揭示了吴石案是如何成为一个历史的枢纽，在此处，中共情报工作的系统性失败、国民党政权的垂死挣扎与冷战格局的骤然形成三条线索，不幸地交汇在一起。本文旨在对该播客的核心洞见进行梳理与解读，以期为理解那段风云变幻的台海历史，提供一个更为立体和深刻的视角。
 
@@ -1186,7 +1186,7 @@ OpenAI 的这份技术写作指南，远不止是一系列技巧的罗列。它�
 
 #### “降本增效”与“表演式烟火气”：日本餐饮企业在中国市场的成功之道
 
-[[E210｜日本“失去的30年”，炼成了中国餐厅排队王？]]
+[E210｜日本“失去的 30 年”，炼成了中国餐厅排队王？](https://podwise.ai/dashboard/episodes/5502660)
 
 在中国餐饮市场深陷“价格内卷”与增长焦虑的当下，一个反常的现象正引发业界的广泛关注：以寿司郎、滨寿司为代表的日本连锁餐饮品牌，在并未采取极端低价策略的情况下，逆势成为一线城市商圈的“排队王”，其母公司在资本市场的表现亦是高歌猛进。这不禁让人发问：这些诞生于日本“失去的三十年”这一严酷经济环境中的企业，究竟掌握了何种穿越周期的秘诀，得以在今日的中国市场大放异彩？
 
@@ -1232,7 +1232,7 @@ OpenAI 的这份技术写作指南，远不止是一系列技巧的罗列。它�
 
 #### 从 DeepSeek 的视觉压缩到近代史的“共情”陷阱：技术与历史叙事中的“降维”与“升维”
 
-[[第186期 以史为鉴明辨是非]]
+[第 186 期 以史为鉴明辨是非](https://podwise.ai/dashboard/episodes/5523232)
 
 在一个信息过载、观点极化的时代，真正的洞见往往来源于一种稀缺的能力：跨越学科边界，识别出隐藏在不同现象背后的共通模式。《后互联网时代的乱弹》的一期播客，通过串联起日本政坛动向、比特币没收案、AI 技术前沿以及近代史的思辨，为我们提供了一个绝佳的范例。它探讨的虽是相互独立的时事热点，但其内核却贯穿着一条深刻的主线——我们该如何应对信息世界中无处不在的“降维”操作，并努力实现认知上的“升维”。本文旨在深度解读这期播客，揭示其在技术与历史叙事中发现的共通逻辑，并为身处复杂世界中的我们提供一份认知上的导航图。
 
@@ -1275,7 +1275,7 @@ OpenAI 的这份技术写作指南，远不止是一系列技巧的罗列。它�
 
 #### 杨振宁：超越诺奖的物理学大家与“得失寸心知”的世纪人生
 
-[[No.17 特别篇  杨振宁：文章千古事，得失寸心知]]
+[No.17 特别篇  杨振宁：文章千古事，得失寸心知](https://podwise.ai/dashboard/episodes/5491983)
 
 杨振宁先生的离世，标志着一个物理学英雄时代的终结。公众对他生平的认知，往往由“诺贝尔奖得主”、“与李政道决裂”、“晚年婚姻”等高度标签化的事件构成。然而，这些碎片化的印象远不足以勾勒出这位科学巨匠的全貌。本次推荐的播客节目《半拿铁·周刊》特别篇，正是在这一背景下，提供了一次宝贵的“祛魅”与“重塑”的尝试。它以传记式的叙事手法，meticulously 梳理了杨振宁先生跨越一个多世纪的生命轨迹。这篇解读将深入剖析该播客的核心内容，不仅旨在重述其生平，更试图揭示其科学贡献的真实分量、剖析其人生关键抉择背后的复杂动因，并对其争议点提供一个更具历史纵深和批判性思维的审视角度。对于任何希望理解杨振宁——这位深刻影响了 20 世纪物理学进程，并与中国命运紧密相连的复杂人物——的读者而言，这篇解读与它所基于的播客内容，都将是一次极具价值的思想之旅。
 
@@ -1331,7 +1331,7 @@ OpenAI 的这份技术写作指南，远不止是一系列技巧的罗列。它�
 
 #### 你的 RAG 为何在生产中表现平平？来自 500 万份文档的实践答案
 
-[[Production RAG what I learned from processing 5M+ documents]]
+[Production RAG what I learned from processing 5M+ documents](https://blog.abdellatif.io/production-rag-processing-5m-documents)
 
 当几乎所有开发者都能用 Langchain 在一个下午搭建起一个 RAG（检索增强生成）原型时，一个更为严峻的问题浮出水面：如何将这个在“无菌”环境下运行良好的玩具，锻造成能处理数百万份文档、应对真实世界复杂查询的生产级系统？本文作者通过其在两个大型企业项目中处理累计超过 1300 万页文档的亲身经历，给出了一份极为坦诚且极具价值的实践报告。文章摒弃了对时髦技术的追逐，以投资回报率（ROI）这一务实标尺，清晰地剖析了那些真正能“扭转战局”（move the needle）的关键技术环节，对于任何试图将 RAG 技术产品化的团队来说，这都是一份不容错过的“战壕生存指南”。
 
@@ -1369,7 +1369,7 @@ RAG 性能的真正瓶颈：超越“天真”的向量检索
 
 #### Claude Code for web：以沙盒安全为基础，探索异步 AI 代理的未来
 
-[[Claude Code for web—a new asynchronous coding agent from Anthropic]]
+[Claude Code for web—a new asynchronous coding agent from Anthropic](https://simonwillison.net/2025/Oct/20/claude-code-for-web/#atom-everything)
 
 在人工智能辅助开发的浪潮中，我们正见证着一场深刻的范式转移：从作为“副驾驶”的实时代码补全，到能够独立承担开发任务的“自主工程师”。Anthropic 最新发布的 Claude Code for web 并非仅仅是其备受赞誉的 CLI 工具的云端化身，更是一份关于如何在赋予 AI 强大自主权的同时，确保其行为安全可控的技术宣言。本文旨在深入解读 Claude Code for web，揭示其便捷 UI 之下，所蕴含的关于异步 AI 代理与系统级安全深度融合的战略思考，及其对未来开发工作流的潜在影响。
 
@@ -1411,7 +1411,7 @@ Claude Code for web 的发布，标志着 AI 编码工具的竞争已进入深�
 
 #### 程序员的身份危机：当手艺沦为操作，我们正在失去什么？
 
-[[The Programmer Identity Crisis]]
+[The Programmer Identity Crisis](https://hojberg.xyz/the-programmer-identity-crisis/)
 
 在人工智能（AI）浪潮席卷全球，业界普遍为“10 倍生产力”而欢呼的当下，一篇名为《程序员的身份危机》（The Programmer Identity Crisis）的文章，如同一声刺耳的警钟，在开发者社区引发了广泛的共鸣与深刻的思辨。作者西蒙·霍伊伯格（Simon Højberg）以一种近乎悲鸣的笔触，描绘了大型语言模型（LLM）如何将编程这门精深的手艺（Craft），侵蚀为一种肤浅的操作（Operation）。这篇评论不仅是对一种工作方式逝去的哀叹，更是一次对软件开发核心价值的根本性质问。它迫使我们从喧嚣的 AI 炒作中抽身，重新审视：当代码可以被轻易生成，我们作为程序员，究竟在失去什么？又该坚守什么？
 
@@ -1448,7 +1448,7 @@ Claude Code for web 的发布，标志着 AI 编码工具的竞争已进入深�
 
 #### a16z：软件开发的“战国时代”与万亿美元新牌桌
 
-[[The Trillion Dollar AI Software Development Stack]]
+[The Trillion Dollar AI Software Development Stack](https://a16z.com/the-trillion-dollar-ai-software-development-stack/)
 
 当人工智能开始撼动内容创作、客户服务乃至科学研究等各个领域时，一个更具颠覆性的变革正在其“母体”——软件开发行业内部悄然发生。来自硅谷顶级风险投资机构 Andreessen Horowitz (a16z) 的最新长文《The Trillion Dollar AI Software Development Stack》，以其一贯的宏大叙事与敏锐洞察，精准地描绘了这场变革的全景。文章不仅宣告了一个由 AI 驱动的、价值万亿美元新市场的诞生，更系统性地解构了正在形成的全新 AI 原生软件开发技术栈。本文旨在为技术决策者、开发者及创新者深度解读这份纲领性文件，剖析其核心论点、底层逻辑，并审视其背后可能存在的局限性。
 
@@ -1499,7 +1499,7 @@ a16z 的《The Trillion Dollar AI Software Development Stack》以其宏大的�
 
 #### 从 DeepSeek 到 Agent 元年：解读 2025 年 AI 的增长极限与范式转移
 
-[[2025 AI 现场：我们这一年的目击与狂想]]
+[2025 AI 现场：我们这一年的目击与狂想](https://podwise.ai/dashboard/episodes/5498820)
 
 2025 年，人工智能的叙事在狂热与冷静的交织中，抵达了一个微妙的临界点。当模型的迭代速度不再带来颠覆性的认知冲击，当用户增长曲线开始放缓，当资本市场的亢奋与一级投资的审慎形成鲜明对比，我们应如何理解这一年的变局？“十字路口 Crossing”最新一期播客《2025 AI 现场：我们这一年的目击与狂想》，邀请了行业深度观察者庄明浩，对这一年的关键事件和底层逻辑进行了全景式复盘。这不仅是一份年度总结，更是一次极具洞察力的诊断，它提出了一个核心论断：2025 年是 AI 发展的“拐点之年”，一个技术、产品、资本均触及阶段性极限，并孕育着深刻变革的十字路口。本文旨在对该播客的核心观点进行深度解读与分析。
 
@@ -1539,7 +1539,7 @@ a16z 的《The Trillion Dollar AI Software Development Stack》以其宏大的�
 
 #### 从“画皮”到“操偶”：参数化 3D 内容生成与具身智能的运动学基座
 
-[[E210｜站在内容创作者与机器人的交界处：聊聊3D数字人的进化]]
+[E210｜站在内容创作者与机器人的交界处：聊聊 3D 数字人的进化](https://podwise.ai/dashboard/episodes/5515531)
 
 当 Sora 2 以其惊人的文生视频能力席卷科技圈时，一个更深层次的问题随之浮现：在像素的狂欢之后，我们如何才能创造出真正可交互、可控制、可规模化的“数字生命”？近期，硅谷 101 的一期播客，邀请了魔珐科技创始人柴金祥教授，为我们提供了一个极具洞察力的答案。这篇访谈的价值，不仅在于揭示了一家公司在前沿技术上的突破，更在于它清晰地勾勒出一条从计算机图形学到具身智能，跨越二十年学术传承与产业实践的、螺旋上升的技术演进路线。对于任何关注生成式 AI、人机交互与机器人领域的专业读者而言，这都是一次不容错过的深度对话。
 
@@ -1596,7 +1596,7 @@ a16z 的《The Trillion Dollar AI Software Development Stack》以其宏大的�
 
 #### AI 算力牌局的两种打法：CoreWeave 的杠杆豪赌与 Nebius 的全栈深耕
 
-[[Neocloud云端对决：一场举债扩张下的AI高风险进击]]
+[Neocloud 云端对决：一场举债扩张下的 AI 高风险进击](https://podwise.ai/dashboard/episodes/5513415)
 
 在当前由人工智能主导的技术浪潮中，算力已成为定义创新边界的核心战略资源。当公众的目光聚焦于大语言模型的迭代与应用时，一个更为基础且暗流涌动的战场——AI 基础设施层——正在经历一场深刻的结构性变革。本期播客的文字稿，为我们提供了一份关于新兴“新云”（Neocloud）市场的精彩剖析。它通过并置两家代表性企业——CoreWeave 与 Nebius——的发展路径，不仅揭示了这个千亿美元赛道得以形成的结构性缺口，更深刻地解构了两种截然不同的商业哲学：一方是金融资本驱动下的极致杠杆扩张，另一方则是技术底蕴支撑下的全栈式稳健崛起。对于任何希望理解 AI 价值链、评估相关投资风险，或洞察未来云计算格局的专业读者而言，这都是一份不容错过的深度文本。
 
@@ -1700,7 +1700,7 @@ Arvid Kahl @arvidkahl [2025-10-20](https://x.com/arvidkahl/status/19803951254205
 #### tinygrad：在 Apple M 芯片上通过 USB4 运行 AMD 与 NVIDIA GPU 的开源方案
 
 > [!NOTE]
-> 之前也有使用 USB3 的方案：[[Thread by @__tinygrad__ - the worlds first AMD GPU driven over USB3]]
+> 之前也有使用 USB3 的方案：[Thread by @__tinygrad__ - the worlds first AMD GPU driven over USB3](https://x.com/__tinygrad__/status/1920960070055080107?s=12&t=_TGttdSvvxvf3v4RXMA2vg)
 
 the tiny corp @tinygrad [2025-10-16](https://x.com/__tinygrad__/status/1978648251558690843)
 
@@ -2014,7 +2014,7 @@ Saining Xie @sainingxie [2025-10-23](https://x.com/sainingxie/status/19812934489
 
 #### SAM 2++: 解耦记忆，实现从掩码到点的统一追踪
 
-[[2510.18822v2 SAM 2++ Tracking Anything at Any Granularity]]
+[2510.18822v2 SAM 2++ Tracking Anything at Any Granularity](https://arxiv.org/html/2510.18822v2/)
 
 长期以来，视频追踪（Video Tracking）领域呈现出一种“诸侯割据”的碎片化态势。根据目标状态粒度的不同——从像素级的掩码（VOS），到实例级的边界框（SOT），再到特征级的关键点（PT）——研究者们开发出了一系列高度特化、互不兼容的模型架构。这种范式在深化特定任务性能的同时，也带来了显著的模型冗余和泛化瓶颈。近期，来自南京大学、腾讯等机构的研究者在论文《SAM 2++: Tracking Anything at Any Granularity》中，基于强大的视觉基础模型 SAM 2，提出了一种名为 SAM 2++ 的统一追踪框架，旨在以一个单一模型，实现对任意粒度目标的 SOTA 级追踪，并取得了突破性成果。这项工作不仅在多个主流追踪基准上刷新了记录，其核心的“任务自适应记忆”机制和“数据 - 模型”协同进化的构建思路，更为视频理解乃至通用视觉模型的设计提供了极具价值的参考。
 
@@ -2071,7 +2071,7 @@ SAM 2++ 是一项里程碑式的工作。它不仅提供了一个在多项任务
 
 #### VLM-GIST: 协同 VLM 的“慢思考”与专用模型的“快反应”，实现对任意物体的实时定位与追踪
 
-[[2503.16538v2 Leveraging Vision-Language Models for Open-Vocabulary Instance Segmentation and Tracking]]
+[2503.16538v2 Leveraging Vision-Language Models for Open-Vocabulary Instance Segmentation and Tracking](https://arxiv.org/html/2503.16538v2)
 
 近年来，视觉语言模型（VLM）在多模态理解方面取得了革命性进展，为机器人赋予了前所未有的场景理解潜力。然而，如何将 VLM 强大的语义能力转化为机器人所需的、实时的、可执行的物理世界感知，始终是一个悬而未决的挑战。来自波恩大学的研究团队在论文《Leveraging Vision-Language Models for Open-Vocabulary Instance Segmentation and Tracking》中，提出了一种名为 VLM-GIST 的系统性解决方案。该工作并非致力于创造一个全新的模型，而是通过一种极具工程智慧的模块化架构，巧妙地协同组合了多个现有的基础模型，不仅有效规避了 VLM 在直接应用于机器人时的固有缺陷，更在真实世界的复杂任务中展现出卓越的性能与鲁棒性。本文是对该工作的一次深度解读，旨在为从事机器人、计算机视觉与人工智能交叉领域研究的同行提供一份有价值的参考。
 
@@ -2120,7 +2120,7 @@ VLM-GIST 的实现巧妙地将感知任务分解为一个“慢思考”和一�
 
 #### REALM：一种 AI 协作框架，赋予语言模型 3D 场景理解与交互能力
 
-[[2510.16410v1 REALM An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting]]
+[2510.16410v1 REALM An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting](https://arxiv.org/html/2510.16410v1)
 
 在连接人类语言与三维物理世界的征途上，我们长期面临一个核心困境：拥有精确空间感知能力的 3D 模型缺乏高级推理能力，而具备强大推理能力的语言模型则缺少三维“实体感”。这形成了人工智能领域一条深刻的“语义鸿沟”。近期由北京大学与杭州电子科技大学的研究者们共同发表的论文《REALM》，没有选择在任一端进行“增量式”改进，而是提出了一种极具启发性的代理（Agent）框架，通过巧妙地编排多个前沿的预训练模型，成功地将大型多模态模型（MLLM）卓越的二维推理能力“提升”至三维空间。这不仅在多个基准上实现了性能的巨大突破，更重要的是，它为如何构建能够与复杂物理世界进行深度语义交互的智能系统，提供了一个优雅且务实的范式。本文将对 REALM 的核心设计、技术贡献及其对业界的深远启示进行深度解读。
 
@@ -2152,7 +2152,7 @@ GLSpaG 的设计哲学，本质上是一种主动视觉（Active Vision）和注
 
 #### SAM 3：用“AI”生产数据，让分割理解“概念”
 
-[[SAM 3 Segment Anything with Concepts]]
+[SAM 3 Segment Anything with Concepts](https://openreview.net/forum?id=r35clVtGzw)
 
 在基础模型层出不穷的今天，Segment Anything Model (SAM) 系列一直是视觉分割领域的标杆。然而，其最新进展 SAM 3 远非一次简单的迭代升级。这篇论文的核心贡献，与其说是模型本身，不如说是一套全新的、将模型、数据与人机协作深度耦合的系统工程方法论。它通过定义一项更具实用价值的新任务——可提示概念分割 (PCS)，并为此构建了一个前所未有的 AI 辅助数据引擎，最终实现了模型能力的代际飞跃。对于所有关注基础模型、数据中心 AI 以及计算机视觉应用的专业读者而言，这篇工作所展示的不仅仅是一个新的 SOTA 模型，更是一个关于未来如何高效、规模化地构建强大事能 AI 的清晰蓝图。
 
@@ -2190,7 +2190,7 @@ SAM 3 在详尽的实验中展现了压倒性的优势。在 LVIS 上的零样�
 
 #### LCFM：迈向可迁移与高效的 LiDAR 基础世界模型
 
-[[2506.23434v2 Towards foundational LiDAR world models with efficient latent flow matching]]
+[2506.23434v2 Towards foundational LiDAR world models with efficient latent flow matching](https://arxiv.org/html/2506.23434v2)
 
 在自动驾驶与机器人领域，构建能够理解并预测三维世界动态的“世界模型”已成为核心议题。然而，当前主流的 LiDAR 世界模型普遍面临两大瓶颈：其一，模型高度特化，在新传感器或新环境下泛化能力不足，导致重复开发的成本高昂；其二，模型结构（尤其是基于扩散模型的生成范式）计算密集，训练与推理效率低下，严重制约了研究迭代与实际部署。
 
@@ -2238,7 +2238,7 @@ SAM 3 在详尽的实验中展现了压倒性的优势。在 LVIS 上的零样�
 
 #### ORAD-3D：为自动驾驶研究打造的“越野考场”
 
-[[2510.16500v1 Advancing Off-Road Autonomous Driving The Large-Scale ORAD-3D Dataset and Comprehensive Benchmarks]]
+[2510.16500v1 Advancing Off-Road Autonomous Driving The Large-Scale ORAD-3D Dataset and Comprehensive Benchmarks](https://arxiv.org/html/2510.16500v1)
 
 在自动驾驶技术日益渗透城市交通脉络的今天，一个广袤而充满挑战的领域——非结构化越野环境——仍是横亘在完全自主系统面前的一道技术天堑。长期以来，该领域的研究受限于数据的稀缺性与场景的局限性，导致算法的鲁棒性与泛化能力难以得到充分验证。近期发表的论文《Advancing Off-Road Autonomous Driving: The Large-Scale ORAD-3D Dataset and Comprehensive Benchmarks》，通过构建并发布迄今为止规模最大、多样性最强的越野自动驾驶数据集 ORAD-3D，并围绕其建立了一套前瞻性的综合评测基准，直击了这一核心痛点。这不仅是一项填补空白的数据集工作，更是一次试图为整个领域设定新范式、指明未来方向的战略性布局。对于任何致力于提升自动驾驶系统在真实世界复杂场景下可靠性的研究者与开发者而言，深入理解 ORAD-3D 的构建理念、数据特性及其基准设计的深层考量，都将是不可或缺的一环。
 
@@ -2278,7 +2278,7 @@ ORAD-3D 的发布，为越野自动驾驶及相关领域的研究者提供了明
 
 #### OmniNWM：构建统一状态、动作与奖励的全知驾驶世界模型
 
-[[2510.18313v1 OmniNWM Omniscient Driving Navigation World Models]]
+[2510.18313v1 OmniNWM Omniscient Driving Navigation World Models](https://arxiv.org/html/2510.18313v1)
 
 在自动驾驶技术的演进中，“世界模型”已成为实现高级别自主决策的核心技术路径。理想的世界模型应能作为一个高保真、可交互的模拟环境，以加速算法的开发与验证。然而，现有模型普遍面临状态表征片面、动作控制精度不足、以及缺乏内生评估机制等核心挑战。近日，一篇名为《OmniNWM: Omniscient Driving Navigation World Models》的研究，直面这些挑战，提出了一个在状态（State）、动作（Action）和奖励（Reward）三个维度上实现高度统一的全知驾驶世界模型，为该领域树立了新的标杆。该工作不仅在多项生成与控制指标上达到了业界顶尖水平，更重要的是，它通过一个自洽的闭环框架，展示了世界模型作为下一代自动驾驶研发平台的巨大潜力。
 
@@ -2320,7 +2320,7 @@ OmniNWM 巧妙地利用其生成的 3D 占据信息，构建了一个基于物�
 
 #### Dream4Drive：通过编辑真实场景，用少量高质量数据提升自动驾驶感知
 
-[[2510.19195v1 Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks]]
+[2510.19195v1 Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks](https://arxiv.org/html/2510.19195v1)
 
 在数据驱动的自动驾驶领域，获取覆盖长尾场景的训练数据，始终是制约感知模型性能与安全性的核心瓶颈。作为应对之策，通过世界模型生成合成数据已成为学界与业界的热点。然而，这些合成数据的真实价值几何？其评估标准是否科学？近期，一篇来自北京大学与小米汽车团队的论文《Rethinking Driving World Model as Synthetic Data Generator for Perception Tasks》，对当前合成数据的研究范式发起了深刻的审视与挑战，并提出了一种名为 Dream4Drive 的全新框架，为如何高效利用合成数据指明了新的方向。该工作不仅在技术上实现了突破，更重要的是，它引发了对“公平评估”和“数据质量”的根本性思考，值得每一位从事相关领域的研发人员与研究者深度阅读。
 
@@ -2358,7 +2358,7 @@ Dream4Drive 的实验结果极具说服力，其核心结论是“质量远胜�
 
 #### cuSfM: 基于先验引导与 GPU 加速的下一代大规模 Structure-from-Motion 框架
 
-[[2510.15271v1 CuSfM CUDA-Accelerated Structure-from-Motion]]
+[2510.15271v1 CuSfM CUDA-Accelerated Structure-from-Motion](https://arxiv.org/html/2510.15271v1)
 
 在三维视觉领域，Structure-from-Motion (SfM) 技术长期以来由 COLMAP 等以稳健性与精度著称的增量式方法所定义。然而，随着自动驾驶、城市级数字孪生等应用对处理数据规模与效率提出指数级增长的需求，传统方法的计算瓶颈日益凸显。来自 NVIDIA 的这篇论文所提出的 cuSfM 系统，并非对现有流程的简单优化，而是通过引入“先验引导的非冗余数据关联”这一核心思想，并结合端到端的 GPU 加速，对大规模 SfM 的计算范式进行了一次深刻的重构。文章通过详尽的实验，论证了该系统如何在效率上实现数量级提升的同时，在精度与稳健性上达到甚至超越现有 SOTA 水平。对于所有从事大规模三维重建、视觉 SLAM 及相关工业应用的开发者与研究者而言，深入理解 cuSfM 的设计哲学与技术实现，将为了解该领域的前沿走向提供一个极具价值的窗口。
 
@@ -2398,7 +2398,7 @@ cuSfM 的目标并非仅仅是成为一个更快的 COLMAP 替代品，而是要
 
 #### SaLon3R：通过智能压缩与结构校正，实现高效精准的长时程 3D 重建
 
-[[2510.15072v1 SaLon3R Structure-aware Long-term Generalizable 3D Reconstruction from Unposed Images]]
+[2510.15072v1 SaLon3R Structure-aware Long-term Generalizable 3D Reconstruction from Unposed Images](https://arxiv.org/html/2510.15072v1)
 
 在无需相机标定的前提下，从单目视频序列中进行稠密、可泛化的三维重建，是近年来计算机视觉领域致力攻克的关键难题。尽管基于神经辐射场（NeRF）和 3D 高斯溅射（3DGS）的方法取得了显著进展，但如何高效处理长时程视频，并保证重建结果的几何一致性，始终是一个悬而未决的挑战。近期，一篇名为《SALON3R: STRUCTURE-AWARE LONG-TERM GENERALIZABLE 3D RECONSTRUCTION FROM UNPOSED IMAGES》的论文，提出了一种极具开创性的框架。它通过引入一种新颖的、从粗到精的两阶段“压缩 - 提炼”机制，成功地在效率、可扩展性和几何精度三个维度上取得了突破性进展，为在线长时程三维重建技术的发展指明了新的方向。
 
@@ -2438,7 +2438,7 @@ SaLon3R 为可泛化的 3DGS 重建领域贡献了一个优雅且高效的解决
 
 #### PAGE-4D：通过任务导向的动静解耦实现鲁棒的四维感知
 
-[[2510.17568 PAGE-4D Disentangled Pose and Geometry Estimation for 4D Perception]]
+[2510.17568 PAGE-4D Disentangled Pose and Geometry Estimation for 4D Perception](https://arxiv.org/abs/2510.17568)
 
 在从多视图图像重建三维世界的经典问题中，动态物体的存在一直是一个核心且棘手的挑战。传统的 Structure-from-Motion (SfM) 和 SLAM 算法，以及近年来基于深度学习的前馈式模型，其理论基石大多建立在静态场景的假设之上。然而，真实世界是动态的。当这些模型面对包含移动行人、车辆或非刚性变形的场景时，性能往往会显著下降。近期，一篇名为 PAGE-4D 的论文为这一长期存在的难题提供了一个极具洞察力且高效的解决方案，其核心思想并非设计一个更庞大的网络，而是通过巧妙的动静信息解耦机制，释放了现有强大基础模型的潜力。本文旨在对 PAGE-4D 的核心思想、技术实现及其深远意义进行一次全面的解读。
 
@@ -2482,7 +2482,7 @@ PAGE-4D 的贡献超越了其在具体任务指标上的提升，它为我们带
 
 #### VGD：通过几何先验蒸馏，实现自动驾驶中的高保真前馈式 3DGS 环视重建
 
-[[2510.19578v1 VGD Visual Geometry Gaussian Splatting for Feed-Forward Surround-view Driving Reconstruction]]
+[2510.19578v1 VGD Visual Geometry Gaussian Splatting for Feed-Forward Surround-view Driving Reconstruction](https://arxiv.org/html/2510.19578v1)
 
 在自动驾驶感知领域，如何从稀疏的环视摄像头输入中，快速、准确地重建三维场景，始终是介于理想与现实之间的核心挑战。基于优化的方法，如场景专属的 NeRF 或 3DGS，虽能达到惊艳的质量，但其高昂的时间成本使其难以在动态环境中规模化应用。而前馈式方法虽具备实时推理和泛化能力，却长期受困于稀疏视角下的几何模糊性，导致重建质量不尽人意。Junhong Lin 等人发表的论文《VGD: Visual Geometry Gaussian Splatting for Feed-Forward Surround-view Driving Reconstruction》直面这一关键权衡，提出了一种新颖的框架，巧妙地将大型基础模型的几何先验与高效的 3D 高斯溅射渲染相结合，为该问题提供了一个极具说服力的解决方案。该工作不仅在性能指标上树立了新的 SOTA，更重要的是，它为如何在前馈式范式下有效注入强几何约束提供了清晰且可行的技术路径。
 
@@ -2528,7 +2528,7 @@ VGD 是一篇在问题定义、方法创新和实验验证上都堪称典范的�
 
 #### WorldMirror: 一个融合多模态先验的通用前馈 3D 重建框架
 
-[[HunyuanWorld-Mirror Fast and Universal 3D reconstruction model for versatile tasks]]
+[HunyuanWorld-Mirror Fast and Universal 3D reconstruction model for versatile tasks](https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror)
 
 近年来，人工智能领域最激动人心的趋势莫过于基础模型（Foundation Models）的兴起。从自然语言处理到二维视觉，通过在海量数据上训练单一、庞大的模型来赋能广泛下游任务的范式已成主流。然而，在需要精确几何推理的三维视觉领域，这一进程相对滞后。主流的前馈式（Feed-Forward）方法虽效率出众，但大多受限于“输入单一”（仅图像）和“任务特定”的框架中，难以充分利用现实世界中丰富的多模态信息。
 
@@ -2572,7 +2572,7 @@ WorldMirror 的实验结果令人印象深刻。在无先验信息时，其性�
 
 #### GaussGym：结合神经渲染与物理模拟，一款高速、逼真的机器人视觉模拟器
 
-[[2510.15352v1 GaussGym An open-source real-to-sim framework for learning locomotion from pixels]]
+[2510.15352v1 GaussGym An open-source real-to-sim framework for learning locomotion from pixels](https://arxiv.org/html/2510.15352v1)
 
 长期以来，机器人模拟领域存在一个难以调和的“不可能三角”：模拟速度、物理精度与视觉真实感。研究者往往只能取其二，导致基于视觉的 Sim-to-Real 研究进展缓慢。近期，来自加州大学伯克利分校等机构的研究者们发表了一篇名为《GaussGym》的论文，通过将前沿的 3D 高斯溅射技术与高性能物理模拟器进行前所未有的“缝合”，为这一困境提供了极具说服力的解决方案。这项工作不仅是一个性能卓越的模拟器，更可能预示着机器人学习在数据获取与训练范式上的深刻变革。
 
@@ -2617,7 +2617,7 @@ GaussGym 的突破性在于，它将 3DGS 作为一个插件式的渲染模块�
 
 #### MicKey：仅凭位姿监督，端到端学习度量级 3D 关键点匹配
 
-[[2404.06337v1 Matching 2D Images in 3D Metric Relative Pose from Metric Correspondences]]
+[2404.06337v1 Matching 2D Images in 3D Metric Relative Pose from Metric Correspondences](https://arxiv.org/html/2404.06337v1)
 
 长期以来，从单目图像中恢复带有真实尺度（scale-metric）的相机相对位姿是计算机视觉领域的经典难题。传统方法通常将特征匹配与深度估计分离，导致尺度模糊或模块间的不一致性，而现代方法虽有进步，却往往依赖于难以获取的稠密深度监督。近期，来自 Niantic 和牛津大学的研究者在论文《Matching 2D Images in 3D: Metric Relative Pose from Metric Correspondences》中提出了名为 MicKey 的全新框架。它通过一个端到端的神经网络，直接从 2D 图像中预测出度量级的 3D 关键点坐标，并仅使用相对位姿作为唯一的监督信号。该工作不仅在极具挑战性的 Map-Free Relocalisation 基准上取得了当前最佳性能，更重要的是，它为如何通过弱监督信号学习耦合的几何任务提供了一个极具启发性的范例。
 
@@ -2666,7 +2666,7 @@ MicKey 的贡献远不止于性能的提升，更在于其背后体现的深刻�
 
 #### PWAGENT：借助自主智能体，将学术论文转化为高质量交互式网页
 
-[[2510.15842v1 Paper2Web Let’s Make Your Paper Alive!]]
+[2510.15842v1 Paper2Web Let’s Make Your Paper Alive!](https://arxiv.org/html/2510.15842v1)
 
 在信息传播追求即时与互动的今天，静态的 PDF 格式正逐渐成为学术知识有效传递的桎梏。尽管将论文转化为网页的尝试屡见不鲜，但成果往往差强人意。来自华中科技大学等机构的研究者们，在论文《PAPER2WEB: LET'S MAKE YOUR PAPER ALIVE!》中，不仅系统性地定义了这一挑战，更是提出了一个名为 PWAGENT 的自主智能体框架。该框架以一种近乎“创造”的方式，将静态论文转化为兼具美学、交互与信息深度的项目主页，其在成本与质量上的双重突破，预示着学术交流方式变革的全新可能性。
 
@@ -2714,7 +2714,7 @@ PWAGENT 的工作流程可以概括为三个阶段：
 
 #### Ring-Linear：兼得长文本效率与 RL 稳定性的架构与工程实践
 
-[[2510.19338v2 Every Attention Matters An Efficient Hybrid Architecture for Long-Context Reasoning]]
+[2510.19338v2 Every Attention Matters An Efficient Hybrid Architecture for Long-Context Reasoning](https://arxiv.org/html/2510.19338v2)
 
 在大型语言模型（LLM）对长上下文处理能力的需求日益迫切的今天，学术界与工业界正积极探索超越传统 Softmax 注意力二次方复杂度瓶颈的解决方案。蚂蚁集团灵羚（Ling）团队发布的 Ring-Linear 系列模型技术报告，不仅提出了一种极具竞争力的混合注意力架构，更通过一次深入系统底层的工程实践，为如何在复杂模型上实现稳定的强化学习（RL）提供了一份极为宝贵的路线图。这篇报告的价值远超模型本身，它是一份关于 AI 系统工程、软硬件协同设计与前沿算法落地相结合的典范式作品，值得所有从事大模型研究与开发的同行深度研读。
 
@@ -2764,7 +2764,7 @@ RL 的“祛魅”：作为系统工程问题的训练 - 推理不一致性
 
 #### mmWalki：评估 VLMs 在视障辅助导航中鲁棒性的多模态、多视角基准
 
-[[2510.11520v2 mmWalk Towards Multi-modal Multi-view Walking Assistance]]
+[2510.11520v2 mmWalk Towards Multi-modal Multi-view Walking Assistance](https://arxiv.org/html/2510.11520v2)
 
 随着视觉语言模型（VLM）在各类通用任务上展现出惊人的能力，学术界和工业界的目光开始投向其在真实世界高风险、高价值场景中的应用潜力。然而，一个关键问题悬而未决：这些在互联网数据上训练出的“通才”模型，能否在需要极致可靠性的专业领域，如为视障人士（BLV）提供导航辅助时，承担起责任？近期发表于 NeurIPS 2025 的一篇论文《mmWalk: Towards Multi-modal Multi-view Walking Assistance》通过构建一个前所未有的模拟基准，对这一问题给出了一个审慎而深刻的回答。这项工作不仅揭示了当前顶尖 VLM 在安全攸关任务上的显著短板，更提供了一套行之有效的评估与提升方案，为开发更具包容性和可靠性的具身智能系统指明了方向。
 
@@ -2810,7 +2810,7 @@ RL 的“祛魅”：作为系统工程问题的训练 - 推理不一致性
 
 #### 从单张图片到 3D 世界，只需七秒：一种无需优化的前馈式架构 Bolt3D，用于 3D 场景即时生成
 
-[[2503.14445v2 Bolt3D Generating 3D Scenes in Seconds]]
+[2503.14445v2 Bolt3D Generating 3D Scenes in Seconds](https://arxiv.org/html/2503.14445v2)
 
 长期以来，从二维图像生成高质量的三维场景，始终在“速度”与“质量”的跷跷板上艰难平衡。一端是耗时数小时、追求极致细节的优化方法，另一端则是速度飞快但效果模糊的回归模型。我们是否必须接受这种非此即彼的妥协？来自 Google 的研究论文《Bolt3D: Generating 3D Scenes in Seconds》给出了一个响亮的否定答案。该研究提出了一种前馈式生成模型 Bolt3D，它将 3D 场景的生成时间从分钟级压缩至骇人听闻的 7 秒以内，速度提升高达 300 倍，几乎抹平了从输入到可交互 3D 体验之间的延迟。这不仅是一次量变，更预示着 3D 内容创作和应用范式的质变。Bolt3D 的核心魅力在于，它用一种巧妙的生成式框架，正面解决了单视图或少视图重建中固有的“歧义性”难题，证明了“快”与“好”可以兼得。
 
@@ -2854,7 +2854,7 @@ Bolt3D 的成功清晰地指明了未来 3D 生成研究的几个方向。首先
 
 #### 从手机照片到逼真 3D 化身：Meta 提出“先规范、后生成”新路径
 
-[[2510.14081v2 Capture, Canonicalize, Splat Zero-Shot 3D Gaussian Avatars from Unstructured Phone Images]]
+[2510.14081v2 Capture, Canonicalize, Splat Zero-Shot 3D Gaussian Avatars from Unstructured Phone Images](https://arxiv.org/html/2510.14081v2)
 
 长期以来，从少量日常照片中生成高保真、且身份一致的 3D 数字人，一直是计算机视觉与图形学领域面临的核心挑战。现有方法常在几何一致性与纹理真实感之间顾此失彼。Meta 的研究论文《Capture, Canonicalize, Splat》提出了一种全新的三阶段零样本生成管线，通过引入创新的“生成式规范化”模块，并结合基于真实人体高精度扫描数据训练的大型重建模型，成功地跨越了这一鸿沟。该工作不仅在技术上实现了显著的 SOTA（State-of-the-Art）突破，更重要的是，它为解决“非结构化输入”到“结构化输出”这一类普遍性 AI 问题，提供了一个极具启发性的解耦设计范式。
 
@@ -2906,7 +2906,7 @@ Bolt3D 的成功清晰地指明了未来 3D 生成研究的几个方向。首先
 
 #### Skyfall-GS: 融合真实重建与生成式先验，实现卫星到地面三维城市场景合成
 
-[[2510.15869v1 Skyfall-GS Synthesizing Immersive 3D Urban Scenes from Satellite Imagery]]
+[2510.15869v1 Skyfall-GS Synthesizing Immersive 3D Urban Scenes from Satellite Imagery](https://arxiv.org/html/2510.15869v1)
 
 长期以来，从稀疏的卫星遥感影像中生成可供沉浸式漫游的高保真三维城市场景，一直是计算机视觉与图形学领域的一项核心挑战。传统的摄影测量方法受限于卫星视角的微小视差，难以还原地面细节；而新兴的城市生成模型则往往牺牲了对真实世界的几何忠诚度。近期，一篇名为《Skyfall-GS》的论文为这一困境提出了一个极具开创性的解决方案。它并未寻求单一模型的端到端突破，而是巧妙地设计了一个两阶段协同框架，将三维高斯溅射（3D Gaussian Splatting）的快速重建能力与预训练扩散模型的强大生成式先验知识相结合，成功实现了仅依赖卫星影像，即可生成几何准确、纹理丰富且支持实时交互的城市街区级三维场景。该工作不仅在技术指标上大幅超越现有方法，更重要的是，它所提出的“基于真实约束的生成式迭代精炼”范式，为解决计算机视觉中各类信息不完备的逆问题提供了深刻的启示。
 
@@ -2958,7 +2958,7 @@ Bolt3D 的成功清晰地指明了未来 3D 生成研究的几个方向。首先
 
 #### NANO3D：一种基于“差分 - 合并”范式的高一致性免训练 3D 编辑框架
 
-[[2510.15019v1 NANO3D A Training-Free Approach for Efficient 3D Editing Without Masks]]
+[2510.15019v1 NANO3D A Training-Free Approach for Efficient 3D Editing Without Masks](https://arxiv.org/html/2510.15019v1)
 
 长期以来，3D 对象的编辑始终面临着一道难以逾越的障碍：如何实现“指哪打哪”的精确修改，而不引发“牵一发而动全身”的连锁反应？许多先进的生成模型在编辑过程中，往往会不可避免地损伤未编辑区域的几何与外观，这一“一致性”问题已成为阻碍 3D 内容创作工具走向成熟的核心瓶颈。
 
@@ -3006,7 +3006,7 @@ Nano3D 的贡献是双重的，它不仅提供了一个强大的工具，更用�
 
 #### GenLit: 无需三维重建，用视频生成重塑单张图像光影
 
-[[2412.11224v4 GenLit Reformulating Single-Image Relighting as Video Generation]]
+[2412.11224v4 GenLit Reformulating Single-Image Relighting as Video Generation](https://arxiv.org/html/2412.11224v4)
 
 单张图像重打光（Single-Image Relighting）是计算机图形学与视觉领域一个经典且极具挑战性的课题。数十年来，主流方法一直被“逆向渲染”（Inverse Rendering）的思路所主导：即从二维图像中分解并重建出场景的三维几何、材质与光照，再进行正向渲染。然而，这一过程的病态性（ill-posed nature）与高计算复杂度始终是难以逾越的障碍。近期，一篇来自马普智能系统研究所的论文《GenLit: Reformulating Single-Image Relighting as Video Generation》提出了一种颠覆性的思路，通过将静态的重打光问题重构为动态的、可控的视频生成任务，有效绕开了传统管线的核心困境，并取得了惊人的效果。这项工作不仅提供了一个性能卓越的工具，更重要的是，它揭示了大型视频基础模型背后深藏的物理世界理解能力，为相关领域的研究者和从业者带来了深刻的启示。
 
@@ -3062,7 +3062,7 @@ GenLit 的工作为领域带来了三点核心启示：
 
 #### Genie Envisioner：告别碎片化，用一个世界模型贯通机器人研发全流程
 
-[[2508.05635v2 Genie Envisioner A Unified World Foundation Platform for Robotic Manipulation]]
+[2508.05635v2 Genie Envisioner A Unified World Foundation Platform for Robotic Manipulation](https://arxiv.org/html/2508.05635v2)
 
 长期以来，机器人学的研发流程呈现出一种普遍的碎片化状态：数据收集、策略学习、仿真测试与物理部署是相互割裂的环节，如同在不同的孤岛上作业。这种“补丁式”的开发模式不仅极大地拖慢了迭代速度，更使得仿真与现实之间的鸿沟（Sim2Real Gap）成为难以逾越的障碍。面对这一困境，来自 AgiBot Genie Team 等机构的研究者们在论文《Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation》中，提出了一套极具雄心与前瞻性的解决方案。
 
@@ -3136,7 +3136,7 @@ Genie Envisioner 不仅仅是一个更强大的机器人 AI 模型，它更像�
 
 #### GigaBrain-0: 让世界模型成为机器人学习的“数据工厂”
 
-[[2510.19430v1 GigaBrain-0 A World Model-Powered Vision-Language- Action Model]]
+[2510.19430v1 GigaBrain-0 A World Model-Powered Vision-Language- Action Model](https://arxiv.org/html/2510.19430v1)
 
 在通用机器人技术（Generalist Robots）的探索中，学界与业界长期被一个核心矛盾所困扰：一方面，强大的视觉 - 语言 - 动作（VLA）基础模型展现出前所未有的潜力；另一方面，这些模型对大规模、多样化真实世界数据的极度渴求，构成了难以逾越的“数据壁垒”。物理采集的低效、高成本与场景局限性，使得通往真正通用智能的道路显得遥远。近日，一篇名为《GigaBrain-0: A World Model-Powered Vision-Language-Action Model》的论文，为破解这一难题提供了一套极具系统性与前瞻性的解决方案。该研究的核心论点是，通过将世界模型（World Model）定位为可编程、可扩展的“数据引擎”，能够从根本上重塑 VLA 模型的训练范式，显著提升其在真实世界中的泛化能力与鲁棒性。这项工作不仅是一个模型的成功，更是一次关于机器人学习方法论的深刻变革，标志着该领域正从“模型为中心”向“数据为中心”的战略转型。
 
@@ -3187,7 +3187,7 @@ GigaBrain-0 模型：为消化海量异构数据而生的策略架构
 
 #### GRASPLAT：通过 3D 合成“演练”抓取，仅凭单张图像实现精准操作
 
-[[2510.19200v1 GRASPLAT Enabling dexterous grasping through novel view synthesis]]
+[2510.19200v1 GRASPLAT Enabling dexterous grasping through novel view synthesis](https://arxiv.org/html/2510.19200v1)
 
 在机器人灵巧操作领域，如何让多指机械手仅凭视觉输入便能实现对任意物体的精准抓取，始终是一项核心挑战。现有的技术路径往往陷入两难：依赖完整三维扫描的方法虽精确但部署困难，而纯粹基于 RGB 图像的方法虽便捷却因缺乏三维空间推理能力而表现不佳。近日，一篇名为《GRASPLAT: Enabling dexterous grasping through novel view synthesis》的论文，为打破这一僵局提供了极具启发性的解决方案。该研究巧妙地将前沿的计算机图形学技术——三维高斯溅射（3DGS）——作为可微分渲染器，构建了一个“分析 - 合成”的训练闭环。这使得模型在推理时仅需一张 RGB 图像，却能在训练中获得强大的三维几何监督，从而在性能上实现了对现有 RGB 方法的跨越式超越。
 
@@ -3235,7 +3235,7 @@ GRASPLAT 的有效性在全面的实验中得到了有力印证。
 
 #### 现代 RANSAC 的系统化构建：从组件拆解到性能调优
 
-[[RANSAC in 2025 — ICCV 2025 Tutorial]]
+[RANSAC in 2025 — ICCV 2025 Tutorial](https://danini.github.io/ransac-2025-tutorial/)
 
 长期以来，RANSAC 算法作为鲁棒估计领域的基石，其重要性不言而喻。然而，随着现代计算机视觉问题尺度的急剧膨胀与复杂度的持续提升，一个核心问题摆在了所有研究者与工程师面前：在 2025 年，我们应当如何构建一个真正达到业界顶尖（SOTA）水平的 RANSAC？
 
@@ -3291,7 +3291,7 @@ Dmytro Mishkin 的部分为整个教程带来了画龙点睛的一笔，他将�
 
 #### olmOCR 2：以“单元测试”为奖励，从追求“文本相似”到验证“功能正确”，一种文档 OCR 训练新思路
 
-[[2510.19817v1 olmOCR 2 Unit Test Rewards for Document OCR]]
+[2510.19817v1 olmOCR 2 Unit Test Rewards for Document OCR](https://arxiv.org/html/2510.19817v1)
 
 长期以来，对复杂文档（尤其是包含数学公式、表格和多栏布局的 PDF）进行高精度光学字符识别（OCR）始终是业界的一大挑战。其瓶颈不仅在于模型能力，更在于评估和优化目标（通常为编辑距离）与任务的真实需求之间存在偏差。来自艾伦人工智能研究所的最新研究 olmOCR 2，通过引入软件工程中的“单元测试”概念作为强化学习的奖励信号，不仅在性能上取得了 SOTA（State-of-the-Art）的突破，更重要的是，它提出了一种“测试驱动”的、可规模化的 AI 训练新范式，为解决所有需要生成复杂结构化输出的 AI 任务提供了极具价值的参考。
 
@@ -3339,7 +3339,7 @@ olmOCR 2 提出的解决方案，是引入一系列二元的、可程序化验�
 
 #### IFFCC: 借力积分直方图，实现高效实时的多光源色彩一致性校正
 
-[[2502.03494v1 Integral Fast Fourier Color Constancy]]
+[2502.03494v1 Integral Fast Fourier Color Constancy](https://arxiv.org/html/2502.03494v1)
 
 在计算摄影领域，实现精准的自动白平衡（AWB）一直是核心挑战之一，尤其是在存在多种光源的复杂场景下。近年来，基于深度学习的方法虽在精度上取得了显著突破，但其高昂的计算与参数成本，使其在追求实时与低功耗的移动端设备上部署困难重重。本文将推荐并深度解读一篇名为《Integral Fast Fourier Color Constancy》（IFFCC）的研究。该工作巧妙地将经典的积分图思想与频域色彩分析相结合，提出了一种在性能上足以媲美 SOTA 神经网络，而在效率上却取得数量级优势的解决方案，为业界提供了一个兼具理论优雅性与工程实用性的典范。
 
