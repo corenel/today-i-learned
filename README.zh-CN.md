@@ -57,6 +57,7 @@
 - [2025 年第 42 周](./weekly/2025/2025W42/README.zh-CN.md)：NVIDIA DGX Spark 等。
 - [2025 年第 43 周](./weekly/2025/2025W43/README.zh-CN.md)：DeepSeek-OCR、ChatGPT Atlas、AWS US-EAST-1 宕机事件等。
 - [2025 年第 44 周](./weekly/2025/2025W44/README.zh-CN.md)：MiniMax M2 等。
+- [2025 年第 45 周](./weekly/2025/2025W45/README.zh-CN.md)：Kimi-K2 Thinking 等。
 
 ### 计算机系统
 

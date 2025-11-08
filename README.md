@@ -57,6 +57,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W42](./weekly/2025/2025W42/README.md): NVIDIA DGX Spark, and more.
 - [2025W43](./weekly/2025/2025W43/README.md): DeepSeek-OCR, ChatGPT Atlas, AWS Outage, and more.
 - [2025W44](./weekly/2025/2025W44/README.md): MiniMax M2, and more.
+- [2025W45](./weekly/2025/2025W45/README.md): Kimi-K2 Thinking, and more.
 
 ### Computer System
 
