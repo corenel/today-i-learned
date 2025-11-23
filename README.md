@@ -59,6 +59,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W44](./weekly/2025/2025W44/README.md): MiniMax M2, and more.
 - [2025W45](./weekly/2025/2025W45/README.md): Kimi-K2 Thinking, and more.
 - [2025W46](./weekly/2025/2025W46/README.md): GPT-5.1, and more.
+- [2025W47](./weekly/2025/2025W47/README.md): Cloudflare Outage, Gemini 3 Pro, Nano Banana Pro, Antigravity, SAM 3, GPT-5.1-Codex-Max, and more.
 
 ### Computer System
 
