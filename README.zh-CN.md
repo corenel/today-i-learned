@@ -60,6 +60,7 @@
 - [2025 年第 45 周](./weekly/2025/2025W45/README.zh-CN.md)：Kimi-K2 Thinking 等。
 - [2025 年第 46 周](./weekly/2025/2025W46/README.zh-CN.md)：GPT-5.1 等。
 - [2025 年第 47 周](./weekly/2025/2025W47/README.zh-CN.md)：Cloudflare Outage、Gemini 3 Pro、Nano Banana Pro、Antigravity、SAM 3、GPT-5.1-Codex-Max 等。
+- [2025 年第 48 周](./weekly/2025/2025W48/README.zh-CN.md)
 
 ### 计算机系统
 
