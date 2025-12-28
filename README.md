@@ -64,6 +64,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W49](./weekly/2025/2025W49/README.md)
 - [2025W50](./weekly/2025/2025W50/README.md): GPT-5.2, and more.
 - [2025W51](./weekly/2025/2025W51/README.md): Fun-ASR-Nano-2512, Gemini 3 Flash, MiMo-V2-Flash, SAM Audio, and more.
+- [2025W52](./weekly/2025/2025W52/README.md): MiniMax M2.1, GLM-4.7, and more.
 
 ### Computer System
 

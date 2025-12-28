@@ -64,6 +64,7 @@
 - [2025 年第 49 周](./weekly/2025/2025W49/README.zh-CN.md)
 - [2025 年第 50 周](./weekly/2025/2025W50/README.zh-CN.md): GPT-5.2 等。
 - [2025 年第 51 周](./weekly/2025/2025W51/README.zh-CN.md): Fun-ASR-Nano-2512、Gemini 3 Flash、MiMo-V2-Flash、SAM Audio 等。
+- [2025 年第 52 周](./weekly/2025/2025W52/README.zh-CN.md): MiniMax M2.1、GLM-4.7 等。
 
 ### 计算机系统
 
