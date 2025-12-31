@@ -13,6 +13,8 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [Today I Learned](#today-i-learned)
   - [Table of Contents](#table-of-contents)
     - [Technical Reading Summary](#technical-reading-summary)
+      - [2026](#2026)
+      - [2025](#2025)
     - [Computer System](#computer-system)
     - [Generative AI](#generative-ai)
     - [Machine Learning](#machine-learning)
@@ -21,6 +23,12 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
   - [License](#license)
 
 ### Technical Reading Summary
+
+#### 2026
+
+- [2026W01](./weekly/2026/2026W01/README.md): Meta acquire Manus, and more.
+
+#### 2025
 
 - [2025W10](./weekly/2025/2025W10/README.md): Mac Studio (M3 Ultra), QwQ-32B model, Manus AI Agent, and more.
 - [2025W11](./weekly/2025/2025W11/README.md): Gemma3, OpenAI Agent SDK, Vibe Coding, YOLOE, and more.

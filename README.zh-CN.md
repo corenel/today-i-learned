@@ -13,6 +13,8 @@
 - [Today I Learned](#today-i-learned)
   - [目录结构](#目录结构)
     - [技术阅读汇总](#技术阅读汇总)
+      - [2026 年](#2026-年)
+      - [2025 年](#2025-年)
     - [计算机系统](#计算机系统)
     - [生成式人工智能](#生成式人工智能)
     - [机器学习](#机器学习)
@@ -21,6 +23,12 @@
   - [许可证](#许可证)
 
 ### 技术阅读汇总
+
+#### 2026 年
+
+- [2026 年第 01 周](./weekly/2026/2026W01/README.zh-CN.md)：Meta 收购 Manus 等。
+
+#### 2025 年
 
 - [2025 年第 10 周](./weekly/2025/2025W10/README.zh-CN.md)：Mac Studio (M3 Ultra)、QwQ-32B 模型、Manus AI Agent 产品等。
 - [2025 年第 11 周](./weekly/2025/2025W11/README.zh-CN.md)：Gemma3、OpenAI Agent SDK、Vibe Coding、YOLOE 等。
