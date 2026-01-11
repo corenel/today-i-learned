@@ -27,6 +27,7 @@
 #### 2026 年
 
 - [2026 年第 01 周](./weekly/2026/2026W01/README.zh-CN.md)：Meta 收购 Manus 等。
+- [2026 年第 02 周](./weekly/2026/2026W02/README.zh-CN.md)：Zhipu AI 和 MiniMax 在港交所上市等。
 
 #### 2025 年
 
