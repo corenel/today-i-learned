@@ -29,6 +29,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W01](./weekly/2026/2026W01/README.md): Meta acquire Manus, and more.
 - [2026W02](./weekly/2026/2026W02/README.md): Zhipu AI and MiniMax's IPOs in the Hong Kong Stock Exchange, and more.
 - [2026W03](./weekly/2026/2026W03/README.md)
+- [2026W04](./weekly/2026/2026W04/README.md): GLM-4.7-Flash, and more.
 
 #### 2025
 
