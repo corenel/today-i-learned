@@ -31,6 +31,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W03](./weekly/2026/2026W03/README.md)
 - [2026W04](./weekly/2026/2026W04/README.md): GLM-4.7-Flash, and more.
 - [2026W05](./weekly/2026/2026W05/README.md): Kimi K2.5, and more.
+- [2026W06](./weekly/2026/2026W06/README.md): Qwen3-Coder-Next, Step 3.5 Flash, GLM-OCR, GPT-5.3-Codex, Claude Opus 4.6, and more.
 
 #### 2025
 
