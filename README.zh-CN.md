@@ -32,6 +32,7 @@
 - [2026 年第 04 周](./weekly/2026/2026W04/README.zh-CN.md)：GLM-4.7-Flash 等。
 - [2026 年第 05 周](./weekly/2026/2026W05/README.zh-CN.md)：Kimi K2.5 等。
 - [2026 年第 06 周](./weekly/2026/2026W06/README.zh-CN.md)：Qwen3-Coder-Next、Step 3.5 Flash、GLM-OCR、GPT-5.3-Codex、Claude Opus 4.6 等。
+- [2026 年第 07 周](./weekly/2026/2026W07/README.zh-CN.md)：Seedance 2.0、GLM-5、MiniMax M2.5 等。
 
 #### 2025 年
 
