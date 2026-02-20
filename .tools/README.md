@@ -19,6 +19,9 @@ uv run --with tqdm --with pillow --with requests python .tools/localize_markdown
 # Apply changes and emit a JSON report
 uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py --apply --report-json .agents/localize-images/report.json
 
+# Apply in parallel with 6 workers
+uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py --apply --jobs 6
+
 # If you prefer system Python, install dependencies first:
 #   python -m pip install tqdm requests Pillow
 # then run:
@@ -34,3 +37,4 @@ Key behavior:
 - Idempotence uses `.image-localize-map.json` inside each asset directory.
 - Progress uses `tqdm` on `stderr` (auto-enabled when `stderr` is a TTY); use `--progress` / `--no-progress` to override.
 - Use `--verbose` for one compact per-file result line during processing.
+- Use `--jobs N` for file-level parallel execution (default auto, capped); `--strict` forces serial execution.

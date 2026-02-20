@@ -19,6 +19,7 @@ Fallback with system Python:
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import dataclasses
 import datetime as dt
 import fnmatch
@@ -27,10 +28,11 @@ import json
 import os
 import re
 import sys
+import threading
 import uuid
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Dict, Iterable, List, Mapping, Optional, Sequence, TextIO, Tuple
+from typing import Callable, Iterable, Mapping, Sequence, TextIO
 from urllib.parse import parse_qs, urlparse
 
 
@@ -77,6 +79,7 @@ class Config:
         strict: Whether to stop on first per-file/per-URL error.
         quality: WebP lossy quality parameter in `[0, 100]`.
         method: WebP encoder effort parameter in `[0, 6]`.
+        jobs: Optional worker count for file-level parallel execution.
         progress_mode: Progress behavior: ``auto`` / ``on`` / ``off``.
         verbose: Whether to emit one per-file result line.
         metadata_name: Per-markdown metadata filename under the asset directory.
@@ -85,15 +88,16 @@ class Config:
 
     root: Path
     apply: bool
-    include: List[str]
-    exclude: List[str]
+    include: list[str]
+    exclude: list[str]
     strict: bool
     quality: int
     method: int
+    jobs: int | None
     progress_mode: str
     verbose: bool
     metadata_name: str
-    report_json: Optional[Path]
+    report_json: Path | None
 
 
 @dataclass
@@ -123,8 +127,8 @@ class FileResult:
     would_change: bool = False
     wrote_markdown: bool = False
     wrote_metadata: bool = False
-    resolved_urls: Dict[str, str] = field(default_factory=dict)
-    errors: List[str] = field(default_factory=list)
+    resolved_urls: dict[str, str] = field(default_factory=dict)
+    errors: list[str] = field(default_factory=list)
 
 
 @dataclass
@@ -182,6 +186,7 @@ def parse_args() -> Config:
             "Examples:\n"
             "  uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py\n"
             "  uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py --apply\n"
+            "  uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py --apply --jobs 6\n"
             "  python .tools/localize_markdown_images.py --apply  # when deps are installed in system env\n"
         ),
     )
@@ -225,6 +230,15 @@ def parse_args() -> Config:
         default=6,
         help="WebP encoder method 0..6. Default: 6.",
     )
+    parser.add_argument(
+        "--jobs",
+        type=int,
+        default=None,
+        help=(
+            "Worker count for file-level parallel execution. "
+            "Default: auto (capped). --strict forces serial mode."
+        ),
+    )
     progress_group = parser.add_mutually_exclusive_group()
     progress_group.add_argument(
         "--progress",
@@ -260,10 +274,15 @@ def parse_args() -> Config:
     if not 0 <= args.method <= 6:
         print("error: --method must be in [0, 6]", file=sys.stderr)
         raise SystemExit(2)
+    if args.jobs is not None and args.jobs < 1:
+        print("error: --jobs must be >= 1", file=sys.stderr)
+        raise SystemExit(2)
 
     include = args.include if args.include else list(DEFAULT_INCLUDE)
     exclude = list(DEFAULT_EXCLUDE) + list(args.exclude)
-    progress_mode = "on" if args.progress else "off" if args.no_progress else "auto"
+    progress_mode = (
+        "on" if args.progress else "off" if args.no_progress else "auto"
+    )
 
     return Config(
         root=args.root.resolve(),
@@ -273,6 +292,7 @@ def parse_args() -> Config:
         strict=bool(args.strict),
         quality=int(args.quality),
         method=int(args.method),
+        jobs=int(args.jobs) if args.jobs is not None else None,
         progress_mode=progress_mode,
         verbose=bool(args.verbose),
         metadata_name=str(args.metadata_name),
@@ -324,7 +344,7 @@ def ensure_apply_dependencies() -> None:
         SystemExit: If ``requests`` and/or ``Pillow`` are missing.
     """
 
-    missing: List[str] = []
+    missing: list[str] = []
     try:
         import requests  # noqa: F401
     except Exception:
@@ -384,7 +404,9 @@ def to_posix_relative(path: Path, start: Path) -> str:
     return Path(os.path.relpath(path, start=start)).as_posix()
 
 
-def discover_markdown_files(root: Path, include: Sequence[str], exclude: Sequence[str]) -> List[Path]:
+def discover_markdown_files(
+    root: Path, include: Sequence[str], exclude: Sequence[str]
+) -> list[Path]:
     """Discover markdown files from include/exclude glob rules.
 
     Args:
@@ -396,7 +418,7 @@ def discover_markdown_files(root: Path, include: Sequence[str], exclude: Sequenc
         Sorted list of unique markdown paths.
     """
 
-    matched: Dict[str, Path] = {}
+    matched: dict[str, Path] = {}
     for pattern in include:
         for path in root.glob(pattern):
             if not path.is_file():
@@ -408,7 +430,9 @@ def discover_markdown_files(root: Path, include: Sequence[str], exclude: Sequenc
     return [matched[key] for key in sorted(matched)]
 
 
-def should_exclude(relative_path: str, exclude_patterns: Sequence[str]) -> bool:
+def should_exclude(
+    relative_path: str, exclude_patterns: Sequence[str]
+) -> bool:
     """Check whether a relative path matches any exclusion pattern.
 
     Args:
@@ -423,7 +447,7 @@ def should_exclude(relative_path: str, exclude_patterns: Sequence[str]) -> bool:
     return any(fnmatch.fnmatch(rel, pattern) for pattern in exclude_patterns)
 
 
-def fenced_ranges(content: str) -> List[Tuple[int, int]]:
+def fenced_ranges(content: str) -> list[tuple[int, int]]:
     """Return character-index ranges occupied by fenced code blocks.
 
     Args:
@@ -438,7 +462,7 @@ def fenced_ranges(content: str) -> List[Tuple[int, int]]:
     """
 
     lines = content.splitlines(keepends=True)
-    ranges: List[Tuple[int, int]] = []
+    ranges: list[tuple[int, int]] = []
     in_fence = False
     offset = 0
     start = 0
@@ -458,7 +482,7 @@ def fenced_ranges(content: str) -> List[Tuple[int, int]]:
     return ranges
 
 
-def in_ranges(index: int, ranges: Sequence[Tuple[int, int]]) -> bool:
+def in_ranges(index: int, ranges: Sequence[tuple[int, int]]) -> bool:
     """Determine whether a character index falls in any sorted range.
 
     Args:
@@ -504,7 +528,9 @@ def find_unescaped_char(content: str, start: int, target: str) -> int:
     return -1
 
 
-def parse_optional_image_title(content: str, start: int) -> Tuple[Optional[str], int]:
+def parse_optional_image_title(
+    content: str, start: int
+) -> tuple[str | None, int]:
     """Parse optional markdown image title that follows a link destination.
 
     Args:
@@ -540,7 +566,9 @@ def parse_optional_image_title(content: str, start: int) -> Tuple[Optional[str],
     return None, start
 
 
-def parse_external_image_link_at(content: str, start: int) -> Optional[ExternalImageMatch]:
+def parse_external_image_link_at(
+    content: str, start: int
+) -> ExternalImageMatch | None:
     """Parse a markdown image link at an exact offset.
 
     Args:
@@ -644,7 +672,7 @@ def iter_external_image_matches(content: str) -> Iterable[ExternalImageMatch]:
 
 def rewrite_markdown_with_mapping(
     content: str, url_to_relative: Mapping[str, str]
-) -> Tuple[str, int]:
+) -> tuple[str, int]:
     """Rewrite markdown image URLs according to a URL-to-local mapping.
 
     Args:
@@ -655,7 +683,7 @@ def rewrite_markdown_with_mapping(
         Tuple of rewritten content and number of links actually rewritten.
     """
 
-    replacements: List[Tuple[int, int, str]] = []
+    replacements: list[tuple[int, int, str]] = []
     rewritten = 0
 
     for match in iter_external_image_matches(content):
@@ -672,7 +700,7 @@ def rewrite_markdown_with_mapping(
     if not replacements:
         return content, 0
 
-    chunks: List[str] = []
+    chunks: list[str] = []
     cursor = 0
     # Rebuild from stable spans to avoid offset drift while replacing many links.
     for start, end, replacement in replacements:
@@ -684,7 +712,7 @@ def rewrite_markdown_with_mapping(
     return "".join(chunks), rewritten
 
 
-def guess_extension_from_content_type(content_type: str) -> Optional[str]:
+def guess_extension_from_content_type(content_type: str) -> str | None:
     """Infer file extension from HTTP content type.
 
     Args:
@@ -703,7 +731,7 @@ def guess_extension_from_content_type(content_type: str) -> Optional[str]:
     return EXTENSION_ALIASES.get(raw)
 
 
-def guess_extension_from_url(url: str) -> Optional[str]:
+def guess_extension_from_url(url: str) -> str | None:
     """Infer extension from URL query hints and path suffix.
 
     Args:
@@ -730,12 +758,21 @@ def guess_extension_from_url(url: str) -> Optional[str]:
     suffix = Path(parsed.path).suffix.strip().lower()
     if suffix.startswith("."):
         ext = EXTENSION_ALIASES.get(suffix[1:], suffix)
-        if ext in {".jpg", ".png", ".gif", ".svg", ".webp", ".bmp", ".tif", ".avif"}:
+        if ext in {
+            ".jpg",
+            ".png",
+            ".gif",
+            ".svg",
+            ".webp",
+            ".bmp",
+            ".tif",
+            ".avif",
+        }:
             return ext
     return None
 
 
-def parse_existing_index(filename: str, stem: str) -> Optional[int]:
+def parse_existing_index(filename: str, stem: str) -> int | None:
     """Parse sequential asset index from an existing localized filename.
 
     Args:
@@ -756,7 +793,9 @@ def parse_existing_index(filename: str, stem: str) -> Optional[int]:
         return None
 
 
-def next_index_start(asset_dir: Path, metadata: Mapping[str, object], stem: str) -> int:
+def next_index_start(
+    asset_dir: Path, metadata: Mapping[str, object], stem: str
+) -> int:
     """Compute the next filename index for a markdown's asset directory.
 
     Args:
@@ -768,7 +807,7 @@ def next_index_start(asset_dir: Path, metadata: Mapping[str, object], stem: str)
         Next 1-based index to use when allocating new asset filenames.
     """
 
-    indexes: List[int] = []
+    indexes: list[int] = []
 
     for value in metadata.values():
         if not isinstance(value, dict):
@@ -792,7 +831,7 @@ def next_index_start(asset_dir: Path, metadata: Mapping[str, object], stem: str)
     return (max(indexes) + 1) if indexes else 1
 
 
-def load_metadata(metadata_path: Path) -> Dict[str, Dict[str, object]]:
+def load_metadata(metadata_path: Path) -> dict[str, dict[str, object]]:
     """Load and normalize per-markdown localization metadata.
 
     Args:
@@ -811,7 +850,7 @@ def load_metadata(metadata_path: Path) -> Dict[str, Dict[str, object]]:
     if not isinstance(raw, dict):
         return {}
 
-    normalized: Dict[str, Dict[str, object]] = {}
+    normalized: dict[str, dict[str, object]] = {}
     for key, value in raw.items():
         if isinstance(key, str) and isinstance(value, dict):
             normalized[key] = dict(value)
@@ -839,7 +878,7 @@ def utc_now_iso() -> str:
 
 def classify_storage_mode(
     downloaded_file: Path, url: str, content_type: str
-) -> Tuple[str, str]:
+) -> tuple[str, str]:
     """Decide whether to pass through original bytes or transcode to WebP.
 
     Args:
@@ -854,7 +893,9 @@ def classify_storage_mode(
         ValueError: If the payload cannot be identified as supported image input.
     """
 
-    hinted_ext = guess_extension_from_content_type(content_type) or guess_extension_from_url(url)
+    hinted_ext = guess_extension_from_content_type(
+        content_type
+    ) or guess_extension_from_url(url)
     if hinted_ext in PASSTHROUGH_EXTENSIONS:
         return ("passthrough", hinted_ext)
 
@@ -873,7 +914,9 @@ def classify_storage_mode(
     except UnidentifiedImageError as exc:
         if hinted_ext == ".svg":
             return ("passthrough", ".svg")
-        raise ValueError(f"Unsupported or invalid image payload: {url}") from exc
+        raise ValueError(
+            f"Unsupported or invalid image payload: {url}"
+        ) from exc
 
     if hinted_ext == ".svg":
         return ("passthrough", ".svg")
@@ -912,7 +955,7 @@ def convert_to_webp(
         )
 
 
-def download_binary(session, url: str, target_path: Path) -> Tuple[str, str]:
+def download_binary(session, url: str, target_path: Path) -> tuple[str, str]:
     """Download URL bytes to disk while computing a SHA-256 digest.
 
     Args:
@@ -930,7 +973,12 @@ def download_binary(session, url: str, target_path: Path) -> Tuple[str, str]:
 
     with session.get(url, timeout=(5, 30), stream=True) as response:
         response.raise_for_status()
-        content_type = response.headers.get("Content-Type", "").split(";", 1)[0].strip().lower()
+        content_type = (
+            response.headers.get("Content-Type", "")
+            .split(";", 1)[0]
+            .strip()
+            .lower()
+        )
         hasher = hashlib.sha256()
         bytes_written = 0
         with target_path.open("wb") as handle:
@@ -954,7 +1002,7 @@ def materialize_url(
     index: int,
     quality: int,
     method: int,
-) -> Tuple[str, str, str, str]:
+) -> tuple[str, str, str, str]:
     """Download and store one URL into the markdown asset directory.
 
     Args:
@@ -979,9 +1027,15 @@ def materialize_url(
     write_tmp = asset_dir / f".write-{uuid.uuid4().hex}"
 
     try:
-        content_type, digest = download_binary(session=session, url=url, target_path=download_path)
-        mode, ext = classify_storage_mode(downloaded_file=download_path, url=url, content_type=content_type)
-        filename = f"{stem}_{index:03d}{ext if mode == 'passthrough' else '.webp'}"
+        content_type, digest = download_binary(
+            session=session, url=url, target_path=download_path
+        )
+        mode, ext = classify_storage_mode(
+            downloaded_file=download_path, url=url, content_type=content_type
+        )
+        filename = (
+            f"{stem}_{index:03d}{ext if mode == 'passthrough' else '.webp'}"
+        )
         final_path = asset_dir / filename
 
         if mode == "passthrough":
@@ -1013,10 +1067,10 @@ def resolve_url_for_markdown(
     session,
     markdown_path: Path,
     url: str,
-    metadata: Dict[str, Dict[str, object]],
+    metadata: dict[str, dict[str, object]],
     asset_dir: Path,
     stem: str,
-    next_index_ref: List[int],
+    next_index_ref: list[int],
 ) -> ResolveResult:
     """Resolve one external URL to a local relative asset path.
 
@@ -1037,7 +1091,9 @@ def resolve_url_for_markdown(
         Exception: Propagates download/format/write exceptions in apply mode.
     """
 
-    existing = metadata.get(url) if isinstance(metadata.get(url), dict) else None
+    existing = (
+        metadata.get(url) if isinstance(metadata.get(url), dict) else None
+    )
     if existing:
         relative_path = existing.get("relative_path")
         if isinstance(relative_path, str):
@@ -1048,7 +1104,7 @@ def resolve_url_for_markdown(
                     status="reused",
                 )
 
-    index: Optional[int] = None
+    index: int | None = None
     if existing:
         existing_rel = existing.get("relative_path")
         if isinstance(existing_rel, str):
@@ -1059,7 +1115,9 @@ def resolve_url_for_markdown(
 
     guessed = guess_extension_from_url(url)
     planned_ext = guessed if guessed in PASSTHROUGH_EXTENSIONS else ".webp"
-    planned_relative = (Path(asset_dir.name) / f"{stem}_{index:03d}{planned_ext}").as_posix()
+    planned_relative = (
+        Path(asset_dir.name) / f"{stem}_{index:03d}{planned_ext}"
+    ).as_posix()
 
     if not config.apply:
         return ResolveResult(
@@ -1097,7 +1155,9 @@ def resolve_url_for_markdown(
     )
 
 
-def process_markdown_file(markdown_path: Path, config: Config, session) -> FileResult:
+def process_markdown_file(
+    markdown_path: Path, config: Config, session
+) -> FileResult:
     """Process one markdown file from scan to optional write-back.
 
     Args:
@@ -1123,8 +1183,12 @@ def process_markdown_file(markdown_path: Path, config: Config, session) -> FileR
     metadata = load_metadata(metadata_path)
     metadata_before = json.dumps(metadata, ensure_ascii=False, sort_keys=True)
 
-    next_index = [next_index_start(asset_dir=asset_dir, metadata=metadata, stem=markdown_path.stem)]
-    url_to_relative: Dict[str, str] = {}
+    next_index = [
+        next_index_start(
+            asset_dir=asset_dir, metadata=metadata, stem=markdown_path.stem
+        )
+    ]
+    url_to_relative: dict[str, str] = {}
 
     for match in matches:
         url = match.url
@@ -1157,7 +1221,9 @@ def process_markdown_file(markdown_path: Path, config: Config, session) -> FileR
                 raise
 
     result.resolved_urls = dict(url_to_relative)
-    rewritten_content, rewritten_count = rewrite_markdown_with_mapping(content, url_to_relative)
+    rewritten_content, rewritten_count = rewrite_markdown_with_mapping(
+        content, url_to_relative
+    )
     result.rewritten_links = rewritten_count
     result.would_change = rewritten_content != content
 
@@ -1173,7 +1239,76 @@ def process_markdown_file(markdown_path: Path, config: Config, session) -> FileR
     return result
 
 
-def summarize(results: Sequence[FileResult]) -> Dict[str, int]:
+def process_markdown_file_fail_soft(
+    markdown_path: Path, config: Config, session
+) -> FileResult:
+    """Process one markdown file and convert unexpected exceptions to file errors."""
+
+    try:
+        return process_markdown_file(
+            markdown_path, config=config, session=session
+        )
+    except Exception as exc:
+        # Fail-soft default: preserve per-file failures in result stream.
+        rel_markdown = to_posix_relative(markdown_path, config.root)
+        return FileResult(
+            markdown_path=rel_markdown,
+            errors=[f"{rel_markdown}: {exc}"],
+        )
+
+
+def default_parallel_jobs() -> int:
+    """Return conservative auto worker count for I/O-heavy file processing."""
+
+    cpu_count = os.cpu_count() or 2
+    return max(2, min(8, cpu_count * 2))
+
+
+def resolve_effective_jobs(config: Config, file_count: int) -> int:
+    """Resolve final worker count after strict-mode and file-count constraints."""
+
+    if file_count <= 1:
+        return 1
+    if config.strict:
+        return 1
+    requested = (
+        config.jobs if config.jobs is not None else default_parallel_jobs()
+    )
+    return max(1, min(int(requested), file_count))
+
+
+def create_thread_local_session_provider(
+    config: Config,
+) -> tuple[Callable[[], object], Callable[[], None]]:
+    """Create thread-local session accessor and bulk closer for parallel workers."""
+
+    local_state = threading.local()
+    session_lock = threading.Lock()
+    sessions: list[object] = []
+
+    def get_session():
+        if not config.apply:
+            return None
+        session = getattr(local_state, "session", None)
+        if session is None:
+            session = create_http_session()
+            local_state.session = session
+            with session_lock:
+                sessions.append(session)
+        return session
+
+    def close_sessions() -> None:
+        for session in sessions:
+            try:
+                session.close()
+            except Exception:
+                # Best-effort cleanup only; run outcome is already determined.
+                pass
+
+    return get_session, close_sessions
+
+
+def summarize(results: Sequence[FileResult]) -> dict[str, int]:
     """Aggregate global counters across file-level processing results.
 
     Args:
@@ -1185,7 +1320,9 @@ def summarize(results: Sequence[FileResult]) -> Dict[str, int]:
 
     return {
         "files_scanned": len(results),
-        "files_with_image_links": sum(1 for r in results if r.image_links_found > 0),
+        "files_with_image_links": sum(
+            1 for r in results if r.image_links_found > 0
+        ),
         "total_image_links_found": sum(r.image_links_found for r in results),
         "rewritten_links": sum(r.rewritten_links for r in results),
         "reused_urls": sum(r.reused_urls for r in results),
@@ -1198,7 +1335,9 @@ def summarize(results: Sequence[FileResult]) -> Dict[str, int]:
     }
 
 
-def resolve_progress_enabled(progress_mode: str, progress_stream: TextIO) -> bool:
+def resolve_progress_enabled(
+    progress_mode: str, progress_stream: TextIO
+) -> bool:
     """Resolve progress-bar state from CLI mode and terminal context.
 
     Args:
@@ -1244,15 +1383,33 @@ def format_file_result_line(result: FileResult) -> str:
     )
 
 
-def print_run_start(config: Config, markdown_files: Sequence[Path], progress_enabled: bool) -> None:
+def render_jobs_label(config: Config, jobs_effective: int) -> str:
+    """Render requested/effective jobs label for banner and report metadata."""
+
+    requested = str(config.jobs) if config.jobs is not None else "auto"
+    if requested == str(jobs_effective):
+        return requested
+    return f"{requested}->{jobs_effective}"
+
+
+def print_run_start(
+    config: Config,
+    markdown_files: Sequence[Path],
+    progress_enabled: bool,
+    jobs_effective: int,
+) -> None:
     """Print concise run banner before processing starts."""
 
     mode = "APPLY" if config.apply else "DRY-RUN"
-    progress_label = render_progress_mode(config.progress_mode, progress_enabled)
+    progress_label = render_progress_mode(
+        config.progress_mode, progress_enabled
+    )
     verbose_label = "on" if config.verbose else "off"
+    strict_label = "on" if config.strict else "off"
+    jobs_label = render_jobs_label(config, jobs_effective)
     print(
         f"[{mode}] root={config.root} files={len(markdown_files)} "
-        f"progress={progress_label} verbose={verbose_label}"
+        f"progress={progress_label} verbose={verbose_label} strict={strict_label} jobs={jobs_label}"
     )
 
 
@@ -1288,12 +1445,15 @@ def print_summary(config: Config, results: Sequence[FileResult]) -> None:
                 print(f"  - {message}", file=sys.stderr)
 
 
-def write_report(config: Config, results: Sequence[FileResult]) -> None:
+def write_report(
+    config: Config, results: Sequence[FileResult], jobs_effective: int
+) -> None:
     """Optionally write a machine-readable JSON report.
 
     Args:
         config: Run configuration, including optional ``report_json`` path.
         results: Per-file processing results.
+        jobs_effective: Worker count actually used for this run.
     """
 
     if not config.report_json:
@@ -1304,6 +1464,8 @@ def write_report(config: Config, results: Sequence[FileResult]) -> None:
         "root": str(config.root),
         "include": list(config.include),
         "exclude": list(config.exclude),
+        "jobs_requested": config.jobs if config.jobs is not None else "auto",
+        "jobs_effective": jobs_effective,
         "summary": summarize(results),
         "files": [dataclasses.asdict(item) for item in results],
     }
@@ -1327,20 +1489,23 @@ def main() -> int:
         print(f"error: root does not exist: {config.root}", file=sys.stderr)
         return 2
 
-    markdown_files = discover_markdown_files(config.root, config.include, config.exclude)
+    markdown_files = discover_markdown_files(
+        config.root, config.include, config.exclude
+    )
     if not markdown_files:
         print("No markdown files matched include/exclude rules.")
         return 0
 
     progress_stream = sys.stderr
-    progress_enabled = resolve_progress_enabled(config.progress_mode, progress_stream)
-    print_run_start(config, markdown_files, progress_enabled)
+    jobs_effective = resolve_effective_jobs(config, len(markdown_files))
+    progress_enabled = resolve_progress_enabled(
+        config.progress_mode, progress_stream
+    )
+    print_run_start(config, markdown_files, progress_enabled, jobs_effective)
 
-    session = create_http_session() if config.apply else None
-    results: List[FileResult] = []
+    results: list[FileResult] = []
     progress_bar = (
         tqdm(
-            markdown_files,
             total=len(markdown_files),
             unit="file",
             desc="Localizing markdown images",
@@ -1353,48 +1518,103 @@ def main() -> int:
     running_rewritten = 0
     running_errors = 0
 
-    try:
-        iterable = progress_bar if progress_bar is not None else markdown_files
-        for markdown_path in iterable:
-            try:
-                file_result = process_markdown_file(markdown_path, config=config, session=session)
-            except Exception as exc:
-                # Fail-soft default: preserve per-file failures in result stream
-                # instead of aborting the entire run.
-                rel_markdown = to_posix_relative(markdown_path, config.root)
-                file_result = FileResult(
-                    markdown_path=rel_markdown,
-                    errors=[f"{rel_markdown}: {exc}"],
-                )
-            results.append(file_result)
-            running_rewritten += file_result.rewritten_links
-            running_errors += len(file_result.errors)
+    def emit_file_result(file_result: FileResult) -> None:
+        nonlocal running_rewritten, running_errors
+        results.append(file_result)
+        running_rewritten += file_result.rewritten_links
+        running_errors += len(file_result.errors)
+        if progress_bar is not None:
+            progress_bar.update(1)
+            progress_bar.set_postfix(
+                rewritten=running_rewritten,
+                errors=running_errors,
+                refresh=False,
+            )
+        if config.verbose:
+            line = format_file_result_line(file_result)
             if progress_bar is not None:
-                progress_bar.set_postfix(
-                    rewritten=running_rewritten,
-                    errors=running_errors,
-                    refresh=False,
+                progress_bar.write(line)
+                for message in file_result.errors:
+                    progress_bar.write(f"  error: {message}", file=sys.stderr)
+            else:
+                print(line)
+                for message in file_result.errors:
+                    print(f"  error: {message}", file=sys.stderr)
+
+    try:
+        if jobs_effective == 1:
+            session = create_http_session() if config.apply else None
+            try:
+                for markdown_path in markdown_files:
+                    file_result = process_markdown_file_fail_soft(
+                        markdown_path=markdown_path,
+                        config=config,
+                        session=session,
+                    )
+                    emit_file_result(file_result)
+                    if config.strict and file_result.errors:
+                        break
+            finally:
+                if session is not None:
+                    session.close()
+        else:
+            get_session, close_worker_sessions = (
+                create_thread_local_session_provider(config)
+            )
+
+            def worker(markdown_path: Path) -> FileResult:
+                try:
+                    worker_session = get_session()
+                except Exception as exc:
+                    rel_markdown = to_posix_relative(
+                        markdown_path, config.root
+                    )
+                    return FileResult(
+                        markdown_path=rel_markdown,
+                        errors=[f"{rel_markdown}: {exc}"],
+                    )
+                return process_markdown_file_fail_soft(
+                    markdown_path=markdown_path,
+                    config=config,
+                    session=worker_session,
                 )
-            if config.verbose:
-                line = format_file_result_line(file_result)
-                if progress_bar is not None:
-                    progress_bar.write(line)
-                    for message in file_result.errors:
-                        progress_bar.write(f"  error: {message}", file=sys.stderr)
-                else:
-                    print(line)
-                    for message in file_result.errors:
-                        print(f"  error: {message}", file=sys.stderr)
-            if config.strict and file_result.errors:
-                break
+
+            ordered_results: list[FileResult | None] = [None] * len(
+                markdown_files
+            )
+            try:
+                with ThreadPoolExecutor(
+                    max_workers=jobs_effective
+                ) as executor:
+                    future_to_index = {
+                        executor.submit(worker, markdown_path): index
+                        for index, markdown_path in enumerate(markdown_files)
+                    }
+                    for future in as_completed(future_to_index):
+                        index = future_to_index[future]
+                        try:
+                            file_result = future.result()
+                        except Exception as exc:
+                            rel_markdown = to_posix_relative(
+                                markdown_files[index], config.root
+                            )
+                            file_result = FileResult(
+                                markdown_path=rel_markdown,
+                                errors=[f"{rel_markdown}: {exc}"],
+                            )
+                        ordered_results[index] = file_result
+                        emit_file_result(file_result)
+            finally:
+                close_worker_sessions()
+
+            # Keep report output deterministic regardless of completion order.
+            results = [item for item in ordered_results if item is not None]
     finally:
         if progress_bar is not None:
             progress_bar.close()
-        if session is not None:
-            session.close()
 
     print_summary(config, results)
-    write_report(config, results)
+    write_report(config, results, jobs_effective=jobs_effective)
     summary = summarize(results)
     return 1 if summary["error_count"] > 0 else 0
 

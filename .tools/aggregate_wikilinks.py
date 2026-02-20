@@ -156,7 +156,9 @@ def find_file_in_vault(vault_dir: Path, file_basename: str) -> Optional[Path]:
         matching file is found.
     """
     target_filename = f"{file_basename}.md"
-    logger.debug(f"Searching for file: {target_filename!r} in vault: {vault_dir}")
+    logger.debug(
+        f"Searching for file: {target_filename!r} in vault: {vault_dir}"
+    )
 
     # Use rglob for a recursive search. It's efficient as it returns a generator.
     try:
@@ -218,13 +220,17 @@ def main() -> None:
     try:
         args.output_file.parent.mkdir(parents=True, exist_ok=True)
     except OSError as e:
-        logger.critical(f"Could not create output directory {args.output_file.parent}: {e}")
+        logger.critical(
+            f"Could not create output directory {args.output_file.parent}: {e}"
+        )
         sys.exit(1)
 
     # --- Core Logic ---
     links = extract_wiki_links(args.input_file)
     if not links:
-        logger.warning("No links found in the input file. Output will be empty.")
+        logger.warning(
+            "No links found in the input file. Output will be empty."
+        )
         args.output_file.touch()
         sys.exit(0)
 
@@ -235,7 +241,9 @@ def main() -> None:
         linked_file_path = find_file_in_vault(args.vault_dir, link_basename)
 
         if linked_file_path:
-            logger.success(f"Found file at: {linked_file_path.relative_to(args.vault_dir)}")
+            logger.success(
+                f"Found file at: {linked_file_path.relative_to(args.vault_dir)}"
+            )
             try:
                 content = linked_file_path.read_text(encoding="utf-8")
                 # Add a separator and a title for clarity in the aggregated file
@@ -243,22 +251,32 @@ def main() -> None:
                 aggregated_contents.append(header + content)
                 found_count += 1
             except Exception as e:
-                logger.error(f"Could not read content from {linked_file_path}: {e}")
+                logger.error(
+                    f"Could not read content from {linked_file_path}: {e}"
+                )
 
     # --- Write Output ---
     if not aggregated_contents:
-        logger.warning("No linked files were found or could be read. Output file will be empty.")
+        logger.warning(
+            "No linked files were found or could be read. Output file will be empty."
+        )
         final_content = ""
     else:
-        logger.info(f"Successfully processed and aggregated {found_count} of {len(links)} linked files.")
+        logger.info(
+            f"Successfully processed and aggregated {found_count} of {len(links)} linked files."
+        )
         # Join all content, stripping any leading whitespace from the first file.
         final_content = "".join(aggregated_contents).lstrip()
 
     try:
         args.output_file.write_text(final_content, encoding="utf-8")
-        logger.success(f"Aggregated content successfully written to: {args.output_file}")
+        logger.success(
+            f"Aggregated content successfully written to: {args.output_file}"
+        )
     except Exception as e:
-        logger.critical(f"Failed to write to output file {args.output_file}: {e}")
+        logger.critical(
+            f"Failed to write to output file {args.output_file}: {e}"
+        )
         sys.exit(1)
 
 

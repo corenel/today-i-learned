@@ -1,4 +1,26 @@
 repos:
+  # Python
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.16.0
+    hooks:
+      - id: pyupgrade
+        args: ["--py38-plus"]
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.14.7
+    hooks:
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix, --show-fixes]
+      - id: ruff-format
+        args: ["--line-length=79"]
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    rev: 0.9.13
+    hooks:
+      - id: uv-lock
+  # Shell
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.10.0.1
+    hooks:
+      - id: shellcheck
   # Markdown
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.43.0

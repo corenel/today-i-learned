@@ -28,7 +28,7 @@ import re
 import sys
 import yaml
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, Optional, Tuple
 
 from loguru import logger
 
@@ -36,7 +36,9 @@ from loguru import logger
 WIKI_LINK_REGEX = re.compile(r"\[\[([^\]]+)\]\]")
 
 # Regex to extract YAML frontmatter
-YAML_FRONTMATTER_REGEX = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL | re.MULTILINE)
+YAML_FRONTMATTER_REGEX = re.compile(
+    r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL | re.MULTILINE
+)
 
 
 def parse_arguments() -> argparse.Namespace:
@@ -118,15 +120,23 @@ def extract_url_from_metadata(file_path: Path) -> Optional[str]:
                 return None
 
             # Check for specific URL fields in priority order
-            url = metadata.get('source') or metadata.get('url') or metadata.get('link')
+            url = (
+                metadata.get("source")
+                or metadata.get("url")
+                or metadata.get("link")
+            )
 
             if url:
-                logger.debug(f"Found URL '{url}' in specific field in {file_path}")
+                logger.debug(
+                    f"Found URL '{url}' in specific field in {file_path}"
+                )
                 return str(url)
 
             # Fallback: search for first URL-like value in any field
-            logger.debug(f"No specific URL field found, searching for URL-like values in {file_path}")
-            url_pattern = re.compile(r'^https?://', re.IGNORECASE)
+            logger.debug(
+                f"No specific URL field found, searching for URL-like values in {file_path}"
+            )
+            url_pattern = re.compile(r"^https?://", re.IGNORECASE)
 
             def find_url_in_value(value):
                 """Recursively search for URL-like strings in metadata values."""
@@ -147,7 +157,9 @@ def extract_url_from_metadata(file_path: Path) -> Optional[str]:
             for key, value in metadata.items():
                 found_url = find_url_in_value(value)
                 if found_url:
-                    logger.debug(f"Found URL '{found_url}' in field '{key}' in {file_path}")
+                    logger.debug(
+                        f"Found URL '{found_url}' in field '{key}' in {file_path}"
+                    )
                     return found_url
 
             logger.debug(f"No URL found in metadata of: {file_path}")
@@ -175,7 +187,9 @@ def find_file_in_vault(vault_dir: Path, file_basename: str) -> Optional[Path]:
         matching file is found.
     """
     target_filename = f"{file_basename}.md"
-    logger.debug(f"Searching for file: {target_filename!r} in vault: {vault_dir}")
+    logger.debug(
+        f"Searching for file: {target_filename!r} in vault: {vault_dir}"
+    )
 
     try:
         found_files = list(vault_dir.rglob(target_filename))
@@ -196,7 +210,9 @@ def find_file_in_vault(vault_dir: Path, file_basename: str) -> Optional[Path]:
     return found_files[0]
 
 
-def build_link_url_map(content: str, vault_dir: Path) -> Dict[str, Tuple[str, Optional[str]]]:
+def build_link_url_map(
+    content: str, vault_dir: Path
+) -> Dict[str, Tuple[str, Optional[str]]]:
     """
     Builds a mapping of wiki-links to their replacement URLs.
 
@@ -251,7 +267,9 @@ def build_link_url_map(content: str, vault_dir: Path) -> Dict[str, Tuple[str, Op
                 logger.success(f"Found URL for [[{file_basename}]]: {url}")
                 link_map[link_content] = (display_text, url)
             else:
-                logger.info(f"No URL found in metadata for [[{file_basename}]]")
+                logger.info(
+                    f"No URL found in metadata for [[{file_basename}]]"
+                )
                 link_map[link_content] = (display_text, None)
         else:
             link_map[link_content] = (display_text, None)
@@ -259,7 +277,9 @@ def build_link_url_map(content: str, vault_dir: Path) -> Dict[str, Tuple[str, Op
     return link_map
 
 
-def replace_wikilinks(content: str, link_map: Dict[str, Tuple[str, Optional[str]]]) -> str:
+def replace_wikilinks(
+    content: str, link_map: Dict[str, Tuple[str, Optional[str]]]
+) -> str:
     """
     Replaces wiki-links in the content with standard markdown links.
 
@@ -270,6 +290,7 @@ def replace_wikilinks(content: str, link_map: Dict[str, Tuple[str, Optional[str]
     Returns:
         The processed content with wiki-links replaced.
     """
+
     def replace_link(match):
         link_content = match.group(1)
         if link_content in link_map:
@@ -315,7 +336,9 @@ def main() -> None:
     try:
         args.output_file.parent.mkdir(parents=True, exist_ok=True)
     except OSError as e:
-        logger.critical(f"Could not create output directory {args.output_file.parent}: {e}")
+        logger.critical(
+            f"Could not create output directory {args.output_file.parent}: {e}"
+        )
         sys.exit(1)
 
     # Read input file
@@ -332,7 +355,9 @@ def main() -> None:
 
     # Count statistics
     total_links = len(link_map)
-    links_with_urls = sum(1 for _, (_, url) in link_map.items() if url is not None)
+    links_with_urls = sum(
+        1 for _, (_, url) in link_map.items() if url is not None
+    )
 
     logger.info(f"Found {total_links} unique wiki-links")
     logger.info(f"Successfully mapped {links_with_urls} links to URLs")
@@ -345,7 +370,9 @@ def main() -> None:
     try:
         args.output_file.write_text(processed_content, encoding="utf-8")
         logger.success(f"Processed content written to: {args.output_file}")
-        logger.info(f"Replaced {links_with_urls}/{total_links} wiki-links with URLs")
+        logger.info(
+            f"Replaced {links_with_urls}/{total_links} wiki-links with URLs"
+        )
     except Exception as e:
         logger.critical(f"Failed to write output file: {e}")
         sys.exit(1)

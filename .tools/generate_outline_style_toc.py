@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 generate_outline_style_toc.py — Generate a Markdown TOC with Outline-style heading slugs.
 
@@ -36,10 +35,9 @@ from __future__ import annotations
 import re
 import sys
 import html
-import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
-from typing import List, Optional, Dict, Iterable, Tuple
+from typing import Iterable
 
 import click
 from loguru import logger
@@ -54,27 +52,90 @@ from loguru import logger
 #   - Unicode curly quotes: "" (U+201C/U+201D) and '' (U+2018/U+2019)
 #   - CJK corner brackets: 「」 (U+300C/U+300D) and 『』 (U+300E/U+300F)
 #   - CJK angle brackets: 《》 (U+300A/U+300B)
-REMOVE_RE = re.compile(r'[!"#$%&\'\.()*+,/:;<=>?@\[\]\\^_`{|}~\u201C\u201D\u2018\u2019\u300C\u300D\u300E\u300F\u300A\u300B]')
+REMOVE_RE = re.compile(
+    r'[!"#$%&\'\.()*+,/:;<=>?@\[\]\\^_`{|}~\u201C\u201D\u2018\u2019\u300C\u300D\u300E\u300F\u300A\u300B]'
+)
 
 # Latin extended character mappings for ASCII normalization
 # Maps accented/special characters to their ASCII equivalents (e.g., ä→a, ñ→n)
 CHARMAP = {
-    "ß": "ss", "à": "a", "á": "a", "â": "a", "ã": "a", "ä": "a", "å": "a",
-    "æ": "ae", "ç": "c", "è": "e", "é": "e", "ê": "e", "ë": "e",
-    "ì": "i", "í": "i", "î": "i", "ï": "i", "ð": "d", "ñ": "n",
-    "ò": "o", "ó": "o", "ô": "o", "õ": "o", "ö": "o", "ő": "o",
-    "ø": "o", "ù": "u", "ú": "u", "û": "u", "ü": "u", "ű": "u",
-    "ý": "y", "þ": "th", "ÿ": "y", "ẞ": "SS",
-    "À": "A", "Á": "A", "Â": "A", "Ã": "A", "Ä": "A", "Å": "A",
-    "Æ": "AE", "Ç": "C", "È": "E", "É": "E", "Ê": "E", "Ë": "E",
-    "Ì": "I", "Í": "I", "Î": "I", "Ï": "I", "Ð": "D", "Ñ": "N",
-    "Ò": "O", "Ó": "O", "Ô": "O", "Õ": "O", "Ö": "O", "Ő": "O",
-    "Ø": "O", "Ù": "U", "Ú": "U", "Û": "U", "Ü": "U", "Ű": "U",
-    "Ý": "Y", "Þ": "TH", "Ÿ": "Y",
-    "Œ": "OE", "œ": "oe", "Đ": "D", "đ": "d", "Ł": "L", "ł": "l",
+    "ß": "ss",
+    "à": "a",
+    "á": "a",
+    "â": "a",
+    "ã": "a",
+    "ä": "a",
+    "å": "a",
+    "æ": "ae",
+    "ç": "c",
+    "è": "e",
+    "é": "e",
+    "ê": "e",
+    "ë": "e",
+    "ì": "i",
+    "í": "i",
+    "î": "i",
+    "ï": "i",
+    "ð": "d",
+    "ñ": "n",
+    "ò": "o",
+    "ó": "o",
+    "ô": "o",
+    "õ": "o",
+    "ö": "o",
+    "ő": "o",
+    "ø": "o",
+    "ù": "u",
+    "ú": "u",
+    "û": "u",
+    "ü": "u",
+    "ű": "u",
+    "ý": "y",
+    "þ": "th",
+    "ÿ": "y",
+    "ẞ": "SS",
+    "À": "A",
+    "Á": "A",
+    "Â": "A",
+    "Ã": "A",
+    "Ä": "A",
+    "Å": "A",
+    "Æ": "AE",
+    "Ç": "C",
+    "È": "E",
+    "É": "E",
+    "Ê": "E",
+    "Ë": "E",
+    "Ì": "I",
+    "Í": "I",
+    "Î": "I",
+    "Ï": "I",
+    "Ð": "D",
+    "Ñ": "N",
+    "Ò": "O",
+    "Ó": "O",
+    "Ô": "O",
+    "Õ": "O",
+    "Ö": "O",
+    "Ő": "O",
+    "Ø": "O",
+    "Ù": "U",
+    "Ú": "U",
+    "Û": "U",
+    "Ü": "U",
+    "Ű": "U",
+    "Ý": "Y",
+    "Þ": "TH",
+    "Ÿ": "Y",
+    "Œ": "OE",
+    "œ": "oe",
+    "Đ": "D",
+    "đ": "d",
+    "Ł": "L",
+    "ł": "l",
 }
 
-_safe_slug_cache: Dict[str, str] = {}
+_safe_slug_cache: dict[str, str] = {}
 
 
 def _escape_for_dom_id(s: str) -> str:
@@ -131,7 +192,7 @@ def slugify_js_equiv(text: str) -> str:
     # Keep: letters, numbers, hyphens, and Unicode word characters (including CJK)
     new_parts = []
     for ch in t:
-        if ch == '-' or ch.isalnum() or (ord(ch) > 127 and not ch.isspace()):
+        if ch == "-" or ch.isalnum() or (ord(ch) > 127 and not ch.isspace()):
             # Keep: hyphen, alphanumeric (including CJK), and non-space Unicode
             new_parts.append(ch)
         elif ch.isspace():
@@ -139,8 +200,8 @@ def slugify_js_equiv(text: str) -> str:
             continue
         else:
             # Replace other chars with hyphen only if not adjacent to another hyphen
-            if new_parts and new_parts[-1] != '-':
-                new_parts.append('-')
+            if new_parts and new_parts[-1] != "-":
+                new_parts.append("-")
 
     t = "".join(new_parts)
 
@@ -210,7 +271,7 @@ def heading_to_slug(text: str, index: int = 0) -> str:
 
 
 def heading_to_persistence_key(
-    text: str, id_: Optional[str] = None, pathname: Optional[str] = None
+    text: str, id_: str | None = None, pathname: str | None = None
 ) -> str:
     """
     Generate a persistence key for storing heading collapsed state.
@@ -249,7 +310,7 @@ class Heading:
     slug: str  # final unique slug (with h- prefix and any -N suffix)
 
 
-def iter_headings(md_lines: Iterable[str]) -> Iterable[Tuple[int, str, int]]:
+def iter_headings(md_lines: Iterable[str]) -> Iterable[tuple[int, str, int]]:
     """
     Extract headings from Markdown lines.
 
@@ -266,7 +327,7 @@ def iter_headings(md_lines: Iterable[str]) -> Iterable[Tuple[int, str, int]]:
         - Handles optional closing # marks in ATX headings
     """
     in_fence = False
-    prev_line: Optional[str] = None
+    prev_line: str | None = None
     prev_no: int = 0
 
     for i, raw in enumerate(md_lines, start=1):
@@ -297,7 +358,9 @@ def iter_headings(md_lines: Iterable[str]) -> Iterable[Tuple[int, str, int]]:
         # Setext: look at underline style
         if prev_line and (SETEXT_H1.match(line) or SETEXT_H2.match(line)):
             text = prev_line.strip()
-            if text and not ATX.match(text):  # don't double-count if previous was ATX
+            if text and not ATX.match(
+                text
+            ):  # don't double-count if previous was ATX
                 level = 1 if SETEXT_H1.match(line) else 2
                 yield (level, text, prev_no)
 
@@ -305,7 +368,7 @@ def iter_headings(md_lines: Iterable[str]) -> Iterable[Tuple[int, str, int]]:
         prev_no = i
 
 
-def make_toc(headings_seq: Iterable[Tuple[int, str, int]]) -> List[Heading]:
+def make_toc(headings_seq: Iterable[tuple[int, str, int]]) -> list[Heading]:
     """
     Build a table of contents with unique slugs for each heading.
 
@@ -318,8 +381,8 @@ def make_toc(headings_seq: Iterable[Tuple[int, str, int]]) -> List[Heading]:
     Returns:
         List of Heading objects with unique slugs
     """
-    counts: Dict[str, int] = {}
-    toc: List[Heading] = []
+    counts: dict[str, int] = {}
+    toc: list[Heading] = []
 
     for level, text, line_no in headings_seq:
         base = safe_slugify(text)
@@ -332,7 +395,7 @@ def make_toc(headings_seq: Iterable[Tuple[int, str, int]]) -> List[Heading]:
 
 
 def format_toc_markdown(
-    toc: List[Heading], min_level: int = 1, max_level: int = 6
+    toc: list[Heading], min_level: int = 1, max_level: int = 6
 ) -> str:
     """
     Format the table of contents as a Markdown bullet list.
@@ -362,7 +425,8 @@ def format_toc_markdown(
 
 @click.command(context_settings={"help_option_names": ["-h", "--help"]})
 @click.argument(
-    "markdown_file", type=click.Path(exists=True, dir_okay=False, path_type=Path)
+    "markdown_file",
+    type=click.Path(exists=True, dir_okay=False, path_type=Path),
 )
 @click.option(
     "--min-level",
