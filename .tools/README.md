@@ -11,16 +11,16 @@ Examples:
 
 ```bash
 # Dry-run over all markdown files (recommended: uv ephemeral env)
-uv run --with pillow --with requests python .tools/localize_markdown_images.py
+uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py
 
 # Apply changes for a single file
-uv run --with pillow --with requests python .tools/localize_markdown_images.py --apply --include "weekly/2025/2025W11/README.zh-CN.md"
+uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py --apply --include "weekly/2025/2025W11/README.zh-CN.md"
 
 # Apply changes and emit a JSON report
-uv run --with pillow --with requests python .tools/localize_markdown_images.py --apply --report-json .agents/localize-images/report.json
+uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py --apply --report-json .agents/localize-images/report.json
 
 # If you prefer system Python, install dependencies first:
-#   python -m pip install requests Pillow
+#   python -m pip install tqdm requests Pillow
 # then run:
 python .tools/localize_markdown_images.py --apply --include "weekly/2025/2025W11/README.zh-CN.md"
 ```
@@ -32,3 +32,5 @@ Key behavior:
 - Static raster images are converted to WebP.
 - GIF/SVG are downloaded in original format (no transcoding).
 - Idempotence uses `.image-localize-map.json` inside each asset directory.
+- Progress uses `tqdm` on `stderr` (auto-enabled when `stderr` is a TTY); use `--progress` / `--no-progress` to override.
+- Use `--verbose` for one compact per-file result line during processing.

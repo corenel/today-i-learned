@@ -9,10 +9,10 @@ paths.
 Default behavior is dry-run. Use --apply to write files.
 
 Recommended invocation (no global installs):
-  uv run --with pillow --with requests python .tools/localize_markdown_images.py --apply
+  uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py --apply
 
 Fallback with system Python:
-  python -m pip install requests Pillow
+  python -m pip install tqdm requests Pillow
   python .tools/localize_markdown_images.py --apply
 """
 
@@ -30,7 +30,7 @@ import sys
 import uuid
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Dict, Iterable, List, Mapping, Optional, Sequence, Tuple
+from typing import Dict, Iterable, List, Mapping, Optional, Sequence, TextIO, Tuple
 from urllib.parse import parse_qs, urlparse
 
 
@@ -77,6 +77,8 @@ class Config:
         strict: Whether to stop on first per-file/per-URL error.
         quality: WebP lossy quality parameter in `[0, 100]`.
         method: WebP encoder effort parameter in `[0, 6]`.
+        progress_mode: Progress behavior: ``auto`` / ``on`` / ``off``.
+        verbose: Whether to emit one per-file result line.
         metadata_name: Per-markdown metadata filename under the asset directory.
         report_json: Optional JSON report destination path.
     """
@@ -88,6 +90,8 @@ class Config:
     strict: bool
     quality: int
     method: int
+    progress_mode: str
+    verbose: bool
     metadata_name: str
     report_json: Optional[Path]
 
@@ -176,8 +180,8 @@ def parse_args() -> Config:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=(
             "Examples:\n"
-            "  uv run --with pillow --with requests python .tools/localize_markdown_images.py\n"
-            "  uv run --with pillow --with requests python .tools/localize_markdown_images.py --apply\n"
+            "  uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py\n"
+            "  uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py --apply\n"
             "  python .tools/localize_markdown_images.py --apply  # when deps are installed in system env\n"
         ),
     )
@@ -221,6 +225,22 @@ def parse_args() -> Config:
         default=6,
         help="WebP encoder method 0..6. Default: 6.",
     )
+    progress_group = parser.add_mutually_exclusive_group()
+    progress_group.add_argument(
+        "--progress",
+        action="store_true",
+        help="Force progress bar on.",
+    )
+    progress_group.add_argument(
+        "--no-progress",
+        action="store_true",
+        help="Force progress bar off.",
+    )
+    parser.add_argument(
+        "--verbose",
+        action="store_true",
+        help="Print one compact per-file result line while processing.",
+    )
     parser.add_argument(
         "--metadata-name",
         default=".image-localize-map.json",
@@ -243,6 +263,7 @@ def parse_args() -> Config:
 
     include = args.include if args.include else list(DEFAULT_INCLUDE)
     exclude = list(DEFAULT_EXCLUDE) + list(args.exclude)
+    progress_mode = "on" if args.progress else "off" if args.no_progress else "auto"
 
     return Config(
         root=args.root.resolve(),
@@ -252,6 +273,8 @@ def parse_args() -> Config:
         strict=bool(args.strict),
         quality=int(args.quality),
         method=int(args.method),
+        progress_mode=progress_mode,
+        verbose=bool(args.verbose),
         metadata_name=str(args.metadata_name),
         report_json=args.report_json.resolve() if args.report_json else None,
     )
@@ -312,14 +335,39 @@ def ensure_apply_dependencies() -> None:
         missing.append("Pillow")
     if missing:
         joined = ", ".join(missing)
+        pip_packages = " ".join(["tqdm"] + missing)
         print(
             f"error: missing dependencies for --apply: {joined}. "
             "Run with uv ephemeral deps:\n"
-            "  uv run --with pillow --with requests python .tools/localize_markdown_images.py --apply\n"
-            f"Or install in current Python env: pip install {joined}",
+            "  uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py --apply\n"
+            f"Or install in current Python env: pip install {pip_packages}",
             file=sys.stderr,
         )
         raise SystemExit(2)
+
+
+def ensure_tqdm_dependency():
+    """Import and return ``tqdm`` progress helper.
+
+    Returns:
+        Callable ``tqdm`` progress-bar constructor.
+
+    Raises:
+        SystemExit: If ``tqdm`` is not importable.
+    """
+
+    try:
+        from tqdm import tqdm
+    except Exception:
+        print(
+            "error: missing dependency: tqdm. "
+            "Run with uv ephemeral deps:\n"
+            "  uv run --with tqdm --with pillow --with requests python .tools/localize_markdown_images.py\n"
+            "Or install in current Python env: pip install tqdm",
+            file=sys.stderr,
+        )
+        raise SystemExit(2)
+    return tqdm
 
 
 def to_posix_relative(path: Path, start: Path) -> str:
@@ -1150,6 +1198,64 @@ def summarize(results: Sequence[FileResult]) -> Dict[str, int]:
     }
 
 
+def resolve_progress_enabled(progress_mode: str, progress_stream: TextIO) -> bool:
+    """Resolve progress-bar state from CLI mode and terminal context.
+
+    Args:
+        progress_mode: One of ``auto``, ``on``, or ``off``.
+        progress_stream: Output stream used by the progress bar.
+
+    Returns:
+        ``True`` when progress bar should be enabled.
+    """
+
+    if progress_mode == "on":
+        return True
+    if progress_mode == "off":
+        return False
+    isatty = getattr(progress_stream, "isatty", None)
+    if callable(isatty):
+        try:
+            return bool(isatty())
+        except Exception:
+            return False
+    return False
+
+
+def render_progress_mode(progress_mode: str, progress_enabled: bool) -> str:
+    """Render progress-mode label for start banner output."""
+
+    if progress_mode == "auto":
+        return f"auto->{'on' if progress_enabled else 'off'}"
+    return progress_mode
+
+
+def format_file_result_line(result: FileResult) -> str:
+    """Render one compact file-result line for verbose mode."""
+
+    return (
+        f"{result.markdown_path}: "
+        f"found={result.image_links_found} "
+        f"rewritten={result.rewritten_links} "
+        f"reused={result.reused_urls} "
+        f"planned={result.planned_urls} "
+        f"downloaded={result.downloaded_urls} "
+        f"errors={len(result.errors)}"
+    )
+
+
+def print_run_start(config: Config, markdown_files: Sequence[Path], progress_enabled: bool) -> None:
+    """Print concise run banner before processing starts."""
+
+    mode = "APPLY" if config.apply else "DRY-RUN"
+    progress_label = render_progress_mode(config.progress_mode, progress_enabled)
+    verbose_label = "on" if config.verbose else "off"
+    print(
+        f"[{mode}] root={config.root} files={len(markdown_files)} "
+        f"progress={progress_label} verbose={verbose_label}"
+    )
+
+
 def print_summary(config: Config, results: Sequence[FileResult]) -> None:
     """Print human-readable run summary to stdout/stderr.
 
@@ -1213,6 +1319,7 @@ def main() -> int:
     """
 
     config = parse_args()
+    tqdm = ensure_tqdm_dependency()
     if config.apply:
         ensure_apply_dependencies()
 
@@ -1225,11 +1332,30 @@ def main() -> int:
         print("No markdown files matched include/exclude rules.")
         return 0
 
+    progress_stream = sys.stderr
+    progress_enabled = resolve_progress_enabled(config.progress_mode, progress_stream)
+    print_run_start(config, markdown_files, progress_enabled)
+
     session = create_http_session() if config.apply else None
     results: List[FileResult] = []
+    progress_bar = (
+        tqdm(
+            markdown_files,
+            total=len(markdown_files),
+            unit="file",
+            desc="Localizing markdown images",
+            dynamic_ncols=True,
+            file=progress_stream,
+        )
+        if progress_enabled
+        else None
+    )
+    running_rewritten = 0
+    running_errors = 0
 
     try:
-        for markdown_path in markdown_files:
+        iterable = progress_bar if progress_bar is not None else markdown_files
+        for markdown_path in iterable:
             try:
                 file_result = process_markdown_file(markdown_path, config=config, session=session)
             except Exception as exc:
@@ -1241,9 +1367,29 @@ def main() -> int:
                     errors=[f"{rel_markdown}: {exc}"],
                 )
             results.append(file_result)
+            running_rewritten += file_result.rewritten_links
+            running_errors += len(file_result.errors)
+            if progress_bar is not None:
+                progress_bar.set_postfix(
+                    rewritten=running_rewritten,
+                    errors=running_errors,
+                    refresh=False,
+                )
+            if config.verbose:
+                line = format_file_result_line(file_result)
+                if progress_bar is not None:
+                    progress_bar.write(line)
+                    for message in file_result.errors:
+                        progress_bar.write(f"  error: {message}", file=sys.stderr)
+                else:
+                    print(line)
+                    for message in file_result.errors:
+                        print(f"  error: {message}", file=sys.stderr)
             if config.strict and file_result.errors:
                 break
     finally:
+        if progress_bar is not None:
+            progress_bar.close()
         if session is not None:
             session.close()
 
