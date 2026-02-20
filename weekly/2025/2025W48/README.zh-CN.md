@@ -2031,7 +2031,7 @@ Tz @Tz\_2022 [2025-11-22](https://x.com/Tz_2022/status/1992282516045345189)
 
 > 这张图的内涵越来越丰富了。。。
 
-![A satirical hand-drawn diagram illustrating the fragile layers of the modern tech stack, from nuclear-powered electricity at the base to chaotic AI and web development atop, with Microsoft depicted as an "angry bird" disrupting CrowdStrike. Its "richer connotations" stem from real-world events, including Cloudflare's severe outage on November 18, 2025—caused by an anti-bot software bug—that disrupted X, OpenAI, and Discord, echoing the diagram's warnings about DNS and cloud vulnerabilities.](https://pbs.twimg.com/media/G6YCYzrWgAA37HE?format=jpg&name=large)
+![A satirical hand-drawn diagram illustrating the fragile layers of the modern tech stack, from nuclear-powered electricity at the base to chaotic AI and web development atop, with Microsoft depicted as an "angry bird" disrupting CrowdStrike. Its "richer connotations" stem from real-world events, including Cloudflare's severe outage on November 18, 2025—caused by an anti-bot software bug—that disrupted X, OpenAI, and Discord, echoing the diagram's warnings about DNS and cloud vulnerabilities.](README.zh-CN.assets/README.zh-CN_001.webp)
 
 #### 编码工作新形态：GPT-5 之间的沟通协调员
 
@@ -2051,7 +2051,7 @@ howie.serious @howie\_serious [2025-11-26](https://x.com/howie_serious/status/19
 >
 > nano banana pro，真是 ai 时代的 photoshop。
 
-![In an outdoor, arid, and rocky environment reminiscent of a mining camp, NVIDIA CEO Jensen Huang is portrayed as a shopkeeper. He stands behind a rustic wooden counter under a canvas awning with a sign that reads "NVIDIA SHOVELS & SUPPLIES." Huang, wearing a sleeveless leather vest over a t-shirt and a bandana, is handing a shovel with the "NVIDIA" logo on its handle to Tesla and SpaceX CEO Elon Musk. Musk is dressed as a prospector or miner, wearing a denim shirt, dirty jeans, suspenders, a bandana around his neck, and a hard hat. He is looking at the shovel as he takes it. Waiting in line behind Musk are three other men dressed as prospectors. The man directly behind Musk is Microsoft CEO Satya Nadella, wearing a red and black plaid shirt and a wide-brimmed hat. The two men behind him, often identified in memes and discussions as representing Meta CEO Mark Zuckerberg and OpenAI CEO Sam Altman, are also dressed in plaid shirts and hats. All three men in line are holding gold pans and small sacks. In the background, the scene is completed with a rocky stream and several wooden sluice boxes, which were used for separating gold from dirt and gravel.](https://pbs.twimg.com/media/G6q8Tfga8AE4Xog?format=jpg&name=large)
+![In an outdoor, arid, and rocky environment reminiscent of a mining camp, NVIDIA CEO Jensen Huang is portrayed as a shopkeeper. He stands behind a rustic wooden counter under a canvas awning with a sign that reads "NVIDIA SHOVELS & SUPPLIES." Huang, wearing a sleeveless leather vest over a t-shirt and a bandana, is handing a shovel with the "NVIDIA" logo on its handle to Tesla and SpaceX CEO Elon Musk. Musk is dressed as a prospector or miner, wearing a denim shirt, dirty jeans, suspenders, a bandana around his neck, and a hard hat. He is looking at the shovel as he takes it. Waiting in line behind Musk are three other men dressed as prospectors. The man directly behind Musk is Microsoft CEO Satya Nadella, wearing a red and black plaid shirt and a wide-brimmed hat. The two men behind him, often identified in memes and discussions as representing Meta CEO Mark Zuckerberg and OpenAI CEO Sam Altman, are also dressed in plaid shirts and hats. All three men in line are holding gold pans and small sacks. In the background, the scene is completed with a rocky stream and several wooden sluice boxes, which were used for separating gold from dirt and gravel.](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ## 摘录
 
@@ -2461,7 +2461,7 @@ Zeyuan Allen-Zhu, Sc.D. @ZeyuanAllenZhu 2025-07-02
 >
 > ⏳ No complaint — just asking folks to be patient
 
-![Image](https://pbs.twimg.com/media/GvPsOH0WIAAg1jS?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 In the Image:
 
@@ -2589,7 +2589,7 @@ eric zakariasson @ericzakariasson [2025-11-27](https://x.com/ericzakariasson/sta
 >
 > 这些现象说明：编程型智能体（coding agent）其实是在放大已有的工程能力，而不是用来取代工程师本身。
 
-![Image](https://pbs.twimg.com/media/G6usaisa0AAH528?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_004.webp)
 
 ## 学术研究
 

@@ -1540,7 +1540,7 @@ henri @hehehenrihenri [2025-04-18](https://x.com/hehehenrihenri/status/191316160
 
 > I spent the night helping to build this monstrosity
 
-![Image](https://pbs.twimg.com/media/GozqFzzWkAA26iR?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 #### 如何通过 AI 创业轻松赚取 1000 万美元？
 

@@ -1862,7 +1862,7 @@ Zihan Wang @wzihanw [2025-12-19](https://x.com/wzihanw/status/200209205588412429
 
 > Everything is a world model if you squint hard enough.
 
-![Image](https://pbs.twimg.com/media/G8jcHErXYAEegws?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 | Item                         | Reconstruction = World Model | Predict Next Step = World Model | Can Run = World Model           |
 | ---------------------------- | ---------------------------- | ------------------------------- | ------------------------------- |
@@ -1876,7 +1876,7 @@ Andy Stewart @manateelazycat [2025-12-25](https://x.com/manateelazycat/status/20
 
 > 这棵圣诞树够不够有诚意🤣
 
-![The image displays a creative, geek-chic Christmas tree standing on a light wooden office desk. Instead of pine branches, the conical structure is built entirely from layers of computer RAM (Random Access Memory) sticks. The modules are arranged in overlapping tiers that flare outward toward the bottom, alternating between green and blue circuit boards to create a textured, colorful look. Perched at the very top, serving as the traditional Christmas star, is a single square computer processor (CPU) positioned like a diamond. In the background, there is an office window decorated with hanging snowflake lights, suggesting this was built in an IT department or tech office to celebrate the holidays. While this might have looked like a clever way to recycle e-waste in previous years, in the context of the market at the end of 2025, this is actually a picture of a "luxury" item. With RAM and SSD prices skyrocketing in Q4 2025, this tree is no longer just a festive office decoration—it’s a massive financial flex! Due to the extreme price surge, the components stacked here represent a small fortune, making this the tech equivalent of a Christmas tree made out of jewelry or stacks of cash.](https://pbs.twimg.com/media/G9AAZwnb0AAglvc?format=png&name=large)
+![The image displays a creative, geek-chic Christmas tree standing on a light wooden office desk. Instead of pine branches, the conical structure is built entirely from layers of computer RAM (Random Access Memory) sticks. The modules are arranged in overlapping tiers that flare outward toward the bottom, alternating between green and blue circuit boards to create a textured, colorful look. Perched at the very top, serving as the traditional Christmas star, is a single square computer processor (CPU) positioned like a diamond. In the background, there is an office window decorated with hanging snowflake lights, suggesting this was built in an IT department or tech office to celebrate the holidays. While this might have looked like a clever way to recycle e-waste in previous years, in the context of the market at the end of 2025, this is actually a picture of a "luxury" item. With RAM and SSD prices skyrocketing in Q4 2025, this tree is no longer just a festive office decoration—it’s a massive financial flex! Due to the extreme price surge, the components stacked here represent a small fortune, making this the tech equivalent of a Christmas tree made out of jewelry or stacks of cash.](README.zh-CN.assets/README.zh-CN_002.webp)
 
 #### 拆解 AI 社交话术：从一份“饭局装腔指南”看技术话语的异化
 
@@ -2728,9 +2728,9 @@ JCat @JackyisThinking [2025-12-25](https://x.com/JackyisThinking/status/20041991
 >
 > このデータセットでは Postshot より LichtFeld Studio の Default（MCMC ではなく）が Splat の膨らみもフロターも少なくて綺麗だった。
 
-![Image](https://pbs.twimg.com/media/G9FWWUpbEAAyjt9?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
-![Image](https://pbs.twimg.com/media/G9FWcjcaYAAkf_u?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_004.webp)
 
 ダックビル＠STUDIO DUCKBILL LLC @DuckbillStudio [2025-12-26](https://x.com/DuckbillStudio/status/2004783787209867553)
 

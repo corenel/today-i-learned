@@ -1012,7 +1012,7 @@ SCAN 理论的引入，是本次解读的点睛之笔。它揭示了：传统意
 
 > 谁能想到有朝一日 Markdown 会成为最受欢迎的编程语言🤣
 
-![Image](https://pbs.twimg.com/media/GyXXvrRawAAGFB6?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ---
 
@@ -1038,7 +1038,7 @@ SCAN 理论的引入，是本次解读的点睛之笔。它揭示了：传统意
 
 > 此事在《黑客与画家》之中亦有记载
 
-![Image](https://pbs.twimg.com/media/Gx-ZYriaAAA-w-f?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ---
 
@@ -1048,7 +1048,7 @@ SCAN 理论的引入，是本次解读的点睛之笔。它揭示了：传统意
 >
 > 为啥这些模型不知道图片上有几根手指
 
-![Image](https://pbs.twimg.com/media/Gx_AzisbAAA9Fum?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 ## 摘录
 
@@ -1066,7 +1066,7 @@ SCAN 理论的引入，是本次解读的点睛之笔。它揭示了：传统意
 >
 > AI 时代，无论你智商超群，还是平庸如我，我们都在巨大的实验中。
 
-![Image](https://pbs.twimg.com/media/Gx8Ay1DXYAAZabE?format=png&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_004.webp)
 
 ---
 
@@ -1266,7 +1266,7 @@ SCAN 理论的引入，是本次解读的点睛之笔。它揭示了：传统意
 >
 > 支持 Slash 命令、消息队列、自动归档等
 
-![Image](https://pbs.twimg.com/media/GyGbb2LXgAA6VHh?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_005.webp)
 
 ---
 
@@ -1318,7 +1318,7 @@ SCAN 理论的引入，是本次解读的点睛之笔。它揭示了：传统意
 >
 > As shown in the examples, the model give out almost same images with prompts with varying few concepts
 
-![Image](https://pbs.twimg.com/media/Gyia2I5aUAAUaoV?format=jpg&name=large)![Image](https://pbs.twimg.com/media/Gyia2IyagAAwyw_?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_006.webp)![Image](README.zh-CN.assets/README.zh-CN_007.webp)
 
 ---
 

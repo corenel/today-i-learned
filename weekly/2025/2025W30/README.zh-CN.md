@@ -765,7 +765,7 @@ Google DeepMind 近期宣布，其搭载了 Deep Think 增强推理模式的 Gem
 >
 > Not the strangest example on the internet for sure. But even common academic benchmarks have things you may not have ever thought of.
 
-![Image](https://pbs.twimg.com/media/FbAlWOBaIAI8Oi3?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ---
 
@@ -815,7 +815,7 @@ Google DeepMind 近期宣布，其搭载了 Deep Think 增强推理模式的 Gem
 
 > Cable pr0n of @xAI GB200 servers at Colossus 2
 
-![Image](https://pbs.twimg.com/media/GwetFJkbEAE5gO0?format=jpg&name=large)![Image](https://pbs.twimg.com/media/GwetFJjbEAIDABy?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 ## 摘录
 

@@ -83,7 +83,7 @@ by @corenel (Yusu Pan) and LLMs
 
 ### Gemini 2.5 Flash Image (nano-banana)
 
-![Image](https://pbs.twimg.com/media/GzOy0A1aYAAsjIy?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 #### Gemini 2.5 Flash Image: 迈向视觉协同，重新定义 AI 图像生成的“可用性”
 
@@ -940,7 +940,7 @@ MHLA 的洞见在于，完整的 K/V 向量中可能存在大量冗余信息。�
 
 > <https://df.fenx.work/llm-things>
 
-![一个包含多个贴纸的灰色背景。左上角有一个橙色太阳状的贴纸，上面写着“You're Absolutely Right!”。旁边是一个黑色的贴纸，上面有一个问号和一个斜杠，写着“Is That True?”。中间有一个红色的草莓贴纸，上面写着“stRawbeRRY”。右上方有一个白色的贴纸，上面写着“Not Backed by Y”。右边有一个黑白相间的羊驼贴纸，下面写着“好饭不怕晚”。中间偏左有一个蓝色的鲸鱼贴纸，上面写着“思考中...”，下面写着“我操，用户彻底怒了”。左下角有一个彩色的四角星贴纸，上面写着“Free Tier”。旁边有一个紫色渐变的方块贴纸，上面写着“pelican-riding-a-bicycle”。中间下方有一个手套拿着钱的贴纸，上面写着“AI”。右边有一个黑色的八边形贴纸，里面有三个橙色圆点。最右边有一个黑色的长方形贴纸，上面写着“Powered by MLX”。](https://pbs.twimg.com/media/GzLHcD3bYAAIgMw?format=jpg&name=large)
+![一个包含多个贴纸的灰色背景。左上角有一个橙色太阳状的贴纸，上面写着“You're Absolutely Right!”。旁边是一个黑色的贴纸，上面有一个问号和一个斜杠，写着“Is That True?”。中间有一个红色的草莓贴纸，上面写着“stRawbeRRY”。右上方有一个白色的贴纸，上面写着“Not Backed by Y”。右边有一个黑白相间的羊驼贴纸，下面写着“好饭不怕晚”。中间偏左有一个蓝色的鲸鱼贴纸，上面写着“思考中...”，下面写着“我操，用户彻底怒了”。左下角有一个彩色的四角星贴纸，上面写着“Free Tier”。旁边有一个紫色渐变的方块贴纸，上面写着“pelican-riding-a-bicycle”。中间下方有一个手套拿着钱的贴纸，上面写着“AI”。右边有一个黑色的八边形贴纸，里面有三个橙色圆点。最右边有一个黑色的长方形贴纸，上面写着“Powered by MLX”。](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ---
 
@@ -948,7 +948,7 @@ MHLA 的洞见在于，完整的 K/V 向量中可能存在大量冗余信息。�
 
 > 智驾眼里的“移动限速牌”
 
-![Image](https://pbs.twimg.com/media/GzLI7EGaoAAknT1?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 ---
 
@@ -1296,7 +1296,7 @@ MHLA 的洞见在于，完整的 K/V 向量中可能存在大量冗余信息。�
 >
 > ぜひご支援をよろしくお願い致します。
 
-![Image](https://pbs.twimg.com/media/GzRcUsGawAAvnrh?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_004.webp)
 
 #### DeepSeek V3.1“极”字 Bug 分析：当自然语言 Token 被误认为控制指令
 
@@ -1344,7 +1344,7 @@ MHLA 的洞见在于，完整的 K/V 向量中可能存在大量冗余信息。�
 >
 > 自制 DSL 的本意是增强自然语言的准确性与可控性。但当 DSL 标记越加越多，如果部分 Glitch Tokens 与这些控制语义（无论显式还是隐式）发生了错误耦合，就可能在推理时反过来干扰自然语言的正常分布，值得警惕。
 
-![Image](https://pbs.twimg.com/media/GzRMSx6XMAACsQ_?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_005.webp)
 
 #### NVIDIA Jetson Thor：高算力与低带宽的矛盾，英伟达精准“刀法”下的新产品
 

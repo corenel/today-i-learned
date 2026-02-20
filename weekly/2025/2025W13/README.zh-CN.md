@@ -346,16 +346,16 @@ OpenAI 最新发布的 GPT-4o 图像生成功能，通过将高级图像生成�
 > SpatialLM. Fast, not real-time. So much to explore here.
 > I see the potential. More coming soon.
 
-![](https://pbs.twimg.com/ext_tw_video_thumb/1904746261611503616/pu/img/kam0I6u8Owx9gAUD?format=jpg&name=medium)
+![](README.zh-CN.assets/README.zh-CN_001.webp)
 
-![](https://pbs.twimg.com/media/Gm83iiFbYAEJpQT?format=png&name=medium)
+![](README.zh-CN.assets/README.zh-CN_002.webp)
 
 **Jonathan Stephens** @jonstephens85 [2025-03-27](https://x.com/jonstephens85/status/1905052043355828592)
 
 > My first test of SpatilLM on my own dataset. This is my bedroom. I intentionally left it a mess to see how it did!
 > My day was SLAMMED so I didn't have any to play with the code. This is whole capture to final output took 10 minutes, including troubleshooting.
 
-![](https://pbs.twimg.com/ext_tw_video_thumb/1905048679347884032/pu/img/Bpu5sc6AMnfB6frE?format=jpg&name=medium)
+![](README.zh-CN.assets/README.zh-CN_003.webp)
 
 ### Wan2.1
 
@@ -604,7 +604,7 @@ PicList 是一款高效的云存储和图床平台管理工具，基于 PicGo �
 
 Vecto3d 旨在简化 SVG 图形至 3D 模型的转换流程，降低用户操作门槛。
 
-![](https://pbs.twimg.com/ext_tw_video_thumb/1904546815783075842/pu/img/ovLw5WsYCscIs_GH?format=jpg&name=medium)
+![](README.zh-CN.assets/README.zh-CN_004.webp)
 
 #### Mac OS Key-Repeat Tester
 
@@ -640,7 +640,7 @@ A simple tool to test Mac OS key-repeat settings without restarting your compute
 
 > 国内也挺多这类改装或者说组合的，不过 3D 打印了一个外壳后确实挺好看的。
 
-![](https://hackaday.com/wp-content/uploads/2025/03/Making-a-Portable-Macintosh-Mini-7-53-screenshot-1-1.png?w=800)
+![](README.zh-CN.assets/README.zh-CN_005.webp)
 
 #### 小米 BE3600 Pro 轻量服务器化改造
 
@@ -899,7 +899,7 @@ Moling 是一个基于计算机操作系统 API 实现系统交互的 MCP (Multi
 
 Splatshop 宣告了一款全新的高斯溅射模型编辑器的诞生。这不仅仅是一个简单的软件发布，更标志着针对新兴 3D 表达方式——高斯溅射模型，终于有了专门的编辑工具。在此之前，虽然已经有高斯溅射模型的渲染和训练技术，但缺乏直接编辑能力一直是制约其应用的关键环节。Splatshop 的出现，填补了这一空白，为高斯溅射模型的后期处理、艺术创作和应用拓展打开了想象空间。
 
-![](https://github.com/m-schuetz/Splatshop/raw/main/docs/transform_vr.gif)
+![](README.zh-CN.assets/README.zh-CN_006.gif)
 
 #### FanFic-Illustrator：连接故事与图像的 Danbooru 提示词生成器
 

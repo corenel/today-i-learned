@@ -1302,7 +1302,7 @@ Ethan Mollick @emollick [2025-04-07](https://x.com/emollick/status/1909094497608
 
 > The key research paper on the topic of rapidly improving model performance.
 
-![Image](https://pbs.twimg.com/media/Gn53GWwW0AEy-a3?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 [2309.08632 Pretraining on the Test Set Is All You Need](https://arxiv.org/abs/2309.08632)
 
@@ -1314,7 +1314,7 @@ karminski- 牙医 @karminski3 [2025-04-06](https://x.com/karminski3/status/19090
 
 > 做的好上热搜，做得不好上 meme 😇
 
-![Image](https://pbs.twimg.com/media/Gn44n6_bgAAk_OO?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 #### 自动配钥匙
 

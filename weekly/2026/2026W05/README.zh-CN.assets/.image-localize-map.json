@@ -1,0 +1,34 @@
+{
+  "https://pbs.twimg.com/amplify_video_thumb/2015383953822347264/img/nIHE-PVyR3K_PVbj?format=jpg&name=medium": {
+    "content_sha256": "a336766eed31be2545a3ccb706e83b7eb6a9c047a6a275dfa174b2d901156a67",
+    "created_at_utc": "2026-02-20T06:07:47+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:47+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_001.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/amplify_video_thumb/2015417455393304577/img/CjmeTbo8ad_pMUiF?format=jpg&name=medium": {
+    "content_sha256": "1b60a5fa5d929e28380d70ac3057937c1b55d959f7b27ee8e27d83b3052366cb",
+    "created_at_utc": "2026-02-20T06:07:47+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:47+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_002.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/amplify_video_thumb/2015466450191065088/img/JRydJ3HUNhb0bqfm?format=jpg&name=medium": {
+    "content_sha256": "3978be70c49f03db04eba0cc213e1f305719c65cfb69fe0c107e839d285e2b95",
+    "created_at_utc": "2026-02-20T06:07:47+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:47+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_003.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/G_93qh2bEAIHp8b?format=jpg&name=large": {
+    "content_sha256": "4613d801fc48fbc971d476865702f9d67353e9a8e99a2242c528bda35c55b859",
+    "created_at_utc": "2026-02-20T06:07:48+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:48+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_004.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  }
+}

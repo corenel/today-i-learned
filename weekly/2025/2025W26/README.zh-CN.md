@@ -951,7 +951,7 @@ Christoph Niemann 的文章《Sketched Out: An Illustrator Confronts His Fears A
 >
 > \- 工具调用不明白
 
-![Image](https://pbs.twimg.com/media/GuTBiDmbEAAXMuD?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ---
 
@@ -973,7 +973,7 @@ Christoph Niemann 的文章《Sketched Out: An Illustrator Confronts His Fears A
 
 [Boeing uses potatoes instead of people to test wi-fi](https://www.bbc.com/news/technology-20813441)
 
-![](https://ichef.bbci.co.uk/ace/standard/240/mcs/media/images/64904000/jpg/_64904992_nz5p7m8k.jpg.webp)
+![](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ## 摘录
 
@@ -1196,7 +1196,7 @@ Christoph Niemann 的文章《Sketched Out: An Illustrator Confronts His Fears A
 
 > AI 写一个需求 1000 多😂
 
-![Image](https://pbs.twimg.com/media/GuIvKylXcAAsHri?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 ## 学术研究
 

@@ -362,7 +362,7 @@ Reddit 讨论：[This week did not go how I expected at all](https://www.reddit.
 
 > 是的，我生成的最大也就 15x15 tile 大小。暂时没想到怎么连续生成
 
-![Image](https://pbs.twimg.com/media/GmC_HF3bcAMxqUP?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ###### 游戏 UI 界面原型生成
 
@@ -372,7 +372,7 @@ Reddit 讨论：[This week did not go how I expected at all](https://www.reddit.
 >
 > You can literally create and play any game by iterating over images with the new Gemini model! 🤯
 
-![Image](https://pbs.twimg.com/media/Gl43d9WbEAAM-IY?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ###### 白底图到产品实拍图的生成
 
@@ -380,7 +380,7 @@ Reddit 讨论：[This week did not go how I expected at all](https://www.reddit.
 
 > 用 gemini-2.0 新推出的图片编辑 API，连夜肝了个工具，实现白底图到产品实拍图的批量自动化生成。效果炸裂，特别是对产品的特征保留的很好，相比 ComfyUI 工作流调个半死，这不强多了。这效果图拿来做短视频足以，代码还要整理一下，晚点看看发出来玩玩
 
-![image](https://pbs.twimg.com/ext_tw_video_thumb/1900310164525535232/pu/img/qnG1RwMc8hZxj0B1.jpg)
+![image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 ###### 线稿上色
 
@@ -400,7 +400,7 @@ Reddit 讨论：[This week did not go how I expected at all](https://www.reddit.
 
 > 我用 Google 的 Gemini 2.0 Flash Experimental 生成了几个 Agent101 的 Logo @leeoxiang 你看效果怎么样？
 
-![image](https://pbs.twimg.com/media/Gl6nlphbYAI_rAd?format=jpg&name=small)
+![image](README.zh-CN.assets/README.zh-CN_004.webp)
 
 ### OpenAI Agent SDK
 
@@ -562,12 +562,12 @@ Reddit 讨论：[This week did not go how I expected at all](https://www.reddit.
 >
 > It's got excellent scores on Livebench AI.
 >
-> ![Image](https://pbs.twimg.com/media/Gl9VOxraIAAGld1?format=jpg&name=large)
+> ![Image](README.zh-CN.assets/README.zh-CN_005.webp)
 
 **Lech Mazur** @LechMazur [2025-03-14](https://x.com/LechMazur/status/1900379069885124625)
 
 > QwQ-32B is good but R1 is better across all my benchmarks with QwQ at 16k tokens.
-> ![Image](https://pbs.twimg.com/media/Gl-AJSaXsAAqOK_?format=jpg&name=large)
+> ![Image](README.zh-CN.assets/README.zh-CN_006.webp)
 
 **Geek** @geekbb [2025-03-09](https://x.com/geekbb/status/1898718724217024564)
 
@@ -2343,7 +2343,7 @@ Mask-Adapter 的设计理念是即插即用，可以无缝集成到基于掩码�
 
 [第 6 次龙架构双周会（2025-03-02）](https://www.kdocs.cn/l/ciib1cwuGm4x)
 
-![image](https://pbs.twimg.com/media/Gl0sV9nXAAA4a7C?format=jpg&name=medium)
+![image](README.zh-CN.assets/README.zh-CN_007.webp)
 
 这份幻灯片的核心论点可以用一句话来概括：**龙架构的软件生态，尤其是在商业软件和应用商店软件方面，普遍存在质量问题，并且潜藏着严重的安全风险，亟需引起重视并加以改进。** 演讲者并非简单地指责问题，而是希望通过揭示问题、分析原因、提出改进建议，最终促进行业共同提升龙架构软件生态的整体质量和安全性。 这份幻灯片不仅仅是问题罗列，更像是一份充满责任感的呼吁书，呼吁软件开发者、发行商以及用户共同努力，打造一个更健康、更可靠的龙架构生态系统。
 
@@ -2456,7 +2456,7 @@ Googly Eyes 是一款为 macOS 菜单栏增加趣味性的实用小工具。它�
 
 [Strata - Icon Generator](https://apps.apple.com/us/app/strata-icon-generator/id6742242942)
 
-![image](https://pbs.twimg.com/media/GlrA8WcbkAAHWGa?format=jpg&name=small)
+![image](README.zh-CN.assets/README.zh-CN_008.webp)
 
 #### 将 Cursor 应用于大型项目
 
@@ -3408,4 +3408,4 @@ Nuno 则持 **怀疑态度**，他认为 Harrison 低估了 Agent 的其他部�
 > 对的，这个 begin\_of\_sentence 的下划线和左右两边的竖线，都不是键盘上直接打出来的。而 ChatML 规定的则是正常的下划线。
 > 所以用 API 构建应用或程序的同学要注意。有时候感觉 DeepSeek API 不好使，检查下是不是模板用错了。
 
-![Image](https://pbs.twimg.com/media/GltHlsaawAA4p_r?format=png&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_009.webp)

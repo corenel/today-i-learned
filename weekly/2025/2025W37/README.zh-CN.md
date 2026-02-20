@@ -1690,7 +1690,7 @@ Render96 VGTP @Render96VGTP [2025-09-08](https://x.com/Render96VGTP/status/19649
 
 > Super Mario 64(スーパーマリオ 64) texture match.The flower patch in Whomp's Fortress course is actually made of real flowers.The source image can be found in VisualDisk N-8 Spring CD(1994).Spotted by @Leonard85026417
 
-![A split image from Super Mario 64. The top shows a field of yellow flowers. The bottom depicts Mario on a hexagonal platform with yellow flowers, a wooden fence, and a blue sky with clouds. A pink arrow connects a red square in the flower field to a similar flower patch below, with text overlays showing](https://pbs.twimg.com/media/G0TsIDsWAAA0yCy?format=jpg&name=large)
+![A split image from Super Mario 64. The top shows a field of yellow flowers. The bottom depicts Mario on a hexagonal platform with yellow flowers, a wooden fence, and a blue sky with clouds. A pink arrow connects a red square in the flower field to a similar flower patch below, with text overlays showing](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ## 摘录
 
@@ -1747,7 +1747,7 @@ Alek Safar @alek\_safar [2025-09-06](https://x.com/alek_safar/status/19643830777
 
 > 再来一个有意思的，让 VLM 识别表盘。VLM 也是大败亏输，现在的多模态模型最大的问题是泛化能力太差，只能做训练数据集里的任务。
 
-![A bar chart titled](https://pbs.twimg.com/media/G0Lj_3XWkAAsYmR?format=jpg&name=large)
+![A bar chart titled](README.zh-CN.assets/README.zh-CN_002.webp)
 
 #### AI Agent 开发：ReAct 框架与原生函数调用的权衡与选择
 

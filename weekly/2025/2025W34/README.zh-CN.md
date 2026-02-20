@@ -1323,7 +1323,7 @@ AI 则彻底改变了游戏规则。它通过以下方式实现了对人类经�
 
 > 个人认为这个用法才是对的，可能也是目前最好的用法，但很多人会觉得太累太难了，没有 AI 的时候都不会这么做，何况现在有了 AI，他们真正想要的下面这样的
 
-![Image](https://pbs.twimg.com/media/Gy_-_pbboAI9kKR?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ## 摘录
 
@@ -1979,7 +1979,7 @@ Prompt：
 
 > People don't seem to understand that you must compare GPT-5 to GPT-4; the last upgrade. v5 is a huge jump from v4. Expect the same iterative updates in between now and GPT-6. <https://x.com/petergostev/st/petergostev/status/1957116493021249793>…
 
-![Image](https://pbs.twimg.com/media/GykTtufW4AE-KDs?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 **凡人小北** @frxiaobei 2025-08-17
 

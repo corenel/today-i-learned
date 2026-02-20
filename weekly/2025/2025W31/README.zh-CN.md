@@ -1026,13 +1026,13 @@ Anthropic 近期公告的核心内容是，自 8 月 28 日起，在现有 5 小
 }
 ```
 
-![Image](https://pbs.twimg.com/media/GxLMOJjbMAA0A_K?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 **Neko · 絢香猫** @ayakaneko [2025-08-01](https://x.com/ayakaneko/status/1951362973760659833)
 
 > 拿 Project AIRI <https://github.com/moeru-ai/airi> 的去试了一下，确实还不错诶，挺喜欢的
 
-![image](https://pbs.twimg.com/media/GxSiQQMbUAAaAPt?format=jpg&name=small)
+![image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ---
 
@@ -1090,7 +1090,7 @@ Anthropic 近期公告的核心内容是，自 8 月 28 日起，在现有 5 小
 
 > 其实如果中推为流量和马斯克分红，不值得花时间。但认识一些可能合作的人做做项目和咨询挺有价值的
 
-![Image](https://pbs.twimg.com/media/GxJwmmfbcAACyAv?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 > [!WARNING]
 > 上图仅为图一乐，并不含有贬低任何平台与用户的含义

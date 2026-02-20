@@ -37,7 +37,7 @@ repos:
             "--ignore-words-list=ned,ser,astroid,ths,aAfter,childRes,thirdparty,ND,parm,empy,ROUGE,MOT,DOTA,Nervana,LOD,Gool,COO,FNR,FPR,ACI,AER,BootsTAP,LaMa,UE,GES,LSAT,HDA,AGS,MOSE,TE,Linz,OT,MAPE,dum,MoT,Synopsys,BriGeS,Brin,LoD,SoM,FO,CANN,MoR,FOT,NEET,VIE,HSI,HASS,newyorker,TREAD,Shuting,Arry,Benj,SeleKT,ANE,ALS,covert,DiDi,bu,nothink,SME,OIS,Activ,non-useful,EDN,edn,feld,SOM,LAMA,Wille,ot,AAS,buildd,Wirth,NIN,Makro",
           ]
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.23.1
+    rev: v8.30.0
     hooks:
       - id: gitleaks
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -52,9 +52,13 @@ repos:
       - id: check-symlinks
       - id: check-merge-conflict
       - id: end-of-file-fixer
+        exclude_types: [binary]
       - id: fix-byte-order-marker
+        exclude_types: [binary]
       - id: mixed-line-ending
+        exclude_types: [binary]
       - id: trailing-whitespace
+        exclude_types: [binary]
       - id: check-case-conflict
       - id: debug-statements
       - id: requirements-txt-fixer

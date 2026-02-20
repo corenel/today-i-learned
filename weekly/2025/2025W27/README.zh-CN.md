@@ -740,7 +740,7 @@ OCRFlux 的核心主张，是在大幅提升解析精度的同时，实现无与
 
 > 以防你不知道微软 emoji 有粗体和斜体
 
-![Image](https://pbs.twimg.com/media/GvAoR8dXMAAxkTH?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ---
 
@@ -752,7 +752,7 @@ OCRFlux 的核心主张，是在大幅提升解析精度的同时，实现无与
 >
 > The cartridges contain NFC chips that trigger automations when inserted into the player.
 
-![Image](https://pbs.twimg.com/media/Gu3yN-IWkAAa6sg?format=jpg&name=large)![Image](https://pbs.twimg.com/media/Gu3yN-FXwAAb_C6?format=jpg&name=large)![Image](https://pbs.twimg.com/media/Gu3yN-GXAAAK6EK?format=jpg&name=large)![Image](https://pbs.twimg.com/media/Gu3yN_DWkAA5IVN?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)![Image](README.zh-CN.assets/README.zh-CN_003.webp)![Image](README.zh-CN.assets/README.zh-CN_004.webp)![Image](README.zh-CN.assets/README.zh-CN_005.webp)
 
 ---
 
@@ -764,7 +764,7 @@ OCRFlux 的核心主张，是在大幅提升解析精度的同时，实现无与
 
 > The commitment to «high tech, low life» is off the charts at xAI
 
-![Image](https://pbs.twimg.com/media/GuzLE2HWkAA6W2s?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_006.webp)
 
 ---
 

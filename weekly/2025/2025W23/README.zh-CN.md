@@ -801,7 +801,7 @@ vik @vikhyatk [2025-06-06](https://x.com/vikhyatk/status/1931341443186200663)
 
 > if the paper doesn't have this badge on the first page i'm not going to read it
 
-![Image](https://pbs.twimg.com/media/Gs2Aup6aoAAoUMj?format=png&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ## 摘录
 
@@ -897,7 +897,7 @@ Arvid Kahl @arvidkahl [2025-06-01](https://x.com/arvidkahl/status/19292081488348
 
 > 读金观涛老师《控制论与科学方法论》，将书中讲的一个模型重绘。
 
-![Image](https://pbs.twimg.com/media/GsaaaXLa8AAymK6?format=png&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ---
 
@@ -939,7 +939,7 @@ Andrej Karpathy @karpathy [2025-06-02](https://x.com/karpathy/status/19295976209
 >
 > All of this is only within the ChatGPT universe of models. In practice my use is more complicated because I like to bounce between all of ChatGPT, Claude, Gemini, Grok and Perplexity depending on the task and out of research interest.
 
-![Image](https://pbs.twimg.com/media/GsdGhFcb0AE7zYb?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 ---
 

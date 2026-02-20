@@ -443,7 +443,7 @@ RayLin @RayLin\_AI [2025-04-30](https://x.com/RayLin_AI/status/19176098459367754
 >
 > We will always remember you!
 
-![](https://pbs.twimg.com/media/Gpy3_GQaIAA8019?format=jpg&name=large)
+![](README.zh-CN.assets/README.zh-CN_001.webp)
 
 未完成 @bluebird0605 [2025-05-01](https://x.com/bluebird0605/status/1917897221225451993)
 
@@ -656,7 +656,7 @@ Steve Sun 的核心论点在于：简单地利用 AI 追求单元测试的代码
 
 Karpathy 的 MenuGen 应用旨在解决一个常见的用户痛点：通过拍摄餐厅菜单照片，自动生成菜品图片，实现菜单的可视化。他完全依赖 AI 工具（Cursor+Claude），实践“Vibe Coding”——一种开发者提供高层指令和直觉，AI 负责具体编码的模式。
 
-![](https://bear-images.sfo2.cdn.digitaloceanspaces.com/karpathy/02pm.webp)
+![](README.zh-CN.assets/README.zh-CN_002.webp)
 
 初期的“快感”：极速原型构建
 
@@ -1321,7 +1321,7 @@ Aero-1-Audio 作为 Aero-1 轻量级多模态系列的首发成员，基于强�
 > [!NOTE]
 > [Move.toys](https://move.toys/) 的效果挺有趣的，可看其官网上的视频。
 >
-> ![](https://pbs.twimg.com/amplify_video_thumb/1916707524390391808/img/o0WIXoZEfAlojBQj?format=jpg&name=medium)
+> ![](README.zh-CN.assets/README.zh-CN_003.webp)
 
 近年来，生成式 AI 的浪潮已从文本、图像席卷至视频领域。在这个日新月异的赛道上，Luma AI 公司凭借其 Ray2 模型及相关应用（如 Move.toys）异军突起，引发了广泛关注。本文旨在深入解读 Luma Ray2 的技术突破、应用场景及其在行业中的定位，探讨其为创意工作者带来的机遇与挑战，特别适合对 AI 视频生成技术感兴趣的入门读者和专业人士参考。
 
@@ -1433,13 +1433,13 @@ Sunil Kumar 在其社交媒体上的分享中，首先指出了一个普遍存�
 
 > 【提示词】创建图片 一款高质感的懒人沙发，以【🍓】为灵感，整体造型圆润饱满，软糯 Q 弹，采用天鹅绒材质，表面具有细腻的布料纹理和高级缝线细节。画面使用柔和摄影棚布光，带有自然扩散阴影，表现材质的光泽和细节。背景为中性灰色或米白色，无杂物干扰。构图采用 4:3 竖幅，主体居中摆放。整体风格为极简现代家居风，模拟真实产品摄影，具有超写实感和高级拟物设计感。
 
-![](https://pbs.twimg.com/media/Gp1webVWsAAOhgB?format=jpg&name=large)
+![](README.zh-CN.assets/README.zh-CN_004.webp)
 
 \-Zho- @ZHO\_ZHO\_ZHO [2025-05-01](https://x.com/ZHO_ZHO_ZHO/status/1917858040121901401)
 
 > 笑死🤣🤣🤣
 
-![](https://pbs.twimg.com/media/Gp2ZsfDXsAE2W1Z?format=jpg&name=medium)
+![](README.zh-CN.assets/README.zh-CN_005.webp)
 
 你是否想象过，坐在“草莓”里是什么感觉？或者让蒙克的《呐喊》成为你客厅的一部分？最近，一组由人工智能（AI）生成的创意沙发设计在社交媒体上引发热议。它们不仅脑洞大开，将水果、名画甚至名人形象与沙发巧妙融合，更展示了以 GPT-4o 为代表的先进 AI 在创意设计领域令人惊叹的潜力与易用性。这不仅仅是一场视觉狂欢，更预示着 AI 正如何成为激发创意、重塑文化表达的新力量。
 
@@ -1466,19 +1466,19 @@ Sunil Kumar 在其社交媒体上的分享中，首先指出了一个普遍存�
 > 单词：beautify
 > 下面加上单词的简要说明
 
-![](https://pbs.twimg.com/media/Gp_7-yOWkAE0Wlg?format=jpg&name=small)
+![](README.zh-CN.assets/README.zh-CN_006.webp)
 
 Gorden Sun @Gorden\_Sun [2025-05-03](https://x.com/Gorden_Sun/status/1918495053460197827)
 
 > 还是多模态的模型好，GPT-4o 可以同时兼顾绘画和语义。
 
-![](https://pbs.twimg.com/media/Gp_dFCNaAAANx7-?format=jpg&name=small)
+![](README.zh-CN.assets/README.zh-CN_007.webp)
 
 ddtoys2016 @ddtoys2016 [2025-05-03](https://x.com/ddtoys2016/status/1918536122151415999)
 
 > 无心插柳柳成荫，虽然但是，gpt 还是给了我意外的惊喜哈哈哈
 
-![](https://pbs.twimg.com/media/GqACUVDacAAPvZW?format=jpg&name=small)
+![](README.zh-CN.assets/README.zh-CN_008.webp)
 
 想象一下，只需输入一个词语和一句简单的指令，人工智能就能为你创作出既符合词语意涵、又在视觉上与文字本身巧妙融合的创意标志。这听起来像是未来科幻片里的场景吗？并非如此。近期社交网络上流传的一系列由 AI 生成的、融合了语义的视觉字标（wordmark）设计，生动地展示了以 GPT-4o 为代表的多模态大模型在创意设计领域令人惊叹的实力。这些案例不仅带来了视觉上的享受，更引发了我们对 AI 与创意设计关系的深度思考。
 

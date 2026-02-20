@@ -2074,11 +2074,11 @@ yetone @yetone [2026-01-25](https://x.com/yetone/status/2015384274955063784)
 >
 > 别让宠物睡觉打呼噜就好
 
-![](https://pbs.twimg.com/amplify_video_thumb/2015383953822347264/img/nIHE-PVyR3K_PVbj?format=jpg&name=medium)
+![](README.zh-CN.assets/README.zh-CN_001.webp)
 
-![](https://pbs.twimg.com/amplify_video_thumb/2015417455393304577/img/CjmeTbo8ad_pMUiF?format=jpg&name=medium)
+![](README.zh-CN.assets/README.zh-CN_002.webp)
 
-![](https://pbs.twimg.com/amplify_video_thumb/2015466450191065088/img/JRydJ3HUNhb0bqfm?format=jpg&name=medium)
+![](README.zh-CN.assets/README.zh-CN_003.webp)
 
 ## 摘录
 
@@ -2488,7 +2488,7 @@ yan5xu @yan5xu [2026-01-31](https://x.com/yan5xu/status/2017462738772234260)
 
 > This is exactly like the Digital World from Digimon Tamers — a world originally built by humans that has started to evolve and manifest its own life. It turns out I really am one of the Chosen Children witnessing the birth of a new reality.
 
-![Image](https://pbs.twimg.com/media/G_93qh2bEAIHp8b?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_004.webp)
 
 Yachen Liu @Blankwonder [2026-01-31](https://x.com/Blankwonder/status/2017625049059196985)
 

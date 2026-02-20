@@ -401,7 +401,7 @@ swyx @swyx [2025-03-19](https://x.com/swyx/status/1902411421713084690)
 
 > these things are TOO CUTE
 
-![Blue](https://pbs.twimg.com/amplify_video_thumb/1902410928790106112/img/kRygxgQ3oOXqpIUn.jpg)
+![Blue](README.zh-CN.assets/README.zh-CN_001.webp)
 
 视频见原推文。
 
@@ -409,7 +409,7 @@ swyx @swyx [2025-03-19](https://x.com/swyx/status/1902411421713084690)
 
 [rust-stakeholder](https://github.com/giacomo-b/rust-stakeholder)
 
-![rust-stakeholder](https://github.com/giacomo-b/rust-stakeholder/raw/master/assets/demo.gif)
+![rust-stakeholder](README.zh-CN.assets/README.zh-CN_002.gif)
 
 ## 学术研究
 
@@ -795,7 +795,7 @@ CoD 的有效性在零样本和小模型上的表现有所下降，暗示其可�
 
 [2406.09415 An Image is Worth More Than 16x16 Patches: Exploring Transformers on Individual Pixels](https://arxiv.org/abs/2406.09415)
 
-![Figure 1:\cref@constructprefixpage\cref@resultTransformer on pixels, or 1×1 ‘patches’, which we use to investigate the role of locality. Given an image, we simply treat it as a set of pixels. Besides, we also use randomly initialized and learnable position embeddings without prior about the 2D image grid, thus removing the remaining locality bias from previous architectures (e.g., ViT (Dosovitskiy et al., 2014)) that operate on non-degenerated patches. Transformers are employed on the top, with interleaved Self-Attention and MLP blocks (only showing one pair for clarity). We showcase the effectiveness of this locality-free architecture through three case studies, spanning both discriminative and generative tasks.](https://arxiv.org/html/2406.09415v2/x1.png)
+![Figure 1:\cref@constructprefixpage\cref@resultTransformer on pixels, or 1×1 ‘patches’, which we use to investigate the role of locality. Given an image, we simply treat it as a set of pixels. Besides, we also use randomly initialized and learnable position embeddings without prior about the 2D image grid, thus removing the remaining locality bias from previous architectures (e.g., ViT (Dosovitskiy et al., 2014)) that operate on non-degenerated patches. Transformers are employed on the top, with interleaved Self-Attention and MLP blocks (only showing one pair for clarity). We showcase the effectiveness of this locality-free architecture through three case studies, spanning both discriminative and generative tasks.](README.zh-CN.assets/README.zh-CN_003.webp)
 
 论文深入探讨了视觉 Transformer 架构中局部性归纳偏置的必要性，并提出了令人惊讶的发现。作者通过严谨的实验，在图像分类、深度估计、自监督学习及图像生成等多个任务上，证实了直接以像素作为 token 的 Transformer 模型，在性能上可与甚至超越传统基于 patch 的模型。
 

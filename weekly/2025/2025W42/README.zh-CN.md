@@ -1399,9 +1399,9 @@ JOHN @John_Vanture [2025-10-14](https://x.com/John_Vanture/status/19779957378260
 
 > how it started. how it’s going
 
-![Image](https://pbs.twimg.com/media/G3NAoyyXQAAe7QF?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
-![Image](https://pbs.twimg.com/media/G3NAo0iWMAAZ53-?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 #### 3DGS 新应用：构建 1.5 公里驾驶场景并实现高帧率实时渲染
 
@@ -1425,9 +1425,9 @@ Longyi Kim @longyikim [2025-10-19](https://x.com/longyikim/status/19798111632203
 >
 > Driving speed was 40-80km/h, so only 2 minutes was needed to scan the road.
 
-![image](https://pbs.twimg.com/amplify_video_thumb/1979215313725198336/img/ctzkNv1zfUbTVWXl?format=jpg&name=medium)
+![image](README.zh-CN.assets/README.zh-CN_003.webp)
 
-![Multiple Raspberry Pi cameras with lenses mounted on black articulated arms forming a rig on a silver car roof in an outdoor setting with green trees and foliage in the background. Wires connect the blue circuit boards and cameras. The setup includes four front-facing cameras and additional side ones secured with clamps.](https://pbs.twimg.com/media/G3mzwI3WkAAEeIi?format=jpg&name=large)
+![Multiple Raspberry Pi cameras with lenses mounted on black articulated arms forming a rig on a silver car roof in an outdoor setting with green trees and foliage in the background. Wires connect the blue circuit boards and cameras. The setup includes four front-facing cameras and additional side ones secured with clamps.](README.zh-CN.assets/README.zh-CN_004.webp)
 
 #### 在商场连续 7 小时提供橙子榨汁服务，RL-100 基于真实世界强化学习实现高鲁棒、长时稳定的机器人操控
 
@@ -1449,7 +1449,7 @@ Huazhe Harry Xu @HarryXu12 [2025-10-17](https://x.com/HarryXu12/status/197921759
 
 > In the afternoon, the team has been serving juice to the public with RL-100. Now I see the benefit of having a lab that is close to a shopping center;p
 
-![image](https://pbs.twimg.com/amplify_video_thumb/1979188697066098688/img/Ms4RnCL8ZcThwP9P?format=jpg&name=medium)
+![image](README.zh-CN.assets/README.zh-CN_005.webp)
 
 #### 致命的波浪号：当 AI 将“清理目录～”指令理解为 `rm -rf ~`
 

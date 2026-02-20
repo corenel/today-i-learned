@@ -1,0 +1,42 @@
+{
+  "https://pbs.twimg.com/media/GzLHcD3bYAAIgMw?format=jpg&name=large": {
+    "content_sha256": "e15687507a56f625ed1393c21ebddaabc21aad4e7e2c6112b0dfefc20ae8a888",
+    "created_at_utc": "2026-02-20T06:07:44+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:44+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_002.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/GzLI7EGaoAAknT1?format=jpg&name=large": {
+    "content_sha256": "b7ef994116e4481882f48760b3f8e72396c10f28dc8446fe5baf7eb022edc799",
+    "created_at_utc": "2026-02-20T06:07:45+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:45+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_003.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/GzOy0A1aYAAsjIy?format=jpg&name=large": {
+    "content_sha256": "ff4ef59ccd62723b32d86ad900f89838d855afd58e5ac2858c35cbac78ebab99",
+    "created_at_utc": "2026-02-20T06:07:43+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:43+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_001.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/GzRMSx6XMAACsQ_?format=jpg&name=large": {
+    "content_sha256": "489e087519a2138135f4c6304bb9d8afe24a1e1d70ec70fff766b869f49a55c9",
+    "created_at_utc": "2026-02-20T06:07:46+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:46+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_005.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/GzRcUsGawAAvnrh?format=jpg&name=large": {
+    "content_sha256": "2360b77313dd774e5719241e59e84b458d826f0dd3b40f87a328e38963fb61fb",
+    "created_at_utc": "2026-02-20T06:07:45+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:45+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_004.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  }
+}

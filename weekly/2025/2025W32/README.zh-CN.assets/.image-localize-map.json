@@ -1,0 +1,50 @@
+{
+  "https://htihle.github.io/images_v2/weirdml_date_vs_accuracy_with_frontiers.png": {
+    "content_sha256": "ac0e8ee1692b1529bf97001d2b0c504ef33abf0b2a35c9c351d5976580c0f647",
+    "created_at_utc": "2026-02-20T06:07:46+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:46+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_006.webp",
+    "source_content_type": "image/png",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/GxkQkqRbYAAxGwy?format=jpg&name=large": {
+    "content_sha256": "5777d1d9092415612a55fd025a1722daeaaf3c0b905301abd77653a25b483a6f",
+    "created_at_utc": "2026-02-20T06:07:43+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:43+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_001.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/GxxAJ2BWUAA5LX8?format=jpg&name=large": {
+    "content_sha256": "9ef77d6e3eff7e3d8782c5f4ccb6441487a474b19a2512f358e03b3213151208",
+    "created_at_utc": "2026-02-20T06:07:44+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:44+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_004.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/GxxAZCGXgAApkOJ?format=jpg&name=large": {
+    "content_sha256": "3b49bda5022b59b116a8388055df8f001ee805ba421df1b176a88bc9baee08b6",
+    "created_at_utc": "2026-02-20T06:07:45+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:45+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_005.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/Gxy4GVCXoAAX5So?format=jpg&name=large": {
+    "content_sha256": "3d5ef67bb746a8dd26552ceecb733cf323ac7e2b845d2a5ffae4e9c0c343f344",
+    "created_at_utc": "2026-02-20T06:07:44+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:44+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_003.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/Gxyv0M2WAAAyeQW?format=jpg&name=large": {
+    "content_sha256": "4251090db37b061371c2368d561f22cf5ace49b846aa8484a3ad986d5c726a2b",
+    "created_at_utc": "2026-02-20T06:07:44+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:44+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_002.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  }
+}

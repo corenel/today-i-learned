@@ -1264,7 +1264,7 @@ safari @safaricheung [2025-05-06](https://x.com/safaricheung/status/191960934672
 
 > 如何正确在 MacBook 上放置 Pixel：
 
-![Image](https://pbs.twimg.com/media/GqPShOkbAAA7vPw?format=jpg&name=large)![Image](https://pbs.twimg.com/media/GqPShQVbAAU0IQJ?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ## 摘录
 
@@ -1314,7 +1314,7 @@ conway @ConwayAnderson [2025-05-09](https://x.com/ConwayAnderson/status/19209675
 
 > @moondreamai is so good - instant zero shot weapon detection on a really low quality image
 
-![image](https://pbs.twimg.com/media/GqilvOCbcAEJMXe?format=jpg&name=medium)
+![image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 ### 长篇摘录
 

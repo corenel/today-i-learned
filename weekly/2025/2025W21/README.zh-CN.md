@@ -974,13 +974,13 @@ howie.serious @howie\_serious [2025-05-21](https://x.com/howie_serious/status/19
 
 > 轮流发布，轮流炸裂
 
-![](https://pbs.twimg.com/media/Grl82scXgAM3x0Q?format=jpg&name=medium)
+![](README.zh-CN.assets/README.zh-CN_001.webp)
 
 howie.serious @howie\_serious [2025-05-21](https://x.com/howie_serious/status/1925213607899643973)
 
 > 轮流发布，轮流震惊
 
-![Image](https://pbs.twimg.com/media/Gre7kdaagAAQuE2?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 [Playing Snake on Etherlighting switch](https://www.reddit.com/r/Ubiquiti/comments/1aoicwx/playing_snake_on_etherlighting_switch/?share_id=7DL7Ncj1UDx56dADvkJbi&utm_medium=ios_app&utm_name=iossmf&utm_source=share&utm_term=4&rdt=46612)
 

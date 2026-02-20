@@ -842,7 +842,7 @@ Video2PPT 为需要频繁处理视频信息的用户描绘了一个美好的前�
 
 Cyandev @unixzii [2025-05-25](https://x.com/unixzii/status/1926513492003103201)
 
-![Image](https://pbs.twimg.com/media/GrxZvDMXYAAdtX1?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 yv | AS11414 | N6YVB @yvbbrjdr [2025-05-25](https://x.com/yvbbrjdr/status/1927085567998677176)
 
@@ -852,7 +852,7 @@ howie.serious @howie\_serious [2025-05-29](https://x.com/howie_serious/status/19
 
 > 真是 vibe coding 的最绝翻译🤣
 
-![Image](https://pbs.twimg.com/media/GsGEp97a4AA0s9h?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 ---
 
@@ -860,7 +860,7 @@ safari @safaricheung [2025-05-26](https://x.com/safaricheung/status/192713268180
 
 > AGI 时刻
 
-![Image](https://pbs.twimg.com/media/Gr6M9SjWkAAbCxI?format=png&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_004.webp)
 
 ---
 
@@ -896,7 +896,7 @@ Mengxin Liu @liumengxinfly [2025-05-28](https://x.com/liumengxinfly/status/19278
 
 DOESNOTEXIST @DOESNOTEX\_IST [2025-05-29](https://x.com/DOESNOTEX_IST/status/1928197936363753485)
 
-![Image](https://pbs.twimg.com/media/GsJVywHaUAA5Tab?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_005.webp)
 
 ## 摘录
 

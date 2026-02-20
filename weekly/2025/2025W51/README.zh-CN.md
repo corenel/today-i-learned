@@ -3006,7 +3006,7 @@ vik @vikhyatk [2025-12-19](https://x.com/vikhyatk/status/2001854642532286616)
 
 > i don't know how they did it
 
-![Image](https://pbs.twimg.com/media/G8gEL2EakBAnBll?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 #### AI 时代的开发困境：从“写代码”向“技术审美与判断力”的价值转型
 

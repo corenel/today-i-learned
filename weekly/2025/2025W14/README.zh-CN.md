@@ -603,7 +603,7 @@ Software Engineering Daily 对 Sourcegraph CTO Beyang Liu 的访谈，精准捕�
 
 [[Minimal CSS-only blurry image placeholders]]
 
-![Image: Bilinear interpolation](https://leanrada.com/notes/css-only-lqip/interpolation-bilinear.png)
+![Image: Bilinear interpolation](README.zh-CN.assets/README.zh-CN_001.webp)
 
 文章介绍了一种创新的纯 CSS 图像占位符（LQIP）实现方法，其核心价值在于通过将图像关键信息编码为单一整数 CSS 自定义属性，实现了 HTML 标记的极致简洁，摒弃了对 JavaScript 或冗长内联样式的依赖。作者巧妙运用 CSS 的 `calc()`、`mod()` 等函数进行位解码，并结合多层径向渐变及模拟平滑插值技术进行渲染，充分展现了对 CSS 潜力的深度挖掘。
 
@@ -1242,7 +1242,7 @@ Google 在其 NotebookLM 工具中整合的 " 发现来源 " 功能，标志着 
 >
 > Google 的 Gemini 2.5 Pro Experimental 发布后作为代码撰写与文字表达能力都非常强的模型，还提供了 AI Studio 与 API 的免费使用（2 RPM/ 50 RPD），结果用的人还是比较少。因此图中说“THE MOST INTELLIGENT MODEL WITH 1 MILLION TOKEN CONTEXT IS FREE FOR EVERYONE”。
 
-![image](https://pbs.twimg.com/media/GnlTdUSaUAApZTZ?format=jpg&name=medium)
+![image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 #### 真·人工·智能：MegaTTS3 令人迷惑的生成步骤
 

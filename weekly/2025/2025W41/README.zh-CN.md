@@ -1745,7 +1745,7 @@ vik @vikhyatk [2025-10-05](https://x.com/vikhyatk/status/1974924807772000720)
 
 > insulting the model has always been my favorite part of the job
 
-![A slide with white text on a black background. The text lists points about managers and developers, including](https://pbs.twimg.com/media/G2hXdXLasAAf3et?format=jpg&name=large)
+![A slide with white text on a black background. The text lists points about managers and developers, including](README.zh-CN.assets/README.zh-CN_001.webp)
 
 > Managers have been vibe coding forever
 >
@@ -1770,7 +1770,7 @@ karminski- 牙医 @karminski3 [2025-10-06](https://x.com/karminski3/status/19751
 >
 > 图片源：<http://linkedin.com/in/rezazahiri/>
 
-![Image](https://pbs.twimg.com/media/G2kQyb2bkAInwwk?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ---
 
@@ -2935,7 +2935,7 @@ Teknium (e/λ) @Teknium1 [2025-10-09](https://x.com/Teknium1/status/197640689094
 
 > qwen's gonna eat the world in a single context window lol
 
-![Yellow highlighted slide titled Looking forward lists bullet points on scaling model length from 1T to 10T scaling training tokens from 10T to 100T scaling test compute 50 percent greater than training scaling RL compute 50 percent greater than training and scaling environments more compute than training presented in a conference setting with audience visible in background](https://pbs.twimg.com/media/G21zfU9XYAEbW8R?format=jpg&name=large)
+![Yellow highlighted slide titled Looking forward lists bullet points on scaling model length from 1T to 10T scaling training tokens from 10T to 100T scaling test compute 50 percent greater than training scaling RL compute 50 percent greater than training and scaling environments more compute than training presented in a conference setting with audience visible in background](README.zh-CN.assets/README.zh-CN_003.webp)
 
 > Looking forward
 >

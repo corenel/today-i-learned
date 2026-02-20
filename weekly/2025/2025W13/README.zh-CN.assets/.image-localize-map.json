@@ -1,0 +1,50 @@
+{
+  "https://github.com/m-schuetz/Splatshop/raw/main/docs/transform_vr.gif": {
+    "content_sha256": "d44cdcd429fafa523e28a08efa53e2a36bce184922c0a54dfb3ac995c082ca63",
+    "created_at_utc": "2026-02-20T06:07:43+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:43+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_006.gif",
+    "source_content_type": "application/octet-stream",
+    "stored_format": "gif"
+  },
+  "https://hackaday.com/wp-content/uploads/2025/03/Making-a-Portable-Macintosh-Mini-7-53-screenshot-1-1.png?w=800": {
+    "content_sha256": "5f13361e8428faf4e0ebfcccea48a6ed9848bb6b09a0e1eebf85d82e5f7099e6",
+    "created_at_utc": "2026-02-20T06:07:40+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:40+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_005.webp",
+    "source_content_type": "image/png",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/ext_tw_video_thumb/1904546815783075842/pu/img/ovLw5WsYCscIs_GH?format=jpg&name=medium": {
+    "content_sha256": "c6fd8e04dcd02d8b4ab7e163b260602057348ae34512f5dd710ddf949f47c71b",
+    "created_at_utc": "2026-02-20T06:07:40+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:40+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_004.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/ext_tw_video_thumb/1904746261611503616/pu/img/kam0I6u8Owx9gAUD?format=jpg&name=medium": {
+    "content_sha256": "29a018081eb78e9ffa1d18b525e017996544db5d67e0386e89dc9d84a85526c1",
+    "created_at_utc": "2026-02-20T06:07:38+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:38+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_001.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/ext_tw_video_thumb/1905048679347884032/pu/img/Bpu5sc6AMnfB6frE?format=jpg&name=medium": {
+    "content_sha256": "a6635d2497b9999e0e848cd68060def3416b7d9ed55bdd8a76e1f4158c33a76c",
+    "created_at_utc": "2026-02-20T06:07:39+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:39+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_003.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/Gm83iiFbYAEJpQT?format=png&name=medium": {
+    "content_sha256": "84888a4bc39798571324cc5c19cf53be26e2aac6931186a8fdc8f9de896aca8e",
+    "created_at_utc": "2026-02-20T06:07:39+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:39+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_002.webp",
+    "source_content_type": "image/png",
+    "stored_format": "webp"
+  }
+}

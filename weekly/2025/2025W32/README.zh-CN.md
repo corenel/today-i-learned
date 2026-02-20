@@ -1026,7 +1026,7 @@ Wang 的框架极具洞察力，因为它成功地将宏大叙事与微观观察
 >
 > 如果大家遇到了想把 svg 一键变成 stl/3mf 的情况下一定要用用看她的程序！！
 
-![Image](https://pbs.twimg.com/media/GxkQkqRbYAAxGwy?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 #### GPT-5 vs GPT-4
 
@@ -1034,13 +1034,13 @@ Wang 的框架极具洞察力，因为它成功地将宏大叙事与微观观察
 
 > GPT-5 vs GPT-4
 
-![Image](https://pbs.twimg.com/media/Gxyv0M2WAAAyeQW?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 **宝玉** @dotey [2025-08-08](https://x.com/dotey/status/1953638780230861007)
 
 > 配合这张再看看
 
-![Image](https://pbs.twimg.com/media/Gxy4GVCXoAAX5So?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 #### AI's purple problem
 
@@ -1052,7 +1052,7 @@ Wang 的框架极具洞察力，因为它成功地将宏大叙事与微观观察
 
 > I'd like to formally apologize for making every button in Tailwind UI \`bg-indigo-500\` five years ago, leading to every AI generated UI on earth also being indigo.
 
-![Image](https://pbs.twimg.com/media/GxxAJ2BWUAA5LX8?format=jpg&name=large)![Image](https://pbs.twimg.com/media/GxxAZCGXgAApkOJ?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_004.webp)![Image](README.zh-CN.assets/README.zh-CN_005.webp)
 
 ## 摘录
 
@@ -1072,7 +1072,7 @@ Wang 的框架极具洞察力，因为它成功地将宏大叙事与微观观察
 
 > A bucket of cold water for open source enthusiasts: the gap on WeirdML is not being reduced. All of those fancy releases do not surpass DeepSeek, and thus do not contribute to closing the loop of automated AI research.
 
-![This scatter plot compares the progress of open-weights versus closed-weights models over time, plotting their release dates against their achieved accuracy. The step-like frontier curves represent the best accuracy achieved by open-weights (blue) and closed-weights (green) models, respectively, at any given time. Shaded regions emphasize periods where closed models held a clear accuracy advantage, highlighting the competitive dynamics between open and closed approaches. The actual datapoints are in the middle of each company logo, not the text.](https://htihle.github.io/images_v2/weirdml_date_vs_accuracy_with_frontiers.png)
+![This scatter plot compares the progress of open-weights versus closed-weights models over time, plotting their release dates against their achieved accuracy. The step-like frontier curves represent the best accuracy achieved by open-weights (blue) and closed-weights (green) models, respectively, at any given time. Shaded regions emphasize periods where closed models held a clear accuracy advantage, highlighting the competitive dynamics between open and closed approaches. The actual datapoints are in the middle of each company logo, not the text.](README.zh-CN.assets/README.zh-CN_006.webp)
 
 ---
 

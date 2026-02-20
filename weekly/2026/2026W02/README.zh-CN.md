@@ -2462,7 +2462,7 @@ DAYMADE.AI @gasikaramada [2026-01-06](https://x.com/gasikaramada/status/20085015
 
 > 闲鱼，中国最大暗网，完爆 manus
 
-![Image](https://pbs.twimg.com/media/G9-hgUOXQAAoezN?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 > Manus 到底几斤几两？数据不会撒谎。
 >
@@ -2485,7 +2485,7 @@ Dmytro Mishkin @ducha_aiki [2026-01-07](https://x.com/ducha_aiki/status/20088328
 
 > What I want to say about recent paper namings.
 
-![Top Panel: A gloved hand is shown hesitating over a control panel with two red buttons. The left button is labeled "AnyX". The right button is labeled "X-Anything".Bottom Panel: A superhero character (wearing a red suit) is shown sweating profusely and wiping his forehead with a handkerchief, looking incredibly stressed and indecisive. The text overlaid on the character reads: "CV PAPER AUTHORS". The meme pokes fun at current trends in Computer Vision (CV) research. It suggests that researchers struggle to come up with original names for their papers, often feeling stuck choosing between two very cliché naming conventions: starting the name with "Any" (e.g., AnyNet, AnyDoor) or ending it with "Anything" (e.g., Segment Anything).](https://pbs.twimg.com/media/G-DOunJW8AAbQCD?format=jpg&name=large)
+![Top Panel: A gloved hand is shown hesitating over a control panel with two red buttons. The left button is labeled "AnyX". The right button is labeled "X-Anything".Bottom Panel: A superhero character (wearing a red suit) is shown sweating profusely and wiping his forehead with a handkerchief, looking incredibly stressed and indecisive. The text overlaid on the character reads: "CV PAPER AUTHORS". The meme pokes fun at current trends in Computer Vision (CV) research. It suggests that researchers struggle to come up with original names for their papers, often feeling stuck choosing between two very cliché naming conventions: starting the name with "Any" (e.g., AnyNet, AnyDoor) or ending it with "Anything" (e.g., Segment Anything).](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ## 摘录
 

@@ -1075,7 +1075,7 @@ Anthropic 的这篇文章详细阐述了其如何构建一个多智能体研究�
 >
 > <https://github.com/AasishPokhrel/shit/issues/1>…
 
-![Image](https://pbs.twimg.com/media/GtNlQSnbMAAKoc9?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ## 摘录
 

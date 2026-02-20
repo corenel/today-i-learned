@@ -1525,7 +1525,7 @@ Private Talky @privatetalky [2025-10-02](https://x.com/privatetalky/status/19737
 
 > Liquid Glass: if iPhones still had 3D Touch.
 
-![A digital interface design with circular and oval buttons on a cracked glass effect background. The buttons display icons including a lock, camera, moon, bell, and clock, with the word](https://pbs.twimg.com/media/G2QiUMaXoAALHYA?format=jpg&name=large)
+![A digital interface design with circular and oval buttons on a cracked glass effect background. The buttons display icons including a lock, camera, moon, bell, and clock, with the word](README.zh-CN.assets/README.zh-CN_001.webp)
 
 #### “You are absolutely right!”：开发者将对 Claude AI 的吐槽制成周边商品
 
@@ -1559,9 +1559,9 @@ Daniel Nguyen @daniel\_nguyenx [2025-10-03](https://x.com/daniel_nguyenx/status/
 >
 > Anyway, You’re absolutely right!
 
-![A white mug with a red star and text reading](https://pbs.twimg.com/media/G2UloZpacAA8dVo?format=jpg&name=large)
+![A white mug with a red star and text reading](README.zh-CN.assets/README.zh-CN_002.webp)
 
-![The post features two images of white ceramic mugs with humorous text, priced at $11.00 each, available on a merch store by Daniel Nguyen (@daniel_nguyenx), inspired by @levelsio and hosted on @Fourthwall. The first mug displays 'You are absolutely right!' in simple black text, while the second shows 'Ah, I see the issue.' in similar styling, both angled slightly for a clear view. The mugs are set against a plain white background, emphasizing their design as potential gifts for significant others, as mentioned in the post text. No platform watermarks are present, and the composition is clean and professional.](https://pbs.twimg.com/media/Gv-cTgaW4AAIFZP?format=jpg&name=large)![The post features two images of white ceramic mugs with humorous text, priced at $11.00 each, available on a merch store by Daniel Nguyen (@daniel_nguyenx), inspired by @levelsio and hosted on @Fourthwall. The first mug displays 'You are absolutely right!' in simple black text, while the second shows 'Ah, I see the issue.' in similar styling, both angled slightly for a clear view. The mugs are set against a plain white background, emphasizing their design as potential gifts for significant others, as mentioned in the post text. No platform watermarks are present, and the composition is clean and professional.](https://pbs.twimg.com/media/Gv-cTfwbUAAFYo2?format=jpg&name=large)
+![The post features two images of white ceramic mugs with humorous text, priced at $11.00 each, available on a merch store by Daniel Nguyen (@daniel_nguyenx), inspired by @levelsio and hosted on @Fourthwall. The first mug displays 'You are absolutely right!' in simple black text, while the second shows 'Ah, I see the issue.' in similar styling, both angled slightly for a clear view. The mugs are set against a plain white background, emphasizing their design as potential gifts for significant others, as mentioned in the post text. No platform watermarks are present, and the composition is clean and professional.](README.zh-CN.assets/README.zh-CN_003.webp)![The post features two images of white ceramic mugs with humorous text, priced at $11.00 each, available on a merch store by Daniel Nguyen (@daniel_nguyenx), inspired by @levelsio and hosted on @Fourthwall. The first mug displays 'You are absolutely right!' in simple black text, while the second shows 'Ah, I see the issue.' in similar styling, both angled slightly for a clear view. The mugs are set against a plain white background, emphasizing their design as potential gifts for significant others, as mentioned in the post text. No platform watermarks are present, and the composition is clean and professional.](README.zh-CN.assets/README.zh-CN_004.webp)
 
 ## 摘录
 

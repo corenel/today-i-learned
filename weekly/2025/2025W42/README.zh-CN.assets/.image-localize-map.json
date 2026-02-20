@@ -1,0 +1,42 @@
+{
+  "https://pbs.twimg.com/amplify_video_thumb/1979188697066098688/img/Ms4RnCL8ZcThwP9P?format=jpg&name=medium": {
+    "content_sha256": "2bb7d1eb8ff2a3d902e514a15f2f720fe7ae46d9d231a9bc81bac9bc4d059fa6",
+    "created_at_utc": "2026-02-20T06:07:46+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:46+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_005.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/amplify_video_thumb/1979215313725198336/img/ctzkNv1zfUbTVWXl?format=jpg&name=medium": {
+    "content_sha256": "22c5a5201732ecdd189ab200ea54038885e63699cc0b98a948a044a8b6d5547f",
+    "created_at_utc": "2026-02-20T06:07:45+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:45+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_003.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/G3NAo0iWMAAZ53-?format=jpg&name=large": {
+    "content_sha256": "f0b0365b60b0791109abfa88d5e26956afd4cf045f4ab9ef0b92c81087056b39",
+    "created_at_utc": "2026-02-20T06:07:45+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:45+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_002.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/G3NAoyyXQAAe7QF?format=jpg&name=large": {
+    "content_sha256": "6cdcea173daf496faaf628cf481fd1983c79f14551bcf7e46ad410caa68eec77",
+    "created_at_utc": "2026-02-20T06:07:44+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:44+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_001.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/G3mzwI3WkAAEeIi?format=jpg&name=large": {
+    "content_sha256": "4b8dd7e3a2fe28acd14aac761aa0276da10fdfd29420315151c66f5c05e59bc0",
+    "created_at_utc": "2026-02-20T06:07:46+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:46+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_004.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  }
+}

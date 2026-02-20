@@ -1,0 +1,50 @@
+{
+  "https://ars.els-cdn.com/content/image/1-s2.0-S0921889018301234-gr2.jpg": {
+    "content_sha256": "13e182e8d779bb22402aa9ce992e96dcaca60dafce35c87eb68633dda7a7dfc7",
+    "created_at_utc": "2026-02-20T06:07:42+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:42+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_006.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/amplify_video_thumb/1915203408589664256/img/ujgiuCRWV4_kyyBw.jpg": {
+    "content_sha256": "6bf96fcbf2219ef081eb1f594684002a18734c5817ed963c5465fd90e97879ef",
+    "created_at_utc": "2026-02-20T06:07:40+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:40+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_003.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/amplify_video_thumb/1915501673080119299/img/5HhO9RW1Phmjc3kS?format=jpg&name=medium": {
+    "content_sha256": "59d84ecf3e38e196eef3773f2dc6eca5ed818c944cfa27ce3c9030f91051229e",
+    "created_at_utc": "2026-02-20T06:07:41+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:41+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_004.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/Go7UBwwa4AAIVjU?format=jpg&name=small": {
+    "content_sha256": "25f9d3684b53b97968de64ffd8cf379c4c73482803813277a62fa7a23a4c08b6",
+    "created_at_utc": "2026-02-20T06:07:38+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:38+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_001.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/Gpg6Gj4awAAD5zb?format=jpg&name=large": {
+    "content_sha256": "3ddccc867c003424e0854146d0ce671a40d18eec6360acb53ee7353802931234",
+    "created_at_utc": "2026-02-20T06:07:41+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:41+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_005.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://www.popsci.com/wp-content/uploads/2025/04/cosmic_smiley_face.jpg": {
+    "content_sha256": "a10f7a1fe2c2bcddd9b87c87a3540eeb98d1fdc409d39e78618e18d65ff83d2c",
+    "created_at_utc": "2026-02-20T06:07:40+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:40+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_002.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  }
+}

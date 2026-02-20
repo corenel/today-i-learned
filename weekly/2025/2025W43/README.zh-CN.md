@@ -1645,7 +1645,7 @@ Ethan Mollick @emollick [2025-10-20](https://x.com/emollick/status/1980126684306
 >
 > Veo 3.1: "three toy ships, one made of iron, the other of wood, and one out of loosely packed sugar, fall into a pool of water"
 
-![image](https://pbs.twimg.com/amplify_video_thumb/1980126604605972480/img/N1LSNwNUGyvGsZLu?format=jpg&name=medium)
+![image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 #### Vercel 复盘 AWS 故障：多层冗余保障下的可用性挑战与应对
 
@@ -1675,7 +1675,7 @@ Arvid Kahl @arvidkahl [2025-10-20](https://x.com/arvidkahl/status/19803951254205
 
 > „Mattress overheated because us-east-1 was down“is such a 2025 thing to happen 🤣
 
-![Image](https://pbs.twimg.com/media/G3t-aZoXsAAoC7g?format=png&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 #### OpenAI 产品图标的品牌一致性设计洞察
 
@@ -1691,7 +1691,7 @@ Arvid Kahl @arvidkahl [2025-10-20](https://x.com/arvidkahl/status/19803951254205
 
 > ChatGPT、Sora、Atlas，三个 OpenAI 的应用外部的轮廓是一样的，这个品牌一致性设计很好
 
-![Three square app icons arranged horizontally on a light beige background. The left icon is white with a geometric interlocking pattern logo and text ChatGPT below. The middle icon is dark blue with a white cloud face emoji and text ChatGPT Sora below. The right icon is blue with a map pin logo and text ChatGPT Atlas below. Orange lines connect each icon to a central orange-outlined white cloud shape above them.](https://pbs.twimg.com/media/G30wKV1XIAAuswm?format=jpg&name=large)
+![Three square app icons arranged horizontally on a light beige background. The left icon is white with a geometric interlocking pattern logo and text ChatGPT below. The middle icon is dark blue with a white cloud face emoji and text ChatGPT Sora below. The right icon is blue with a map pin logo and text ChatGPT Atlas below. Orange lines connect each icon to a central orange-outlined white cloud shape above them.](README.zh-CN.assets/README.zh-CN_003.webp)
 
 ## 摘录
 
@@ -1736,7 +1736,7 @@ the tiny corp @tinygrad [2025-10-20](https://x.com/__tinygrad__/status/198019303
 >
 > If we do that, NVIDIA's moat is over. It's 1000 lines at most to add a new accelerator to tinygrad. And I don't mean to add a new accelerator with help from a kernel driver, compiler, and libraries. Just 1000 lines of software for the *whole* accelerator speaking right on the PCIe BARs, like what tinygrad is doing with the NVIDIA and AMD GPUs now.
 
-![A black MacBook Pro laptop is open on a wooden desk displaying terminal windows with code output on its screen. Connected to the laptop via a black USB-C cable is an ADT-Link dock featuring green LED indicators. Attached to the dock is a NVIDIA GeForce RTX graphics card with blue illuminated fans and RGB lighting visible through the side panel. Various cables including power adapters are plugged into the setup. The background includes a window with blinds.](https://pbs.twimg.com/media/G3qqgG9WwAAHlM7?format=jpg&name=large)
+![A black MacBook Pro laptop is open on a wooden desk displaying terminal windows with code output on its screen. Connected to the laptop via a black USB-C cable is an ADT-Link dock featuring green LED indicators. Attached to the dock is a NVIDIA GeForce RTX graphics card with blue illuminated fans and RGB lighting visible through the side panel. Various cables including power adapters are plugged into the setup. The background includes a window with blinds.](README.zh-CN.assets/README.zh-CN_004.webp)
 
 Richard U+2713 @rliessum [2025-10-22](https://x.com/rliessum/status/1981016003455988200)
 
@@ -1752,7 +1752,7 @@ Richard U+2713 @rliessum [2025-10-23](https://x.com/rliessum/status/198130957944
 >
 > I'm using a Razer Core X Thunderbolt 3 case logic board. It was considered dead hardware (useless for Mac and in my PC, I prefer my GPU in the motherboard). The boards and cases are still sold, but the board from the tinygrad docs is cheaper. I didn’t need a firmware flash though.
 
-![First image shows black terminal window with white text displaying Python output from tinygrad test including lines like ThunderboltGPUDevice and performance stats such as 0.08 GB 35 percent 0.08 GB. Second image depicts open black PC case on wooden floor with silver NVIDIA RTX 3090 graphics card featuring three fans and green accents installed vertically connected by cables to motherboard and power supply in a room with beige door and green wall.](https://pbs.twimg.com/media/G337i7NWkAAmDtc?format=jpg&name=large)![First image shows black terminal window with white text displaying Python output from tinygrad test including lines like ThunderboltGPUDevice and performance stats such as 0.08 GB 35 percent 0.08 GB. Second image depicts open black PC case on wooden floor with silver NVIDIA RTX 3090 graphics card featuring three fans and green accents installed vertically connected by cables to motherboard and power supply in a room with beige door and green wall.](https://pbs.twimg.com/media/G337i7KX0AAwlYo?format=jpg&name=large)
+![First image shows black terminal window with white text displaying Python output from tinygrad test including lines like ThunderboltGPUDevice and performance stats such as 0.08 GB 35 percent 0.08 GB. Second image depicts open black PC case on wooden floor with silver NVIDIA RTX 3090 graphics card featuring three fans and green accents installed vertically connected by cables to motherboard and power supply in a room with beige door and green wall.](README.zh-CN.assets/README.zh-CN_005.webp)![First image shows black terminal window with white text displaying Python output from tinygrad test including lines like ThunderboltGPUDevice and performance stats such as 0.08 GB 35 percent 0.08 GB. Second image depicts open black PC case on wooden floor with silver NVIDIA RTX 3090 graphics card featuring three fans and green accents installed vertically connected by cables to motherboard and power supply in a room with beige door and green wall.](README.zh-CN.assets/README.zh-CN_006.webp)
 
 #### Andrej Karpathy 谈 RL 在 AGI 中的分层作用：不仅是替代，更是未来方案的组成部分
 

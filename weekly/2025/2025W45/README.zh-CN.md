@@ -2321,7 +2321,7 @@ Andy Stewart @manateelazycat [2025-11-05](https://x.com/manateelazycat/status/19
 >
 > 分享也很简单，画完以后手机拍照发给团队就好了
 
-![Large whiteboard mounted on wall filled with dense handwritten text diagrams flowcharts and annotations in black marker covering topics like code structures project plans or learning notes dual computer monitors on standing desk display open applications one showing code editor other a document keyboard mouse and stylus nearby corkboard with pinned items potted plant vase with flowers on shelf gray room walls air vent above desk chair and floor lamp visible](https://pbs.twimg.com/media/G4_rrAlacAA6pxC?format=jpg&name=large)
+![Large whiteboard mounted on wall filled with dense handwritten text diagrams flowcharts and annotations in black marker covering topics like code structures project plans or learning notes dual computer monitors on standing desk display open applications one showing code editor other a document keyboard mouse and stylus nearby corkboard with pinned items potted plant vase with flowers on shelf gray room walls air vent above desk chair and floor lamp visible](README.zh-CN.assets/README.zh-CN_001.webp)
 
 #### 优化 Agent 工作流：应对冗长工具集对上下文的干扰
 

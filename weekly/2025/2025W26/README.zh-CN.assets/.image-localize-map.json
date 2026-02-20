@@ -1,0 +1,26 @@
+{
+  "https://ichef.bbci.co.uk/ace/standard/240/mcs/media/images/64904000/jpg/_64904992_nz5p7m8k.jpg.webp": {
+    "content_sha256": "e9d8a04c256bc2fbafdf70403991f3d3b9c77ef52663c5149adfd8927ab5a107",
+    "created_at_utc": "2026-02-20T06:07:41+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:41+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_002.webp",
+    "source_content_type": "image/webp",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/GuIvKylXcAAsHri?format=jpg&name=large": {
+    "content_sha256": "5cb77413042a66e29119efc128185f4e2e2d656b7877f3102a6d133acbb2f4be",
+    "created_at_utc": "2026-02-20T06:07:41+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:41+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_003.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/GuTBiDmbEAAXMuD?format=jpg&name=large": {
+    "content_sha256": "87af4b217142d09c01a564b7a8f863fee56f2b187303907fc582496584cb42a3",
+    "created_at_utc": "2026-02-20T06:07:41+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:41+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_001.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "https://arxiv.org/html/2406.09415v2/x1.png": {
+    "content_sha256": "67e07bf27fe6ca8d8029342429cb8671cf89c104fb15916592f6d59ee90905d7",
+    "created_at_utc": "2026-02-20T06:07:45+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:45+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_003.webp",
+    "source_content_type": "image/png",
+    "stored_format": "webp"
+  },
+  "https://github.com/giacomo-b/rust-stakeholder/raw/master/assets/demo.gif": {
+    "content_sha256": "c4e34796e221c4e724b06d5957eef2035bcbd4445cf66d5729824d5483c4ba45",
+    "created_at_utc": "2026-02-20T06:07:40+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:40+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_002.gif",
+    "source_content_type": "image/gif",
+    "stored_format": "gif"
+  },
+  "https://pbs.twimg.com/amplify_video_thumb/1902410928790106112/img/kRygxgQ3oOXqpIUn.jpg": {
+    "content_sha256": "9dce25e8a5465192f0aaee20b98d6500bc72954451edea9ddeed34298a79e70b",
+    "created_at_utc": "2026-02-20T06:07:38+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:38+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_001.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  }
+}

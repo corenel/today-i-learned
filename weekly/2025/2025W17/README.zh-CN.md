@@ -2319,7 +2319,7 @@ karminski- 牙医 @karminski3 [2025-04-20](https://x.com/karminski3/status/19137
 >
 > 图来自 reddit 用户: kalbinibirak
 
-![](https://pbs.twimg.com/media/Go7UBwwa4AAIVjU?format=jpg&name=small)
+![](README.zh-CN.assets/README.zh-CN_001.webp)
 
 #### 罕见的‘微笑脸’三重合相天象
 
@@ -2327,7 +2327,7 @@ karminski- 牙医 @karminski3 [2025-04-20](https://x.com/karminski3/status/19137
 
 2025 年 4 月 25 日黎明前（美国东部时间凌晨 5:30）即将出现罕见天象，金星、土星与月亮将在天空中形成酷似“微笑脸”的视觉排列，持续时长约一小时，观测方位东方地平线附近。金星将作为较高的“眼睛”，土星作为较低的“眼睛”，而当时的纤细娥眉月则巧妙地构成了“微笑的嘴巴”。
 
-![](https://www.popsci.com/wp-content/uploads/2025/04/cosmic_smiley_face.jpg)
+![](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ## 摘录
 
@@ -2355,7 +2355,7 @@ karminski- 牙医 @karminski3 [2025-04-24](https://x.com/karminski3/status/19152
 
 > 看到个可以是用 tile (瓦片) 创建 3D 场景的编辑器——[crocotile3d](http://crocotile3d.com/)，特别适合独立游戏作者创作游戏场景和模型。
 
-![](https://pbs.twimg.com/amplify_video_thumb/1915203408589664256/img/ujgiuCRWV4_kyyBw.jpg)
+![](README.zh-CN.assets/README.zh-CN_003.webp)
 
 safari @safaricheung [2025-04-25](https://x.com/safaricheung/status/1915673430218657803)
 
@@ -2383,19 +2383,19 @@ AP @angrypenguinPNG [2025-04-24](https://x.com/angrypenguinPNG/status/1915501910
 >
 > Absolutely wild.
 
-![](https://pbs.twimg.com/amplify_video_thumb/1915501673080119299/img/5HhO9RW1Phmjc3kS?format=jpg&name=medium)
+![](README.zh-CN.assets/README.zh-CN_004.webp)
 
 David Chang @David\_yc607 [2025-04-27](https://x.com/David_yc607/status/1916346834689396775/history)
 
 > 小马智行 pony ai 新传感器设计。 从硬件配置来说，已经不具备走端到端的基础了。在传感器融合加规则和高精地图这条路上走太深了。没有回头路了。可能也不需要回头。毕竟“楼教主”多次提到他对 VLA 模型等其实并不在意。当然，最为传感器设计老炮。我对他们的传感器冗余设计还是很欣赏的。毕竟充满了金钱的味道。
 
-![](https://pbs.twimg.com/media/Gpg6Gj4awAAD5zb?format=jpg&name=large)
+![](README.zh-CN.assets/README.zh-CN_005.webp)
 
 David Chang @David\_yc607 [2025-04-27](https://x.com/David_yc607/status/1916368058735857848)
 
 > 因为信号灯单独用了一个神经网络，并且需要借助高精地图的投影线，给予相机坐标系提供 ROI 支持。 简单来说如下图。
 
-![Traffic light recognition using high-definition map features](https://ars.els-cdn.com/content/image/1-s2.0-S0921889018301234-gr2.jpg)
+![Traffic light recognition using high-definition map features](README.zh-CN.assets/README.zh-CN_006.webp)
 
 ## 学术研究
 

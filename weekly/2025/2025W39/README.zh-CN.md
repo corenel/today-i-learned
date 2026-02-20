@@ -1282,7 +1282,7 @@ karminski- 牙医 @karminski3 [2025-09-24](https://x.com/karminski3/status/19706
 
 > 梗图也更新一波...... 网上的那个太旧了，我手动做了个新的。
 
-![Two panels featuring a stick figure character with a hat. The top panel shows the character standing next to a machine with blue hexagonal icons labeled Qwen3, Qwen2.5, Qwen2, and Qwen1. The bottom panel depicts the same character with arms raised, standing among blue hexagonal icons labeled Qwen3-Max-VL, Qwen3-Omni, Qwen3-Guard, Qwen3-6.0B, Qwen3-Next, Qwen3-148B, Qwen3-Embedding, Qwen3-Image-Edit, Qwen3-Coder, and Qwen3-256B-22B.](https://pbs.twimg.com/media/G1ksf57aIAAUO02?format=png&name=large)
+![Two panels featuring a stick figure character with a hat. The top panel shows the character standing next to a machine with blue hexagonal icons labeled Qwen3, Qwen2.5, Qwen2, and Qwen1. The bottom panel depicts the same character with arms raised, standing among blue hexagonal icons labeled Qwen3-Max-VL, Qwen3-Omni, Qwen3-Guard, Qwen3-6.0B, Qwen3-Next, Qwen3-148B, Qwen3-Embedding, Qwen3-Image-Edit, Qwen3-Coder, and Qwen3-256B-22B.](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ## 摘录
 

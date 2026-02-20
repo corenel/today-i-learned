@@ -932,7 +932,7 @@ Ted Xiao @ RSS 2025 @xiao\_ted [2025-06-16](https://x.com/xiao_ted/status/193469
 
 > Very impressed with how far robotics + AI has come along! There were a ton of cool hackathon projects pushing on hardware and autonomy for new manipulation skills at the global LeRobot Hackathon this weekend. Just 5 years ago, these would have been impossible to do in 36 hours.
 
-![image](https://pbs.twimg.com/amplify_video_thumb/1934694439173468160/img/eIWYM2wm9Lx4QWMm?format=jpg&name=medium)
+![image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ## 摘录
 

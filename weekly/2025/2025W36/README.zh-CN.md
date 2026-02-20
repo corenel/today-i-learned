@@ -2185,7 +2185,7 @@ safari @safaricheung [2025-09-07](https://x.com/safaricheung/status/196457005089
 
 > 我没用过 Surface Pro 但我敢 120% 肯定这图里是一台 iPad Pro。
 
-![Person highlighting a document with their Slim Pen and Surface Pro.](https://pbs.twimg.com/media/G0LNIU2WAAQYkfn?format=jpg&name=large)
+![Person highlighting a document with their Slim Pen and Surface Pro.](README.zh-CN.assets/README.zh-CN_001.webp)
 
 #### “LLM 无法推理”论：谁才是真正的“随机鹦鹉”？
 
@@ -2235,7 +2235,7 @@ AI Tomorrow @aitomorroww [2025-09-06](https://x.com/aitomorroww/status/196418045
 >
 > The tribal nature of this debate isn't helping anyone figure out what's actually true about these systems.
 
-![Image](https://pbs.twimg.com/media/G0MXmX7WEAAzox_?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ## 摘录
 

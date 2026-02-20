@@ -1748,7 +1748,7 @@ Ehco @Ehco1996 [2025-11-18](https://x.com/Ehco1996/status/1990614848217231687)
 >
 > 但是最近团建发现同事有一把雪，好想要😁
 
-![Image](https://pbs.twimg.com/media/G6AVpkUbUAAyUNL?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 #### AI Meme：“老鼠，未戴厨师帽”
 
@@ -1762,7 +1762,7 @@ Ehco @Ehco1996 [2025-11-18](https://x.com/Ehco1996/status/1990614848217231687)
 >
 > Comment: Mice, with chef hats.
 
-![Image](https://pbs.twimg.com/media/G6bV81rbcAAIszw?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ## 摘录
 
@@ -2022,7 +2022,7 @@ TSLA99T @Tsla99T [2025-11-18](https://x.com/Tsla99T/status/1990895158091497597)
 
 > 软件 2.0 实现倒还没有，因为可验证并不是那么容易的事情。
 
-![Image](https://pbs.twimg.com/media/G56tmABWQAEmAxp?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 #### 尤雨溪回应争议：论开源项目的“独裁”、商业化与话语权本质
 
@@ -2142,7 +2142,7 @@ Yann LeCun @ylecun [2025-11-17](https://x.com/ylecun/status/1991518594451267614)
 >
 > It was also part of my NIPS 2016 keynote.
 
-![Image](https://pbs.twimg.com/media/G57WwQoa0AAc2qQ?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_004.webp)
 
 #### 数据优势定胜负：为何 YouTube 是谷歌在视频 AI 竞赛中的王牌
 

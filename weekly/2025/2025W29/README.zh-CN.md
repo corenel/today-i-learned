@@ -929,7 +929,7 @@ BlastOff LLM 项目的核心论点是，通过解耦即时反馈与深度内容�
 >
 > 把自己的两个平台的头像融合了一下 🤣
 
-![Image](https://pbs.twimg.com/media/Gv32HWbWsAAyn6D?format=png&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ---
 
@@ -941,7 +941,7 @@ BlastOff LLM 项目的核心论点是，通过解耦即时反馈与深度内容�
 
 > 啊哈，是 M5Stack Cardputer + Bruce 固件！
 
-![Image](https://pbs.twimg.com/media/Gv0aTMbWkAEuhoj?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_002.webp)
 
 ---
 
@@ -949,7 +949,7 @@ BlastOff LLM 项目的核心论点是，通过解耦即时反馈与深度内容�
 
 > i'm totally getting fired for this
 
-![Image](https://pbs.twimg.com/media/Gv13hYha4AM1HI4?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_003.webp)
 
 **宝玉** @dotey [2025-07-14](https://x.com/dotey/status/1945236587354230832)
 
@@ -1093,7 +1093,7 @@ BlastOff LLM 项目的核心论点是，通过解耦即时反馈与深度内容�
 
 > antfu 的 slidev 模版真的太好看了，大家都喜欢用 (´▽｀)
 
-![Image](https://pbs.twimg.com/media/Gvz3TnQbEAAZIXG?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_005.webp)
 
 ---
 

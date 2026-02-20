@@ -1547,7 +1547,7 @@ NotebookLM @NotebookLM [2025-10-28](https://x.com/NotebookLM/status/198322053341
 
 > Google redefine anime and kawai.
 
-![image](https://pbs.twimg.com/amplify_video_thumb/1983220501955624960/img/IZ4OCzN9A-B6uag7?format=jpg&name=medium)
+![image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ## 摘录
 
@@ -1665,7 +1665,7 @@ Tz @Tz_2022 [2025-10-25](https://x.com/Tz_2022/status/1982233119857029564)
 >
 > 这可能是未来产品力的起点，也是最深的护城河。
 
-![Line chart titled Customer Retention ChatGPT with multiple overlapping blue lines starting at 100 percent retention and declining variably to low percentages over 22 months on the x-axis labeled Number of months since purchase, y-axis labeled Percent retained, including a legend for different retention curves.](https://pbs.twimg.com/media/G34Jqv3WkAAQcO4?format=png&name=large)
+![Line chart titled Customer Retention ChatGPT with multiple overlapping blue lines starting at 100 percent retention and declining variably to low percentages over 22 months on the x-axis labeled Number of months since purchase, y-axis labeled Percent retained, including a legend for different retention curves.](README.zh-CN.assets/README.zh-CN_002.webp)
 
 #### 优化代码库以提升 AI 编程助手效率的最佳实践
 

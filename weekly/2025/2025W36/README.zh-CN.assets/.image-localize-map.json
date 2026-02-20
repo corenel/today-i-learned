@@ -1,0 +1,18 @@
+{
+  "https://pbs.twimg.com/media/G0LNIU2WAAQYkfn?format=jpg&name=large": {
+    "content_sha256": "32b5a5092931ecfddb2efe66c369bdc0db11525cb7e6a9fda68362329f61daf2",
+    "created_at_utc": "2026-02-20T06:07:44+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:44+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_001.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
+  "https://pbs.twimg.com/media/G0MXmX7WEAAzox_?format=jpg&name=large": {
+    "content_sha256": "5a1d847d0196fedadd39f6e638dc0c15fc39f050591546375b3702e04ff75915",
+    "created_at_utc": "2026-02-20T06:07:44+00:00",
+    "last_verified_at_utc": "2026-02-20T06:07:44+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_002.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  }
+}

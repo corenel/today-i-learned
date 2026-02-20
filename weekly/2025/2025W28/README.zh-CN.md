@@ -851,7 +851,7 @@ SMART-AI 框架的深刻价值在于，它提供了一套超越具体工具推�
 
 这模型我自己很喜欢的一个点是，我是把 macOS 的截图叠在下面描的，尺寸比例应该是完全一致。
 
-![Image](https://pbs.twimg.com/media/GvgE82jXoAAwnB5?format=jpg&name=large)
+![Image](README.zh-CN.assets/README.zh-CN_001.webp)
 
 ---
 
