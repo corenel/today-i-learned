@@ -34,6 +34,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W06](./weekly/2026/2026W06/README.md): Qwen3-Coder-Next, Step 3.5 Flash, GLM-OCR, GPT-5.3-Codex, Claude Opus 4.6, and more.
 - [2026W07](./weekly/2026/2026W07/README.md): Seedance 2.0, GLM-5, MiniMax M2.5, and more.
 - [2026W08](./weekly/2026/2026W08/README.md): Qwen3.5 and more.
+- [2026W09](./weekly/2026/2026W09/README.md): Qwen3.5 Medium Model Series, Nano Banana 2, and more.
 
 #### 2025
 
