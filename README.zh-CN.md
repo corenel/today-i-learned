@@ -35,6 +35,7 @@
 - [2026 年第 07 周](./weekly/2026/2026W07/README.zh-CN.md)：Seedance 2.0、GLM-5、MiniMax M2.5 等。
 - [2026 年第 08 周](./weekly/2026/2026W08/README.zh-CN.md)：Qwen3.5 等。
 - [2026 年第 09 周](./weekly/2026/2026W09/README.zh-CN.md)：Qwen3.5 Medium Model Series、Nano Banana 2、Anthropic 风波等。
+- [2026 年第 10 周](./weekly/2026/2026W10/README.zh-CN.md)：GPT-5.4 等。
 
 #### 2025 年
 
