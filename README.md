@@ -36,6 +36,8 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W08](./weekly/2026/2026W08/README.md): Qwen3.5 and more.
 - [2026W09](./weekly/2026/2026W09/README.md): Qwen3.5 Medium Model Series, Nano Banana 2, and more.
 - [2026W10](./weekly/2026/2026W10/README.md): GPT-5.4 and more.
+- [2026W11](./weekly/2026/2026W11/README.md)
+- [2026W12](./weekly/2026/2026W12/README.md): MiniMax M2.7, MiMo-V2-Pro, and more.
 
 #### 2025
 
