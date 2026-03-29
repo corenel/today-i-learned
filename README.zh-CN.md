@@ -38,6 +38,7 @@
 - [2026 年第 10 周](./weekly/2026/2026W10/README.zh-CN.md)：GPT-5.4 等。
 - [2026 年第 11 周](./weekly/2026/2026W11/README.zh-CN.md)
 - [2026 年第 12 周](./weekly/2026/2026W12/README.zh-CN.md)：MiniMax M2.7、MiMo-V2-Pro 等。
+- [2026 年第 13 周](./weekly/2026/2026W13/README.zh-CN.md)
 
 #### 2025 年
 
