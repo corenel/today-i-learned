@@ -39,6 +39,8 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W11](./weekly/2026/2026W11/README.md)
 - [2026W12](./weekly/2026/2026W12/README.md): MiniMax M2.7, MiMo-V2-Pro, and more.
 - [2026W13](./weekly/2026/2026W13/README.md)
+- [2026W14](./weekly/2026/2026W14/README.md)
+- [2026W15](./weekly/2026/2026W15/README.md): Claude Mythos Preview, Claude Managed Agents, Meta Muse Spark, and more.
 
 #### 2025
 
