@@ -41,6 +41,7 @@
 - [2026 年第 13 周](./weekly/2026/2026W13/README.zh-CN.md)
 - [2026 年第 14 周](./weekly/2026/2026W14/README.zh-CN.md)
 - [2026 年第 15 周](./weekly/2026/2026W15/README.zh-CN.md)：Claude Mythos Preview、Claude Managed Agents、Meta Muse Spark 等。
+- [2026 年第 16 周](./weekly/2026/2026W16/README.zh-CN.md)：Qwen3.6-35B-A3B、Claude Opus 4.7、Claude Design 等。
 
 #### 2025 年
 

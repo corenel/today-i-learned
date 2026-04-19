@@ -41,6 +41,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W13](./weekly/2026/2026W13/README.md)
 - [2026W14](./weekly/2026/2026W14/README.md)
 - [2026W15](./weekly/2026/2026W15/README.md): Claude Mythos Preview, Claude Managed Agents, Meta Muse Spark, and more.
+- [2026W16](./weekly/2026/2026W16/README.md): Qwen3.6-35B-A3B, Claude Opus 4.7, Claude Design, and more.
 
 #### 2025
 
