@@ -23,6 +23,14 @@
     "source_content_type": "image/png",
     "stored_format": "webp"
   },
+  "https://pbs.twimg.com/media/Gv93UqYbcAAiYGB?format=jpg&name=large": {
+    "content_sha256": "2894b9b1203a9e3be04d797654f9ff4214400bd1f17fa153b9145ca84b20ca81",
+    "created_at_utc": "2026-05-03T09:35:16+00:00",
+    "last_verified_at_utc": "2026-05-03T09:35:16+00:00",
+    "relative_path": "README.zh-CN.assets/README.zh-CN_006.webp",
+    "source_content_type": "image/jpeg",
+    "stored_format": "webp"
+  },
   "https://pbs.twimg.com/media/Gvz3TnQbEAAZIXG?format=jpg&name=large": {
     "content_sha256": "40a2de9046640a7a2b0e6b8fd8f5a28467e1ffdbe7431fbd703036c9ca4e3267",
     "created_at_utc": "2026-02-20T06:07:44+00:00",
