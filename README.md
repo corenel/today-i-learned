@@ -48,6 +48,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W20](./weekly/2026/2026W20/README.md)
 - [2026W21](./weekly/2026/2026W21/README.md): Qwen3.7-Max, Gemini 3.5 Flash, and more.
 - [2026W22](./weekly/2026/2026W22/README.md): Claude Opus 4.8, and more.
+- [2026W23](./weekly/2026/2026W23/README.md): Gemma 4 12B, MiniMax M3, Qwen3.7-Plus, and more.
 
 #### 2025
 
