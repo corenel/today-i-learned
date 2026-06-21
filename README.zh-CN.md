@@ -50,6 +50,7 @@
 - [2026 年第 22 周](./weekly/2026/2026W22/README.zh-CN.md): Claude Opus 4.8 等。
 - [2026 年第 23 周](./weekly/2026/2026W23/README.zh-CN.md): Gemma 4 12B、MiniMax M3、Qwen3.7-Plus 等。
 - [2026 年第 24 周](./weekly/2026/2026W24/README.zh-CN.md): Claude Fable 5 等。
+- [2026 年第 25 周](./weekly/2026/2026W25/README.zh-CN.md): GLM-5.2 等。
 
 #### 2025 年
 

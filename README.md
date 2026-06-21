@@ -50,6 +50,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W22](./weekly/2026/2026W22/README.md): Claude Opus 4.8, and more.
 - [2026W23](./weekly/2026/2026W23/README.md): Gemma 4 12B, MiniMax M3, Qwen3.7-Plus, and more.
 - [2026W24](./weekly/2026/2026W24/README.md): Claude Fable 5, and more.
+- [2026W25](./weekly/2026/2026W25/README.md): GLM-5.2, and more.
 
 #### 2025
 
