@@ -52,6 +52,7 @@
 - [2026 年第 24 周](./weekly/2026/2026W24/README.zh-CN.md): Claude Fable 5 等。
 - [2026 年第 25 周](./weekly/2026/2026W25/README.zh-CN.md): GLM-5.2 等。
 - [2026 年第 26 周](./weekly/2026/2026W26/README.zh-CN.md)
+- [2026 年第 27 周](./weekly/2026/2026W27/README.zh-CN.md)
 
 #### 2025 年
 

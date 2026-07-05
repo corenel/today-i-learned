@@ -52,6 +52,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W24](./weekly/2026/2026W24/README.md): Claude Fable 5, and more.
 - [2026W25](./weekly/2026/2026W25/README.md): GLM-5.2, and more.
 - [2026W26](./weekly/2026/2026W26/README.md)
+- [2026W27](./weekly/2026/2026W27/README.md)
 
 #### 2025
 
