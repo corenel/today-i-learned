@@ -53,6 +53,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W25](./weekly/2026/2026W25/README.md): GLM-5.2, and more.
 - [2026W26](./weekly/2026/2026W26/README.md)
 - [2026W27](./weekly/2026/2026W27/README.md)
+- [2026W28](./weekly/2026/2026W28/README.md): GPT-5.6, GPT-Live, Grok 4.5, Hy3, and more.
 
 #### 2025
 

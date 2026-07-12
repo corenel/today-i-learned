@@ -53,6 +53,7 @@
 - [2026 年第 25 周](./weekly/2026/2026W25/README.zh-CN.md): GLM-5.2 等。
 - [2026 年第 26 周](./weekly/2026/2026W26/README.zh-CN.md)
 - [2026 年第 27 周](./weekly/2026/2026W27/README.zh-CN.md)
+- [2026 年第 28 周](./weekly/2026/2026W28/README.zh-CN.md): GPT-5.6、GPT-Live、Grok 4.5、Hy3 等。
 
 #### 2025 年
 
