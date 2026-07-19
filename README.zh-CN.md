@@ -54,8 +54,12 @@
 - [2026 年第 26 周](./weekly/2026/2026W26/README.zh-CN.md)
 - [2026 年第 27 周](./weekly/2026/2026W27/README.zh-CN.md)
 - [2026 年第 28 周](./weekly/2026/2026W28/README.zh-CN.md): GPT-5.6、GPT-Live、Grok 4.5、Hy3 等。
+- [2026 年第 29 周](./weekly/2026/2026W29/README.zh-CN.md): Kimi K3 等。
 
 #### 2025 年
+
+<details>
+<summary>2025 年技术阅读分享</summary>
 
 - [2025 年第 10 周](./weekly/2025/2025W10/README.zh-CN.md)：Mac Studio (M3 Ultra)、QwQ-32B 模型、Manus AI Agent 产品等。
 - [2025 年第 11 周](./weekly/2025/2025W11/README.zh-CN.md)：Gemma3、OpenAI Agent SDK、Vibe Coding、YOLOE 等。
@@ -100,6 +104,8 @@
 - [2025 年第 50 周](./weekly/2025/2025W50/README.zh-CN.md): GPT-5.2 等。
 - [2025 年第 51 周](./weekly/2025/2025W51/README.zh-CN.md): Fun-ASR-Nano-2512、Gemini 3 Flash、MiMo-V2-Flash、SAM Audio 等。
 - [2025 年第 52 周](./weekly/2025/2025W52/README.zh-CN.md): MiniMax M2.1、GLM-4.7 等。
+
+</details>
 
 ### 计算机系统
 

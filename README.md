@@ -54,8 +54,12 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W26](./weekly/2026/2026W26/README.md)
 - [2026W27](./weekly/2026/2026W27/README.md)
 - [2026W28](./weekly/2026/2026W28/README.md): GPT-5.6, GPT-Live, Grok 4.5, Hy3, and more.
+- [2026W29](./weekly/2026/2026W29/README.md): Kimi K3, and more.
 
 #### 2025
+
+<details>
+<summary>2025 Technical Reading Summary</summary>
 
 - [2025W10](./weekly/2025/2025W10/README.md): Mac Studio (M3 Ultra), QwQ-32B model, Manus AI Agent, and more.
 - [2025W11](./weekly/2025/2025W11/README.md): Gemma3, OpenAI Agent SDK, Vibe Coding, YOLOE, and more.
@@ -100,6 +104,8 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2025W50](./weekly/2025/2025W50/README.md): GPT-5.2, and more.
 - [2025W51](./weekly/2025/2025W51/README.md): Fun-ASR-Nano-2512, Gemini 3 Flash, MiMo-V2-Flash, SAM Audio, and more.
 - [2025W52](./weekly/2025/2025W52/README.md): MiniMax M2.1, GLM-4.7, and more.
+
+</details>
 
 ### Computer System
 
