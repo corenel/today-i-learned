@@ -55,6 +55,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W27](./weekly/2026/2026W27/README.md)
 - [2026W28](./weekly/2026/2026W28/README.md): GPT-5.6, GPT-Live, Grok 4.5, Hy3, and more.
 - [2026W29](./weekly/2026/2026W29/README.md): Kimi K3, and more.
+- [2026W30](./weekly/2026/2026W30/README.md): Gemini 3.6 Flash, Claude Opus 5, and more.
 
 #### 2025
 
