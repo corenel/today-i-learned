@@ -56,6 +56,8 @@
 - [2026 年第 28 周](./weekly/2026/2026W28/README.zh-CN.md): GPT-5.6、GPT-Live、Grok 4.5、Hy3 等。
 - [2026 年第 29 周](./weekly/2026/2026W29/README.zh-CN.md): Kimi K3 等。
 - [2026 年第 30 周](./weekly/2026/2026W30/README.zh-CN.md): Gemini 3.6 Flash、Claude Opus 5 等。
+- [2026 年第 31 周](./weekly/2026/2026W31/README.zh-CN.md): DeepSeek V4 Flash 0731 等。
+- [2026 年第 32 周](./weekly/2026/2026W32/README.zh-CN.md)
 
 #### 2025 年
 
