@@ -59,6 +59,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W31](./weekly/2026/2026W31/README.md): DeepSeek V4 Flash 0731, and more
 - [2026W32](./weekly/2026/2026W32/README.md)
 - [2026W33](./weekly/2026/2026W33/README.md): DeepSeek V4 Pro 0813, DeepSeek Harness, Qwen3.8-27B, GLM-5.3, Grok 4.7, and more.
+- [2026W34](./weekly/2026/2026W34/README.md)
 
 #### 2025
 

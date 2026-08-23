@@ -59,6 +59,7 @@
 - [2026 年第 31 周](./weekly/2026/2026W31/README.zh-CN.md): DeepSeek V4 Flash 0731 等。
 - [2026 年第 32 周](./weekly/2026/2026W32/README.zh-CN.md)
 - [2026 年第 33 周](./weekly/2026/2026W33/README.zh-CN.md): DeepSeek V4 Pro 0813、DeepSeek Harness、Qwen3.8-27B、GLM-5.3、Grok 4.7 等。
+- [2026 年第 34 周](./weekly/2026/2026W34/README.zh-CN.md)
 
 #### 2025 年
 
