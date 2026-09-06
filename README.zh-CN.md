@@ -61,6 +61,7 @@
 - [2026 年第 33 周](./weekly/2026/2026W33/README.zh-CN.md): DeepSeek V4 Pro 0813、DeepSeek Harness、Qwen3.8-27B、GLM-5.3、Grok 4.7 等。
 - [2026 年第 34 周](./weekly/2026/2026W34/README.zh-CN.md)
 - [2026 年第 35 周](./weekly/2026/2026W35/README.zh-CN.md): GLM-5.3-Flash、Qwen3.8-Flash-Next、Hy4 Preview 等。
+- [2026 年第 36 周](./weekly/2026/2026W36/README.zh-CN.md): GPT-6 Astra、Claude Fable 5.1、Gemini 3.8 Flash、Muse Spark 1.3 等。
 
 #### 2025 年
 
