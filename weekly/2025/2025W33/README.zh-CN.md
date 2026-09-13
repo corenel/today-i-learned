@@ -1346,7 +1346,7 @@ SCAN 理论的引入，是本次解读的点睛之笔。它揭示了：传统意
 
 ---
 
-[Steve Wozniak](https://slashdot.org/comments.pl?sid=23765914&cid=65583466), in a comment on Slashdot
+[Steve Wozniak](https://slashdot.org/comments.pl?sid=23765914&cid=65583466), in a comment on Slashdot
 
 > I gave all my Apple wealth away because wealth and power are not what I live for. I have a lot of fun and happiness. I funded a lot of important museums and arts groups in San Jose, the city of my birth, and they named a street after me for being good. I now speak publicly and have risen to the top. I have no idea how much I have but after speaking for 20 years it might be $10M plus a couple of homes. I never look for any type of tax dodge. I earn money from my labor and pay something like 55% combined tax on it. I am the happiest person ever. Life to me was never about accomplishment, but about Happiness, which is Smiles minus Frowns. I developed these philosophies when I was 18-20 years old and I never sold out.
 

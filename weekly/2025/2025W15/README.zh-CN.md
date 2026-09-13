@@ -266,13 +266,13 @@ Lambert 推测，这一系列反常现象可能反映了 Meta 内部的压力和
 > [!NOTE]
 > OpenAI 与 Google 的 Deep Research，以及 Grok 3 的 Deep Search 在不同场景下使用都挺好的。我个人还是更加常用 OpenAI 的，反而 Perplexity 用得越来越少了。
 
-尽管 Google 宣称其由 Gemini 2.5 Pro 驱动的 Deep Research (gDR) 效果大幅提升且优于 OpenAI 的同类产品 (oDR)，但实际用户体验表明，两者并非简单的优劣关系，而是展现出显著不同的风格和特长。gDR 的优势在于广度 (breadth) 和全面性 (comprehensiveness)，强力整合了 Google 搜索能力；而 oDR 的优势在于深度 (depth) 和聚焦 (focus)，以及更优秀的指令跟随 (instruction following) 能力。因此，它们更像是特点各异、可互补的工具。
+尽管 Google 宣称其由 Gemini 2.5 Pro 驱动的 Deep Research (gDR) 效果大幅提升且优于 OpenAI 的同类产品 (oDR)，但实际用户体验表明，两者并非简单的优劣关系，而是展现出显著不同的风格和特长。gDR 的优势在于广度 (breadth) 和全面性 (comprehensiveness)，强力整合了 Google 搜索能力；而 oDR 的优势在于深度 (depth) 和聚焦 (focus)，以及更优秀的指令跟随 (instruction following) 能力。因此，它们更像是特点各异、可互补的工具。
 
 - Google Deep Research (gDR) 的基座模型已升级至 Gemini 2.5 Pro Experimental。Google 官方声称 gDR 的效果（某些指标上）平均是 oDR 的两倍以上，单项差距可达三四倍，写作质量领先 50%。
 - 用户 howie.serious 观察到 gDR 在全面性上确实优于 oDR。
   - oDR 在指令跟随和研究深度上表现更好，更贴近“研究 (research)”本质。
   - gDR 更偏向“搜索 (search)”，报告中包含大量（约 100 个）参考文献，访问了数百甚至上千个网站。
-  - gDR 的表现可能受到其 输出长度 (output length) 限制（Gemini 2.5 Pro 为 64k tokens）的影响，相比之下，OpenAI 的模型（o1 为 10 万，暗示 o3 可能更高）具有更大的输出长度，能生成更长的报告（例如 o3 能生成 6 万多汉字）。之前的 Gemini 2.0 Flash 输出长度仅 8k。
+  - gDR 的表现可能受到其 输出长度 (output length) 限制（Gemini 2.5 Pro 为 64k tokens）的影响，相比之下，OpenAI 的模型（o1 为 10 万，暗示 o3 可能更高）具有更大的输出长度，能生成更长的报告（例如 o3 能生成 6 万多汉字）。之前的 Gemini 2.0 Flash 输出长度仅 8k。
 - 用户 Ethan Mollick 对 gDR (Gemini 2.5) 在一个具体任务（产品定价与 TAM 分析）上的表现给出了非常正面的评价，认为其效率很高，节省了大量时间。
 
 ### 研究后续
@@ -559,9 +559,9 @@ SpatialLM 的工作流程通常始于点云数据的获取。这些点云可以�
 
 [[Less htmx is More]]
 
-文章的核心价值在于，它以 htmx 为具体案例，深刻倡导了回归 Web 标准、优先利用平台原生能力的开发哲学。文章通过对 hx-boost 功能的技术解构，清晰论证了其模仿 SPA 行为所依赖的 History API 的固有复杂性与潜在风险，并有力地展示了浏览器原生缓存机制与 Paint Holding 等优化如何能更稳健地实现相似的用户体验目标。
+文章的核心价值在于，它以 htmx 为具体案例，深刻倡导了回归 Web 标准、优先利用平台原生能力的开发哲学。文章通过对 hx-boost 功能的技术解构，清晰论证了其模仿 SPA 行为所依赖的 History API 的固有复杂性与潜在风险，并有力地展示了浏览器原生缓存机制与 Paint Holding 等优化如何能更稳健地实现相似的用户体验目标。
 
-作者的论证逻辑清晰，基于对 HTTP 协议、浏览器工作原理等基础知识的扎实理解，其对原生方案的推崇具有较强的说服力。然而，其论述也隐含着对长期可维护性和技术“纯粹性”的高度侧重，可能相对低估了特定场景下 hx-boost 所能提供的即时开发便利性或特定“无缝”过渡的主观用户体验价值。此外，其建议的有效性也依赖于开发者理解并愿意实践底层 Web 技术的假设。
+作者的论证逻辑清晰，基于对 HTTP 协议、浏览器工作原理等基础知识的扎实理解，其对原生方案的推崇具有较强的说服力。然而，其论述也隐含着对长期可维护性和技术“纯粹性”的高度侧重，可能相对低估了特定场景下 hx-boost 所能提供的即时开发便利性或特定“无缝”过渡的主观用户体验价值。此外，其建议的有效性也依赖于开发者理解并愿意实践底层 Web 技术的假设。
 
 对于追求构建健壮、低耦合并能受益于浏览器长期演进的应用的开发者而言，本文提供了极具价值的视角和实践指导。它提醒我们审慎评估框架提供的“魔法”，并鼓励我们更深入地理解和信赖 Web 平台自身的力量。建议读者将其作为一次关于技术选型哲学与实践权衡的深度思考，而非一套必须僵化遵循的规则。
 
@@ -794,7 +794,7 @@ NixVis 是一款轻量级、易于部署和使用，且功能全面的 Nginx 日
 
 [Brandawg93/PeaNUT: A tiny dashboard for Network UPS Tools](https://github.com/Brandawg93/PeaNUT)
 
-PeaNUT 是一个轻量级的仪表盘工具，用于监控通过 NUT (Network UPS Tools) 连接的网络 UPS 设备。文章旨在说明 PeaNUT 能够为用户提供一个用户友好的界面，以实时监控和管理他们的 UPS 设备，并具备高度的定制化和扩展性。包括监控 UPS 设备状态、查看实时统计数据、执行命令、配置设置、API 访问、集成 InfluxDB/Grafana 和 Prometheus、以及 Homepage 集成等。
+PeaNUT 是一个轻量级的仪表盘工具，用于监控通过 NUT (Network UPS Tools) 连接的网络 UPS 设备。文章旨在说明 PeaNUT 能够为用户提供一个用户友好的界面，以实时监控和管理他们的 UPS 设备，并具备高度的定制化和扩展性。包括监控 UPS 设备状态、查看实时统计数据、执行命令、配置设置、API 访问、集成 InfluxDB/Grafana 和 Prometheus、以及 Homepage 集成等。
 
 [DartSteven/Nutify: Modern web-based UPS monitoring system with real-time data visualization, alerts, and comprehensive reporting. Docker-ready with multi-architecture support.](https://github.com/DartSteven/Nutify)
 
@@ -1165,7 +1165,7 @@ Cogito v1 的发布及其背后的 IDA 技术，无疑是 AI 领域值得高度�
 
 [SuperSplat 3DGS Viewer is now Open Source](https://blog.playcanvas.com/supersplat-3dgs-viewer-is-now-open-source/)
 
-SuperSplat Viewer 开源，并强调了开源对于 3D Gaussian Splat 社区的重要性，以及 SuperSplat Viewer 本身的功能和优势。SuperSplat 平台自 2023 年 11 月发布以来，已成为编辑和发布 3D Gaussian Splats 最受欢迎的平台。 SuperSplat Viewer 的多项功能，包括高性能、高视觉保真度、AR/VR 支持、动画、全屏支持和多种相机模式。
+SuperSplat Viewer 开源，并强调了开源对于 3D Gaussian Splat 社区的重要性，以及 SuperSplat Viewer 本身的功能和优势。SuperSplat 平台自 2023 年 11 月发布以来，已成为编辑和发布 3D Gaussian Splats 最受欢迎的平台。 SuperSplat Viewer 的多项功能，包括高性能、高视觉保真度、AR/VR 支持、动画、全屏支持和多种相机模式。
 
 #### Jina AI 发布 jina-reranker-m0：统一多模态与多语言 rerank 模型
 

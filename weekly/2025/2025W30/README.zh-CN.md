@@ -761,7 +761,7 @@ Google DeepMind 近期宣布，其搭载了 Deep Think 增强推理模式的 Gem
 >
 > As in, no matter how weird you think the output of a generative model may be, chances are, there’s something like it in its training set.
 >
-> For example, there’s an image of a dog in a microwave (thankfully it doesn’t look real) as sample [564969](https://cocodataset.org/#explore?id=564969) in the very commonly used COCO dataset ([1,405 research papers have cited this dataset](https://paperswithcode.com/dataset/coco) in 2024 as of September).
+> For example, there’s an image of a dog in a microwave (thankfully it doesn’t look real) as sample [564969](https://cocodataset.org/#explore?id=564969) in the very commonly used COCO dataset ([1,405 research papers have cited this dataset](https://paperswithcode.com/dataset/coco) in 2024 as of September).
 >
 > Not the strangest example on the internet for sure. But even common academic benchmarks have things you may not have ever thought of.
 

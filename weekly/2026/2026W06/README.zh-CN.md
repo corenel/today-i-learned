@@ -2550,7 +2550,7 @@ Tykoo @0xTykoo [2025-12-16](https://x.com/0xTykoo/status/2018923146150347082)
 
 Simon Willison [Opus 4.6 and Codex 5.3](https://simonwillison.net/2026/Feb/5/two-new-models/#atom-everything)
 
-> I've had a bit of preview access to both of these models and to be honest I'm finding it hard to find a good angle to write about them - they're both _really good_, but so were their predecessors Codex 5.2 and Opus 4.5. I've been having trouble finding tasks that those previous models couldn't handle but the new ones are able to ace.
+> I've had a bit of preview access to both of these models and to be honest I'm finding it hard to find a good angle to write about them - they're both _really good_, but so were their predecessors Codex 5.2 and Opus 4.5. I've been having trouble finding tasks that those previous models couldn't handle but the new ones are able to ace.
 
 Andy Stewart @manateelazycat [2026-02-06](https://x.com/manateelazycat/status/2020155378378654099)
 

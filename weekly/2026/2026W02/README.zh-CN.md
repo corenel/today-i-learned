@@ -1373,7 +1373,7 @@ DGX Spark 采用了 Arm64 CPU 和最新的 Blackwell (SM121) 架构 GPU。这种
 Claude Code 之所以强大，是因为它背后的模型（据推测为万亿参数级）拥有极强的逻辑推理能力，并且能吞吐整个代码仓库的信息。要在本地接近这种能力，社区推荐的替代品是 MiniMax M2.1（MoE）、GLM 4.7 或 DeepSeek 671B。这些模型即使经过量化，也需要 100GB 甚至 144GB 以上的显存（VRAM）才能完整加载。
 
 - 300 美元能买到什么？一张 12GB 的卡，只能运行 Qwen 2.5 Coder 32B 极低量化版本这样的“小”模型。虽然它们在简单函数生成上表现尚可，但在处理分布式系统、并发控制等复杂架构时，正如网友戏称：“就像在问你最笨的表弟，而不是那个绝顶聪明的天才。”
-- 真正的门槛在哪里？社区实测表明，要获得可用的体验，起步配置是 4 张 RTX 3090（共 96GB VRAM），运行 Kimi K2 Thinking（Q4 量化），结合 8 通道 DDR4 3200MHz RAM，Prompt Processing 仅为 150 tokens/s，生成速度为 8 tokens/s。或者 4 张 RTX PRO 6000（共 384GB VRAM）运行 GLM 4.7，达到 90 tokens/s，并拥有 320k 上下文，这才“接近”Claude 的体验。如此，硬件成本直接飙升至 2,000 到 10,000 美元以上。
+- 真正的门槛在哪里？社区实测表明，要获得可用的体验，起步配置是 4 张 RTX 3090（共 96GB VRAM），运行 Kimi K2 Thinking（Q4 量化），结合 8 通道 DDR4 3200MHz RAM，Prompt Processing 仅为 150 tokens/s，生成速度为 8 tokens/s。或者 4 张 RTX PRO 6000（共 384GB VRAM）运行 GLM 4.7，达到 90 tokens/s，并拥有 320k 上下文，这才“接近”Claude 的体验。如此，硬件成本直接飙升至 2,000 到 10,000 美元以上。
 
 技术深层：被忽视的“带宽墙”
 

@@ -1796,7 +1796,7 @@ Simon Willison’s Weblog: [Something is afoot in the land of Qwen](https://simo
 >
 > Based on the above it looks to me like everything is still very much up in the air. The presence of Alibaba’s CEO at the “emergency All Hands meeting” suggests that the company understands the significance of these resignations and may yet retain some of the departing talent.
 >
-> This story hits particularly hard right now because the Qwen 3.5 models appear to be *exceptionally* good.
+> This story hits particularly hard right now because the Qwen 3.5 models appear to be *exceptionally* good.
 >
 > I’m hearing positive noises about the 27B and 35B models for coding tasks that still fit on a 32GB/64GB Mac, and I’ve tried the 9B, 4B and 2B models and found them to be notably effective considering their tiny sizes. That 2B model is just 4.57GB—or as small as 1.27GB quantized—and is a full reasoning and multi-modal (vision) model.
 >

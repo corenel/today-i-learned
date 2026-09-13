@@ -1122,9 +1122,9 @@ Scott @scottjla [12:37 PM · Apr 24, 2026](https://x.com/scottjla/status/2047535
 
 Simon Willison’s Weblog [WHY ARE YOU LIKE THIS](https://simonwillison.net/2026/Apr/25/why-are-you-like-this/)
 
-> @scottjla [on Twitter](https://twitter.com/scottjla/status/2047535371664457863) in reply to my [pelican riding a bicycle](https://simonwillison.net/tags/pelican-riding-a-bicycle/) benchmark
+> @scottjla [on Twitter](https://twitter.com/scottjla/status/2047535371664457863) in reply to my [pelican riding a bicycle](https://simonwillison.net/tags/pelican-riding-a-bicycle/) benchmark
 >
-> I checked to confirm that the model (ChatGPT Images 2.0) added the "WHY ARE YOU LIKE THIS" sign of its own accord and [it did](https://chatgpt.com/share/69ebff27-2220-839f-b065-8c3516ea9b6d) - the prompt Scott used was:
+> I checked to confirm that the model (ChatGPT Images 2.0) added the "WHY ARE YOU LIKE THIS" sign of its own accord and [it did](https://chatgpt.com/share/69ebff27-2220-839f-b065-8c3516ea9b6d) - the prompt Scott used was:
 >
 > > Create an image of a horse riding an astronaut, where the astronaut is riding a pelican that is riding a bicycle. It looks very chaotic but they all just manage to balance on top of each other
 

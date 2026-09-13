@@ -228,7 +228,7 @@ olmOCR 的出现解决了 PDF 文档内容提取和线性化的难题，为大�
   - 备注：需要模型 + 范例 + 后期自行调整
   - 使用 Claude 3.7 Sonnet 的例子还有 [别再用AI写垃圾代码！4个技巧帮你用AI写出漂亮炫酷的应用](https://mp.weixin.qq.com/s/tUOAfd4OI56QxD94-0PPKw)
 
-- [LettuceDetect](https://github.com/KRLabsOrg/LettuceDetect) is a lightweight and efficient tool for detecting hallucinations in Retrieval-Augmented Generation (RAG) systems. It identifies unsupported parts of an answer by comparing it to the provided context. The tool is trained and evaluated on the [RAGTruth](https://aclanthology.org/2024.acl-long.585/) dataset and leverages [ModernBERT](https://github.com/AnswerDotAI/ModernBERT) for long-context processing, making it ideal for tasks requiring extensive context windows.
+- [LettuceDetect](https://github.com/KRLabsOrg/LettuceDetect) is a lightweight and efficient tool for detecting hallucinations in Retrieval-Augmented Generation (RAG) systems. It identifies unsupported parts of an answer by comparing it to the provided context. The tool is trained and evaluated on the [RAGTruth](https://aclanthology.org/2024.acl-long.585/) dataset and leverages [ModernBERT](https://github.com/AnswerDotAI/ModernBERT) for long-context processing, making it ideal for tasks requiring extensive context windows.
 
 - [Aya Vision 8B/32B](https://huggingface.co/collections/CohereForAI/c4ai-aya-vision-67c4ccd395ca064308ee1484)：Aya Vision is a state-of-the-art family of vision models that brings multimodal capabilities to 23 languages.
 

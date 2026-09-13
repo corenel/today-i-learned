@@ -222,7 +222,7 @@ by @corenel (Yusu Pan) and LLMs
 
 Meta 即将发布其下一代大型语言模型，很可能命名为 Llama 4（或 Llama 4 Omni）。大家普遍预期这将是一次重大的发布，可能包含多个模型，并且在技术架构（如 MoE）、能力（如多模态、推理）和参数规模上有所突破，同时也面临着来自 DeepSeek、Qwen、Google 等对手的激烈竞争压力。
 
-- **模型现身测试平台**：有用户（karminski- 牙医）在 ChatbotArena 上随机遇到了疑似 Llama 新模型的内部代号，如 spider 和 cybele，并观察到它们的初步特性（cybele 输出慢可能体量大，spider 话痨）。还提到了另一个代号 themis。
+- **模型现身测试平台**：有用户（karminski- 牙医）在 ChatbotArena 上随机遇到了疑似 Llama 新模型的内部代号，如 spider 和 cybele，并观察到它们的初步特性（cybele 输出慢可能体量大，spider 话痨）。还提到了另一个代号 themis。
 - **潜在官方信息泄露**：有系统监测到（ʟᴇɢɪᴛ）可能与 Llama 4 Omni 相关的官方网页出现，暗示发布临近。
 - **具体技术规格传闻**：出现了关于新模型架构和参数的详细爆料（vibagor441），指出可能有两个 MoE 模型，均采用 17B 活跃参数，但总参数和专家数量不同（109B/16 专家 vs 400B/128 专家），并拥有惊人的上下文长度（10M 和 1M）。还提到了专门的“推理器变种”（reasoner variants）。
 - **部分传闻确认**：另一位用户（Alpin）部分确认了 MoE 架构、17B 活跃参数、多模态（Multimodality）和推理（Reasoning）能力的存在，但无法证实上下文长度的细节。
@@ -263,7 +263,7 @@ Meta 发布了 Llama 4 系列模型（首批 Scout 和 Maverick，预告 Behemot
 
 OpenRouter 平台上出现了一个名为 Quasar Alpha 的“隐形”预发布模型，该模型拥有引人注目的特性（如 100 万 token 上下文、编码优化、速度快、免费），但其开发者身份成谜。文章集合了各方信息，试图拼凑出这个模型的真实身份，其中 OpenAI 是一个被频繁提及但又充满矛盾的猜测对象。
 
-- **事件：** OpenRouter 于 2025 年 4 月 3 日发布（或上线）了一个名为 Quasar Alpha 的“隐形”模型。
+- **事件：** OpenRouter 于 2025 年 4 月 3 日发布（或上线）了一个名为 Quasar Alpha 的“隐形”模型。
 - **模型特性：**
   - 该模型声称具有 100 万（1M）token 的上下文长度。
   - 它被特别优化用于编码任务，但也具备通用能力。
@@ -639,7 +639,7 @@ Software Engineering Daily 对 Sourcegraph CTO Beyang Liu 的访谈，精准捕�
 >
 > 到目前为止，windows，MacOS，Linux 的 Agent 都有了，操作系统 Agent 已经补齐了。
 
-Cua 项目的核心价值在于其创新性地整合了基于 Apple's Virtualization.Framework 的高性能 macOS/Linux 虚拟机与专为 AI 设计的计算机使用接口（CUI）。它为 AI 代理在 Apple Silicon 平台上提供了一个专门构建的、旨在实现安全高效桌面交互的沙箱环境，代表了该领域一种值得关注的新实践。
+Cua 项目的核心价值在于其创新性地整合了基于 Apple's Virtualization.Framework 的高性能 macOS/Linux 虚拟机与专为 AI 设计的计算机使用接口（CUI）。它为 AI 代理在 Apple Silicon 平台上提供了一个专门构建的、旨在实现安全高效桌面交互的沙箱环境，代表了该领域一种值得关注的新实践。
 
  Cua 通过虚拟机实现安全隔离，并利用 Apple 原生框架达到近乎原生的运行性能。其核心创新 CUI 概念，意图为 AI 提供比传统 GUI 自动化工具更适宜的交互范式，这一点颇具前瞻性。项目的模块化 Monorepo 结构也体现了良好的工程实践。Cua 提供了一个颇具吸引力的高性能平台，尤其适合需要环境一致性与可复现性的场景。
 
@@ -647,9 +647,9 @@ Cua 项目的核心价值在于其创新性地整合了基于 Apple's Virtualiz
 
 [EmberEmu/Hexi: Header-only, lightweight C++ library for binary streaming. Network data handling made easy peasy!](https://github.com/EmberEmu/Hexi)
 
-Hexi 库以其轻量级、仅头文件的 C++23 设计，为开发者提供了一种在手动内存操作与复杂序列化框架之间的二进制数据流处理方案。其核心价值在于通过 buffer_adaptor 和 binary_stream 两个核心组件，结合流式操作符重载，显著提升了处理原始字节流的安全性和便捷性，特别是在网络编程等场景下。文章通过清晰的代码示例和功能介绍，有效地展示了其易用性、对标准容器的良好支持以及对可移植性（如字节序处理）的关注。
+Hexi 库以其轻量级、仅头文件的 C++23 设计，为开发者提供了一种在手动内存操作与复杂序列化框架之间的二进制数据流处理方案。其核心价值在于通过 buffer_adaptor 和 binary_stream 两个核心组件，结合流式操作符重载，显著提升了处理原始字节流的安全性和便捷性，特别是在网络编程等场景下。文章通过清晰的代码示例和功能介绍，有效地展示了其易用性、对标准容器的良好支持以及对可移植性（如字节序处理）的关注。
 
-该库的关键优势在于其明确的定位和对安全性的重视（如边界检查）。它通过适配器模式实现了良好的灵活性，支持自定义数据容器。此外，提供的 dynamic_buffer 和 tls_block_allocator 等附加组件，显示了其在满足基础需求之外，对高性能场景下内存管理问题的考量。
+该库的关键优势在于其明确的定位和对安全性的重视（如边界检查）。它通过适配器模式实现了良好的灵活性，支持自定义数据容器。此外，提供的 dynamic_buffer 和 tls_block_allocator 等附加组件，显示了其在满足基础需求之外，对高性能场景下内存管理问题的考量。
 
 然而，Hexi 的论证主要依赖定性描述和示例，缺乏定量的性能基准数据来支撑其“低开销”的主张。其默认的结构体直接序列化方式虽便捷，但存在可移植性陷阱，可能对初学者造成误导。同时，作为轻量级方案，它明确舍弃了版本控制、模式演进等高级序列化功能，这限制了其在协议复杂多变场景下的应用。对 C++23 的依赖也可能成为其在某些项目环境中推广的障碍。
 
@@ -661,7 +661,7 @@ Hexi 库以其轻量级、仅头文件的 C++23 设计，为开发者提供了�
 
 仓库宣称：
 
-> Yaak is a desktop API client for interacting with REST, GraphQL, Server Sent Events (SSE), WebSocket, and gRPC APIs. It's built using Tauri, Rust, and ReactJS.
+> Yaak is a desktop API client for interacting with REST, GraphQL, Server Sent Events (SSE), WebSocket, and gRPC APIs. It's built using Tauri, Rust, and ReactJS.
 
 #### Gladest：以 Typst 应对 Web 与 EPUB 公式渲染挑战
 
@@ -1144,11 +1144,11 @@ Runway 推出了新一代的媒体生成模型 Gen-4，它能够实现**一致�
 
 Midjourney 发布了 V7 Alpha 版本，这是一个在图像生成质量、文本理解、个性化和迭代速度方面都取得了显著提升的全新模型。
 
-- **模型性能提升：** V7 在文本提示理解、图像提示效果、图像质量（纹理细节）、身体、手部和物体连贯性等方面都显著提升。文章用“much smarter”, “fantastic”, “noticeably higher”, “significantly better coherence”等词语来强调这些提升。
-- **默认开启个性化：** V7 是首个默认开启模型个性化的版本，用户需要花费约 5 分钟解锁个性化功能，并可以随时开关。
-- **引入“Draft Mode”：** V7 引入了“Draft Mode”，该模式速度快（10 倍速），成本低（一半成本），并支持“conversational mode”和“voice mode”，极大地提升了迭代效率。
-- **两种运行模式：** V7 Alpha 以 Turbo 和 Relax 两种模式发布，标准速度模式仍在优化中。Turbo 模式成本是 V6 标准模式的两倍，Draft 模式成本是 V6 标准模式的一半。
-- **功能更新计划：** Upscaling、editing 和 retexture 功能暂时回退到 V6 模型，未来会更新。Moodboards 和 SREF 功能可用，性能将持续改进。
+- **模型性能提升：** V7 在文本提示理解、图像提示效果、图像质量（纹理细节）、身体、手部和物体连贯性等方面都显著提升。文章用“much smarter”, “fantastic”, “noticeably higher”, “significantly better coherence”等词语来强调这些提升。
+- **默认开启个性化：** V7 是首个默认开启模型个性化的版本，用户需要花费约 5 分钟解锁个性化功能，并可以随时开关。
+- **引入“Draft Mode”：** V7 引入了“Draft Mode”，该模式速度快（10 倍速），成本低（一半成本），并支持“conversational mode”和“voice mode”，极大地提升了迭代效率。
+- **两种运行模式：** V7 Alpha 以 Turbo 和 Relax 两种模式发布，标准速度模式仍在优化中。Turbo 模式成本是 V6 标准模式的两倍，Draft 模式成本是 V6 标准模式的一半。
+- **功能更新计划：** Upscaling、editing 和 retexture 功能暂时回退到 V6 模型，未来会更新。Moodboards 和 SREF 功能可用，性能将持续改进。
 
 [即梦 3.0 文生图，真的是 SOTA 了吗？](https://zhuanlan.zhihu.com/p/1891594988766356609)
 
@@ -1160,10 +1160,10 @@ Midjourney 发布了 V7 Alpha 版本，这是一个在图像生成质量、文�
 
 Deep-Live-Cam，一个开源的、实时的面部替换和深度伪造软件。
 
-- **Deep-Live-Cam 的核心功能：** 实时面部替换和深度伪造，只需单张图片即可驱动。
-- **易用性：** 操作极其简单，只需三个步骤即可启动实时深度伪造。
+- **Deep-Live-Cam 的核心功能：** 实时面部替换和深度伪造，只需单张图片即可驱动。
+- **易用性：** 操作极其简单，只需三个步骤即可启动实时深度伪造。
 - **实时性**：生成速度几乎是实时的，所以能用在摄像头视频上。
-- **多项实用功能：** 包括保留原始嘴型的 Mouth Mask 功能，多人同时换脸的 Face Mapping 功能，以及应用于电影、直播、Meme 创作和 Omegle 等多种场景的潜力。
+- **多项实用功能：** 包括保留原始嘴型的 Mouth Mask 功能，多人同时换脸的 Face Mapping 功能，以及应用于电影、直播、Meme 创作和 Omegle 等多种场景的潜力。
 
 [cumulo-autumn/StreamDiffusion: StreamDiffusion: A Pipeline-Level Solution for Real-Time Interactive Generation](https://github.com/cumulo-autumn/StreamDiffusion)
 
@@ -1250,23 +1250,23 @@ Google 在其 NotebookLM 工具中整合的 " 发现来源 " 功能，标志着 
 
 > 真·人工·智能
 
-**MegaTTS3** 是字节跳动（Bytedance）发布的一个先进的文本转语音（Text-to-Speech, TTS）模型，属于人工智能（AI）领域，特别是声音克隆方面。从 GitHub 的描述来看，它标榜自己“轻量高效”、“超高质量声音克隆”、“支持中英双语”、“可控”等，是一个看起来非常高科技、自动化的 AI 产品。
+**MegaTTS3** 是字节跳动（Bytedance）发布的一个先进的文本转语音（Text-to-Speech, TTS）模型，属于人工智能（AI）领域，特别是声音克隆方面。从 GitHub 的描述来看，它标榜自己“轻量高效”、“超高质量声音克隆”、“支持中英双语”、“可控”等，是一个看起来非常高科技、自动化的 AI 产品。
 
-要使用这个模型克隆一个特定的声音，用户需要提供一个样本语音。模型需要从这个样本语音中提取声音特征，通常表示为一个文件（在这里是 .npy 文件，一种 Python 常用的数据存储格式）。然后，用户才能使用这个 .npy 文件和模型来生成具有该特定声音的新语音。
+要使用这个模型克隆一个特定的声音，用户需要提供一个样本语音。模型需要从这个样本语音中提取声音特征，通常表示为一个文件（在这里是 .npy 文件，一种 Python 常用的数据存储格式）。然后，用户才能使用这个 .npy 文件和模型来生成具有该特定声音的新语音。
 
-然而，生成这个关键的 .npy 文件的步骤**并没有开源**。更重要的是，用户需要将自己的语音样本上传到一个**谷歌网盘链接（link2）**。然后，**“会有个字节的哥们给你回传一个 npy”**。这意味着，这个本应由 AI 模型自动完成的“声音特征提取”步骤，实际上是由**字节跳动的员工（“哥们”）手动处理**的。处理时间还不确定（“几个小时到一天”），进一步印证了这不是一个即时的自动化过程。
+然而，生成这个关键的 .npy 文件的步骤**并没有开源**。更重要的是，用户需要将自己的语音样本上传到一个**谷歌网盘链接（link2）**。然后，**“会有个字节的哥们给你回传一个 npy”**。这意味着，这个本应由 AI 模型自动完成的“声音特征提取”步骤，实际上是由**字节跳动的员工（“哥们”）手动处理**的。处理时间还不确定（“几个小时到一天”），进一步印证了这不是一个即时的自动化过程。
 
 字节跳动出的 [MegaTTS3](https://github.com/bytedance/MegaTTS3) 的 README 中有这么一段：
 
-> For security issues, we do not upload the parameters of WaveVAE encoder to the above links. You can only use the pre-extracted latents from [link1](https://drive.google.com/drive/folders/1QhcHWcy20JfqWjgqZX1YM3I6i9u4oNlr?usp=sharing) for inference. If you want to synthesize speech for speaker A, you need "A.wav" and "A.npy" in the same directory. If you have any questions or suggestions for our model, please email us.
+> For security issues, we do not upload the parameters of WaveVAE encoder to the above links. You can only use the pre-extracted latents from [link1](https://drive.google.com/drive/folders/1QhcHWcy20JfqWjgqZX1YM3I6i9u4oNlr?usp=sharing) for inference. If you want to synthesize speech for speaker A, you need "A.wav" and "A.npy" in the same directory. If you have any questions or suggestions for our model, please email us.
 >
-> This project is primarily intended for academic purposes. For academic datasets requiring evaluation, you may upload them to the voice request queue in [link2](https://drive.google.com/drive/folders/1gCWL1y_2xu9nIFhUX_OW5MbcFuB7J5Cl?usp=sharing) (within 24s for each clip). After verifying that your uploaded voices are free from safety issues, we will upload their latent files to [link1](https://drive.google.com/drive/folders/1QhcHWcy20JfqWjgqZX1YM3I6i9u4oNlr?usp=sharing) as soon as possible.
+> This project is primarily intended for academic purposes. For academic datasets requiring evaluation, you may upload them to the voice request queue in [link2](https://drive.google.com/drive/folders/1gCWL1y_2xu9nIFhUX_OW5MbcFuB7J5Cl?usp=sharing) (within 24s for each clip). After verifying that your uploaded voices are free from safety issues, we will upload their latent files to [link1](https://drive.google.com/drive/folders/1QhcHWcy20JfqWjgqZX1YM3I6i9u4oNlr?usp=sharing) as soon as possible.
 >
 > In the coming days, we will also prepare and release the latent representations for some common TTS benchmarks.
 
 明确写了“出于安全考虑，我们没有上传 WaveVAE 编码器的参数。” (WaveVAE 编码器就是用来生成 npy 文件的部分)。用户只能使用预先提取好的潜变量（latents，即 npy 文件）。它明确引导用户“在 [link2] 上提交样本... 以接收您可以在本地使用的声音潜变量（voice latents）。”并提到“在验证您上传的声音没有安全问题后，我们会尽快将它们的潜变量文件上传到 [link1]。”这暗示了需要人工审核或处理的环节。
 
-**人工智能 (AI - Artificial Intelligence):** 通常指由机器模拟或执行的智能行为，强调自动化、算法驱动。**人工 (Réngōng):** 在中文里，这个词既可以指“人造的”（Artificial），也可以指“用人力去做的”（Manual Labour）。**“真·人工·智能” (Zhēn · Réngōng · Zhìnéng):** 这个短语巧妙地玩了一个文字游戏。它看起来像是“真正的人工智能”。但结合上下文，“人工”被强调为“人力劳动”的意思。“真·” (Zhēn - Real/True) 在这里加强了讽刺意味，表示这**真的是**需要人工（人力）参与的“智能”系统。
+**人工智能 (AI - Artificial Intelligence):** 通常指由机器模拟或执行的智能行为，强调自动化、算法驱动。**人工 (Réngōng):** 在中文里，这个词既可以指“人造的”（Artificial），也可以指“用人力去做的”（Manual Labour）。**“真·人工·智能” (Zhēn · Réngōng · Zhìnéng):** 这个短语巧妙地玩了一个文字游戏。它看起来像是“真正的人工智能”。但结合上下文，“人工”被强调为“人力劳动”的意思。“真·” (Zhēn - Real/True) 在这里加强了讽刺意味，表示这**真的是**需要人工（人力）参与的“智能”系统。
 
 也就是说，一个号称先进的 AI 模型，其核心环节之一竟然需要人工介入，这与人们对 AI 高度自动化、无需人工干预的普遍认知形成了巨大反差。就好比买了一辆自动驾驶汽车，却发现换挡还需要后座有个人帮你操作一样。这种反差制造了强烈的讽刺效果和幽默感。
 
@@ -1826,7 +1826,7 @@ LiM-Loc 展示了一种极具潜力的技术路径，适用于追求极致定位
 
 然而，其**有效性隐含地假设了场景中存在足够静态背景**，且简化了相机模型。对于极端动态或非结构化环境，以及超出训练分布的运动模式，其鲁棒性界限有待进一步探明。
 
-对从事 SLAM、视觉里程计及机器人感知的研究者而言，AnyCam **提供了一种颇具潜力的、数据驱动的动态场景处理思路与实用框架**，尤其在无监督学习和模型先验利用方面具有启发意义。
+对从事 SLAM、视觉里程计及机器人感知的研究者而言，AnyCam **提供了一种颇具潜力的、数据驱动的动态场景处理思路与实用框架**，尤其在无监督学习和模型先验利用方面具有启发意义。
 
 #### RePoseD：利用已知深度信息提升相对位姿估计效率与精度
 
