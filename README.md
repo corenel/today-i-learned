@@ -63,6 +63,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W35](./weekly/2026/2026W35/README.md): GLM-5.3-Flash, Qwen3.8-Flash-Next, Hy4 Preview, and more.
 - [2026W36](./weekly/2026/2026W36/README.md): GPT-6 Astra, Claude Fable 5.1, Gemini 3.8 Flash, Muse Spark 1.3, and more.
 - [2026W37](./weekly/2026/2026W37/README.md): DeepSeek V4.1 Flash, and more.
+- [2026W38](./weekly/2026/2026W38/README.md): Jev, and more.
 
 #### 2025
 
