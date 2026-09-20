@@ -137,7 +137,7 @@ by @corenel (Yusu Pan) and LLMs
 
 #### 对谈苏度、蚂蚁灵波、自变量、破壳：具身智能走到十字路口，数据路线、Astra 冲击与商业化的四种一线判断
 
-[[当具身智能走到十字路口｜对谈苏度、蚂蚁灵波、自变量、破壳：四种一线判断]]
+[当具身智能走到十字路口｜对谈苏度、蚂蚁灵波、自变量、破壳：四种一线判断](https://app.podwise.ai/dashboard/episodes/8901044)
 
 2026 年 9 月，GPT-6 Astra 发布一周后，四位中国具身智能一线创业者在外滩大会上展开了一场公开辩论。这场对话的价值不在于谁赢了辩论，而在于它无意中暴露了这个行业当前最核心的三个断点——数据如何验证、控制在哪里分界、演示如何变成产品。
 
@@ -213,7 +213,7 @@ Astra 到底做了什么，没做什么
 
 #### 具身智能需要什么样的数据和什么样的智能？深朴智能王家伟谈数据保真度、Scaling 趋势与三年洗碗预测
 
-[[于是转身向具身走去｜对话王家伟：24 岁的具身智能首席科学家]]
+[于是转身向具身走去｜对话王家伟：24 岁的具身智能首席科学家](https://app.podwise.ai/dashboard/episodes/8916974)
 
 2026 年 9 月，GPT-6 Astra 控制机械臂画出金门大桥，具身智能领域一片惊呼。然而独立测试显示，Astra 在粗放置任务上达到 95% 成功率的同时，精密插入任务仅 10%。这一落差恰好说明了一个问题——通用大模型的理解能力正在外溢到物理世界，但快速精细控制仍是一道独立的门槛。 深朴智能首席科学家王家伟在「十字路口」播客中系统阐述了他对这一问题的回答。
 
@@ -293,7 +293,7 @@ HiFi-UMI 论文在四项双臂桌面任务上（擦污渍、叠衬衫、遥控�
 
 #### 从算力到带宽：Groq、Cerebras 与 Jalapeño 推理芯片的路径分歧与技术取舍
 
-[[E251｜推理芯片之战：聊聊Groq、Cerebras与OpenAI三大路径]]
+[E251｜推理芯片之战：聊聊Groq、Cerebras与OpenAI三大路径](https://app.podwise.ai/dashboard/episodes/8912173)
 
 硅谷 101 的两位 AI 芯片创业者坐下来拆解了当下推理芯片竞争中最核心的技术分歧，而 OpenAI 恰好在录制当天发布了自研芯片 Jalapeño，用一个完全不同的路线选择打破了对话中刚刚建立起来的共识。
 
@@ -321,7 +321,7 @@ OpenAI Jalapeño 的押注是「第一方全栈信息」。这颗芯片在录制
 
 #### 从蜂窝网络到手机革命：杨旸谈移动通信浪潮三十年
 
-[[特番｜从蜂窝网络到手机革命：杨旸谈移动通信浪潮三十年]]
+[特番｜从蜂窝网络到手机革命：杨旸谈移动通信浪潮三十年](https://app.podwise.ai/dashboard/episodes/8933185)
 
 上海港大教育中心杨旸教授做客「忽左忽右」播客，用一个多小时的对谈串起了从大哥大到 AI 智能体的移动通信产业全景。节目的真正价值不在于罗列每一代通信技术的参数升级，而在于提出了一个贯穿全篇的分析框架：每一次技术瓶颈被突破后，约束和创新压力会迁移到系统的下一个薄弱环节。这一框架对理解当下的折叠屏竞赛和 AI 终端争论提供了难得的历史纵深。
 
@@ -355,7 +355,7 @@ OpenAI Jalapeño 的押注是「第一方全栈信息」。这颗芯片在录制
 
 #### 从「托孤」到量产：Seeed Studio 创始人谈机器鸭 Microduck 背后的深圳 AI 硬件供应链逻辑
 
-[[专访爆火「机器鸭」背后的硬件推手：这是个信号，未来推动新故事的并非硬件]]
+[专访爆火「机器鸭」背后的硬件推手：这是个信号，未来推动新故事的并非硬件](https://www.geekpark.net/news/370269)
 
 > [!NOTE]
 >
@@ -417,7 +417,7 @@ Pollen Robotics 设计了一只 25 厘米高、不到 800 克的双足机器鸭�
 
 #### 在新加坡，与祥峰郑俊聪的访谈：投中宇树之后，半数基金押向物理 AI
 
-[[88.在新加坡，与祥峰郑俊聪的访谈：硬科技，下一代 Long China 与华人创新的信心史]]
+[88.在新加坡，与祥峰郑俊聪的访谈：硬科技，下一代 Long China 与华人创新的信心史](https://app.podwise.ai/dashboard/episodes/8912374)
 
 一位新加坡华人三代投资人，管理着淡马锡体系下约 200 亿人民币的硬科技基金，在宇树科技上市前夕，用一场两个半小时的访谈铺开了一张从新加坡建国史、主权资本治理、反跟风投资方法论，一直延伸到物理 AI 产业终局的完整地图。地图的精度参差不齐，但框架的野心和若干关键节点的洞察密度，值得任何关注硬科技全球化的人认真对待。
 
@@ -461,7 +461,7 @@ Pollen Robotics 设计了一只 25 厘米高、不到 800 克的双足机器鸭�
 
 #### Google `udm` 参数全编号整理：搜索模式切换与各国可用性
 
-[[Every Google &udm=? in the world]]
+[Every Google &udm=? in the world](https://serpapi.com/blog/every-google-udm-in-the-world/)
 
 `udm=14` 被社区称为「让 Google 回到传统蓝色链接」的技巧，但 SerpApi 工程师 Terry Tan 在 2024 年 6 月发布的编号清单，其真正价值远不止一个参数。两年后的系统性精读揭示出，这张看似简单的整数表背后藏着搜索产品架构、欧盟监管合规和人机控制权博弈的三重叙事。
 
@@ -535,7 +535,7 @@ Pew Research Center 分析 68,879 次 Google 搜索后发现，有 AI Summary �
 
 #### 联合国通过决议推广 Equal Earth 投影：一张世界地图背后的面积、形状与政治
 
-[[The UN challenges five centuries of cartography]]
+[The UN challenges five centuries of cartography](https://www.not-ship.com/united-nations-map/)
 
 联合国大会 164:1 通过决议，推广等积投影 Equal Earth，美国投下唯一反对票。制图学从冷门技术话题一跃成为国际新闻。Amanda Shendruk 在 Not-Ship 通讯中做了一次面向大众的解读。这篇解读可读性很高，但在技术事实和社会因果之间留下了值得深挖的缝隙。
 
@@ -571,7 +571,7 @@ Equal Earth 本身是一件精巧的工程产品。它的技术核心在于一�
 
 #### booster_mjlab：从 LAFAN1 动捕数据到浏览器实时策略，一个 K1 人形机器人的 AMP 运动学习基线
 
-[[booster_mjlab]]
+[booster_mjlab](https://intelligentroboticslab.github.io/booster_mjlab/)
 
 阿姆斯特丹大学 Intelligent Robotics Lab 的 whIRLwind 团队近日公开了 `booster_mjlab`，一个基于 mjlab 框架、面向 Booster K1 人形机器人的运动学习工程项目。它将人体动作捕捉数据的重定向、AMP 风格先验训练和 MuJoCo WebAssembly 浏览器部署整合到了同一个代码库中，并提供了一个可以用键盘或手柄直接操纵的 50 Hz 策略交互演示。项目的定位不是新算法论文，而是 K1 动作学习的工程基线和研究传播制品。
 
@@ -637,7 +637,7 @@ FastSAC 与 AMP 的联合使用存在理论挑战：off-policy 回放中旧 tran
 
 #### 量化疤痕：INT8 训练中分块几何引发的激活清零与验证损失分离
 
-[[Scar of Quantization]]
+[Scar of Quantization](https://blog.yellowday.day/posts/scar_of_quantization/)
 
 一次 INT8 预训练实验中，训练损失持续下降，验证损失却拒绝收敛。定位到故障根源后，作者发现了一个被量化分块几何掩盖的结构化损伤机制——一条可以在张量空间中直接「看见」的量化疤痕。
 
@@ -681,7 +681,7 @@ INT8 量化训练在降低计算和存储成本方面有明确的工程价值，
 
 #### Slop Lasagna：AI 生成的烂代码，什么条件下可以接受
 
-[[slop lasagna]]
+[slop lasagna](https://underreacted.leaflet.pub/3mdjygm2p5s2c)
 
 React 核心贡献者 Dan Abramov 2026 年初发表了一篇不到 300 字的短文，提出了一套管理 AI 生成代码质量的分层策略。这篇短文的传播力在于它的简洁和直觉性，但它省略了大量让这套策略安全可用的前提条件。本文结合一份超过 4000 行的深度精读笔记，尝试还原这个论点的完整面貌。
 
@@ -755,7 +755,7 @@ Dan 的「slop lasagna」是一个方向正确的工程启发式，但它的简�
 
 #### Shopify 从 React Native 回归原生：编码 Agent 已然改变了「写两遍」的代价
 
-[[Native is now the future of mobile at Shopify (2026)]]
+[Native is now the future of mobile at Shopify (2026)](https://shopify.engineering/back-to-native)
 
 Shopify 在 2020 年高调宣布全面拥抱 React Native，六年后又以同等规模宣布回归 Swift 和 Kotlin。这篇工程博客的信息量远超标题——它实际上记录了一家公司如何在 AI 编码 Agent 改变经济模型后，重新设计了移动应用的开发方式、架构范式和验证体系。
 
@@ -799,7 +799,7 @@ Hacker News 上超过 950 条评论提供了丰富的社区反馈。精读分析
 
 #### 现代网页的 `<head>` 为什么越来越长：一份个人 HTML 模板的逐行解释
 
-[[My HTML Boilerplate]]
+[My HTML Boilerplate](https://vale.rocks/posts/html-boilerplate)
 
 Declan Chidlow 发布了一份注释详尽的个人 HTML boilerplate，逐行解释现代网页 `<head>` 中每一行 meta 标签的作用和取舍。一份配套的独立精读笔记则对这份模板进行了三千多行的规范级审计。两者合在一起，构成了 2026 年理解「为什么 `<head>` 变得这么长」最有信息密度的阅读组合。
 
@@ -829,7 +829,7 @@ Declan Chidlow 发布了一份注释详尽的个人 HTML boilerplate，逐行解
 
 #### Devin Mac：在 Apple 平台约束下重建云代理的控制平面
 
-[[How we built Devin's Mac]]
+[How we built Devin's Mac](https://x.com/jkelleyrtp/article/2101364551296143772)
 
 Cognition 工程团队在 2026 年 9 月发布了 Devin macOS 支持的技术复盘。这篇文章值得仔细读的原因，不在于它展示了又一种云 Mac 虚拟化方案，而在于它完整呈现了一种系统设计模式——当已有产品的控制平面不变量在新平台上遇到接口断层时，如何通过向下穿透一层抽象来重建稳定接口。
 
@@ -911,7 +911,7 @@ Cognition 的核心策略不是为 macOS 重新发明整套后端，而是在平
 
 #### SweepLED：固定相机、扫掠照明，手机 LED 阵列通过反射形变检测隐藏摄像头？
 
-[[Smartphone LED and AI Detect Hidden Cameras]]
+[Smartphone LED and AI Detect Hidden Cameras](https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ/)
 
 编者按： KAIST 联合新加坡两所大学，在 ACM MobiSys 2026 上发表了一种利用手机外置 LED 阵列检测隐藏摄像头的系统 SweepLED。94% 准确率、5 秒检测、7 美元成本的数字在媒体上引发关注，但从论文到产品的距离远比标题暗示的更长。这篇解读还原技术细节，厘清数字含义，帮助读者判断这项工作的真实价值与边界。
 
@@ -951,7 +951,7 @@ SweepLED 的方法论对隐私检测之外的领域同样有参考价值。「�
 
 #### 四台 DGX Spark 本地部署实践：数据主权、无交换机组网与 700B 模型推理
 
-[[How and Why We Bought 4x DGX Sparks]]
+[How and Why We Bought 4x DGX Sparks](https://blog.alexellis.io/how-and-why-we-bought-4-dgx-sparks/)
 
 OpenFaaS 创始人 Alex Ellis 用四台 NVIDIA DGX Spark 搭建了一套无交换机的本地推理系统，目的不是省 token 钱，而是让高敏感数据不出信任域、让合法的安全审计不被云端策略拦截。这篇万字长文的技术密度和商业诚实度都远超同类博客。
 
@@ -989,7 +989,7 @@ Benchmark 幻觉与真实生产数据。 文章对社区 benchmark 生态的批�
 
 #### MCDMA：从零构建 macOS 原生 RDMA 驱动，探索 Mac Studio 与 DGX Spark 协同推理
 
-[[MCDMA Making a Mac Studio and two Sparks work together]]
+[MCDMA Making a Mac Studio and two Sparks work together](https://x.com/ashxhart/status/2099632365916021102)
 
 2026 年 9 月，独立开发者 Ash Hart 发布了 MCDMA 项目的首个公开测试版，在 Mac Studio 的 macOS 上从零构建了 ConnectX-5 网卡的原生 RDMA 驱动。它让 Metal 和 CUDA 的 GPU 内核第一次通过硬件 RDMA 共享数据，微秒级延迟经过字节验证。但从「网卡能发数据」到「模型跑得更快」之间，还隔着多少道工程难题？
 
@@ -1027,7 +1027,7 @@ MCDMA 当前最准确的定位是：一个已在真实 ConnectX 网卡上通过�
 
 #### 向作者追问他们自己的论文：TMLR 主编对 10 篇拟桌拒投稿的访谈实验
 
-[[Asking Authors About Their Own Papers]]
+[Asking Authors About Their Own Papers](https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0)
 
 TMLR 主编 Nihar B. Shah 对 10 篇拟桌拒论文的作者进行了口头访谈，其中 3 位单作者连基础问题都无法回答。这份非正式但信息密度极高的现场报告，正在迫使学术界重新审视一个根基性问题——署名究竟还能代表什么。
 
@@ -1099,7 +1099,7 @@ Shah 的这份编辑手记，连同配套的 greCAPTCHA 预印本和围绕它们
 
 #### 繁华很近，从容很远：一个海外华人的回国两周，照出中国现代化的不对称切面
 
-[[繁华很近，从容很远，回国假期的点滴]]
+[繁华很近，从容很远，回国假期的点滴](https://app.podwise.ai/dashboard/episodes/8902436)
 
 一个在洛杉矶生活十四年的播客主播，暑假带三个孩子回国两周。他从一杯瑞幸咖啡的扫码点单讲起，87 分钟后抵达了中国的人口结构危机。这期节目的观察力极强、修辞极有效、统计证据参差不齐。它最值得听的，不是里面的某个数字，而是它捕捉到的那些「结构性张力」。
 
@@ -1157,7 +1157,7 @@ OECD 将 APP 中的误导价格、难以关闭的弹窗和诱导选择界定为�
 
 #### 虚实辜鸿铭：辫子、学历神话与被制造的「国学大师」
 
-[[149 辫子、外宣与大师：虚实辜鸿铭]]
+[149 辫子、外宣与大师：虚实辜鸿铭](https://app.podwise.ai/dashboard/episodes/8901887)
 
 一个从未在中国长大的人，如何成为近代中国最著名的「传统文化代言人」？历史学人播客第 149 期与香港岭南大学教授杜春媚的对话，从她的新著《奇士异旅：辜鸿铭还乡记》出发，拆解了这个文化符号背后的复杂机制。
 
@@ -1187,7 +1187,7 @@ OECD 将 APP 中的误导价格、难以关闭的弹窗和诱导选择界定为�
 
 #### 同被英国俘虏，同客死异乡：两广总督叶名琛与莫卧儿末代皇帝
 
-[[41 同被英国俘虏，同客死异乡：两广总督叶名琛与莫卧儿末代皇帝]]
+[41 同被英国俘虏，同客死异乡：两广总督叶名琛与莫卧儿末代皇帝](https://app.podwise.ai/dashboard/episodes/8936075)
 
 1858 年的某个时刻，一位被俘的中国总督在加尔各答读英国报纸，一位被审判的印度皇帝在德里法庭上为自己辩护。他们同属十九世纪英国亚洲帝国网络中被移走的「危险象征」。历史播客「怪东西 Weird History」把这两个人放到同一集中讨论，抓住了一个当代学术界正在发力的研究方向：第二次鸦片战争与 1857 年印度大起义不是两段孤立的民族史，而是同一帝国体系在两个战区同时爆发的危机。
 
@@ -1251,7 +1251,7 @@ OECD 将 APP 中的误导价格、难以关闭的弹窗和诱导选择界定为�
 
 #### 吴鹏：不破案的狄仁杰，靠什么成为武则天最信任的反对者
 
-[[131.吴鹏：狄仁杰并非神探，他靠什么赢得武则天信任]]
+[131.吴鹏：狄仁杰并非神探，他靠什么赢得武则天信任](https://app.podwise.ai/dashboard/episodes/8919363)
 
 播客「大望局」第 131 期邀请历史学博士吴鹏和汗青堂编辑贾启博，围绕吴鹏新书《盛世前夜》展开对谈，试图回答一个看似简单的问题——狄仁杰凭什么赢得武则天的信任？答案既不是「破案能力」也不是「无条件忠诚」，而指向了一种在极端政治环境下极为稀缺的品质：可预测的高质量异议。
 
@@ -1285,7 +1285,7 @@ OECD 将 APP 中的误导价格、难以关闭的弹窗和诱导选择界定为�
 
 #### 衰世为何看起来像治世：孙明谈清中叶的积弊逻辑与士人的时代诊断
 
-[[501 从洪亮吉、龚自珍到魏源：清中叶的人如何看待自己国家未来？]]
+[501 从洪亮吉、龚自珍到魏源：清中叶的人如何看待自己国家未来？](https://app.podwise.ai/dashboard/episodes/8914750)
 
 编者按： 北京大学政府管理学院孙明教授在「忽左忽右」播客第 501 期中，围绕其新著《积弊：清朝的中叶困境与周期感知》，系统阐述了嘉庆道光时期清朝治理衰退的内在逻辑。这期约 74 分钟的对话，试图回答的核心问题不是「清朝为什么衰落」，而是「一个尚能运行的国家如何逐渐失去自我修复能力」。以下对其核心论点和方法论贡献进行解读。
 
@@ -1319,7 +1319,7 @@ OECD 将 APP 中的误导价格、难以关闭的弹窗和诱导选择界定为�
 
 #### 快递江湖三十年：桐庐帮、淘宝、拼多多与价格战
 
-[[No.219 快递江湖三十年：桐庐帮、淘宝、拼多多与价格战]]
+[No.219 快递江湖三十年：桐庐帮、淘宝、拼多多与价格战](https://app.podwise.ai/dashboard/episodes/8915696)
 
 四家企业的创始人全部来自同一个县、三个人曾是同班同学、2025 年合计处理了全国六成的快递包裹——「半拿铁」播客第 219 期用两个小时重建了这段商业史。本文对这期节目及其精读分析笔记进行解读，帮助读者把握其中最具分析价值的产业机制和制度线索。
 
@@ -1353,7 +1353,7 @@ OECD 将 APP 中的误导价格、难以关闭的弹窗和诱导选择界定为�
 
 #### AI 短剧狂卷、校招生被退劝、打假网红关八年、苹果折叠开卷、锁屏广告惹嫌、免陪照护补员
 
-[[No.49 AI 短剧狂卷、校招生被退劝、打假网红关八年、苹果折叠开卷、锁屏广告惹嫌、免陪照护补员]]
+[No.49 AI 短剧狂卷、校招生被退劝、打假网红关八年、苹果折叠开卷、锁屏广告惹嫌、免陪照护补员](https://app.podwise.ai/dashboard/episodes/8910152)
 
 编者按： 半拿铁·周刊第 49 期表面上讨论了八个彼此无关的新闻——AI 短剧、校招解约、打假判刑、折叠 iPhone、锁屏广告、免陪照护、药店关门、骑手医保。但如果把它们排在一起看，会发现同一条规律反复出现：某个环节的成本降了，参与者涌入了，原来的稀缺性没了，新的瓶颈换了个地方，而利润和风险也跟着换了主人。
 
@@ -1387,7 +1387,7 @@ AI 短剧是这条规律最完整的样本。2026 年上半年，仅抖音端就
 
 #### 手写算子的最后一个夏天：DeepSeek V4.1 核心工程师的 AI 时代告别书
 
-[[我不得不把才华埋葬在昨天]]
+[我不得不把才华埋葬在昨天](https://mp.weixin.qq.com/s/zk0KxuLzhmMJ4LPYW_OHMA)
 
 DeepSeek V4.1 的主 Attention 算子作者写了一篇五千字的告别文，不是告别工作，而是告别一种工作方式。文章在知乎冲上热榜第一、微信获得十几万阅读，大部分读者把目光聚焦在末尾关于 Anthropic 的争议性段落。但真正值得读的，是前面那几段关于「手艺消亡」的描写。一份极为详细的精读笔记对原文的技术声明、产业判断和政治主张逐一进行了事实核查和逻辑审计，其严谨程度和信息密度远超原文本身，两者结合阅读才能获得完整的图景。
 
@@ -1461,7 +1461,7 @@ METR 对 16 名成熟开源项目开发者的随机对照实验提供了一个�
 
 #### 谁来定义危险的 AI？让把安全忧虑自动变成护城河，Anthropic 减速倡议背后的权力与制度逻辑
 
-[[Anthropic口中的AI安全，为什么听起来像一场生意保卫战？]]
+[Anthropic口中的AI安全，为什么听起来像一场生意保卫战？](https://app.podwise.ai/dashboard/episodes/8910427)
 
 > [!NOTE]
 > 关于该份报告的讨论，可以见上一期 [[202609070043_2026W37_技术阅读分享#Anthropic 九月 AI 威胁报告：七大领域、30 余个案例，从网络间谍到 1.51 亿次模型蒸馏]]
@@ -1540,7 +1540,7 @@ Anthropic 的 RSP v3 版本出现了一个极具理论意义的转向：从「�
 
 #### 当 AI 安全成为一种权力：Anthropic 求监管，谁来监管监管者？安全叙事背后的利益结构与治理悖论
 
-[[第231期 Anthropic 求监管]]
+[第231期 Anthropic 求监管](https://app.podwise.ai/dashboard/episodes/8954207)
 
 「后互联网时代的乱弹」第 231 期花两个小时讨论了香山论坛、金砖货币、Anthropic 求监管、DeepSeek 工程师的伤感、一个 Linux 发行包和一座 1815 年的火山。表面上话题分散到了极点，但剥开来看，它们都在问同一个问题：谁有权定义那些我们日常看不见、却决定一切运行方式的中间规则。
 
@@ -1588,7 +1588,7 @@ Scaling Law 没有失效，但前沿模型的钱可能越来越难赚
 
 #### Own Your Intelligence：2026 Q3 的 AI 产业，模型商品化为零件，竞争单位升级为系统
 
-[[智能的下一幕，让人兴奋]]
+[智能的下一幕，让人兴奋](https://app.podwise.ai/dashboard/episodes/8910630)
 
 2026 年 9 月 15 日，AI 行业观察者庄明浩在播客「屠龙之术」发布了一期近 55 分钟的 Solo 演讲，基于 73 页 PPT 梳理了过去一个季度 AI 行业的核心变化。这期内容原本是为一家金融机构做的内部培训，因此少了常见的融资叙事，多了技术和产品层面的密度。
 
@@ -1656,7 +1656,7 @@ Personal Agent 的讨论是节目中最具前瞻性但也最不确定的部分�
 
 #### SEP-2640：MCP Skill 远程传输协议的设计逻辑、安全边界与未解难题
 
-[[Skills Over MCP Working Group]]
+[Skills Over MCP Working Group](https://github.com/modelcontextprotocol/ext-skills)
 
 编者按： MCP Skills 扩展规范（SEP-2640）于 2026 年 9 月 13 日正式定稿，成为 Agent 生态中第一个标准化的 Skill 远程传输协议。它不是 Agent 应用商店，也不是模型遵循保证——它是一个传输层。这篇解读将拆解它做到了什么、没做到什么，以及对工程实践意味着什么。
 
@@ -1724,7 +1724,7 @@ SEP-2640 已经较好地回答了「服务器怎样把哪一组字节交给 Agen
 
 #### GLM 用 Agent 优化自身推理系统：十万张国产加速卡上的工程实录
 
-[[Toward Recursive Self-Improvement How GLM Built Its Own Inference Infrastructure]]
+[Toward Recursive Self-Improvement How GLM Built Its Own Inference Infrastructure](https://z.ai/blog/glm-built-its-inference-infrastructure)
 
 Z.ai 团队 2026 年 9 月发表的这篇技术博客，记录了 GLM-5.3-Flash 在超过 10 万张国产 AI 加速卡上完成生产化部署的工程过程。文章的核心不在于数字本身，而在于一个正在成形的方法论：如何将资深系统工程师的诊断直觉编码为 AI Agent 可执行的验证体系。
 
@@ -1802,7 +1802,7 @@ Jie Tang 对这种分工演变的概括值得反复品味：工程师的角色�
 
 #### ZCode 如何在后台打包你的整个 Git 历史：本地取证、链路还原与设置开关失效
 
-[[扒一扒 ZCode 静默上传全量 Git 历史的骚操作]]
+[扒一扒 ZCode 静默上传全量 Git 历史的骚操作](https://blog.ferstar.org/posts/zcode-silent-workspace-snapshot-upload/)
 
 2026 年 9 月 18 日，独立开发者 ferstar 发布了一篇本地取证文章，详细记录了智谱 AI 编程工具 ZCode 在后台静默打包并上传用户整个 Git 仓库历史至云端的行为。智谱当天在用户群中发布了道歉声明并承认 Repo Wiki 功能存在相关上传路径。结合精读笔记对事件的系统性分析和 HN 社区的讨论，本文还原事件全貌并解读其对 AI 编程工具行业的意义。
 
@@ -1884,7 +1884,7 @@ Windows 报告还贡献了一个重要的技术纠正：状态中同时出现 `a
 
 #### Memoh：从聊天窗口到持久工作区，Agent 基础设施的下一层
 
-[[Introducing Memoh A Cloud Computer for Every Agent]]
+[Introducing Memoh A Cloud Computer for Every Agent](https://memoh.ai/blogs/2026-09-15)
 
 Memoh 给每个 AI Agent 分配了一台持久在线的云计算机——文件、浏览器、桌面、记忆和定时任务全都保留。这个方向判断是对的，但发布文中被省略的那些工程细节和安全边界，才是决定这件事能走多远的关键。
 
@@ -1962,7 +1962,7 @@ Memoh 抓住了 Agent 基础设施演进中一个真实且重要的方向：未�
 
 #### RTK 声称节省 60%–90% token，但 1740 次闭环实验没测出账单下降
 
-[[RTK reports huge token savings, but our cost benchmarks disagree]]
+[RTK reports huge token savings, but our cost benchmarks disagree](https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/)
 
 Quesma 团队用两套模型、1740 次闭环实验和超过 1500 美元 token 费用，回答了一个被 GitHub 7.9 万星标和 31 万浏览推文掩盖的问题：RTK 声称的 token 节省，有多少能变成账单上的真金白银？答案是：几乎为零，某些情况下还在倒贴。
 
@@ -2026,7 +2026,7 @@ Fable 5.0 约半数 Bash 调用已使用 `head -n` 或 `tail -n` 自限输出，
 
 #### vm2api：订阅转 API 的账号容器化隔离方案，价值在思路，缺口在信任链
 
-[[vm2api - 使用虚拟机完全拟真方案的订阅转api]]
+[vm2api - 使用虚拟机完全拟真方案的订阅转api](https://github.com/dofastted/vm2api)
 
 订阅转 API 工具并不新鲜，但 2026 年 9 月亮相的 vm2api 把赌注押在了一个不同的方向上：给每个账号一套独立的容器、出口和客户端身份。这份两万余字的社区审计报告逐行核对了它的宣传与代码，结论对任何考虑部署此类工具、或关心 AI 网关演进的工程师都有参考价值。
 
@@ -2062,7 +2062,7 @@ vm2api 的应对是把每个账号放进独立的 Docker 槽位，绑定专属�
 
 #### ZDTaichu5.0-9B：从通用视觉到空间智能，一次有明确代价的能力迁移
 
-[[ZDTaichu5.0-9B - From Visual Understanding to Spatial Intelligence]]
+[ZDTaichu5.0-9B - From Visual Understanding to Spatial Intelligence](https://taichu-ai.github.io/ZDTaichu5.0-9B/)
 
 ZDTaichu5.0-9B 于 2026 年 9 月发布，是一个基于 Qwen3.5 语言骨干和 C-RADIO 视觉编码器的开放权重多模态模型，在空间推理和 Agent 任务上表现突出，但在通用视觉和知识指标上有所退让。本文结合官方发布材料和一份极为详尽的代码审计级精读笔记，尝试还原这个模型的真实技术面貌。
 
@@ -2094,7 +2094,7 @@ ZDTaichu5.0-9B 的项目名称写着「9B」，但权重文件约 19.6GB（BF16�
 
 #### Bonsai 2 27B：三值权重将 27B 模型压至 6 GB，98.2% 保留率背后的真实边界
 
-[[Introducing Bonsai 2 27B - Near-Lossless Compression in a 9x Smaller Footprint]]
+[Introducing Bonsai 2 27B - Near-Lossless Compression in a 9x Smaller Footprint](https://prismml.com/news/bonsai-2-27b)
 
 PrismML 刚刚发布的 Ternary Bonsai 2 27B 将 Qwen3.8 27B 压缩进 5.95 GB 的权重文件，官方宣称保留了 98.2% 的综合评测性能。这一数字在本地 AI 社区引发了相当大的兴奋。但白皮书自己的数据和发布后 48 小时内的社区实测，共同描绘了一幅远比标题复杂的真实图景。
 
@@ -2128,7 +2128,7 @@ Bonsai 2 真正改变行业预期的地方，不在于宣布「三值模型已�
 
 #### APXinf-robo：一套 π0.5 边缘推理的 Rust/CUDA 部署栈，及 10.7× 加速的归因分解
 
-[[APXinf-robo]]
+[APXinf-robo](https://github.com/RLinf/APXinf-robo)
 
 Infinigence AI 于 2026 年 9 月 15 日开源了 ApxInf 推理引擎及其机器人适配层 APXinf-robo，宣称将 π0.5 VLA 模型在 Jetson AGX Thor 上的推理延迟从 278 ms 压至 26 ms。本文基于仓库源码、官方文档、竞品对比和精读笔记的深度审计，拆解这个 10.7 倍加速背后的真实构成，并着重讨论项目中一个被普遍低估的贡献：机器人语义契约层。
 
@@ -2172,7 +2172,7 @@ tactic 调优系统是项目中最成熟的内部机制之一。 调优过程在
 
 #### Splash：用专用化换速度，一个围绕固定模型构建的 Apple Silicon 本地推理引擎与反共识路线
 
-[[Splash - A Local Engine Built Around the Model]]
+[Splash - A Local Engine Built Around the Model](https://inco.ai/blog/splash/)
 
 Inco AI 发布了开源推理引擎 Splash，在 48 GB M5 Pro 上对 Qwen3.6-35B-A3B 实现 210 tok/s 解码速度和 123 ms 的缓存首 token 时间。它的技术路线与当前主流的通用推理引擎截然相反——引擎围绕固定模型构建，而非适配任意模型。这篇文章将深入拆解其技术架构、性能数据和设计取舍。
 
@@ -2235,7 +2235,7 @@ Splash 的所有优势和所有局限都来自同一个设计选择：主动冻�
 > [!NOTE]
 > 看起来像是 BERT 与 Encoder 卷土重来，但是既保留了在隐空间特征向量的判别效率（+classifier），又有了对通用任务的泛化性能？
 
-[[Introducing System One Models & Jev]]
+[Introducing System One Models & Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev)
 
 TypeSafe AI 的创始人曾参与构建 ChatGPT 的核心技术。两年秘密研发后，他发布了一个反向操作的模型——Jev 主动放弃了文本生成能力，只输出预定义答案空间上的概率分布。输入 token 定价每百万 0.042 美元，输出 token 免费，端到端延迟 70ms 起。技术社区在四天内完成了从兴奋到质疑到动手复现的完整周期。
 
@@ -2319,7 +2319,7 @@ Jev 提出的核心思想——将 AI 与软件的接口边界放在概率分布
 
 #### 两个人的零食榜，一整套家庭饮食基础设施
 
-[[2026过半，谁进了我们的百大零食榜]]
+[2026过半，谁进了我们的百大零食榜](https://app.podwise.ai/dashboard/episodes/8950232)
 
 「津津有味」的「百大零食榜」系列做到第三年，已经不是一份传统的好物清单。两位主播用近两小时推荐了 40 款产品和 5 条避雷，但真正被评价的对象，从来不是某一袋薯片或某一瓶牛奶，而是「一个忙碌的人能否在疲惫时还吃上一顿可接受的饭」这个更根本的生活问题。配合一份极其严苛的精读笔记，这期节目成了一面双面镜——一面照出消费推荐的真实价值，另一面照出经验表述越界为「科学结论」时的风险。
 
@@ -2499,7 +2499,7 @@ Thariq @trq212 [2:04 AM · Sep 19, 2026](https://x.com/trq212/status/21010093950
 
 #### MFGCS：多保真坐标搜索揭示多目标跟踪 baseline 的普遍欠调参
 
-[[2609.12261v1 Revisiting Multi-Object Tracking Baselines Hyperparameter Optimization with Multi-Fidelity Greedy Coordinate Search]]
+[2609.12261v1 Revisiting Multi-Object Tracking Baselines Hyperparameter Optimization with Multi-Fidelity Greedy Coordinate Search](https://arxiv.org/html/2609.12261v1)
 
 多目标跟踪领域有个公开的秘密——新方法发论文时会精心调参，而被比较的旧 baseline 通常用的是别人论文里的默认值。这篇来自贝尔格莱德大学的工作没有提出新的跟踪架构，却可能改变我们看待整个 MOT leaderboard 的方式。它用严格控制的实验证明，baseline 的欠调参问题足以让架构贡献的估计偏差数个 HOTA 点，同时提出了一种多保真优化方法来高效地修正这一偏差。
 
@@ -2555,7 +2555,7 @@ SportsMOT 上四个跟踪器从验证集到测试集一致下降 6-9 HOTA 点，
 
 #### KDTwin：道路区域与车道线分别蒸馏，不增推理开销的轻量多任务分割
 
-[[2609.18955v1 KDTwin Task-Aware Knowledge Distillation for Lightweight Multi-Task Driving Scene Segmentation]]
+[2609.18955v1 KDTwin Task-Aware Knowledge Distillation for Lightweight Multi-Task Driving Scene Segmentation](https://arxiv.org/html/2609.18955v1)
 
 知识蒸馏在语义分割领域已有大量研究，但面向自动驾驶中「可行驶区域 + 车道线」这种空间形态差异极大的多任务联合分割，蒸馏策略该如何设计？KDTwin 给出了一个思路清晰的方案：共享编码器学空间关系，道路头重视前景区域，车道头重视边界像素。方法论的核心直觉合理且有迁移价值，但论文与代码之间的多处不一致以及缺少关键对照实验，使得当前证据链尚不完整。
 
@@ -2593,7 +2593,7 @@ KDTwin 最值得保留的不是某个具体的 λ 值或形态学核大小，而
 
 #### HSI-Road Relabeled：将饱和的道路二分类升级为六类材质分割基准，量化 RGB-NIR 融合增益、分辨率代价与光谱互补条件
 
-[[2609.12151v1 HSI-Road Relabeled Surface-Aware Road-Scene Segmentation]]
+[2609.12151v1 HSI-Road Relabeled Surface-Aware Road-Scene Segmentation](https://arxiv.org/html/2609.12151v1)
 
 自动驾驶领域的高光谱感知研究长期受困于公开数据集标签过粗的问题——几乎所有 HSI 驾驶数据集都只标注「道路/背景」二分类，这使得模型性能接近饱和，无法真正检验光谱信息对路面材质识别的价值。Galway 大学和 Valeo Vision Systems 的团队对此做了一件看似朴素但影响深远的事：把 HSI-Road 从二分类改成了六类路面标注，然后认真回答了一个被忽视已久的问题——在分辨率匹配的条件下，NIR 光谱信息到底能给 RGB 带来多少额外收益？
 
@@ -2633,7 +2633,7 @@ Shah 等人的工作从重新定义问题空间开始。他们在高分辨率 RG
 
 #### Feel-WM：将本体感觉引入导航世界模型，预测越野地形上的物理未来
 
-[[2609.19863v1 Feeling Terrain Before Crossing World Models for Off-Road Navigation]]
+[2609.19863v1 Feeling Terrain Before Crossing World Models for Off-Road Navigation](https://arxiv.org/html/2609.19863v1)
 
 首尔国立大学 Seung-Woo Seo 团队在 2026 年 9 月提交的这篇论文，给视觉导航世界模型加上了一条此前缺失的反馈回路：机器人自身的身体状态。这不是简单地多接一个 IMU 传感器，而是一次建模对象的根本转换——世界模型的「世界」开始包含机器人自身。
 
@@ -2707,7 +2707,7 @@ Feel-WM 的核心贡献不是「发现 IMU 对越野有用」——FDM、ProNav�
 
 #### Chain-SLAM：从一个可靠回环出发，沿历史连接图扩展跨会话约束的多会话 LiDAR SLAM 后端
 
-[[2609.12221v1 Chain-SLAM Globally Consistent Backend for Multi-Session LiDAR SLAM via Chained Loop Closure]]
+[2609.12221v1 Chain-SLAM Globally Consistent Backend for Multi-Session LiDAR SLAM via Chained Loop Closure](https://arxiv.org/html/2609.12221v1)
 
 纽约大学 ai4ce 实验室的这篇工作提出了一个在大规模多会话 LiDAR SLAM 中发现跨会话约束的新机制。它的核心并非新的里程计或优化器，而是一个极简的观察：已有回环图可以反过来指导未来的地点搜索。在两个累计超过 20 小时的数据集上，该方法将全局平移误差降低了一个数量级。代码已开源。
 
@@ -2775,7 +2775,7 @@ Chain-SLAM 的学术定位可以精炼为：一种把历史回环图变成候选
 >
 > 近期测试下来，EXL3 方法量化的权重效果比 NVFP4 来讲好一些。
 
-[[2609.11716v1 Why Does Post-Training Quantization Work?]]
+[2609.11716v1 Why Does Post-Training Quantization Work?](https://arxiv.org/html/2609.11716v1)
 
 清华大学与博世 AI 研究院的一组研究者发现，大语言模型在预训练过程中无意间习得了两种对量化误差的天然防御机制——层间误差的方向性抵消和输出层的高维几何保护——这比「权重接近原始值」能解释的远多得多。
 
@@ -2841,7 +2841,7 @@ Theorem 3 进一步将 logit 误差连接到概率误差。由于 KL 散度按�
 
 #### Open-UniMo：百万规模运动 - 语言统一建模中「生成促进理解」的现象与机制
 
-[[2609.14615v1 Open-UniMo Towards Unified Motion-Language Understanding and Generation in the Open World]]
+[2609.14615v1 Open-UniMo Towards Unified Motion-Language Understanding and Generation in the Open World](https://arxiv.org/html/2609.14615v1)
 
 清华大学、港中文深圳和南洋理工团队提出 Open-UniMo，一个在百万规模数据上训练的统一运动—语言大模型。表面上看，它把 6.4 万个运动 token 塞进了 Qwen 的词表；实质上，它回答了一个更有趣的问题：为什么让模型学会「生成动作」，竟然能大幅改善它「理解动作」的能力？
 
@@ -2913,7 +2913,7 @@ Open-UniMo 最值得从业者关注的不是 64K 这个数字本身，而是其�
 
 #### RSI：区分「变强」与「更擅长变强」，递归自我改进的五级框架、HCI 指标与产业证据
 
-[[2609.11873v2 The Last AI Built by Humans Toward Genuine Recursive Self-Improvement]]
+[2609.11873v2 The Last AI Built by Humans Toward Genuine Recursive Self-Improvement](https://arxiv.org/html/2609.11873v2)
 
 当人类花在改进 AI 上的成本本身成为瓶颈时，让 AI 改进自己似乎是唯一出路。但「改进自己」这四个字背后有多少种含义，又有多少种被偷换的概念？上海交通大学联合十余家机构的这篇 79 页综述，第一次给出了可审计的判断标准。
 
@@ -2985,7 +2985,7 @@ HCI 的统计脆弱性。 论文未提供 bootstrap 置信区间、权重敏感�
 
 #### Dream-RSI：在历史发现树上「做梦」，递归优化搜索调度策略
 
-[[2609.14858v1 Dream-RSI Recursive Self-Improvement through Evolving Worlds]]
+[2609.14858v1 Dream-RSI Recursive Self-Improvement through Evolving Worlds](https://arxiv.org/html/2609.14858v1)
 
 Google 和 Google DeepMind 团队提出 Dream-RSI，将 LLM 驱动发现系统的完整搜索历史重新组织为可交互的回放模拟器，用于低成本地评价和改进搜索调度策略。该框架在算法工程、数学优化和 GPU 内核工程三个领域展现了显著的搜索效率提升，但其核心假设——历史回放能可靠预测在线表现——尚需更严格的实证验证。
 
@@ -3061,7 +3061,7 @@ Dream-RSI 的核心贡献是将发现历史从静态上下文提升为可交互�
 
 #### RSIAgent：参数冻结、记忆演化，数字智能体通过自主探索适应新环境
 
-[[2609.15364v1 RSIAgent Autonomous Exploration for Recursive Self-improvement in New Environments]]
+[2609.15364v1 RSIAgent Autonomous Exploration for Recursive Self-improvement in New Environments](https://arxiv.org/html/2609.15364v1)
 
 Aether AI 团队在 2026 年 9 月提出的 RSIAgent，是一个让参数完全冻结的语言模型通过自主探索、独立验证和持久记忆积累来适应新数字环境的多智能体框架。它在 OSWorld-v2 和 Agent's Last Exam 的部分分数指标上超过了 GPT-6 Astra，但这个结论的成立条件和边界值得仔细审视。
 
@@ -3097,7 +3097,7 @@ Sibo Zhu、Shicheng Fan、Xinyue Wang 等人来自 Aether AI、UC San Diego 和 
 
 #### ModularRSI：受限修改范围如何解决 Harness 自进化中的 Credit-Assignment 问题
 
-[[2609.14857v1 ModularRSI Modular and Generalizable Recursive Harness Self-Improvement]]
+[2609.14857v1 ModularRSI Modular and Generalizable Recursive Harness Self-Improvement](https://arxiv.org/html/2609.14857v1)
 
 当 CLI 代码代理的性能瓶颈从基础模型转向执行框架时，如何让框架自身从经验中改进成为关键问题。ModularRSI 提出了一种将执行框架拆分为五个功能模块、分别独立进化的方法，并在与评测基准完全隔离的条件下验证了改进的泛化能力。这篇来自北航、曼大和 IQuest Research 等机构的工作，代表了 Harness RSI 领域从「能不能改」到「改了是否真有用」的方法论升级。
 
@@ -3171,7 +3171,7 @@ ModularRSI 值得关注的核心是其方法论范式，而非具体的五模块
 
 #### Jina-OCR-v1：通过递归推测解码与奖励覆盖率的系统协同，实现面向低成本部署的文档解析
 
-[[2609.03181v1 Jina-OCR-v1 Efficient Document Parsing withSpeculative Decoding and Dense Verifiable Rewards]]
+[2609.03181v1 Jina-OCR-v1 Efficient Document Parsing withSpeculative Decoding and Dense Verifiable Rewards](https://arxiv.org/html/2609.03181v1)
 
 Jina AI 的新模型没有刷新 OCR 精度排行榜的第一名，但它用同一副骨架（DeepSeek-OCR 的 3B MoE 架构）把 olmOCR-Bench 分数从 76 拉到 83.4，并在 14 个同期系统的 A100 吞吐对比中跑出了 2.57 页/秒——靠的不是生成更多 token，而是每页少写了 20% 的 token。
 
@@ -3231,7 +3231,7 @@ Jina-OCR-v1 的工程贡献集中在三个可迁移的系统洞见上：优化�
 
 #### VBVR-Pro：将原生视觉推理变为可训练、可验证、可优化的研究问题
 
-[[2608.26105v2 VBVR-Pro A Scalable and Verifiable Suite for Native Visual Reasoning]]
+[2608.26105v2 VBVR-Pro A Scalable and Verifiable Suite for Native Visual Reasoning](https://arxiv.org/html/2608.26105v2)
 
 2026 年的视觉生成研究正在经历一次范式裂变——越来越多证据表明，视频和图像生成模型不仅能渲染内容，还可能在生成过程中完成某种形式的推理。VBVR-Pro 提供了目前该方向最完整的实验基础设施，让「视觉生成能否承载推理」这个问题从主观判断变为可量化的工程问题。
 
@@ -3305,7 +3305,7 @@ VBVR-Pro 的长期价值很可能超过其中任何一个模型 checkpoint。它
 
 #### AnyView：放弃深度重投影，从任意相机位置合成动态场景视频
 
-[[2601.16982v2 AnyView - Synthesizing Any Novel View in Dynamic Scenes]]
+[2601.16982v2 AnyView - Synthesizing Any Novel View in Dynamic Scenes](https://arxiv.org/html/2601.16982v2)
 
 Toyota Research Institute 的研究团队提出了一种基于扩散模型的动态场景视角合成框架 AnyView，核心思路是放弃显式三维重建，仅通过逐像素相机射线条件驱动视频基础模型生成目标视角的视频。在输入与目标相机之间存在大角度位移、极少空间重叠的极端设定下，AnyView 显著优于所有基线方法。
 
@@ -3377,7 +3377,7 @@ AnyView 最独特的能力——对大面积不可见区域生成合理补全—
 
 #### 自进化人形机器人综述：部署后持续改进的机制、安全约束与轨迹评价
 
-[[2609.13236v1 Self-Evolving AI for Humanoids Mechanisms, Safety, and Evaluation of Post-Deployment Self-Improvement]]
+[2609.13236v1 Self-Evolving AI for Humanoids Mechanisms, Safety, and Evaluation of Post-Deployment Self-Improvement](https://arxiv.org/html/2609.13236v1)
 
 人形机器人部署后策略就冻结——这几乎是当前所有商业产品的现状。Kyung Hee 大学与 NTU 的研究团队在这篇调查论文中提出了一个统一框架，将部署中的人形机器人建模为策略、感知、记忆、工作流和身体的五元状态，定义了以慢速进化算子驱动的终身自我改进过程，并将安全约束从单个动作提升到整个更新过程本身。
 
@@ -3454,7 +3454,7 @@ AnyView 最独特的能力——对大面积不可见区域生成合理补全—
 > [!NOTE]
 > 注意作者中有左星星师兄。
 
-[[2609.16074v1 World-Action Models for Robot Learning and Control A Survey]]
+[2609.16074v1 World-Action Models for Robot Learning and Control A Survey](https://arxiv.org/html/2609.16074v1)
 
 2026 年 9 月，来自 MBZUAI、Caltech、UC Berkeley 等机构的研究团队发表了一篇系统性综述，为「World-Action Models」这一正在快速成型的技术方向提供了首份面向机器人学的统一框架。这篇综述真正有价值的地方不在于罗列了多少论文，而在于它提供了一套分类语言，让散布在视频生成、VLA、强化学习和机器人模仿学习等不同社区的相似工作终于可以放在同一张桌子上比较。
 
@@ -3531,7 +3531,7 @@ WAM 面临的数据挑战与 VLA 有本质不同。VLA 主要需要观测 - 动�
 > [!NOTE]
 > 注意作者中有左星星师兄。
 
-[[2609.16705v1 The Robot Data Factory]]
+[2609.16705v1 The Robot Data Factory](https://arxiv.org/html/2609.16705v1)
 
 2026 年 9 月，MBZUAI 的 Sami Haddadin 等 21 位研究者在 arXiv 上发布了一篇 76 页的论文，提出将机器人数据的生产从「实验室手工作坊」升级为「持续运转的工厂」。这篇论文不提出新模型，不刷新排行榜分数，而是试图重新定义 Physical AI 研究的基本单位——从「数据集」变成「经过验证的物理经验」。它能否成立，取决于几个至今尚未被实验回答的关键问题。
 
@@ -3575,7 +3575,7 @@ Pitstop Leaderboard 的设计体现了几个有价值的工程决策。安全和
 
 #### Pelican-Sim 1.0：URDF 骨架与数值动作双分支注入的跨机器人视觉世界模型
 
-[[2609.12036v1 Pelican-Sim 1.0 A General World Model Simulator for Embodied Intelligence]]
+[2609.12036v1 Pelican-Sim 1.0 A General World Model Simulator for Embodied Intelligence](https://arxiv.org/html/2609.12036v1)
 
 北京人形机器人创新中心（X-Humanoid）的 WFM System Group 发布了 Pelican-Sim 1.0 技术报告。该工作提出了一种将精确数值配置与 URDF 渲染骨架视频双通道注入 Video DiT 的世界模型架构，在约 100 万条机器人轨迹上训练后，于三个公开数据集上取得了全面的视频质量领先，并系统验证了数据生成、策略评估、动作选择和策略改进四类下游应用。
 
@@ -3617,7 +3617,7 @@ Pitstop Leaderboard 的设计体现了几个有价值的工程决策。安全和
 
 #### WAVE-Go：世界模型预测了 16 步动作，机器人该承诺执行几步？将预测与执行授权分离的轮足机器人自适应导航框架
 
-[[2609.18193v1 WAVE-Go World-Model Navigation with Adaptive Execution for Wheel-Legged Robots]]
+[2609.18193v1 WAVE-Go World-Model Navigation with Adaptive Execution for Wheel-Legged Robots](https://arxiv.org/html/2609.18193v1)
 
 轮足机器人在复杂环境中导航时，世界模型能预测未来该怎么走，但预测的动作序列在执行过程中随时可能因为突然出现的障碍或姿态切换而失效。WAVE-Go 正面回应这个问题：它不让世界模型的预测自动变成机器人的承诺，而是在预测和执行之间加入了一层可撤销的授权机制。
 
@@ -3649,7 +3649,7 @@ WAVE-Go 同时暴露了若干尚未解决的深层问题。前缀安全不蕴含
 
 #### PhysBrain 1.5：在一个 8B 模型上，用一套 token 词表统一具身理解、动作生成与未来场景预测
 
-[[2609.14973v1 PhysBrain 1.5 From Vision-Language Models to Physical Foundation Models]]
+[2609.14973v1 PhysBrain 1.5 From Vision-Language Models to Physical Foundation Models](https://arxiv.org/html/2609.14973v1)
 
 2026 年 9 月 14 日，DeepCybo 团队发布了 PhysBrain 1.5 技术报告，提出将具身理解、末端执行器动作生成和未来视觉状态预测三类能力统一到一个自回归 Transformer 的离散 token 框架中。这篇报告的核心贡献是用 8B 参数在 28 项具身理解基准上取得 72.5 分的开源最佳成绩，同时展示了动作轨迹和未来场景预测的初步能力。它代表了当前从 VLM 向物理智能扩展的一条重要技术路线，但其动作和世界建模证据与标题中「Physical Foundation Models」的定位之间存在需要正视的差距。
 
@@ -3725,7 +3725,7 @@ PhysBrain 1.5 处在一个快速发展的竞争格局中。UniVLA 在 LIBERO 上
 
 #### WLA^3：以多模态世界转移表示同时服务语义理解、物理预测与运动控制
 
-[[2609.15870v1 WLA3 World Latent Action Modelingfor Semantics, Dynamics, and Kinematics]]
+[2609.15870v1 WLA3 World Latent Action Modelingfor Semantics, Dynamics, and Kinematics](https://arxiv.org/html/2609.15870v1)
 
 Joy Future Academy（JD Group）团队在 2026 年 9 月 14 日公开了 WLA³ 框架，核心思路是放弃统一不同机器人的原生动作标签，转而统一它们造成的世界状态变化。通过 84.1K 小时混合数据训练的多模态 transition encoder，WLA³ 同时产出紧凑的 32 维局部动作接口和丰富的 1024 维段级语义目标，分别服务于控制生成、物理动力学建模和 VLM 语义监督，在六项真实机器人任务上平均成功率达到 81.9%。
 
@@ -3765,7 +3765,7 @@ WLA³ 目前最准确的定位是：一套以多模态世界状态转移为统�
 
 #### Agent as Policy：无需任务专用训练，通用编程智能体在运行时直接充当机器人操控策略
 
-[[2609.12541v2 Agent as Policy for Robotic Manipulation]]
+[2609.12541v2 Agent as Policy for Robotic Manipulation](https://arxiv.org/html/2609.12541v2)
 
 2026 年 9 月，Notre Dame、UC San Diego 和 San Diego State 的研究团队提出了 Agent as Policy（AGP）框架，让通用编程智能体在任务执行全程直接充当机器人策略。这不是一项新的网络架构或学习算法，而是一次对「机器人策略」系统边界的重新定义。在真实机器人上，AGP 完成了亚毫米间隙的零件装配、六层积木堆叠、骰子翻面、定向投掷和双臂毛巾折叠，且模型参数全程不变。这项工作的价值与局限同样鲜明，值得仔细拆解。
 
@@ -3811,7 +3811,7 @@ AGP 没有建立的结论包括： 它没有在同一硬件和接口下与 Code 
 
 #### HarnessVLN：把大模型降级为「建议者」，通过运行时验证层统一零样本具身导航
 
-[[2609.15195v1 HarnessVLN Unifying Training-Free Embodied Navigation through an Agent Harness]]
+[2609.15195v1 HarnessVLN Unifying Training-Free Embodied Navigation through an Agent Harness](https://arxiv.org/html/2609.15195v1)
 
 当前具身导航领域的核心矛盾已经从「模型能不能理解指令」转向「模型的理解能不能安全落地到物理动作上」。来自南京大学、AGIBOT 和清华大学的联合团队提出 HarnessVLN 框架，它不训练新模型，而是构建一个运行时治理层，让已有的多模态大模型在受约束的条件下完成导航任务。四个标准基准上的成功率全面超越此前训练自由方法的最佳结果，人形机器人部署进一步验证了协议的可移植性。
 
@@ -3847,7 +3847,7 @@ HarnessVLN 的出发点正是这个鸿沟。它不追求更强大的模型，而
 
 #### GPT-6-Astra 导航工作流行为审计：52% 终点成功率中只有 36% 是自主完成
 
-[[2609.20116v1 GPT-6-Astra in a Navigation Workflow Behavioral Analysis in Zero-Shot Vision-and-Language Navigation in Continuous Environments]]
+[2609.20116v1 GPT-6-Astra in a Navigation Workflow Behavioral Analysis in Zero-Shot Vision-and-Language Navigation in Continuous Environments](https://arxiv.org/html/2609.20116v1)
 
 「能说对」和「能做对」之间，隔着一条不止技术层面的鸿沟。新加坡管理大学 Dai 等人将 GPT-6-Astra 放进一个连续导航系统中，进行了一次罕见的全链条行为解剖，揭示的核心问题远超导航本身。
 
@@ -3909,7 +3909,7 @@ GPT-6-Astra 在这个导航系统中展现了不低的语义理解能力：区�
 
 #### Robion：针对毫秒级 VLA 两阶段架构的机器人工厂 GPU 推理服务系统
 
-[[2609.12075v1 Efficient Vision-Language-Action Management and Serving for Robot Factories]]
+[2609.12075v1 Efficient Vision-Language-Action Management and Serving for Robot Factories](https://arxiv.org/html/2609.12075v1)
 
 Max Planck Institute for Software Systems 的研究团队提出了 Robion，一个专为机器人工厂场景设计的 VLA 推理服务系统。它不改进模型本身，而是解决一个被通用 AI serving 框架忽视的尺度问题：VLA 每个阶段只有几毫秒，连 vLLM-Omni 的缓冲区检查都占了推理时间的三分之一。Robion 的应对策略是限制计算密集的 VLM 阶段能占用的 GPU SM 数量，让轻量但紧急的动作生成阶段不会被大 kernel 饿死。
 
@@ -3975,7 +3975,7 @@ Robion 准确识别了一个被通用 AI serving 框架忽视的尺度问题：V
 
 #### FluxVLA Engine：把具身策略从 checkpoint 变成可部署机器人系统的全栈工程平台
 
-[[2609.17210v1 FluxVLA Engine A One-Stop VLA Engineering Platform for Embodied Intelligence]]
+[2609.17210v1 FluxVLA Engine A One-Stop VLA Engineering Platform for Embodied Intelligence](https://arxiv.org/html/2609.17210v1)
 
 一个训练好的 VLA checkpoint，距离一台能在物理世界稳定工作的机器人有多远？LimX Dynamics 联合多所高校发布的 FluxVLA Engine，不是又一个新模型，而是一份 31 页的技术报告，试图用一条配置驱动的工程链条，回答从数据格式到关节 jerk 限制之间那些被论文忽略、被工程师反复踩坑的系统问题。
 
@@ -4011,7 +4011,7 @@ MPC 后端（逐关节 OSQP 二次规划）在 12 DoF 50 步轨迹上的平均�
 
 #### ICRA 2026 REAL-I 挑战赛：固定数据预算下的 VLA 训练与真机部署经验
 
-[[2609.13679v1 How to Better Train VLAs Lessons Learned From the REAL-I Challenge at ICRA 2026]]
+[2609.13679v1 How to Better Train VLAs Lessons Learned From the REAL-I Challenge at ICRA 2026](https://arxiv.org/html/2609.13679v1)
 
 ICRA 2026 上的首届 REAL-I 挑战赛给出了一份来自真实工业操作场景的实战报告。三支队伍在同一台双臂人形机器人上、用组委会指定的固定数据集训练和部署操作策略，结果排名第一和第二的队伍——一个用 π0.5，一个用 GR00T N1.7——总分只差 1.9 分，而一个从头训练的小型 Diffusion Policy 拿下了瓶子交接任务的唯一满分。这篇论文记录了它们各自做对了什么、忽略了什么、以及为什么离线指标和真机表现之间的鸿沟比想象中更深。
 
@@ -4089,7 +4089,7 @@ REAL-I 的核心发现用一个不等式就能表达：真实机器人性能 ≠
 
 #### DEM：解耦视觉、语言与动作编码，6.1 ms 前向传播追平 3B 参数 VLA 的已训练技能效率基线
 
-[[2609.18374v2 Decoupling Vision, Language, and Action for Efficient Multi-Task Robot Policies]]
+[2609.18374v2 Decoupling Vision, Language, and Action for Efficient Multi-Task Robot Policies](https://arxiv.org/html/2609.18374v2)
 
 耶鲁大学 Apollo Lab 的一项新研究对当前机器人策略设计中「大模型即正义」的隐含共识提出了经验性质疑。当机器人反复执行已学会的技能时，把视觉编码器、语言编码器和动作头完全拆开，能在几乎不损失成功率的情况下将每次策略调用的延迟从 50-100 毫秒压缩到 6 毫秒。这篇论文值得注意的地方，不仅在于它给出了一个高效基线，更在于它极为克制地标注了自身结论的适用边界。
 
@@ -4159,7 +4159,7 @@ GPU 能耗的 2.07 J 是策略前向传播的粗略设备级估计（NVML 10 Hz 
 
 #### AnchorVLN：用句柄替代坐标，在导航接口中分离 VLM 的语义权限与度量权限
 
-[[2609.12285v1 AnchorVLN Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation]]
+[2609.12285v1 AnchorVLN Geometry-Anchored Vision-Language Grounding Reasoning for Open-Vocabulary Navigation](https://arxiv.org/html/2609.12285v1)
 
 CMU VLN Challenge 2026 刚结束不久，一篇来自参赛团队的技术报告引起了关注。AnchorVLN 没有训练新的视觉模型或导航策略网络，而是提出了一条关于 VLM 与机器人之间权限划分的系统设计原则，并在实验中发现了一个比「VLM 不会测距」更深的洞察。
 
@@ -4223,7 +4223,7 @@ AnchorVLN 的当前状态是一个具有鲜明系统洞察的 challenge 原型�
 
 #### NavPatch：将 VLM 语义压缩为可提交、可替换、可撤销的基于证据累积的对象级地图修正，弥合几何占据与导航语义的错配
 
-[[2609.14543v1 NavPatch Evidence-Guided Object-Level Costmap Correction with Vision–Language Models]]
+[2609.14543v1 NavPatch Evidence-Guided Object-Level Costmap Correction with Vision–Language Models](https://arxiv.org/html/2609.14543v1)
 
 移动机器人的激光雷达看到了窗帘上的反射点就把它当成一堵墙，看不到地上的细电缆就假装路面是空的。2026 年 9 月发布的 NavPatch 用 VLM 告诉机器人「这东西对你的地图应该执行 ADD、REMOVE 还是 EXTEND」，然后用质量过滤和跨帧证据来决定什么时候才真正落笔改图。50 次真实导航试验达到 86% 成功率，比不做任何时间管理的版本高出 16 个百分点。
 
@@ -4265,7 +4265,7 @@ NavPatch 正是针对这一问题提出的解决方案。它的关键设计决�
 
 #### Navi-Agent：仅靠单目 RGB 与动作历史，构建无坐标的视觉导航记忆
 
-[[2609.20388v1 Navi-Agent Unlocalized Monocular Navigation Agent]]
+[2609.20388v1 Navi-Agent Unlocalized Monocular Navigation Agent](https://arxiv.org/html/2609.20388v1)
 
 在室内机器人导航领域，深度传感器和全局定位几乎被视为标配。Navi-Agent 试图回答一个更基础的问题：如果把这些几何先验全部拿掉，只给机器人一台 RGB 相机，它还能在陌生环境中执行复杂的语言指令吗？答案是有条件的「能」，但其中的条件同样值得细读。
 
@@ -4333,7 +4333,7 @@ Navi-Agent 最值得关注的设计原则，往往在第一遍阅读时被视觉
 
 #### Imitation-to-Interaction：从运动模仿到物理击球的人形机器人羽毛球技能学习
 
-[[2602.08370v2 Learning Human-Like Badminton Skills for Humanoid Robots]]
+[2602.08370v2 Learning Human-Like Badminton Skills for Humanoid Robots](https://arxiv.org/html/2602.08370v2)
 
 编者按： 让人形机器人打羽毛球，难度远超让它走路或搬箱子。一次有效的挑球动作需要在约 0.1 秒的窗口内完成全身动力学链的精确释放，而球拍甜区只有几平方厘米。港大 ArcLab 与英擎智能合作的这篇工作，将人类运动数据从「不可触碰的参考答案」降格为「可以部分拆除的脚手架」，通过四阶段渐进训练，在 EngineAI PM01 机器人上实现了零样本挑球技能迁移。
 
@@ -4367,7 +4367,7 @@ TTH 的设计包含一个精巧的相位掩码：TTH 为正时屏蔽恢复目标
 
 #### OmniPlanner：同一规划内核跨空中、地面与水下机器人实现探索、检查和目标到达
 
-[[2603.04284 OmniPlanner Universal Exploration and Inspection Path Planning Across Robot Morphologies]]
+[2603.04284 OmniPlanner Universal Exploration and Inspection Path Planning Across Robot Morphologies](https://arxiv.org/abs/2603.04284)
 
 编者按： 挪威科技大学自主机器人实验室（NTNU ARL）在 2026 年 9 月发布的这篇论文，试图解决现场机器人学中一个长期存在的工程痛点——为每种机器人的每种任务单独开发规划器。他们的方案是把探索、检查和目标到达三种自主行为统一在一个图规划内核上，再通过轻量适配层适配到飞行器、四足和水下 ROV。八个真实场景的实机部署是其最有说服力的证据。
 
@@ -4429,7 +4429,7 @@ OmniPlanner 的价值边界需要精确划定。
 
 #### PASSAGE：「看懂环境、选对动作、安全通过」，用 100 小时场景对齐示范训练人形机器人穿越杂乱环境
 
-[[2609.18732 PASSAGE Scaling Scene-Aligned Motion Learning for Perceptive Humanoid Traversal in Cluttered Environments]]
+[2609.18732 PASSAGE Scaling Scene-Aligned Motion Learning for Perceptive Humanoid Traversal in Cluttered Environments](https://arxiv.org/html/2609.18732)
 
 Galbot 联合清华、上交、北大等团队提出的 PASSAGE 框架，用 VR 引导采集 100 小时场景对齐人类穿越数据，训练出一个不需要技能标签的统一规划—执行系统，使人形机器人在 50 个未见过的真实杂乱布局中全部到达目标。这篇论文的核心价值不在于某个单一算法的突破，而在于把五条分散的技术线拧成了一个能在真机上闭环运行的完整系统，并通过受控实验量化了每个组件的贡献。
 
@@ -4497,7 +4497,7 @@ PASSAGE 目前确立的是一个在程序化块状障碍及相似真实布局中
 
 #### Multimodal BT: 用 4B 参数的视觉语言模型为机器人编写可执行行为树
 
-[[2603.06084v2 Multimodal Behavior Tree Generation A Small Vision-Language Model for Robot Task Planning]]
+[2603.06084v2 Multimodal Behavior Tree Generation A Small Vision-Language Model for Robot Task Planning](https://arxiv.org/html/2603.06084v2)
 
 一个 4B 参数的开源视觉模型，看一张 RGB 照片就能写出机器人可以直接执行的行为树 XML，在 15 项家庭任务中跑出 87% 的首次成功率。这背后的关键不是模型架构创新，而是一整套从数据合成到格式约束的工程流水线。
 
@@ -4569,7 +4569,7 @@ Figure 5 展示了动作库大小的影响。使用任务专用动作子集（�
 
 #### PULSE：将神经图像解码压到 5 kMAC/pixel，在单线程 CPU 上追平 HM
 
-[[2609.18602v1 Pulse Unlocking Practical Image Compression on Single-Thread CPU]]
+[2609.18602v1 Pulse Unlocking Practical Image Compression on Single-Thread CPU](https://arxiv.org/html/2609.18602v1)
 
 Microsoft Research Asia 与中国科学技术大学的团队提出 PULSE，一种将神经图像解码器复杂度压缩到 5.2 kMAC/pixel 的编解码器。它在 AMD EPYC 单线程 CPU 上 126 ms 解码一张 1080p 图像，压缩效率与 HEVC 参考实现 HM-16.25 相当，并在手机、笔记本、GPU 服务器上实现了跨平台比特精确的熵解码。这篇论文的核心价值不在于把网络做小了多少，而在于回答了一个系统级问题：在极端算力约束下，哪些计算必须严格精确，哪些可以容忍近似？
 
@@ -4635,7 +4635,7 @@ PULSE 的代码已在 GitHub 开源。对于想要深入研究的读者，建议
 
 #### Nested BSP：百万处理器的递归分层并行与嵌套冯·诺依曼架构
 
-[[2609.16787v1 Nested Parallel von Neumann Architecture and Nested BSP]]
+[2609.16787v1 Nested Parallel von Neumann Architecture and Nested BSP](https://arxiv.org/html/2609.16787v1)
 
 当处理器数量从几千增长到一百万，决定胜负的不再是谁的芯片更快，而是谁能让这些芯片像一支训练有素的军队那样协同行动。华为廖恒在这篇 arXiv 预印本中，提出了一个从软件编程模型到硬件互连架构的整体性方案，试图回答一个冯·诺依曼从未触及的问题：百万处理器，能否仍然是一台计算机？
 
