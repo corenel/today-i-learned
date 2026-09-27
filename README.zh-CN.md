@@ -64,6 +64,7 @@
 - [2026 年第 36 周](./weekly/2026/2026W36/README.zh-CN.md): GPT-6 Astra、Claude Fable 5.1、Gemini 3.8 Flash、Muse Spark 1.3 等。
 - [2026 年第 37 周](./weekly/2026/2026W37/README.zh-CN.md): DeepSeek V4.1 Flash 等。
 - [2026 年第 38 周](./weekly/2026/2026W38/README.zh-CN.md): Jev 等。
+- [2026 年第 39 周](./weekly/2026/2026W39/README.zh-CN.md): Claude Opus 5.5、GPT-6 Sol & Luna 等。
 
 #### 2025 年
 
