@@ -65,6 +65,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W37](./weekly/2026/2026W37/README.md): DeepSeek V4.1 Flash, and more.
 - [2026W38](./weekly/2026/2026W38/README.md): Jev, and more.
 - [2026W39](./weekly/2026/2026W39/README.md): Claude Opus 5.5, GPT-6 Sol & Luna, and more.
+- [2026W40](./weekly/2026/2026W40/README.md): Claude Sonnet 5.5, GPT-6.1-Sol, and more.
 
 #### 2025
 

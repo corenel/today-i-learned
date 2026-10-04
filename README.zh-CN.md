@@ -65,6 +65,7 @@
 - [2026 年第 37 周](./weekly/2026/2026W37/README.zh-CN.md): DeepSeek V4.1 Flash 等。
 - [2026 年第 38 周](./weekly/2026/2026W38/README.zh-CN.md): Jev 等。
 - [2026 年第 39 周](./weekly/2026/2026W39/README.zh-CN.md): Claude Opus 5.5、GPT-6 Sol & Luna 等。
+- [2026 年第 40 周](./weekly/2026/2026W40/README.zh-CN.md): Claude Sonnet 5.5、GPT-6.1-Sol 等。
 
 #### 2025 年
 
