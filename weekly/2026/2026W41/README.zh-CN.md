@@ -85,7 +85,7 @@ by @corenel (Yusu Pan) and LLMs
 
 #### 高通否认许可华为 LogicFolding：双方专利协议的真实范围与 3D 芯片技术的条件边界
 
-[[Qualcomm Licenses Patents on Huawei’s LogicFolding Chip Tech]]
+[Qualcomm Licenses Patents on Huawei’s LogicFolding Chip Tech](https://www.bloomberg.com/news/articles/2026-10-05/qualcomm-licenses-patents-on-huawei-s-logicfolding-chip-tech)
 
 2026 年 10 月 5 日，华为和高通同时宣布达成广泛专利协议。Bloomberg 随即将此事与华为的 LogicFolding 芯片技术挂钩，引发了大量关于「高通认可华为芯片路线」的讨论。但高通次日否认了这一关联。围绕同一事件，至少存在三层值得分开审视的问题：协议本身的商业结构、LogicFolding 的技术实质、以及信息传播过程中的系统性失真。
 
@@ -159,7 +159,7 @@ Open3DBench 的研究指出，更短的线长不一定转化为更好的 PPA 结
 
 #### PS5 越狱推进至 v13.60 固件：Relapse 事件的技术真相与叙事泡沫
 
-[[PS5 Jailbreaks Are Escalating at an Unprecedented Pace, and Sony Must Be Sweating]]
+[PS5 Jailbreaks Are Escalating at an Unprecedented Pace, and Sony Must Be Sweating](https://www.pushsquare.com/news/2026/10/ps5-jailbreaks-are-escalating-at-an-unprecedented-pace-and-sony-must-be-sweating)
 
 2026 年 9 月底，一个名为 Relapse 的越狱项目把 PS5 内核级漏洞的固件覆盖推到了 v13.60，距当时的现行固件仅两个月。多年积累的开源驱动和模拟器随即获得了实际运行表面。Push Square 以「Sony 一定在冒汗」为题报道了此事，Hacker News 上的 136 条讨论迅速从技术细节扩展到 AI 逆向、数字所有权和平台经济学。结合原始报道和一份极为详尽的精读笔记，本文尝试还原事件的技术真相，剥离叙事泡沫，提取可迁移的工程洞察。
 
@@ -243,7 +243,7 @@ Relapse 不是 PS5 安全体系的终局崩溃，而是一次覆盖面异常接�
 
 #### 韩国四大银行遭攻击事件：开源 AI 渗透工具 ARTEX 出现在攻击基础设施中，但 AI 自主入侵仍未证实
 
-[[South Korea's Lee says AI appears to have been used in bank hacks]]
+[South Korea's Lee says AI appears to have been used in bank hacks](https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/)
 
 当韩国总统在内阁会议上说出「AI 似乎被用于银行攻击」时，真正值得追问的不是 AI 能不能黑进银行，而是我们凭什么判断它做到了——以及做到了多少。
 
@@ -317,7 +317,7 @@ ARTEX 与韩国金融攻击活动的公开工件关联已经由 CrowdStrike 建�
 
 #### Deno 加入 Cloudflare：独立运行时一年后停止开发，团队转向自托管有状态平台
 
-[[Deno is joining Cloudflare]]
+[Deno is joining Cloudflare](https://deno.com/blog/cloudflare)
 
 2026 年 10 月 9 日，Deno 创始人 Ryan Dahl 宣布整个团队加入 Cloudflare，独立运行时进入一年倒计时。这不只是一次普通的公司收购——它同时标志着一条运行时路线的终止和一个自托管有状态平台方向的开启。两件事需要分开评估。
 
@@ -403,7 +403,7 @@ Ryan 称放弃运行时是双方共同决定。技术演进的叙事在内部逻
 
 #### XMFS：华为的内核实验，用 POSIX 文件系统接口统一 CXL 跨节点共享内存
 
-[[XMFS Experimental File-System Being Worked On By Huawei For Modern Linux Servers]]
+[XMFS Experimental File-System Being Worked On By Huawei For Modern Linux Servers](https://www.phoronix.com/news/XMFS-Linux-File-System)
 
 2026 年 10 月的 Linux Plumbers Conference 上，华为展示了一个名为 XMFS 的内核文件系统原型，试图让多台 Linux 服务器通过 `open`/`read`/`write` 直接访问 CXL 或 United Bus 上的共享内存。Phoronix 的短讯只提供了轮廓，但公开的 12,000 余行内核补丁和一份详尽的技术精读笔记揭示了远比新闻标题复杂的设计取舍与未解难题。
 
@@ -493,7 +493,7 @@ XMFS 的七个待回答问题——一致性模型级别、复杂操作的原子
 
 #### DiPlay：用纯软件在 BYD 车机上实现 CarPlay 接收
 
-[[DiPlay - Independent CarPlay receiver for compatible Android head units]]
+[DiPlay - Independent CarPlay receiver for compatible Android head units](https://github.com/shihabal3amri/DiPlay)
 
 BYD 卖出了大量搭载 Android 系统的车机，但这些车机大多不原生支持 Apple CarPlay。一个名为 DiPlay 的开源项目，试图用纯软件方式填补这个缺口。它做到了——在特定条件下。这篇解读将拆解 DiPlay 的技术实现、工程边界和产业位置，帮助读者理解它真正解决了什么问题，又在哪些地方受到无法自行克服的约束。
 
@@ -535,7 +535,7 @@ DiPlay 真正证明的不是「社区也能写 CarPlay 接收器」这个已被 
 
 #### 生成过剩时代的验证瓶颈：OpenAI 数学论文集、Anthropic 模型伦理与 AI 判断力困境
 
-[[第234期 AI 界卧龙凤雏]]
+[第234期 AI 界卧龙凤雏](https://app.podwise.ai/dashboard/episodes/9091603)
 
 编者按：一期约 95 分钟的中文技术播客，五个话题横跨数学形式化、AI 伦理政策、智能体工具链、函数式编程和产品判断力。配套的精读笔记体量甚至超过正文，逐条核查事实、纠正概念、补全学术坐标。两者结合阅读，可以获得一份兼具行业八卦和严肃分析的 AI 现状快照。
 
@@ -611,7 +611,7 @@ DSH 的安全文档明确声明「尚未经过安全审计，不应被视为安�
 
 #### 用 MiniMax H3 逐镜重做 90 秒动画 OP：一份生成式换角流水线的完整开源记录
 
-[[ai-school-op - AI 校园版《败犬女主太多了！》OP 制作过程]]
+[ai-school-op - AI 校园版《败犬女主太多了！》OP 制作过程](https://github.com/lshhhhhhh/ai-school-op)
 
 一份详尽的开源记录，展示了生成式视频从「能跑 demo」到「交付成片」之间的真实距离。
 
@@ -683,7 +683,7 @@ GitHub 用户 lshhhhhhh 在 2026 年 9 月 25 日上传了一份名为 ai-school
 
 #### 从提示词到 MP4：拆解 Claude Opus 5.5 的程序化视频生产
 
-[[Claude Opus 5.5 是怎么做出视频的]]
+[Claude Opus 5.5 是怎么做出视频的](https://x.com/dotey/article/2105181393638531536)
 
 当模型不再生成像素，而是编写生成像素的程序，视频制作的底层逻辑正在被重写。
 
@@ -769,7 +769,7 @@ X 上传播最广的是成功案例。失败运行、额度耗尽、渲染崩溃
 
 #### GPT-6 Intelligent UI：模型同时决定回答的内容和形式
 
-[[GPT-6 and Intelligent UI for everyone]]
+[GPT-6 and Intelligent UI for everyone](https://openai.com/index/gpt-6-for-everyone/)
 
 OpenAI 在 10 月 7 日发布了 GPT-6 与 Intelligent UI，ChatGPT 的回答从此不再局限于纯文本。模型现在会同时做两件事：回答你的问题，以及决定这个答案应该用什么形式呈现给你。一位匿名分析者写了超过两万字的精读笔记来拆解此发布，本文基于原始发布文、458 条 HN 评论和该精读笔记进行综合解读。
 
@@ -835,7 +835,7 @@ Macaron-A2UI 论文将 4035 个纯文本轮次纳入训练，是对第一种克�
 
 #### KohakuFA：Flash Attention 反向传播中的三类精度缺陷与修复
 
-[[KohakuFA]]
+[KohakuFA](https://github.com/KohakuBlueleaf/KohakuFA)
 
 KohakuFA 是一个面向 NVIDIA Blackwell 架构的 Flash Attention 实现，它的核心发现并非「更快的 attention kernel」，而是揭示了 FlashAttention-4、cuDNN 和 FlexAttention 在反向传播中存在的严重数值精度缺陷。这些缺陷的诡异之处在于：前向输出和训练 loss 完全正常，问题只在梯度中爆发。该项目因此提出了一个值得整个社区重新审视的问题：过去被归因于「FP16 不稳定」或「需要 QK-Norm」的部分训练失败，是否其实是 attention kernel 的实现错误？
 
@@ -907,7 +907,7 @@ KohakuFA 不是一个可以跳过 benchmark 直接替换默认 attention 后端�
 
 #### REA：不是更好的反编译器，而是让逆向工程结论可追溯的 Agent 编排层
 
-[[REA - Reverse Engineer Anything]]
+[REA - Reverse Engineer Anything](https://github.com/morluto/rea)
 
 一个创建不到半年的 GitHub 项目，在 2026 年 10 月的四天内从八千 Stars 飙升到五万。传播速度和 Stars 数字本身并不稀奇——稀奇的是，深入审查代码和 Issue 之后，它确实做了一些在同类项目中罕见的事情。
 
@@ -941,7 +941,7 @@ REA 最值得研究的地方，不是它能分析多少种目标，而是它试�
 
 #### OpenAI 的 719 份数学手稿与 Tao 的 Math 2.0：解题之后，理解何在
 
-[[“Math 2.0” will need to value mathematical progress more holistically]]
+[“Math 2.0” will need to value mathematical progress more holistically](https://news.ycombinator.com/item?id=50002008)
 
 2026 年 10 月 6 日，OpenAI 向 GitHub 推送了 719 份数学手稿，覆盖 372 个结果家族，来自对约 4,000 个开放研究问题的尝试。两天后，三篇手稿因一个符号错误被撤回，另有 14 篇做了实质修订。再隔一天，Terence Tao 在 Mastodon 发布四段简短但极为精炼的论述，提出数学共同体正从「Math 1.0」向「Math 2.0」转换。此后四天内，七份核心文档——OpenAI 官方公告、三个 Hacker News 讨论归档、Karagila 的 Partition Principle 专家博客、Tao 的帖文及其讨论、以及一份长达 2600 余行的精读分析笔记——共同构成了一幅多层次的争论地图。以下基于全部材料进行综合解读。
 
@@ -1025,7 +1025,7 @@ Tau Ceti 项目用三库分离架构（代码 / 路线图 / 评审）实现了�
 
 #### ColaOS 橘子聊个人 Agent 这半年：成本降了几十倍，但大部分人不知道让它干什么
 
-[[和 ColaOS 橘子聊个人 Agent 这半年：时代追上了他，他却打了转向灯]]
+[和 ColaOS 橘子聊个人 Agent 这半年：时代追上了他，他却打了转向灯](https://app.podwise.ai/dashboard/episodes/9087334)
 
 2026 年秋季，个人 Agent 突然成为 AI 领域最热的赛道。Instinct 融资 10 亿美元，Meta 推出 Muse，OpenAI 发布 dots，Grok Bot 和 Cue 接连上线。半年前就押注此方向的 ColaOS 创始人橘子，带着一线踩坑经验重返播客《AI 炼金术》，与主持人任鑫、徐文浩一起拆解了一个尖锐的问题：模型越来越强、价格越来越低，为什么用户依然不知道该让 Agent 干什么？
 
@@ -1261,7 +1261,7 @@ Andy Stewart @manateelazycat [3:17 PM · Oct 6, 2026](https://x.com/manateelazyc
 
 #### RT-DETR-World：把 LLM 的描述语义留在训练阶段，推理时保持实时的开放词汇检测器
 
-[[2610.09502v1 RT-DETR-World Transferring Rich LLM Semantics to Real-Time Open-Vocabulary Detection]]
+[2610.09502v1 RT-DETR-World Transferring Rich LLM Semantics to Real-Time Open-Vocabulary Detection](https://arxiv.org/html/2610.09502v1)
 
 GPT-6 Astra 能在物体分类上达到 100% 准确率但整体操控成功率仅 26%——PhysEvo 团队把此归因于执行系统的接口。RT-DETR-World 面对的是另一种类似的错位：大型视觉—语言模型已经证明丰富描述（属性、动作、状态、场景关系）对检测有帮助，但实时检测器的推理预算容不下这些大模型。来自天津大学、深圳先进技术大学和上海交通大学的团队对此给出了一个工程上直截了当的回应：把大模型的语义理解预先存成向量，让小检测器在训练时学习这些向量代表的含义，部署时把所有大模型组件全部移除。
 
@@ -1291,7 +1291,7 @@ RT-DETR-World 证明的核心事实是：通过训练前的离线语义预计算
 
 #### EmbPASS：在四种机器人平台做全景图像分割，语义类别的畸变分布各不相同
 
-[[2610.03248v1 EmbPASS Towards Cross-Embodiment Open Panoramic Segmentation]]
+[2610.03248v1 EmbPASS Towards Cross-Embodiment Open Panoramic Segmentation](https://arxiv.org/html/2610.03248v1)
 
 全景图像能提供 360° 全方位视野，是机器人场景理解的理想数据源。现有研究已经把开放词汇分割从普通照片扩展到了全景图像，但有一个问题被系统性地忽略了：不同机器人平台——车载相机、无人机、头戴设备、四足机器人——拍摄的全景图，看上去完全不一样。湖南大学团队近期提交的 EmbPASS（arXiv 2610.03248，2026 年 10 月）直接面对这个问题，提出了「跨具身开放全景分割」任务、一个四平台基准数据集，以及一个名为 EPONet 的新网络。
 
@@ -1329,7 +1329,7 @@ RAMA 的「关系感知局部度量」和 CAST 的「选择性语义传递」提
 
 #### OpenBox：用物理状态路由替代自训练的三维自动标注
 
-[[2512.01352v2 OpenBox Annotate Any Bounding Boxes in 3D]]
+[2512.01352v2 OpenBox Annotate Any Bounding Boxes in 3D](https://arxiv.org/html/2512.01352v2)
 
 自动驾驶 3D 标注成本高昂，一直是制约感知系统规模化的关键瓶颈。NeurIPS 2025 Spotlight 论文 OpenBox 提出了一种不需要多轮自训练的离线标注管线，其核心思路朴素但有效——先判断目标是什么物理状态，再决定怎么恢复它的三维几何。来自首尔国立大学和 POSTECH 的团队用这套方法在 Waymo、Lyft 和 nuScenes 三个数据集上刷新了无监督/开放词汇 3D 标注的基准。但高分之下，精确几何恢复仍是未解难题。
 
@@ -1425,7 +1425,7 @@ OpenBox 的贡献已被 NeurIPS 2025 Spotlight 认可，这反映了学术界对
 
 > 从工程角度，它目前应被视为「值得复现和改造的研究原型」，而不是已验证的 Jetson 产品方案。现阶段更稳妥的产品路径是以 BEVDet TensorRT、CUDA-BEVFusion、DAOcc、IndoorBEV 或 MotionPerceiver 等已有边缘证据的组件为基座，再逐步引入 LighTROcc 的实例高斯动态层。
 
-[[2610.09444v1 LighTROcc Lightweight 4D Occupancy Forecasting via Instance-Centric 3D Gaussians]]
+[2610.09444v1 LighTROcc Lightweight 4D Occupancy Forecasting via Instance-Centric 3D Gaussians](https://arxiv.org/html/2610.09444v1)
 
 4D 占用预测（从历史图像推断当前与未来的三维空间占用）一直受困于稠密体素表示的高计算成本。来自 Korea University、UT Austin 和 KAIST 的团队提出了 LighTROcc，核心思路是把预测对象从「空间格点」换成「物体实例」。42M 参数、12.8 FPS，在 nuScenes 上 APavg 达到 35.20，速度比此前最快的 4D 方法高出约 4 倍。本文结合原始论文和一份极为详尽的精读笔记，尝试拆解该方法的技术内核、实际边界和工程启示。
 
@@ -1521,7 +1521,7 @@ LighTROcc 的核心价值在于证明了一个设计原则：当变化源是稀�
 
 #### MoSE3：把视频运动表示从点轨迹升级到逐像素 SE(3) 场
 
-[[2610.03716v1 MoSE3 Learning World-Space SE(3) at Every Pixel]]
+[2610.03716v1 MoSE3 Learning World-Space SE(3) at Every Pixel](https://arxiv.org/html/2610.03716v1)
 
 一段 RGB 视频，每个像素给出 6 自由度的刚体变换和运动组归属。MoSE3 做到这件事的方式，核心不是堆叠更大的网络，而是把 1987 年的 Horn 闭式解嵌入了现代 Transformer 的可微训练循环。
 
@@ -1555,7 +1555,7 @@ Horn 方法是 1987 年的经典算法，给定两组三维点和它们的权重
 
 #### ActiveLang：主动探索驱动的在线开放词汇 3D 语义建图
 
-[[2610.09518v1 ActiveLang Active Open-Vocabulary 3D Mapping with Semantic-Uncertainty-Guided Exploration]]
+[2610.09518v1 ActiveLang Active Open-Vocabulary 3D Mapping with Semantic-Uncertainty-Guided Exploration](https://arxiv.org/html/2610.09518v1)
 
 ActiveLang 提出了一个闭环系统，让机器人自主决定下一步去哪里观测、从什么方向看，以构建支持自然语言查询的 3D 地图。论文最深刻的贡献不在于「用不确定性引导探索」这一表面叙事，而在于揭示了一个被忽视的事实：在主动建图中，机器人的运动策略本身就是在线训练数据分布的设计。
 
@@ -1633,7 +1633,7 @@ ActiveLang 当前更接近高质量模拟闭环研究原型，而非即插即用
 
 #### IGMWorld：编码代理能否修改已有世界而不破坏其余部分
 
-[[2610.02331v1 World Editing Intervening on Executable Worlds at Increasing Depth]]
+[2610.02331v1 World Editing Intervening on Executable Worlds at Increasing Depth](https://arxiv.org/html/2610.02331v1)
 
 生成一个世界和改造一个运行中的世界，是两件截然不同的事情。Waterloo 大学与 G-G-G 团队提出 IGMWorld，用 Minecraft 和 Terraria 的真实模组开发构建了一套评测体系，首次系统性地回答了一个问题：前沿编码代理到底能不能准确修改一个已有世界的局部，同时不破坏其余部分？
 
@@ -1709,7 +1709,7 @@ GPT-5.6 Sol 达到 78.2% 的 WSR（全部判据同时满足的任务比例）和
 
 #### 边听边搜：端侧级联语音智能体通过推测执行隐藏工具延迟
 
-[[2610.07641v1 Hiding Tool Latency in On-Device Cascaded Voice Agentthrough Speculative Execution]]
+[2610.07641v1 Hiding Tool Latency in On-Device Cascaded Voice Agentthrough Speculative Execution](https://arxiv.org/html/2610.07641v1)
 
 Qualcomm AI Research 和 KAIST AI 的研究团队在 Galaxy S26 Ultra 上搭建了一套完整的 Android 语音助手原型。核心做法是在用户说话时，用一个极轻量的规则模块预测后续可能需要的网页搜索，提前发起请求并把结果喂给端侧 3B 量化 LLM。中位等待时间减少约 1.2 秒，工具使用准确率也有所提升。五页短论文，思路清楚，真机测试，但复现细节和统计严谨度还有明显缺口。
 
@@ -1745,7 +1745,7 @@ Qualcomm AI Research 的 Kyudan Jung 等人针对这个问题，提出了一种�
 
 #### MiMo-V2.6：大规模 Agentic RL 的三维扩展——吞吐、环境与奖励分辨率
 
-[[2610.11959v1 MiMo-V2.6 Scaling Reinforcement Learning Towards Self-Improvement]]
+[2610.11959v1 MiMo-V2.6 Scaling Reinforcement Learning Towards Self-Improvement](https://arxiv.org/html/2610.11959v1)
 
 小米 LLM-Core 团队发布了 MiMo-V2.6 技术报告，这是一份万亿参数 MoE 模型的全栈 agentic RL 训练手册。报告最核心的贡献不在于展示一组更高的 benchmark 分数，而在于系统展示了长时程 agent RL 的三个同时扩展维度——以及当其中任何一个被忽略时会发生什么。
 
@@ -1823,7 +1823,7 @@ MiMo-V2.6 最值得记住的不是万亿参数或百万上下文——而是它�
 
 #### JEPA-Anything：将目标空间切分为正交子空间，跨七类系统构建可审计的潜在世界状态坐标
 
-[[2609.20800v1 JEPA-Anything Learning Predictive Models across Different Worlds]]
+[2609.20800v1 JEPA-Anything Learning Predictive Models across Different Worlds](https://arxiv.org/html/2609.20800v1)
 
 世界模型研究长期困于领域碎片化——控制用 Dreamer，视觉用 V-JEPA，分子用等变网络。JEPA-Anything 提出了一个简洁的数学构件，试图让同一套预测原则跨越视觉、细胞、临床、控制、分子、PDE 和天气。
 
@@ -1872,7 +1872,7 @@ JEPA-Anything 的几个技术选择为后续研究提供了可操作的参考。
 > [!NOTE]
 > 可以部分解释先前 DeepSeek V4 Pro 发布后，在 DeepSeek Harness 的 Minimal 与 Standard 模式下（不同提示词与工具）的性能差异。DeepSeek V4.1 Flash 有所缓解。
 
-[[2609.36322 Periodic Weak Spots Phase Sensitivity from Chunked KV-Cache Compression]]
+[2609.36322 Periodic Weak Spots Phase Sensitivity from Chunked KV-Cache Compression](https://arxiv.org/abs/2609.36322)
 
 KV 缓存压缩被认为是大模型长上下文推理的核心加速手段。字节跳动 Seed 团队的最新研究发现，这类压缩会在模型中制造一组「周期性弱点」——同一条信息，仅因前面增减一个 token，检索成功率就可能相差 40 个百分点。该发现对压缩模型的评估方法和部署策略都有直接影响。
 
@@ -1930,7 +1930,7 @@ Theorem 1 将此直觉形式化：在理想 embedding 几何和足够大 vocabul
 
 #### World Action Planner：用动作条件世界模型搜索可执行计划，替代端到端模仿学习
 
-[[2607.27599v2 World Action Planner Generalizable Robot Decision-Making with Action-Conditioned World Models]]
+[2607.27599v2 World Action Planner Generalizable Robot Decision-Making with Action-Conditioned World Models](https://arxiv.org/html/2607.27599v2)
 
 给机器人看 50 条成功抓杯子的视频，它能学会抓杯子；但让它先抓杯子再放盘子——两件都会，连起来就不行了。哈佛大学的一组研究者把这个问题归结为一个系统设计问题，而非模型能力问题，并给出了一个清晰的替代方案。
 
@@ -2004,7 +2004,7 @@ WAP 在这张版图中的位置是「视觉化动作接口 + 测试时搜索」�
 
 #### WAMJET：用闭环搜索替代固定配方，自动加速机器人视频策略推理
 
-[[2610.03797v2 WAMJET A Harness for World Action Model Acceleration]]
+[2610.03797v2 WAMJET A Harness for World Action Model Acceleration](https://arxiv.org/html/2610.03797v2)
 
 机器人操控领域正在经历一场范式转换——大型视频生成模型被改造为同时预测未来场景和动作的 World Action Model（WAM）。模型规模上去了，推理延迟也跟着上去了。WAMJET 提出的方案不是又一个加速 kernel 或量化算法，而是一套让编码代理自动搜索最佳加速组合的实验框架。它在六种 WAM 上报告了最高 9.95× 的无损加速，但真实的典型表现和背后的工程取舍值得仔细审视。
 
@@ -2090,7 +2090,7 @@ WAMJET 的核心贡献不在于某个具体的加速技术，而在于提出了�
 
 #### Long-WAM：预训练因果结构决定机器人能否从更长视觉历史中获益
 
-[[2610.10528v1 Long-WAM Scaling the Context of World-Action Models]]
+[2610.10528v1 Long-WAM Scaling the Context of World-Action Models](https://arxiv.org/html/2610.10528v1)
 
 给机器人更长的视觉历史，控制就会更好吗？NVIDIA、MIT、HKU 和 UCSD 联合团队的最新研究给出了一个更精确的回答：只有当视频基础模型在预训练阶段就学会了「从过去推测未来」的因果结构，更长的历史才能转化为更高的控制成功率。Long-WAM 围绕这一发现，构建了从预训练到部署的完整技术栈。
 
@@ -2148,7 +2148,7 @@ Long-WAM 的长远影响可能不在于其具体的 benchmark 数字，而在于
 
 #### RoboJEPA：从 22M 到 8B，机器人潜空间世界模型的可预测扩展
 
-[[2610.10515v1 RoboJEPA Scaling Robotic Latent World Models]]
+[2610.10515v1 RoboJEPA Scaling Robotic Latent World Models](https://arxiv.org/html/2610.10515v1)
 
 Meta FAIR 于 2026 年 10 月发布 RoboJEPA，首次为跨平台机器人潜空间世界模型建立了训练计算量与预测质量之间的定量扩展关系，并训练了迄今最大的 JEPA predictor（8B 参数）。该工作的核心价值不在于刷新了某个排行榜，而在于提供了一套可量化的投资回报预测框架。
 
@@ -2218,7 +2218,7 @@ RoboJEPA 最值得迁移的不是具体参数，而是三条方法论原则。
 
 #### RoboQuest：机器人做得来却想不明白，用十项探索任务量化具身智能的「知行差距」
 
-[[2610.10388v1 RoboQuest Generalist Physical Agents that Search, Inspect and Test]]
+[2610.10388v1 RoboQuest Generalist Physical Agents that Search, Inspect and Test](https://arxiv.org/html/2610.10388v1)
 
 一个能把桌面上的杯子稳稳拿起来的机器人，放到一间陌生厨房里，被要求「把所有红色目标放到托盘上」。目标在哪些柜子里？哪些柜子是空的？需不需要先找到钥匙？找到两个之后还有没有第三个？——它全都不知道。
 
@@ -2252,7 +2252,7 @@ RoboQuest 给出的研究方向不是简单地扩大 VLA。它指出了通用物
 
 #### RobotWorld：84 个跨域机器人任务拷问通用智能体的物理操控能力，五个前沿模型最高成功率 19%
 
-[[2610.10409v1 RobotWorld Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments]]
+[2610.10409v1 RobotWorld Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments](https://arxiv.org/html/2610.10409v1)
 
 GPT-6 Astra 可以在执行机器人操控任务时临场编写颜色分割代码、拟合相机投影矩阵、构造 LQR 控制器。Claude Opus 5.5 可以在无人机颠球任务中通过 274 次机器人请求维持 800 步的反复接触控制，记录 14 次满足高度要求的合格击球。然而在 RobotWorld 的 84 个仿真任务中，五个前沿多模态模型合计只完成了 21 个。63 个任务，没有任何模型通过物理检查器的验证。
 
@@ -2318,7 +2318,7 @@ RobotWorld 没有解决可靠物理智能的问题，但它把问题从模糊的
 
 #### FastOPD：每条轨迹只问教师一次，把大型 VLA 蒸馏为 1-2 步轻量策略
 
-[[2610.02832v1 FastOPD On-Policy Distillation for Lightweight VLA Deployment]]
+[2610.02832v1 FastOPD On-Policy Distillation for Lightweight VLA Deployment](https://arxiv.org/html/2610.02832v1)
 
 当前机器人学习的一个核心矛盾是：性能最强的 VLA（Vision-Language-Action）基础策略动辄 3B–6B 参数、需要 10 次以上流式去噪采样，而真实机器人部署要求毫秒级响应和有限的计算预算。KAIST 团队在 2026 年 10 月发布的 FastOPD 提出了一种思路——不是重新设计小模型，也不是简单删减采样步数，而是建立一种极为经济的教师—学生监督关系：大型教师只在学生自己生成的一个状态上提供局部速度方向，学生依靠时间组合一致性将这份稀疏指导传播到任意时间跨度的流映射中。由此同时完成模型容量从 3.3B 到 451M 的压缩和采样步数从 10 步到 1–2 步的压缩。
 
@@ -2382,7 +2382,7 @@ FastOPD 的竞争优势在于：它可以复用已有的大型基础策略，不
 
 #### RoboPrompt：在噪声空间中用稀疏人类校正在线引导机器人生成式策略
 
-[[2610.10534v1 RoboPrompt Intuitive Robot Policy Steering with Sparse Human Input]]
+[2610.10534v1 RoboPrompt Intuitive Robot Policy Steering with Sparse Human Input](https://arxiv.org/html/2610.10534v1)
 
 端到端模仿学习策略目前面临一个尴尬的困境。模型能力在实验室里已经相当出色，但真正要部署到复杂真实环境中时，有限的训练数据多样性几乎总会导致某些情况下的失败。传统的补救手段是让人类通过遥操作设备实时接管——但这要求操作者经过专业训练，用力反馈手柄精确控制六自由度运动。这条路在实验室可行，在规模化部署中行不通。
 
@@ -2412,7 +2412,7 @@ PBD 有一个不容忽视的问题：扩散和流匹配模型的去噪过程并�
 
 #### AgenticNav：移除 waypoint predictor 后，接口设计带来的导航增益不亚于更换模型主干
 
-[[2606.10577v2 AgenticNav Zero-Shot Vision-and-Language Navigation as a Tool-Calling Harness]]
+[2606.10577v2 AgenticNav Zero-Shot Vision-and-Language Navigation as a Tool-Calling Harness](https://arxiv.org/html/2606.10577v2)
 
 零样本视觉语言导航（VLN-CE）领域的一个核心困境长期未被正面回答：VLM 已经足够聪明了，为什么机器人还是走不好？AgenticNav 给出了一个出乎意料的答案——问题不在模型本身，而在模型与物理世界之间的接口。这篇来自上海交大和引望智能的论文（arXiv:2606.10577v3），通过将导航重构为工具调用过程，在 R2R-CE 基准上实现了同主干 22 个百分点的成功率跃升。它提供的设计思路——让 VLM 主动拉取证据而非被动吞下全部信息——对所有涉及基础模型与物理系统交互的领域都有参考价值。
 
@@ -2484,7 +2484,7 @@ AgenticNav 最值得带走的，不是任何具体的参数配置，而是一条
 
 #### MAVLN：多智能体视觉语言导航的约束协调形式化与系统基线
 
-[[2609.35965v2 Systematic Multi-Agent Vision-and-Language Navigation Formulation, Benchmark,and Method]]
+[2609.35965v2 Systematic Multi-Agent Vision-and-Language Navigation Formulation, Benchmark,and Method](https://arxiv.org/html/2609.35965v2)
 
 上海交通大学 Yunzhe Xu 与 Zhe Liu 提出了一套完整的多智能体视觉语言导航问题框架。它不仅定义了一个新 benchmark，还用极低的绝对成功率（约 9%）精确度量了「让一组机器人在陌生环境中理解复杂语言指令、分工协作、共享探索经验、同时避免碰撞」这一问题的真实难度。对于关注具身 AI、多机器人协调或 VLN 研究方向的从业者，此文提供了一份高密度的问题地图。
 
@@ -2560,7 +2560,7 @@ TC=100 而 SR≈9。系统执行了所有步骤却几乎没有正确完成任务
 
 #### MotorMind：不训练策略、不微调模型，通用 VLM 零样本操作机器人
 
-[[2609.38078v1 MotorMind Scaffolding GeneralVision Language Models for Zero-Shot Robot Manipulation]]
+[2609.38078v1 MotorMind Scaffolding GeneralVision Language Models for Zero-Shot Robot Manipulation](https://arxiv.org/html/2609.38078v1)
 
 UIUC 团队提出了 MotorMind，一套不训练任何动作策略、不依赖外部 grounding 模型的机器人操作框架。它把同一个冻结的通用视觉语言模型拆分为五个功能角色，通过参数化中层动作接口和异步执行调度，在 LIBERO-PRO 零样本评测中达到 66.7% 成功率，是此前最强零样本方法的五倍。该工作对「如何让通用 AI 进入物理世界」这一问题提出了一种有别于端到端训练的系统方案。
 
@@ -2634,7 +2634,7 @@ MotorMind 提出的核心命题值得认真对待：零样本机器人控制的�
 
 #### PhysEvo：固定模型权重，通过物理试错迭代改造机器人执行系统
 
-[[2610.08995v1 PhysEvo Astra Can Act, Let It]]
+[2610.08995v1 PhysEvo Astra Can Act, Let It](https://arxiv.org/html/2610.08995v1)
 
 GPT-6 Astra 在 RoboDojo 基准的物体分类任务上达到了 100% 准确率，但整体操控成功率只有 26%。中科院自动化所与清华大学的联合团队对此给出了一个并不常见的诊断：能力已经够了，问题出在机器人的执行系统没有让模型发挥出来。
 
@@ -2662,7 +2662,7 @@ PhysEvo 不是证明 Astra 变得更聪明了。它证明的是：通过物理�
 
 #### SpatialHarness：在线仿真补充视角，不改模型让精细操作从 18% 到 83%
 
-[[2610.12457v1 SpatialHarness Test-Time Spatial Scaffolding for Fine Robotic Manipulation]]
+[2610.12457v1 SpatialHarness Test-Time Spatial Scaffolding for Fine Robotic Manipulation](https://arxiv.org/html/2610.12457v1)
 
 GPT-6 Astra 已经能直接控制机器人做粗动作，但插入、堆叠、对齐这些精细操作依然困难。复旦和新加坡管理大学团队提出 SpatialHarness，在不改模型、不加相机的条件下，通过维护在线仿真场景渲染补充视角，把四项真机任务的平均成功率从 18% 拉到 83%。
 
@@ -2726,7 +2726,7 @@ SpatialHarness 最具辨识度的部分，不在于「给大模型提供虚拟�
 
 #### OpenRUA：移除定制技能层后，编码智能体用 ROS 2 原生接口能做到什么程度
 
-[[2610.02459v1 OpenRUA Robot-Use Agents Are Zero-Shot Visuomotor Policies]]
+[2610.02459v1 OpenRUA Robot-Use Agents Are Zero-Shot Visuomotor Policies](https://arxiv.org/html/2610.02459v1)
 
 机器人使用智能体（RUA）领域在 2026 年走到了一个分水岭：要不要继续为大模型搭建专用技能接口？Anthropic Research 联合 MIT 等机构发布的 OpenRUA 给出了一个激进的回答——直接把通用编码智能体接入 ROS 2 原生接口，在 CaP-Bench 和 LIBERO-PRO 上分别达到 99.0% 和 87.0% 的成功率，超越了所有使用定制抽象的基线。但 39.4% 的 RoboCasa365 结果和缺失的真实硬件验证，也提醒我们这条路还远未走完。
 
@@ -2768,7 +2768,7 @@ OpenRUA 在此谱系中的独特贡献，是用 2,000 个 episode 的实验数�
 
 #### RoboBridge：迁移可修订的操作程序实现 Sim-to-Real 持续适应
 
-[[2610.02717v1 RoboBridge A Self-Evolving Embodied Agent Framework for Sim-to-Real Transfer]]
+[2610.02717v1 RoboBridge A Self-Evolving Embodied Agent Framework for Sim-to-Real Transfer](https://arxiv.org/html/2610.02717v1)
 
 Sim-to-real 一直是具身智能落地的核心瓶颈。传统方案把全部赌注押在神经网络权重上，仿真训练完就往真实环境搬——搬不动就加域随机化，再搬不动就收真实数据重新训练。RoboBridge 提出了一条不同的路径：迁移的不是权重，而是操作手册。
 
@@ -2838,7 +2838,7 @@ RoboBridge 对实际部署的启示可以归结为三点。
 
 #### Skill-SLM：把端到端生成拆解为技能编排，3B 端侧小模型实现可靠且可泛化的机器人操控
 
-[[2610.10812v1 Skill-SLM Agent Skill-driven Small Language Models for Reliable Robot Operation]]
+[2610.10812v1 Skill-SLM Agent Skill-driven Small Language Models for Reliable Robot Operation](https://arxiv.org/html/2610.10812v1)
 
 在端侧部署场景中，3B–8B 的小语言模型无法像云端大模型那样记住海量任务方案。UMass Dartmouth 团队提出 Skill-SLM，把机器人任务规划拆成「技能拆解」和「技能编排」两步，把具体操作知识放进文档而非模型参数里。UAV 实验中，此方法在未见过的技能组合任务上把 TSR 从 37.5% 拉到 97.5%。方法清晰、组合泛化强，但闭环验证和安全机制仍是空白。
 
@@ -2906,7 +2906,7 @@ Skill-SLM 在技术坐标系中的位置很清晰：它是从「端到端答案�
 
 #### RoboChemGym：以实验协议驱动仿真，双层修正生成长时程化学操作数据
 
-[[2610.02708v1 RoboChemGym A Protocol-Driven Generative Simulation Framework for Long-Horizon Chemical Manipulation]]
+[2610.02708v1 RoboChemGym A Protocol-Driven Generative Simulation Framework for Long-Horizon Chemical Manipulation](https://arxiv.org/html/2610.02708v1)
 
 当实验室机器人从「会做单步操作」迈向「完成完整实验流程」时，最先耗尽的不是算力，而是数据。RoboChemGym 试图用仿真手段批量制造这些数据，核心思路是把实验协议变成可执行的仿真任务，再通过逐层修正让生成过程自己解决失败。
 
@@ -2966,7 +2966,7 @@ RoboChemGym 为「协议驱动的机器人仿真数据生成」搭建了一个�
 
 #### Hebero：仿真吞吐不再是瓶颈，GPU 并行框架下多任务机器人 RL 的示范复用与任务平衡
 
-[[2606.03335v3 A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning]]
+[2606.03335v3 A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning](https://arxiv.org/html/2606.03335v3)
 
 端到端模仿学习和强化学习的机器人策略，大多还是一个策略对应一个任务。GPU 并行仿真已经能在一台机器上同时运行数千个机器人环境，产生海量交互数据，但这些吞吐量大部分仍被用于训练单一任务的专家策略。一个自然的问题浮出水面：能否让一个小型共享策略在同一个训练进程中学会几十个不同的操作技能，而不只是学会其中最容易的几个？
 
@@ -3020,7 +3020,7 @@ Hebero 最终展示的结论是：0.32M 参数的 actor 加上正确的示范利
 
 #### Beyond Retargeting：用离散运动码本替代在线重定向的人形机器人全身遥操作
 
-[[2610.07891v1 Beyond Retargeting Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives]]
+[2610.07891v1 Beyond Retargeting Low-Latency and Robust Humanoid Whole-Body Teleoperation with Learned Atomic Motion Primitives](https://arxiv.org/html/2610.07891v1)
 
 人形机器人全身遥操作的传统管线中，在线运动重定向是延迟和故障的主要来源之一。港科大、浙大与腾讯 Robotics X 团队在 2026 年 10 月公布了一项工作，尝试用离散运动原语码本替代在线重定向，将部署命令路径压缩到亚毫秒级，同时在噪声和缺失观测下保持远超连续回归基线的稳定性。
 
@@ -3060,7 +3060,7 @@ Hebero 最终展示的结论是：0.32M 参数的 actor 加上正确的示范利
 
 #### RoboCap：第一视角机器人数据采集，首先是一个计量问题
 
-[[2610.07217v1 RoboCap A New Platform for Egocentric Robot Learning]]
+[2610.07217v1 RoboCap A New Platform for Egocentric Robot Learning](https://arxiv.org/html/2610.07217v1)
 
 2026 年 10 月，GSI 和 BitRobot 团队在 arXiv 发布了 RoboCap 技术报告。这顶 250 克的六相机帽子试图回答一个被长期忽视的问题——第一视角机器人数据采集的核心瓶颈，到底是拍得不够多，还是量得不够准？报告给出的答案出人意料地朴素：先校准尺子，再让 AI 读尺子。
 
@@ -3184,7 +3184,7 @@ RoboCap 的科学思想扎实而重要。「标定决定公制精度」这一核
 
 #### RYOPO：消除逐对象瓶颈，类别级 RGB-D 姿态估计的端到端实时化方案
 
-[[2610.03013v1 RYOPO Bringing End-to-End Category-Level Object Pose Estimation into Real Time]]
+[2610.03013v1 RYOPO Bringing End-to-End Category-Level Object Pose Estimation into Real Time](https://arxiv.org/html/2610.03013v1)
 
 类别级物体姿态估计长期受困于一个系统性矛盾：高精度方法依赖逐对象裁剪编码，延迟随对象数线性增长；实时方法则精度不足。RYOPO 是首个在端到端查询式框架内同时完成 RGB-D 检测、分割和 9-DoF 姿态估计的方法，在 RTX A6000 上达到 31.8 FPS，精度与两阶段方法可比。它提出的「将三维姿态状态嵌入查询并递归修正」的范式，可能重新定义类别级姿态估计系统的设计方式。
 
@@ -3244,7 +3244,7 @@ RYOPO 当前有几个明确的局限。首先，论文缺少参数量、FLOPs �
 
 #### 四足导盲机器人的 55W 低功耗全景感知：让几何算法管安全，VLM 只管解释
 
-[[2610.03187v1 Lightweight and Resource-Efficient Perception for Robotic Guide Dogs]]
+[2610.03187v1 Lightweight and Resource-Efficient Perception for Robotic Guide Dogs](https://arxiv.org/html/2610.03187v1)
 
 四足机器人能否替代导盲犬？韩国 ETRI 团队在 ACCV 2026 上给出了一个工程可行性论证：用一台全景相机和一台百元级 2D LiDAR，在 55W 功耗内实现全方位米制深度感知、目标检测和自然语言路径解释。系统在导盲基准上的深度排序准确率达到 83.8%，超过 GPT-4o 的 67.1%。但这个数字的真实含义，值得仔细拆解。
 
@@ -3280,7 +3280,7 @@ GuideDogQA 基准上 83.8% 的深度排序准确率是论文的标题级结果�
 
 #### UniPose9D：无需类别先验，单模型统一估计任意物体的旋转、平移与尺寸
 
-[[2607.09985v2 UniPose9D Universal Category-Agnostic Object Pose Estimation]]
+[2607.09985v2 UniPose9D Universal Category-Agnostic Object Pose Estimation](https://arxiv.org/html/2607.09985v2)
 
 物体姿态估计长期面对一个矛盾——精确的方法只能处理事先见过的物体类别，能泛化的方法又不够精确。UniPose9D 尝试打破这一僵局：一个不需要类别标签、CAD 模型或参考图像的统一模型，从单帧 RGB-D 输入直接输出物体的旋转、平移和物理尺寸。它在八个数据集上的实验结果值得仔细审视。
 
@@ -3350,7 +3350,7 @@ UniPose9D 证明了一件事：不依赖类别标签、CAD 模型或参考视图
 
 #### AstraSR：用 GPT 图像生成伪标签替代不可得的高分辨率真值，训练热成像超分辨率网络
 
-[[2610.05910v1 AstraSR Real-World Thermal Super-Resolution with GPT-6 Astra]]
+[2610.05910v1 AstraSR Real-World Thermal Super-Resolution with GPT-6 Astra](https://arxiv.org/html/2610.05910v1)
 
 热成像超分辨率一直困于一个死结：你想恢复细节，但根本拿不到那些细节本来长什么样的答案。Mengyuan Li 等人在 2026 年 10 月提交的这篇短文（6 页，arXiv 2610.05910v1）给出了一个出人意料的思路——让 GPT-6 Astra「画」出答案，再让一个小网络去模仿。思路巧妙，但当前的实验证据只能支撑概念验证，距离严格验证还有相当距离。
 
