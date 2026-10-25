@@ -68,6 +68,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W40](./weekly/2026/2026W40/README.md): Claude Sonnet 5.5, GPT-6.1-Sol, and more.
 - [2026W41](./weekly/2026/2026W41/README.md)
 - [2026W42](./weekly/2026/2026W42/README.md): Gemini 4 Argon, DeepSeek V4.1 Flash 1017, and more.
+- [2026W43](./weekly/2026/2026W43/README.md): MiniMax M3.1 Flash, Kimi K3.1 Pro, and more.
 
 #### 2025
 

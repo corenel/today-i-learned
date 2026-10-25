@@ -68,6 +68,7 @@
 - [2026 年第 40 周](./weekly/2026/2026W40/README.zh-CN.md): Claude Sonnet 5.5、GPT-6.1-Sol 等。
 - [2026 年第 41 周](./weekly/2026/2026W41/README.zh-CN.md)
 - [2026 年第 42 周](./weekly/2026/2026W42/README.zh-CN.md): Gemini 4 Argon、DeepSeek V4.1 Flash 1017 等。
+- [2026 年第 43 周](./weekly/2026/2026W43/README.zh-CN.md): MiniMax M3.1 Flash、Kimi K3.1 Pro 等。
 
 #### 2025 年
 
