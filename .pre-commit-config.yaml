@@ -1,47 +1,47 @@
 repos:
   # Python
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.16.0
+    rev: v3.22.0
     hooks:
       - id: pyupgrade
         args: ["--py38-plus"]
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.7
+    rev: v0.17.3
     hooks:
       - id: ruff
         args: [--fix, --exit-non-zero-on-fix, --show-fixes]
       - id: ruff-format
         args: ["--line-length=79"]
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.9.13
+    rev: 0.13.6
     hooks:
       - id: uv-lock
   # Shell
   - repo: https://github.com/shellcheck-py/shellcheck-py
-    rev: v0.10.0.1
+    rev: v0.11.0.1-1
     hooks:
       - id: shellcheck
   # Markdown
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.43.0
+    rev: v0.50.0
     hooks:
       - id: markdownlint
   # Other
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.4.0
+    rev: v2.4.3
     hooks:
       - id: codespell
         args:
           [
             "--check-filenames",
-            "--ignore-words-list=ned,ser,astroid,ths,aAfter,childRes,thirdparty,ND,parm,empy,ROUGE,MOT,DOTA,Nervana,LOD,Gool,COO,FNR,FPR,ACI,AER,BootsTAP,LaMa,UE,GES,LSAT,HDA,AGS,MOSE,TE,Linz,OT,MAPE,dum,MoT,Synopsys,BriGeS,Brin,LoD,SoM,FO,CANN,MoR,FOT,NEET,VIE,HSI,HASS,newyorker,TREAD,Shuting,Arry,Benj,SeleKT,ANE,ALS,covert,DiDi,bu,nothink,SME,OIS,Activ,non-useful,EDN,edn,feld,SOM,LAMA,Wille,ot,AAS,buildd,Wirth,NIN,Makro,ofo,Nd,ETO,Dota,CONet,shs,Reacher,Optio,PARD,ABot,Yau,CNA,Clos,FLOURINE,Mata,EGE,Ponts,EHR,Claus,HAA,DAA,Shotcut,SART,TRE,Ratatui,hav,LIEF,NAX,LAF,SITL,TGE,SMAL,MirroS,HSA,TTHE,Knowin,MemER,DiPlay,diplay",
+            "--ignore-words-list=ned,ser,astroid,ths,aAfter,childRes,thirdparty,ND,parm,empy,ROUGE,MOT,DOTA,Nervana,LOD,Gool,COO,FNR,FPR,ACI,AER,BootsTAP,LaMa,UE,GES,LSAT,HDA,AGS,MOSE,TE,Linz,OT,MAPE,dum,MoT,Synopsys,BriGeS,Brin,LoD,SoM,FO,CANN,MoR,FOT,NEET,VIE,HSI,HASS,newyorker,TREAD,Shuting,Arry,Benj,SeleKT,ANE,ALS,covert,DiDi,bu,nothink,SME,OIS,Activ,non-useful,EDN,edn,feld,SOM,LAMA,Wille,ot,AAS,buildd,Wirth,NIN,Makro,ofo,Nd,ETO,Dota,CONet,shs,Reacher,Optio,PARD,ABot,Yau,CNA,Clos,FLOURINE,Mata,EGE,Ponts,EHR,Claus,HAA,DAA,Shotcut,SART,TRE,Ratatui,hav,LIEF,NAX,LAF,SITL,TGE,SMAL,MirroS,HSA,TTHE,Knowin,MemER,DiPlay,diplay,Collison,Bloc,openend",
           ]
   - repo: https://github.com/gitleaks/gitleaks
     rev: v8.30.0
     hooks:
       - id: gitleaks
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: check-added-large-files
         args: ["--maxkb=10240"]
