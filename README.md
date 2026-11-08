@@ -70,6 +70,7 @@ This repository is structured by topic categories. Each "TIL" entry should be a 
 - [2026W42](./weekly/2026/2026W42/README.md): Gemini 4 Argon, DeepSeek V4.1 Flash 1017, and more.
 - [2026W43](./weekly/2026/2026W43/README.md): MiniMax M3.1 Flash, Kimi K3.1 Pro, and more.
 - [2026W44](./weekly/2026/2026W44/README.md)
+- [2026W45](./weekly/2026/2026W45/README.md): Hy4, and more.
 
 #### 2025
 
